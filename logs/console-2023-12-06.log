@@ -1,0 +1,230 @@
+21:56:07.707 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+21:56:07.736 - Press Ctrl-C to exit.
+21:56:07.744 - Running on Windows - only for development!
+21:56:07.745 - Running on Windows - only for development!
+21:56:07.748 - Ingredient: vodka, alcohol, GPIO ID: 2
+21:56:07.749 - Running on Windows - only for development!
+21:56:07.750 - Ingredient: gin, alcohol, GPIO ID: 3
+21:56:07.751 - Running on Windows - only for development!
+21:56:07.752 - Ingredient: rum, alcohol, GPIO ID: 4
+21:56:07.755 - Running on Windows - only for development!
+21:56:07.757 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+21:56:07.757 - Running on Windows - only for development!
+21:56:07.758 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+21:56:07.759 - Running on Windows - only for development!
+21:56:07.759 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+21:56:07.762 - Running on Windows - only for development!
+21:56:07.762 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+21:56:07.763 - Running on Windows - only for development!
+21:56:07.763 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+21:56:07.764 - Running on Windows - only for development!
+21:56:07.765 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+21:56:07.765 - Running on Windows - only for development!
+21:56:07.767 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+21:56:07.767 - Running on Windows - only for development!
+21:56:07.769 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+21:56:07.770 - Running on Windows - only for development!
+21:56:07.770 - Ingredient: soda, no alcohol, GPIO ID: 19
+21:56:07.770 - Running on Windows - only for development!
+21:56:07.772 - OpenAICocktailBot 'alcohol' constructing...
+21:56:07.773 - OpenAICocktailBot 'alcohol' resetting.
+21:56:07.778 - OpenAICocktailBot 'alcohol' constructed.
+21:56:07.779 - f1...f12 start/stop dispensing
+21:56:07.779 - a        AI cocktail
+21:56:07.779 - r        (r)andom cocktail
+21:56:07.779 - n        random (n)icolas cocktail with alcohol
+21:56:07.780 - Ctrl-c   quit
+21:56:07.788 - Creating web server...
+21:56:07.799 - Creating socket.io server...
+21:56:07.809 - Server path: /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/../../ui
+21:56:07.816 - Starting web server....
+21:56:07.838 - Web server ready: listening on *:5000
+21:56:23.545 - socket.io connect
+21:57:51.640 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+22:00:04.307 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+22:00:04.315 - Press Ctrl-C to exit.
+22:00:04.321 - Running on Windows - only for development!
+22:00:04.322 - Running on Windows - only for development!
+22:00:04.325 - Ingredient: vodka, alcohol, GPIO ID: 2
+22:00:04.325 - Running on Windows - only for development!
+22:00:04.326 - Ingredient: gin, alcohol, GPIO ID: 3
+22:00:04.327 - Running on Windows - only for development!
+22:00:04.328 - Ingredient: rum, alcohol, GPIO ID: 4
+22:00:04.331 - Running on Windows - only for development!
+22:00:04.332 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+22:00:04.332 - Running on Windows - only for development!
+22:00:04.333 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+22:00:04.333 - Running on Windows - only for development!
+22:00:04.334 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+22:00:04.336 - Running on Windows - only for development!
+22:00:04.337 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+22:00:04.337 - Running on Windows - only for development!
+22:00:04.338 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+22:00:04.338 - Running on Windows - only for development!
+22:00:04.339 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+22:00:04.339 - Running on Windows - only for development!
+22:00:04.341 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+22:00:04.341 - Running on Windows - only for development!
+22:00:04.343 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+22:00:04.344 - Running on Windows - only for development!
+22:00:04.344 - Ingredient: soda, no alcohol, GPIO ID: 19
+22:00:04.345 - Running on Windows - only for development!
+22:00:04.347 - OpenAICocktailBot 'alcohol' constructing...
+22:00:04.348 - OpenAICocktailBot 'alcohol' resetting.
+22:00:04.353 - OpenAICocktailBot 'alcohol' constructed.
+22:00:04.354 - f1...f12 start/stop dispensing
+22:00:04.355 - a        AI cocktail
+22:00:04.355 - r        (r)andom cocktail
+22:00:04.355 - n        random (n)icolas cocktail with alcohol
+22:00:04.356 - Ctrl-c   quit
+22:00:04.364 - Creating web server...
+22:00:04.375 - Creating socket.io server...
+22:00:04.386 - Server path: /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/../../ui
+22:00:04.393 - Starting web server....
+22:00:04.414 - Web server ready: listening on *:5000
+22:00:04.662 - socket.io connect
+22:00:16.451 - socket.io connect
+22:00:39.355 - socket.io connect
+22:06:58.928 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+22:17:03.972 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+22:17:03.979 - Press Ctrl-C to exit.
+22:17:03.986 - Running on Windows - only for development!
+22:17:03.987 - Running on Windows - only for development!
+22:17:03.989 - Ingredient: vodka, alcohol, GPIO ID: 2
+22:17:03.990 - Running on Windows - only for development!
+22:17:03.990 - Ingredient: gin, alcohol, GPIO ID: 3
+22:17:03.991 - Running on Windows - only for development!
+22:17:03.991 - Ingredient: rum, alcohol, GPIO ID: 4
+22:17:03.994 - Running on Windows - only for development!
+22:17:03.995 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+22:17:03.995 - Running on Windows - only for development!
+22:17:03.996 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+22:17:03.997 - Running on Windows - only for development!
+22:17:03.997 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+22:17:03.999 - Running on Windows - only for development!
+22:17:04.000 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+22:17:04.000 - Running on Windows - only for development!
+22:17:04.001 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+22:17:04.001 - Running on Windows - only for development!
+22:17:04.001 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+22:17:04.002 - Running on Windows - only for development!
+22:17:04.003 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+22:17:04.004 - Running on Windows - only for development!
+22:17:04.005 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+22:17:04.006 - Running on Windows - only for development!
+22:17:04.006 - Ingredient: soda, no alcohol, GPIO ID: 19
+22:17:04.007 - Running on Windows - only for development!
+22:17:04.008 - OpenAICocktailBot 'alcohol' constructing...
+22:17:04.009 - OpenAICocktailBot 'alcohol' resetting.
+22:17:04.015 - OpenAICocktailBot 'alcohol' constructed.
+22:17:04.015 - f1...f12 start/stop dispensing
+22:17:04.016 - a        AI cocktail
+22:17:04.016 - r        (r)andom cocktail
+22:17:04.017 - n        random (n)icolas cocktail with alcohol
+22:17:04.017 - Ctrl-c   quit
+22:17:04.025 - Creating web server...
+22:17:04.031 - index 0 argument -> /usr/bin/node
+22:17:04.032 - index 1 argument -> /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/index.js
+22:17:04.032 - index 2 argument -> secure
+22:17:04.032 - setting up secure server
+22:17:04.038 - Creating socket.io server...
+22:17:04.048 - Server path: /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/../../ui
+22:17:04.056 - Starting web server....
+22:17:04.077 - Web server ready: listening on *:5000
+22:17:26.887 - socket.io connect
+22:20:48.117 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+22:21:29.196 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+22:21:29.204 - Press Ctrl-C to exit.
+22:21:29.210 - Running on Windows - only for development!
+22:21:29.211 - Running on Windows - only for development!
+22:21:29.213 - Ingredient: vodka, alcohol, GPIO ID: 2
+22:21:29.214 - Running on Windows - only for development!
+22:21:29.215 - Ingredient: gin, alcohol, GPIO ID: 3
+22:21:29.216 - Running on Windows - only for development!
+22:21:29.217 - Ingredient: rum, alcohol, GPIO ID: 4
+22:21:29.219 - Running on Windows - only for development!
+22:21:29.221 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+22:21:29.221 - Running on Windows - only for development!
+22:21:29.222 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+22:21:29.222 - Running on Windows - only for development!
+22:21:29.223 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+22:21:29.225 - Running on Windows - only for development!
+22:21:29.226 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+22:21:29.226 - Running on Windows - only for development!
+22:21:29.226 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+22:21:29.227 - Running on Windows - only for development!
+22:21:29.227 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+22:21:29.228 - Running on Windows - only for development!
+22:21:29.229 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+22:21:29.230 - Running on Windows - only for development!
+22:21:29.232 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+22:21:29.232 - Running on Windows - only for development!
+22:21:29.233 - Ingredient: soda, no alcohol, GPIO ID: 19
+22:21:29.233 - Running on Windows - only for development!
+22:21:29.235 - OpenAICocktailBot 'alcohol' constructing...
+22:21:29.236 - OpenAICocktailBot 'alcohol' resetting.
+22:21:29.241 - OpenAICocktailBot 'alcohol' constructed.
+22:21:29.242 - f1...f12 start/stop dispensing
+22:21:29.243 - a        AI cocktail
+22:21:29.243 - r        (r)andom cocktail
+22:21:29.243 - n        random (n)icolas cocktail with alcohol
+22:21:29.244 - Ctrl-c   quit
+22:21:29.252 - Creating web server...
+22:21:29.259 - index 0 argument -> /usr/bin/node
+22:21:29.259 - index 1 argument -> /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/index.js
+22:21:29.260 - index 2 argument -> secure
+22:21:29.260 - setting up secure server
+22:21:29.266 - Creating socket.io server...
+22:21:29.277 - Server path: /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/../../ui
+22:21:29.284 - Starting web server....
+22:21:29.305 - Web server ready: listening on *:5000
+22:21:55.806 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+22:22:36.470 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+22:22:36.478 - Press Ctrl-C to exit.
+22:22:36.485 - Running on Windows - only for development!
+22:22:36.486 - Running on Windows - only for development!
+22:22:36.488 - Ingredient: vodka, alcohol, GPIO ID: 2
+22:22:36.489 - Running on Windows - only for development!
+22:22:36.490 - Ingredient: gin, alcohol, GPIO ID: 3
+22:22:36.490 - Running on Windows - only for development!
+22:22:36.491 - Ingredient: rum, alcohol, GPIO ID: 4
+22:22:36.493 - Running on Windows - only for development!
+22:22:36.494 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+22:22:36.495 - Running on Windows - only for development!
+22:22:36.496 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+22:22:36.496 - Running on Windows - only for development!
+22:22:36.497 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+22:22:36.499 - Running on Windows - only for development!
+22:22:36.499 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+22:22:36.499 - Running on Windows - only for development!
+22:22:36.500 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+22:22:36.500 - Running on Windows - only for development!
+22:22:36.501 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+22:22:36.501 - Running on Windows - only for development!
+22:22:36.503 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+22:22:36.503 - Running on Windows - only for development!
+22:22:36.505 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+22:22:36.505 - Running on Windows - only for development!
+22:22:36.506 - Ingredient: soda, no alcohol, GPIO ID: 19
+22:22:36.506 - Running on Windows - only for development!
+22:22:36.507 - OpenAICocktailBot 'alcohol' constructing...
+22:22:36.508 - OpenAICocktailBot 'alcohol' resetting.
+22:22:36.514 - OpenAICocktailBot 'alcohol' constructed.
+22:22:36.515 - f1...f12 start/stop dispensing
+22:22:36.515 - a        AI cocktail
+22:22:36.515 - r        (r)andom cocktail
+22:22:36.515 - n        random (n)icolas cocktail with alcohol
+22:22:36.516 - Ctrl-c   quit
+22:22:36.524 - Creating web server...
+22:22:36.530 - index 0 argument -> /usr/bin/node
+22:22:36.531 - index 1 argument -> /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/index.js
+22:22:36.531 - index 2 argument -> secure
+22:22:36.532 - setting up secure server
+22:22:36.538 - Creating socket.io server...
+22:22:36.547 - Server path: /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/../../ui
+22:22:36.555 - Starting web server....
+22:22:36.576 - Web server ready: listening on *:5000
+22:25:22.104 - socket.io connect
+22:25:28.747 - socket.io connect
+22:25:32.364 - socket.io connect
+22:25:53.892 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.

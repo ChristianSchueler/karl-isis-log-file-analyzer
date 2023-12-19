@@ -1,0 +1,4245 @@
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' request: [
+  {
+    role: 'system',
+    content: '\n' +
+      'You are a cocktail mixing robot, you are able to pour cocktails with up to 9 different ingredients.\n' +
+      'You can use the following ingredients: vodka, gin, rum, blue curacao, ananas juice, cherry juice, orange juice, bitter lemon, tonic water, herbal lemonade, bitter orange sirup, soda.\n' +
+      'What I ask you to "pour me a cocktail", you create a recipe with your available ingredients and you create a cocktail name.\n' +
+      'A cocktail recipe consists of a list of amounts of ingredients measured in cl.\n' +
+      'A cocktail recipe contains at least 2 ingredients.\n' +
+      'A cocktail recipe must contain a maximum of 4 cl of alcohol.\n' +
+      'The overall sum of all cocktail ingredient amounts for a single recipe must be at least 10 cl and is not allowed to exceed 20 cl.\n' +
+      'Do not repeat cocktail recipes. Be creative.\n' +
+      'Use ingredients such that after pouring 60 cocktails roughly 1 liter of every ingredient has been used.\n' +
+      'Format your response as a list of whole numbers separated by a single space character.\n' +
+      'Append to your response a comma and a creative name.\n' +
+      'Each number should represent the amount of the ingredient in cl.\n' +
+      'Include unused ingrediets as 0 in the list.\n' +
+      'The order of the resulting numbers must be the same order as the given list of ingredients.\n' +
+      'Return a single recipe.\n'
+  },
+  { role: 'user', content: 'pour me a drink' }
+]
+OpenAICocktailBot 'alcohol' completion returned successfully.
+{
+  id: 'chatcmpl-8OoRXVbaKKHk6MvsNq7WP6kVLcXmY',
+  object: 'chat.completion',
+  created: 1700924467,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 278, completion_tokens: 27, total_tokens: 305 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+result: {
+  role: 'assistant',
+  content: '2 3 2 0 2 3 0 4 4 0 0, Blue Lagoon Breeze'
+}
+tokens: 305
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    2, 3, 2, 0, 2,
+    3, 0, 4, 4, 0,
+    0
+  ],
+  name: ' Blue Lagoon Breeze'
+}
+Starting dispensing recipe ' Blue Lagoon Breeze'...
+Ingredients: [
+  2, 3, 2, 0, 2,
+  3, 0, 4, 4, 0,
+  0
+]
+Dispensing 2 ml of vodka over 1100.9174311926606 ms...
+Dispensing 3 ml of gin over 1651.3761467889908 ms...
+Dispensing 2 ml of rum over 1100.9174311926606 ms...
+Dispensing 2 ml of ananas juice over 1100.9174311926606 ms...
+Dispensing 3 ml of cherry juice over 1651.3761467889908 ms...
+Dispensing 4 ml of bitter lemon over 2201.8348623853212 ms...
+Dispensing 4 ml of tonic water over 2201.8348623853212 ms...
+Dispensing vodka finished.
+Dispensing rum finished.
+Dispensing ananas juice finished.
+Dispensing gin finished.
+Dispensing cherry juice finished.
+Dispensing bitter lemon finished.
+Dispensing tonic water finished.
+Recipe ' Blue Lagoon Breeze' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' request: [
+  {
+    role: 'system',
+    content: '\n' +
+      'You are a cocktail mixing robot, you are able to pour cocktails with up to 9 different ingredients.\n' +
+      'You can use the following ingredients: vodka, gin, rum, blue curacao, ananas juice, cherry juice, orange juice, bitter lemon, tonic water, herbal lemonade, bitter orange sirup, soda.\n' +
+      'What I ask you to "pour me a cocktail", you create a recipe with your available ingredients and you create a cocktail name.\n' +
+      'A cocktail recipe consists of a list of amounts of ingredients measured in cl.\n' +
+      'A cocktail recipe contains at least 2 ingredients.\n' +
+      'A cocktail recipe must contain a maximum of 4 cl of alcohol.\n' +
+      'The overall sum of all cocktail ingredient amounts for a single recipe must be at least 10 cl and is not allowed to exceed 20 cl.\n' +
+      'Do not repeat cocktail recipes. Be creative.\n' +
+      'Use ingredients such that after pouring 60 cocktails roughly 1 liter of every ingredient has been used.\n' +
+      'Format your response as a list of whole numbers separated by a single space character.\n' +
+      'Append to your response a comma and a creative name.\n' +
+      'Each number should represent the amount of the ingredient in cl.\n' +
+      'Include unused ingrediets as 0 in the list.\n' +
+      'The order of the resulting numbers must be the same order as the given list of ingredients.\n' +
+      'Return a single recipe.\n'
+  },
+  { role: 'user', content: 'pour me a drink' }
+]
+OpenAICocktailBot 'alcohol' completion returned successfully.
+{
+  id: 'chatcmpl-8OoUZyx66oY0EmXIMEprvps27C3Rs',
+  object: 'chat.completion',
+  created: 1700924655,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 278, completion_tokens: 28, total_tokens: 306 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+result: {
+  role: 'assistant',
+  content: '3 4 2 3 0 0 0 0 0 0 0 0, Tropical Breeze Cocktail'
+}
+tokens: 306
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    3, 4, 2, 3, 0,
+    0, 0, 0, 0, 0,
+    0, 0
+  ],
+  name: ' Tropical Breeze Cocktail'
+}
+Starting dispensing recipe ' Tropical Breeze Cocktail'...
+Ingredients: [
+  3, 4, 2, 3, 0,
+  0, 0, 0, 0, 0,
+  0, 0
+]
+Dispensing 3 ml of vodka over 1651.3761467889908 ms...
+Dispensing 4 ml of gin over 2201.8348623853212 ms...
+Dispensing 2 ml of rum over 1100.9174311926606 ms...
+Dispensing 3 ml of blue curacao over 1651.3761467889908 ms...
+Dispensing rum finished.
+Dispensing vodka finished.
+Dispensing blue curacao finished.
+Dispensing gin finished.
+Recipe ' Tropical Breeze Cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' request: [
+  {
+    role: 'system',
+    content: '\n' +
+      'You are a cocktail mixing robot, you are able to pour cocktails with up to 9 different ingredients.\n' +
+      'You can use the following ingredients: vodka, gin, rum, blue curacao, ananas juice, cherry juice, orange juice, bitter lemon, tonic water, herbal lemonade, bitter orange sirup, soda.\n' +
+      'What I ask you to "pour me a cocktail", you create a recipe with your available ingredients and you create a cocktail name.\n' +
+      'A cocktail recipe consists of a list of amounts of ingredients measured in cl.\n' +
+      'A cocktail recipe contains at least 2 ingredients.\n' +
+      'A cocktail recipe must contain a maximum of 4 cl of alcohol.\n' +
+      'The overall sum of all cocktail ingredient amounts for a single recipe must be at least 10 cl and is not allowed to exceed 20 cl.\n' +
+      'Do not repeat cocktail recipes. Be creative.\n' +
+      'Use ingredients such that after pouring 60 cocktails roughly 1 liter of every ingredient has been used.\n' +
+      'Format your response as a list of whole numbers separated by a single space character.\n' +
+      'Append to your response a comma and a creative name.\n' +
+      'Each number should represent the amount of the ingredient in cl.\n' +
+      'Include unused ingrediets as 0 in the list.\n' +
+      'The order of the resulting numbers must be the same order as the given list of ingredients.\n' +
+      'Return a single recipe.\n'
+  },
+  { role: 'user', content: 'pour me a drink' }
+]
+OpenAICocktailBot 'alcohol' completion returned successfully.
+{
+  id: 'chatcmpl-8Ooa16OLpfOcFIgjifwV2w80vC3R8',
+  object: 'chat.completion',
+  created: 1700924993,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 278, completion_tokens: 28, total_tokens: 306 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+result: {
+  role: 'assistant',
+  content: '12 3 0 2 0 0 2 1 0 0 0 0, Tropical Breeze cocktail'
+}
+tokens: 306
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    12, 3, 0, 2, 0,
+     0, 2, 1, 0, 0,
+     0, 0
+  ],
+  name: ' Tropical Breeze cocktail'
+}
+Starting dispensing recipe ' Tropical Breeze cocktail'...
+Ingredients: [
+  12, 3, 0, 2, 0,
+   0, 2, 1, 0, 0,
+   0, 0
+]
+Dispensing 12 ml of vodka over 6605.504587155963 ms...
+Dispensing 3 ml of gin over 1651.3761467889908 ms...
+Dispensing 2 ml of blue curacao over 1100.9174311926606 ms...
+Dispensing 2 ml of orange juice over 1100.9174311926606 ms...
+Dispensing 1 ml of bitter lemon over 550.4587155963303 ms...
+Dispensing bitter lemon finished.
+Dispensing blue curacao finished.
+Dispensing orange juice finished.
+Dispensing gin finished.
+Dispensing vodka finished.
+Recipe ' Tropical Breeze cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' request: [
+  {
+    role: 'system',
+    content: '\n' +
+      'You are a cocktail mixing robot, you are able to pour cocktails with up to 9 different ingredients.\n' +
+      'You can use the following ingredients: vodka, gin, rum, blue curacao, ananas juice, cherry juice, orange juice, bitter lemon, tonic water, herbal lemonade, bitter orange sirup, soda.\n' +
+      'What I ask you to "pour me a cocktail", you create a recipe with your available ingredients and you create a cocktail name.\n' +
+      'A cocktail recipe consists of a list of amounts of ingredients measured in cl.\n' +
+      'A cocktail recipe contains at least 2 ingredients.\n' +
+      'A cocktail recipe must contain a maximum of 4 cl of alcohol.\n' +
+      'The overall sum of all cocktail ingredient amounts for a single recipe must be at least 10 cl and is not allowed to exceed 20 cl.\n' +
+      'Do not repeat cocktail recipes. Be creative.\n' +
+      'Use ingredients such that after pouring 60 cocktails roughly 1 liter of every ingredient has been used.\n' +
+      'Format your response as a list of whole numbers separated by a single space character.\n' +
+      'Append to your response a comma and a creative name.\n' +
+      'Each number should represent the amount of the ingredient in cl.\n' +
+      'Include unused ingrediets as 0 in the list.\n' +
+      'The order of the resulting numbers must be the same order as the given list of ingredients.\n' +
+      'Return a single recipe.\n'
+  },
+  { role: 'user', content: 'pour me a drink' }
+]
+OpenAICocktailBot 'alcohol' completion returned successfully.
+{
+  id: 'chatcmpl-8OoaTTRzA9is9aNpVYPjminluIT31',
+  object: 'chat.completion',
+  created: 1700925021,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 278, completion_tokens: 28, total_tokens: 306 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+result: {
+  role: 'assistant',
+  content: '4 2 2 3 6 0 0 0 0 0 0 0, Tropical Breeze Cocktail'
+}
+tokens: 306
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    4, 2, 2, 3, 6,
+    0, 0, 0, 0, 0,
+    0, 0
+  ],
+  name: ' Tropical Breeze Cocktail'
+}
+Starting dispensing recipe ' Tropical Breeze Cocktail'...
+Ingredients: [
+  4, 2, 2, 3, 6,
+  0, 0, 0, 0, 0,
+  0, 0
+]
+Dispensing 4 ml of vodka over 2201.8348623853212 ms...
+Dispensing 2 ml of gin over 1100.9174311926606 ms...
+Dispensing 2 ml of rum over 1100.9174311926606 ms...
+Dispensing 3 ml of blue curacao over 1651.3761467889908 ms...
+Dispensing 6 ml of ananas juice over 3302.7522935779816 ms...
+Dispensing gin finished.
+Dispensing rum finished.
+Dispensing blue curacao finished.
+Dispensing vodka finished.
+Dispensing ananas juice finished.
+Recipe ' Tropical Breeze Cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' request: [
+  {
+    role: 'system',
+    content: '\n' +
+      'You are a cocktail mixing robot, you are able to pour cocktails with up to 9 different ingredients.\n' +
+      'You can use the following ingredients: vodka, gin, rum, blue curacao, ananas juice, cherry juice, orange juice, bitter lemon, tonic water, herbal lemonade, bitter orange sirup, soda.\n' +
+      'What I ask you to "pour me a cocktail", you create a recipe with your available ingredients and you create a cocktail name.\n' +
+      'A cocktail recipe consists of a list of amounts of ingredients measured in cl.\n' +
+      'A cocktail recipe contains at least 2 ingredients.\n' +
+      'A cocktail recipe must contain a maximum of 4 cl of alcohol.\n' +
+      'The overall sum of all cocktail ingredient amounts for a single recipe must be at least 10 cl and is not allowed to exceed 20 cl.\n' +
+      'Do not repeat cocktail recipes. Be creative.\n' +
+      'Use ingredients such that after pouring 60 cocktails roughly 1 liter of every ingredient has been used.\n' +
+      'Format your response as a list of whole numbers separated by a single space character.\n' +
+      'Append to your response a comma and a creative name.\n' +
+      'Each number should represent the amount of the ingredient in cl.\n' +
+      'Include unused ingrediets as 0 in the list.\n' +
+      'The order of the resulting numbers must be the same order as the given list of ingredients.\n' +
+      'Return a single recipe.\n'
+  },
+  { role: 'user', content: 'pour me a drink' }
+]
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '4 3 1 0 4 3 0 0 5 0 0 0, Tropical Sunshine Bliss'
+}
+tokens: 305
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    4, 3, 1, 0, 4,
+    3, 0, 0, 5, 0,
+    0, 0
+  ],
+  name: ' Tropical Sunshine Bliss'
+}
+Starting dispensing recipe ' Tropical Sunshine Bliss'...
+Ingredients: [
+  4, 3, 1, 0, 4,
+  3, 0, 0, 5, 0,
+  0, 0
+]
+Dispensing 4 ml of vodka over 2201.8348623853212 ms...
+Dispensing 3 ml of gin over 1651.3761467889908 ms...
+Dispensing 1 ml of rum over 550.4587155963303 ms...
+Dispensing 4 ml of ananas juice over 2201.8348623853212 ms...
+Dispensing 3 ml of cherry juice over 1651.3761467889908 ms...
+Dispensing 5 ml of tonic water over 2752.293577981651 ms...
+Dispensing rum finished.
+Dispensing gin finished.
+Dispensing cherry juice finished.
+Dispensing vodka finished.
+Dispensing ananas juice finished.
+Dispensing tonic water finished.
+Recipe ' Tropical Sunshine Bliss' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '3 0 2 1 5 0 0 6 3 0 0 0, Tropical Bliss cocktail'
+}
+tokens: 305
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    3, 0, 2, 1, 5,
+    0, 0, 6, 3, 0,
+    0, 0
+  ],
+  name: ' Tropical Bliss cocktail'
+}
+Starting dispensing recipe ' Tropical Bliss cocktail'...
+Ingredients: [
+  3, 0, 2, 1, 5,
+  0, 0, 6, 3, 0,
+  0, 0
+]
+Dispensing 3 ml of vodka over 1651.3761467889908 ms...
+Dispensing 2 ml of rum over 1100.9174311926606 ms...
+Dispensing 1 ml of blue curacao over 550.4587155963303 ms...
+Dispensing 5 ml of ananas juice over 2752.293577981651 ms...
+Dispensing 6 ml of bitter lemon over 3302.7522935779816 ms...
+Dispensing 3 ml of tonic water over 1651.3761467889908 ms...
+Dispensing blue curacao finished.
+Dispensing rum finished.
+Dispensing vodka finished.
+Dispensing tonic water finished.
+Dispensing ananas juice finished.
+Dispensing bitter lemon finished.
+Recipe ' Tropical Bliss cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '4 2 0 0 3 3 0 0 8 0 0 0, Exotic Breeze cocktail'
+}
+tokens: 307
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    4, 2, 0, 0, 3,
+    3, 0, 0, 8, 0,
+    0, 0
+  ],
+  name: ' Exotic Breeze cocktail'
+}
+Starting dispensing recipe ' Exotic Breeze cocktail'...
+Ingredients: [
+  4, 2, 0, 0, 3,
+  3, 0, 0, 8, 0,
+  0, 0
+]
+Dispensing 4 ml of vodka over 2201.8348623853212 ms...
+Dispensing 2 ml of gin over 1100.9174311926606 ms...
+Dispensing 3 ml of ananas juice over 1651.3761467889908 ms...
+Dispensing 3 ml of cherry juice over 1651.3761467889908 ms...
+Dispensing 8 ml of tonic water over 4403.6697247706425 ms...
+Dispensing gin finished.
+Dispensing ananas juice finished.
+Dispensing cherry juice finished.
+Dispensing vodka finished.
+Dispensing tonic water finished.
+Recipe ' Exotic Breeze cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' request: [
+  {
+    role: 'system',
+    content: '\n' +
+      'You are a cocktail mixing robot, you are able to pour cocktails with up to 9 different ingredients.\n' +
+      'You can use the following ingredients: vodka, gin, rum, blue curacao, ananas juice, cherry juice, orange juice, bitter lemon, tonic water, herbal lemonade, bitter orange sirup, soda.\n' +
+      'What I ask you to "pour me a cocktail", you create a recipe with your available ingredients and you create a cocktail name.\n' +
+      'A cocktail recipe consists of a list of amounts of ingredients measured in cl.\n' +
+      'A cocktail recipe contains at least 2 ingredients.\n' +
+      'A cocktail recipe must contain a maximum of 4 cl of alcohol.\n' +
+      'The overall sum of all cocktail ingredient amounts for a single recipe must be at least 10 cl and is not allowed to exceed 20 cl.\n' +
+      'Do not repeat cocktail recipes. Be creative.\n' +
+      'Use ingredients such that after pouring 60 cocktails roughly 1 liter of every ingredient has been used.\n' +
+      'Format your response as a list of whole numbers separated by a single space character.\n' +
+      'Append to your response a comma and a creative name.\n' +
+      'Each number should represent the amount of the ingredient in cl.\n' +
+      'Include unused ingrediets as 0 in the list.\n' +
+      'The order of the resulting numbers must be the same order as the given list of ingredients.\n' +
+      'Return a single recipe.\n'
+  },
+  { role: 'user', content: 'pour me a drink' }
+]
+OpenAI:DEBUG:request https://api.openai.com/v1/chat/completions {
+  method: 'post',
+  path: '/chat/completions',
+  body: { model: 'gpt-3.5-turbo-1106', messages: [ [Object], [Object] ] },
+  stream: false
+} {
+  'Content-Length': '1443',
+  Accept: 'application/json',
+  'Content-Type': 'application/json',
+  'User-Agent': 'OpenAI/JS 4.19.0',
+  'X-Stainless-Lang': 'js',
+  'X-Stainless-Package-Version': '4.19.0',
+  'X-Stainless-OS': 'Linux',
+  'X-Stainless-Arch': 'arm64',
+  'X-Stainless-Runtime': 'node',
+  'X-Stainless-Runtime-Version': 'v18.17.1',
+  Authorization: 'Bearer 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',
+  'OpenAI-Organization': 'org-XWXjDVcYbBQFaLvR7JTi3pyl'
+}
+OpenAI:DEBUG:response 200 https://api.openai.com/v1/chat/completions Headers {
+  [Symbol(map)]: [Object: null prototype] {
+    date: [ 'Sat, 25 Nov 2023 15:22:25 GMT' ],
+    'content-type': [ 'application/json' ],
+    'transfer-encoding': [ 'chunked' ],
+    connection: [ 'keep-alive' ],
+    'access-control-allow-origin': [ '*' ],
+    'cache-control': [ 'no-cache, must-revalidate' ],
+    'openai-model': [ 'gpt-3.5-turbo-1106' ],
+    'openai-organization': [ 'user-qg6kgf2isdibwhqnphcq5qtm' ],
+    'openai-processing-ms': [ '882' ],
+    'openai-version': [ '2020-10-01' ],
+    'strict-transport-security': [ 'max-age=15724800; includeSubDomains' ],
+    'x-ratelimit-limit-requests': [ '3500' ],
+    'x-ratelimit-limit-tokens': [ '90000' ],
+    'x-ratelimit-limit-tokens_usage_based': [ '90000' ],
+    'x-ratelimit-remaining-requests': [ '3499' ],
+    'x-ratelimit-remaining-tokens': [ '89667' ],
+    'x-ratelimit-remaining-tokens_usage_based': [ '89667' ],
+    'x-ratelimit-reset-requests': [ '17ms' ],
+    'x-ratelimit-reset-tokens': [ '222ms' ],
+    'x-ratelimit-reset-tokens_usage_based': [ '222ms' ],
+    'x-request-id': [ '11a7a5c2942898e18334ec429c16098b' ],
+    'cf-cache-status': [ 'DYNAMIC' ],
+    'set-cookie': [
+      '__cf_bm=BLxCp6c0pryD9OjFSFzVQliIb9EypvNXAvek5mEnKFE-1700925745-0-AQhaAsg7XQWEll6yUrD59dQZRI8NqPq7DtHYq/uiS/TodheLKfGULudcAE7wKRyC1swnOA+R7G1vHU1KS4LPynM=; path=/; expires=Sat, 25-Nov-23 15:52:25 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None',
+      '_cfuvid=cx1ChghZDHdQHe.S6AY8Sz_Xyb_JDms_iQCSlB.hX2I-1700925745011-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'
+    ],
+    server: [ 'cloudflare' ],
+    'cf-ray': [ '82bae30afa675b18-VIE' ],
+    'content-encoding': [ 'gzip' ],
+    'alt-svc': [ 'h3=":443"; ma=86400' ]
+  }
+} {
+  id: 'chatcmpl-8Oom85O3j5tCEVpPL38t3ViuAsySf',
+  object: 'chat.completion',
+  created: 1700925744,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 278, completion_tokens: 28, total_tokens: 306 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+OpenAICocktailBot 'alcohol' completion returned successfully.
+{
+  id: 'chatcmpl-8Oom85O3j5tCEVpPL38t3ViuAsySf',
+  object: 'chat.completion',
+  created: 1700925744,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 278, completion_tokens: 28, total_tokens: 306 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+result: {
+  role: 'assistant',
+  content: '4 2 0 1 2 2 0 0 1 0 0 0, Tropical Breeze cocktail'
+}
+tokens: 306
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    4, 2, 0, 1, 2,
+    2, 0, 0, 1, 0,
+    0, 0
+  ],
+  name: ' Tropical Breeze cocktail'
+}
+Starting dispensing recipe ' Tropical Breeze cocktail'...
+Ingredients: [
+  4, 2, 0, 1, 2,
+  2, 0, 0, 1, 0,
+  0, 0
+]
+Dispensing 4 ml of vodka over 2201.8348623853212 ms...
+Dispensing 2 ml of gin over 1100.9174311926606 ms...
+Dispensing 1 ml of blue curacao over 550.4587155963303 ms...
+Dispensing 2 ml of ananas juice over 1100.9174311926606 ms...
+Dispensing 2 ml of cherry juice over 1100.9174311926606 ms...
+Dispensing 1 ml of tonic water over 550.4587155963303 ms...
+Dispensing blue curacao finished.
+Dispensing tonic water finished.
+Dispensing gin finished.
+Dispensing ananas juice finished.
+Dispensing cherry juice finished.
+Dispensing vodka finished.
+Recipe ' Tropical Breeze cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '6 4 0 3 4 0 0 3 0 0 0 0, Ocean Breeze Cocktail'
+}
+tokens: 306
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    6, 4, 0, 3, 4,
+    0, 0, 3, 0, 0,
+    0, 0
+  ],
+  name: ' Ocean Breeze Cocktail'
+}
+Starting dispensing recipe ' Ocean Breeze Cocktail'...
+Ingredients: [
+  6, 4, 0, 3, 4,
+  0, 0, 3, 0, 0,
+  0, 0
+]
+Dispensing 6 ml of vodka over 3302.7522935779816 ms...
+Dispensing 4 ml of gin over 2201.8348623853212 ms...
+Dispensing 3 ml of blue curacao over 1651.3761467889908 ms...
+Dispensing 4 ml of ananas juice over 2201.8348623853212 ms...
+Dispensing 3 ml of bitter lemon over 1651.3761467889908 ms...
+Dispensing blue curacao finished.
+Dispensing bitter lemon finished.
+Dispensing gin finished.
+Dispensing ananas juice finished.
+Dispensing vodka finished.
+Recipe ' Ocean Breeze Cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '2 4 1 0 5 3 0 0 5 0 0 0, Tropical Haze cocktail'
+}
+tokens: 304
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    2, 4, 1, 0, 5,
+    3, 0, 0, 5, 0,
+    0, 0
+  ],
+  name: ' Tropical Haze cocktail'
+}
+Starting dispensing recipe ' Tropical Haze cocktail'...
+Ingredients: [
+  2, 4, 1, 0, 5,
+  3, 0, 0, 5, 0,
+  0, 0
+]
+Dispensing 2 ml of vodka over 1100.9174311926606 ms...
+Dispensing 4 ml of gin over 2201.8348623853212 ms...
+Dispensing 1 ml of rum over 550.4587155963303 ms...
+Dispensing 5 ml of ananas juice over 2752.293577981651 ms...
+Dispensing 3 ml of cherry juice over 1651.3761467889908 ms...
+Dispensing 5 ml of tonic water over 2752.293577981651 ms...
+Dispensing rum finished.
+Dispensing vodka finished.
+Dispensing cherry juice finished.
+Dispensing gin finished.
+Dispensing ananas juice finished.
+Dispensing tonic water finished.
+Recipe ' Tropical Haze cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '14 0 0 2 2 0 0 0 2 0 0 2, Blue Lagoon Breeze'
+}
+tokens: 305
+Normalizing drink...
+Drink shrunken to 0.9090909090909091
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    12.727272727272727,
+    0,
+    0,
+    1.8181818181818181,
+    1.8181818181818181,
+    0,
+    0,
+    0,
+    1.8181818181818181,
+    0,
+    0,
+    1.8181818181818181
+  ],
+  name: ' Blue Lagoon Breeze'
+}
+Starting dispensing recipe ' Blue Lagoon Breeze'...
+Ingredients: [
+  12.727272727272727,
+  0,
+  0,
+  1.8181818181818181,
+  1.8181818181818181,
+  0,
+  0,
+  0,
+  1.8181818181818181,
+  0,
+  0,
+  1.8181818181818181
+]
+Dispensing 12.727272727272727 ml of vodka over 7005.838198498749 ms...
+Dispensing 1.8181818181818181 ml of blue curacao over 1000.8340283569642 ms...
+Dispensing 1.8181818181818181 ml of ananas juice over 1000.8340283569642 ms...
+Dispensing 1.8181818181818181 ml of tonic water over 1000.8340283569642 ms...
+Dispensing 1.8181818181818181 ml of soda over 1000.8340283569642 ms...
+Dispensing blue curacao finished.
+Dispensing ananas juice finished.
+Dispensing tonic water finished.
+Dispensing soda finished.
+Dispensing vodka finished.
+Recipe ' Blue Lagoon Breeze' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '5 3 1 0 5 0 3 0 0 0, Tropical Sunrise Buzz'
+}
+tokens: 299
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    5, 3, 1, 0, 5,
+    0, 3, 0, 0, 0
+  ],
+  name: ' Tropical Sunrise Buzz'
+}
+Starting dispensing recipe ' Tropical Sunrise Buzz'...
+Ingredients: [
+  5, 3, 1, 0, 5,
+  0, 3, 0, 0, 0
+]
+Drink size: 17
+Dispensing 5 ml of vodka over 2752.293577981651 ms...
+Dispensing 3 ml of gin over 1651.3761467889908 ms...
+Dispensing 1 ml of rum over 550.4587155963303 ms...
+Dispensing 5 ml of ananas juice over 2752.293577981651 ms...
+Dispensing 3 ml of orange juice over 1651.3761467889908 ms...
+Dispensing rum finished.
+Dispensing gin finished.
+Dispensing orange juice finished.
+Dispensing vodka finished.
+Dispensing ananas juice finished.
+Recipe ' Tropical Sunrise Buzz' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '4 4 2 0 3 0 3 0 0 0 0 4, Caribbean Breeze Cocktail'
+}
+tokens: 304
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    4, 4, 2, 0, 3,
+    0, 3, 0, 0, 0,
+    0, 4
+  ],
+  name: ' Caribbean Breeze Cocktail'
+}
+Starting dispensing recipe ' Caribbean Breeze Cocktail'...
+Ingredients: [
+  4, 4, 2, 0, 3,
+  0, 3, 0, 0, 0,
+  0, 4
+]
+Drink size: 20
+Dispensing 4 ml of vodka over 2201.8348623853212 ms...
+Dispensing 4 ml of gin over 2201.8348623853212 ms...
+Dispensing 2 ml of rum over 1100.9174311926606 ms...
+Dispensing 3 ml of ananas juice over 1651.3761467889908 ms...
+Dispensing 3 ml of orange juice over 1651.3761467889908 ms...
+Dispensing 4 ml of soda over 2201.8348623853212 ms...
+Dispensing rum finished.
+Dispensing ananas juice finished.
+Dispensing orange juice finished.
+Dispensing vodka finished.
+Dispensing gin finished.
+Dispensing soda finished.
+Recipe ' Caribbean Breeze Cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '5 6 0 4 0 0 0 0 0 0 0 0, \nTropical Breeze cocktail'
+}
+tokens: 321
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    5, 6, 0, 4, 0,
+    0, 0, 0, 0, 0,
+    0, 0
+  ],
+  name: ' \nTropical Breeze cocktail'
+}
+Starting dispensing recipe ' 
+Tropical Breeze cocktail'...
+Ingredients: [
+  5, 6, 0, 4, 0,
+  0, 0, 0, 0, 0,
+  0, 0
+]
+Drink size: 15
+Dispensing 5 ml of vodka over 2752.293577981651 ms...
+Dispensing 6 ml of gin over 3302.7522935779816 ms...
+Dispensing 4 ml of blue curacao over 2201.8348623853212 ms...
+Dispensing blue curacao finished.
+Dispensing vodka finished.
+Dispensing gin finished.
+Recipe ' 
+Tropical Breeze cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '12 4 2 0 0 0 0 0 0 0 0 0, "Tropical Breeze"'
+}
+tokens: 321
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    12, 4, 2, 0, 0,
+     0, 0, 0, 0, 0,
+     0, 0
+  ],
+  name: ' "Tropical Breeze"'
+}
+Starting dispensing recipe ' "Tropical Breeze"'...
+Ingredients: [
+  12, 4, 2, 0, 0,
+   0, 0, 0, 0, 0,
+   0, 0
+]
+Drink size: 18
+Dispensing 12 ml of vodka over 6605.504587155963 ms...
+Dispensing 4 ml of gin over 2201.8348623853212 ms...
+Dispensing 2 ml of rum over 1100.9174311926606 ms...
+Dispensing rum finished.
+Dispensing gin finished.
+Dispensing vodka finished.
+Recipe ' "Tropical Breeze"' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '5 3 0 0 0 0 0 0 0 0 0 0, Sparkling Sunset Cocktail'
+}
+tokens: 336
+Normalizing drink...
+Drink enlarged to 1.25
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    6.25, 3.75, 0, 0, 0,
+       0,    0, 0, 0, 0,
+       0,    0
+  ],
+  name: ' Sparkling Sunset Cocktail'
+}
+Starting dispensing recipe ' Sparkling Sunset Cocktail'...
+Ingredients: [
+  6.25, 3.75, 0, 0, 0,
+     0,    0, 0, 0, 0,
+     0,    0
+]
+Drink size: 10
+Dispensing 6.25 ml of vodka over 3440.3669724770643 ms...
+Dispensing 3.75 ml of gin over 2064.2201834862385 ms...
+Dispensing gin finished.
+Dispensing vodka finished.
+Recipe ' Sparkling Sunset Cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '15 0 0 0 0 0 0 0 0 0 0 5, Tropical Breeze Cocktail'
+}
+tokens: 336
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    15, 0, 0, 0, 0,
+     0, 0, 0, 0, 0,
+     0, 5
+  ],
+  name: ' Tropical Breeze Cocktail'
+}
+Starting dispensing recipe ' Tropical Breeze Cocktail'...
+Ingredients: [
+  15, 0, 0, 0, 0,
+   0, 0, 0, 0, 0,
+   0, 5
+]
+Drink size: 20
+Dispensing 15 ml of vodka over 8256.880733944954 ms...
+Dispensing 5 ml of soda over 2752.293577981651 ms...
+Dispensing soda finished.
+Dispensing vodka finished.
+Recipe ' Tropical Breeze Cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '5 4 8 0 0 0 0 0 0 0 0 0, Tropical Breeze cocktail'
+}
+tokens: 340
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    5, 4, 8, 0, 0,
+    0, 0, 0, 0, 0,
+    0, 0
+  ],
+  name: ' Tropical Breeze cocktail'
+}
+Starting dispensing recipe ' Tropical Breeze cocktail'...
+Ingredients: [
+  5, 4, 8, 0, 0,
+  0, 0, 0, 0, 0,
+  0, 0
+]
+Drink size: 17
+Dispensing 5 ml of vodka over 2752.293577981651 ms...
+Dispensing 4 ml of gin over 2201.8348623853212 ms...
+Dispensing 8 ml of rum over 4403.6697247706425 ms...
+Dispensing gin finished.
+Dispensing vodka finished.
+Dispensing rum finished.
+Recipe ' Tropical Breeze cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '5 4 6 0 3 0 0 0 0 0 0 0, Tropical Sunset Cocktail'
+}
+tokens: 339
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    5, 4, 6, 0, 3,
+    0, 0, 0, 0, 0,
+    0, 0
+  ],
+  name: ' Tropical Sunset Cocktail'
+}
+Starting dispensing recipe ' Tropical Sunset Cocktail'...
+Ingredients: [
+  5, 4, 6, 0, 3,
+  0, 0, 0, 0, 0,
+  0, 0
+]
+Drink size: 18
+Dispensing 5 ml of vodka over 2752.293577981651 ms...
+Dispensing 4 ml of gin over 2201.8348623853212 ms...
+Dispensing 6 ml of rum over 3302.7522935779816 ms...
+Dispensing 3 ml of ananas juice over 1651.3761467889908 ms...
+Dispensing ananas juice finished.
+Dispensing gin finished.
+Dispensing vodka finished.
+Dispensing rum finished.
+Recipe ' Tropical Sunset Cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '8 4 0 5 3 0 0 0 0 0 0 0, Sparkling Paradise cocktail'
+}
+tokens: 341
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    8, 4, 0, 5, 3,
+    0, 0, 0, 0, 0,
+    0, 0
+  ],
+  name: ' Sparkling Paradise cocktail'
+}
+Starting dispensing recipe ' Sparkling Paradise cocktail'...
+Ingredients: [
+  8, 4, 0, 5, 3,
+  0, 0, 0, 0, 0,
+  0, 0
+]
+Drink size: 20
+Dispensing 8 ml of vodka over 4403.6697247706425 ms...
+Dispensing 4 ml of gin over 2201.8348623853212 ms...
+Dispensing 5 ml of blue curacao over 2752.293577981651 ms...
+Dispensing 3 ml of ananas juice over 1651.3761467889908 ms...
+Dispensing ananas juice finished.
+Dispensing gin finished.
+Dispensing blue curacao finished.
+Dispensing vodka finished.
+Recipe ' Sparkling Paradise cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '10 5 0 0 0 0 0 0 5 0 0 0, Tropical Sunrise Delight'
+}
+tokens: 339
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    10, 5, 0, 0, 0,
+     0, 0, 0, 5, 0,
+     0, 0
+  ],
+  name: ' Tropical Sunrise Delight'
+}
+Starting dispensing recipe ' Tropical Sunrise Delight'...
+Ingredients: [
+  10, 5, 0, 0, 0,
+   0, 0, 0, 5, 0,
+   0, 0
+]
+Drink size: 20
+Dispensing 10 ml of vodka over 5504.587155963302 ms...
+Dispensing 5 ml of gin over 2752.293577981651 ms...
+Dispensing 5 ml of tonic water over 2752.293577981651 ms...
+Dispensing gin finished.
+Dispensing tonic water finished.
+Dispensing vodka finished.
+Recipe ' Tropical Sunrise Delight' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '10 0 5 0 0 0 0 0 0 0 0 5, Sweet Tropical Breeze'
+}
+tokens: 339
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    10, 0, 5, 0, 0,
+     0, 0, 0, 0, 0,
+     0, 5
+  ],
+  name: ' Sweet Tropical Breeze'
+}
+Starting dispensing recipe ' Sweet Tropical Breeze'...
+Ingredients: [
+  10, 0, 5, 0, 0,
+   0, 0, 0, 0, 0,
+   0, 5
+]
+Drink size: 20
+Dispensing 10 ml of vodka over 5504.587155963302 ms...
+Dispensing 5 ml of rum over 2752.293577981651 ms...
+Dispensing 5 ml of soda over 2752.293577981651 ms...
+Dispensing rum finished.
+Dispensing soda finished.
+Dispensing vodka finished.
+Recipe ' Sweet Tropical Breeze' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' completion returned successfully.
+result: {
+  role: 'assistant',
+  content: '10 5 3 0 0 0 0 0 0 0 0 0, Citrus Sunshine Delight'
+}
+tokens: 340
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    10, 5, 3, 0, 0,
+     0, 0, 0, 0, 0,
+     0, 0
+  ],
+  name: ' Citrus Sunshine Delight'
+}
+Starting dispensing recipe ' Citrus Sunshine Delight'...
+Ingredients: [
+  10, 5, 3, 0, 0,
+   0, 0, 0, 0, 0,
+   0, 0
+]
+Drink size: 18
+Dispensing 10 ml of vodka over 5504.587155963302 ms...
+Dispensing 5 ml of gin over 2752.293577981651 ms...
+Dispensing 3 ml of rum over 1651.3761467889908 ms...
+Dispensing rum finished.
+Dispensing gin finished.
+Dispensing vodka finished.
+Recipe ' Citrus Sunshine Delight' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot '' creating random cocktail.
+Normalizing drink...
+Drink enlarged to Infinity
+Drink normalized
+CocktailRecipe { ingredients: [], name: '' }
+Starting dispensing recipe ''...
+Ingredients: []
+Drink size: 0
+Recipe '' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot creating random cocktail...
+Normalizing drink...
+Drink enlarged to Infinity
+Drink normalized
+CocktailRecipe { ingredients: [], name: '' }
+Starting dispensing recipe ''...
+Ingredients: []
+Drink size: 0
+Recipe '' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot creating random cocktail...
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    2, 0, 0, 0, 0,
+    4, 4, 0, 0, 0,
+    0, 2
+  ],
+  name: 'random cocktail'
+}
+Starting dispensing recipe 'random cocktail'...
+Ingredients: [
+  2, 0, 0, 0, 0,
+  4, 4, 0, 0, 0,
+  0, 2
+]
+Drink size: 12
+Dispensing 2 ml of vodka over 1100.9174311926606 ms...
+Dispensing 4 ml of cherry juice over 2201.8348623853212 ms...
+Dispensing 4 ml of orange juice over 2201.8348623853212 ms...
+Dispensing 2 ml of soda over 1100.9174311926606 ms...
+Dispensing vodka finished.
+Dispensing soda finished.
+Dispensing cherry juice finished.
+Dispensing orange juice finished.
+Recipe 'random cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot creating random cocktail...
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    0, 4, 0, 0, 4,
+    0, 0, 0, 0, 4,
+    0, 4
+  ],
+  name: 'random cocktail'
+}
+Starting dispensing recipe 'random cocktail'...
+Ingredients: [
+  0, 4, 0, 0, 4,
+  0, 0, 0, 0, 4,
+  0, 4
+]
+Drink size: 16
+Dispensing 4 ml of gin over 2201.8348623853212 ms...
+Dispensing 4 ml of ananas juice over 2201.8348623853212 ms...
+Dispensing 4 ml of herbal lemonade over 2201.8348623853212 ms...
+Dispensing 4 ml of soda over 2201.8348623853212 ms...
+Dispensing gin finished.
+Dispensing ananas juice finished.
+Dispensing herbal lemonade finished.
+Dispensing soda finished.
+Recipe 'random cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot creating random cocktail...
+1 4
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    0, 4, 0, 0, 4,
+    0, 4, 0, 0, 4,
+    0, 2
+  ],
+  name: 'random cocktail'
+}
+Starting dispensing recipe 'random cocktail'...
+Ingredients: [
+  0, 4, 0, 0, 4,
+  0, 4, 0, 0, 4,
+  0, 2
+]
+Drink size: 18
+Dispensing 4 ml of gin over 2201.8348623853212 ms...
+Dispensing 4 ml of ananas juice over 2201.8348623853212 ms...
+Dispensing 4 ml of orange juice over 2201.8348623853212 ms...
+Dispensing 4 ml of herbal lemonade over 2201.8348623853212 ms...
+Dispensing 2 ml of soda over 1100.9174311926606 ms...
+Dispensing soda finished.
+Dispensing gin finished.
+Dispensing ananas juice finished.
+Dispensing orange juice finished.
+Dispensing herbal lemonade finished.
+Recipe 'random cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot creating random cocktail...
+3 2
+Normalizing drink...
+Drink enlarged to 1.25
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    0, 0, 0, 2.5, 0,
+    0, 0, 0, 2.5, 0,
+    5, 0
+  ],
+  name: 'random cocktail'
+}
+Starting dispensing recipe 'random cocktail'...
+Ingredients: [
+  0, 0, 0, 2.5, 0,
+  0, 0, 0, 2.5, 0,
+  5, 0
+]
+Drink size: 10
+Dispensing 2.5 ml of blue curacao over 1376.1467889908256 ms...
+Dispensing 2.5 ml of tonic water over 1376.1467889908256 ms...
+Dispensing 5 ml of bitter orange sirup over 2752.293577981651 ms...
+Dispensing blue curacao finished.
+Dispensing tonic water finished.
+Dispensing bitter orange sirup finished.
+Recipe 'random cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot creating random cocktail...
+0 4
+Normalizing drink...
+Drink enlarged to 1.6666666666666667
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    6.666666666666667,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3.3333333333333335,
+    0,
+    0,
+    0,
+    0
+  ],
+  name: 'random cocktail'
+}
+Starting dispensing recipe 'random cocktail'...
+Ingredients: [ 6.666666666666667, 0, 0, 0, 0, 0, 0, 3.3333333333333335, 0, 0, 0, 0 ]
+Drink size: 10
+Dispensing 6.666666666666667 ml of vodka over 3669.724770642202 ms...
+Dispensing 3.3333333333333335 ml of bitter lemon over 1834.862385321101 ms...
+Dispensing bitter lemon finished.
+Dispensing vodka finished.
+Recipe 'random cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot creating random cocktail...
+3 2
+Normalizing drink...
+Drink enlarged to 1.6666666666666667
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    0,
+    0,
+    0,
+    3.3333333333333335,
+    3.3333333333333335,
+    0,
+    0,
+    0,
+    0,
+    3.3333333333333335,
+    0,
+    0
+  ],
+  name: 'random cocktail'
+}
+Starting dispensing recipe 'random cocktail'...
+Ingredients: [
+  0,
+  0,
+  0,
+  3.3333333333333335,
+  3.3333333333333335,
+  0,
+  0,
+  0,
+  0,
+  3.3333333333333335,
+  0,
+  0
+]
+Drink size: 10
+Dispensing 3.3333333333333335 ml of blue curacao over 1834.862385321101 ms...
+Dispensing 3.3333333333333335 ml of ananas juice over 1834.862385321101 ms...
+Dispensing 3.3333333333333335 ml of herbal lemonade over 1834.862385321101 ms...
+Dispensing blue curacao finished.
+Dispensing ananas juice finished.
+Dispensing herbal lemonade finished.
+Recipe 'random cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot creating random cocktail...
+3 2
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    0, 0, 0, 2, 4,
+    2, 0, 2, 0, 4,
+    4, 0
+  ],
+  name: 'random cocktail'
+}
+Starting dispensing recipe 'random cocktail'...
+Ingredients: [
+  0, 0, 0, 2, 4,
+  2, 0, 2, 0, 4,
+  4, 0
+]
+Drink size: 18
+Dispensing 2 ml of blue curacao over 1100.9174311926606 ms...
+Dispensing 4 ml of ananas juice over 2201.8348623853212 ms...
+Dispensing 2 ml of cherry juice over 1100.9174311926606 ms...
+Dispensing 2 ml of bitter lemon over 1100.9174311926606 ms...
+Dispensing 4 ml of herbal lemonade over 2201.8348623853212 ms...
+Dispensing 4 ml of bitter orange sirup over 2201.8348623853212 ms...
+Dispensing blue curacao finished.
+Dispensing cherry juice finished.
+Dispensing bitter lemon finished.
+Dispensing ananas juice finished.
+Dispensing herbal lemonade finished.
+Dispensing bitter orange sirup finished.
+Recipe 'random cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot creating random cocktail...
+1 4
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+      0, 4, 0, 0, 0,
+      2, 4, 4, 0, 0,
+    0.5, 0
+  ],
+  name: 'random cocktail'
+}
+Starting dispensing recipe 'random cocktail'...
+Ingredients: [
+    0, 4, 0, 0, 0,
+    2, 4, 4, 0, 0,
+  0.5, 0
+]
+Drink size: 14.5
+Dispensing 4 ml of gin over 2201.8348623853212 ms...
+Dispensing 2 ml of cherry juice over 1100.9174311926606 ms...
+Dispensing 4 ml of orange juice over 2201.8348623853212 ms...
+Dispensing 4 ml of bitter lemon over 2201.8348623853212 ms...
+Dispensing 0.5 ml of bitter orange sirup over 275.22935779816515 ms...
+Dispensing bitter orange sirup finished.
+Dispensing cherry juice finished.
+Dispensing gin finished.
+Dispensing orange juice finished.
+Dispensing bitter lemon finished.
+Recipe 'random cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot creating random cocktail...
+1 4
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    0, 4, 0, 0, 2,
+    2, 0, 0, 0, 0,
+    0, 4
+  ],
+  name: 'random cocktail'
+}
+Starting dispensing recipe 'random cocktail'...
+Ingredients: [
+  0, 4, 0, 0, 2,
+  2, 0, 0, 0, 0,
+  0, 4
+]
+Drink size: 12
+Dispensing 4 ml of gin over 2201.8348623853212 ms...
+Dispensing 2 ml of ananas juice over 1100.9174311926606 ms...
+Dispensing 2 ml of cherry juice over 1100.9174311926606 ms...
+Dispensing 4 ml of soda over 2201.8348623853212 ms...
+Dispensing ananas juice finished.
+Dispensing cherry juice finished.
+Dispensing gin finished.
+Dispensing soda finished.
+Recipe 'random cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot creating random cocktail...
+3 2
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+      0, 0, 0, 2, 0,
+      4, 0, 4, 0, 0,
+    0.5, 0
+  ],
+  name: 'random cocktail'
+}
+Starting dispensing recipe 'random cocktail'...
+Ingredients: [
+    0, 0, 0, 2, 0,
+    4, 0, 4, 0, 0,
+  0.5, 0
+]
+Drink size: 10.5
+Dispensing 2 ml of blue curacao over 1100.9174311926606 ms...
+Dispensing 4 ml of cherry juice over 2201.8348623853212 ms...
+Dispensing 4 ml of bitter lemon over 2201.8348623853212 ms...
+Dispensing 0.5 ml of bitter orange sirup over 275.22935779816515 ms...
+Dispensing bitter orange sirup finished.
+Dispensing blue curacao finished.
+Dispensing cherry juice finished.
+Dispensing bitter lemon finished.
+Recipe 'random cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot creating random cocktail...
+2 2
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    0, 0, 2, 0, 4,
+    0, 0, 2, 0, 2,
+    0, 4
+  ],
+  name: 'random cocktail'
+}
+Starting dispensing recipe 'random cocktail'...
+Ingredients: [
+  0, 0, 2, 0, 4,
+  0, 0, 2, 0, 2,
+  0, 4
+]
+Drink size: 14
+Dispensing 2 ml of rum over 1100.9174311926606 ms...
+Dispensing 4 ml of ananas juice over 2201.8348623853212 ms...
+Dispensing 2 ml of bitter lemon over 1100.9174311926606 ms...
+Dispensing 2 ml of herbal lemonade over 1100.9174311926606 ms...
+Dispensing 4 ml of soda over 2201.8348623853212 ms...
+Dispensing rum finished.
+Dispensing bitter lemon finished.
+Dispensing herbal lemonade finished.
+Dispensing ananas juice finished.
+Dispensing soda finished.
+Recipe 'random cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot creating random cocktail...
+2 4
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    0, 0, 4, 0, 4,
+    0, 0, 0, 2, 4,
+    0, 0
+  ],
+  name: 'random cocktail'
+}
+Starting dispensing recipe 'random cocktail'...
+Ingredients: [
+  0, 0, 4, 0, 4,
+  0, 0, 0, 2, 4,
+  0, 0
+]
+Drink size: 14
+Dispensing 4 ml of rum over 2201.8348623853212 ms...
+Dispensing 4 ml of ananas juice over 2201.8348623853212 ms...
+Dispensing 2 ml of tonic water over 1100.9174311926606 ms...
+Dispensing 4 ml of herbal lemonade over 2201.8348623853212 ms...
+Dispensing tonic water finished.
+Dispensing rum finished.
+Dispensing ananas juice finished.
+Dispensing herbal lemonade finished.
+Recipe 'random cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot creating random cocktail...
+3 3
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    0, 0, 0, 3, 4,
+    4, 2, 0, 0, 4,
+    0, 0
+  ],
+  name: 'random cocktail'
+}
+Starting dispensing recipe 'random cocktail'...
+Ingredients: [
+  0, 0, 0, 3, 4,
+  4, 2, 0, 0, 4,
+  0, 0
+]
+Drink size: 17
+Dispensing 3 ml of blue curacao over 1651.3761467889908 ms...
+Dispensing 4 ml of ananas juice over 2201.8348623853212 ms...
+Dispensing 4 ml of cherry juice over 2201.8348623853212 ms...
+Dispensing 2 ml of orange juice over 1100.9174311926606 ms...
+Dispensing 4 ml of herbal lemonade over 2201.8348623853212 ms...
+Dispensing orange juice finished.
+Dispensing blue curacao finished.
+Dispensing ananas juice finished.
+Dispensing cherry juice finished.
+Dispensing herbal lemonade finished.
+Recipe 'random cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot creating random cocktail...
+2 2
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+      0, 0, 2, 0, 0,
+      4, 2, 0, 0, 4,
+    0.5, 0
+  ],
+  name: 'random cocktail'
+}
+Starting dispensing recipe 'random cocktail'...
+Ingredients: [
+    0, 0, 2, 0, 0,
+    4, 2, 0, 0, 4,
+  0.5, 0
+]
+Drink size: 12.5
+Dispensing 2 ml of rum over 1100.9174311926606 ms...
+Dispensing 4 ml of cherry juice over 2201.8348623853212 ms...
+Dispensing 2 ml of orange juice over 1100.9174311926606 ms...
+Dispensing 4 ml of herbal lemonade over 2201.8348623853212 ms...
+Dispensing 0.5 ml of bitter orange sirup over 275.22935779816515 ms...
+Dispensing bitter orange sirup finished.
+Dispensing rum finished.
+Dispensing orange juice finished.
+Dispensing cherry juice finished.
+Dispensing herbal lemonade finished.
+Recipe 'random cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' request: [
+  {
+    role: 'system',
+    content: '\n' +
+      'You are a cocktail mixing robot, you are able to pour cocktails with up to 12 different ingredients.\n' +
+      'You can use the following list of alcoholic ingredients: vodka, gin, rum, blue curacao.\n' +
+      'You can use the following list of non-alcoholic ingredients: ananas juice, cherry juice, orange juice, bitter lemon, tonic water, herbal lemonade, bitter orange sirup, soda.\n' +
+      'What I ask you to "pour me a cocktail", you create a random cocktail recipe with your available ingredients and you create a cocktail name.\n' +
+      'The following rules apply to cocktail recipes:\n' +
+      '- consist of a list of amounts of ingredients measured in cl\n' +
+      '- select only one alcoholic ingredient from your given list of alcoholic ingredients\n' +
+      '- the list must contain only one alcoholic ingredient\n' +
+      '- select between one and five non-alcoholic ingredients from your given list of non-alcoholic ingredients\n' +
+      'The overall sum of all cocktail ingredient amounts for a single recipe must be at least 10 cl and is not allowed to exceed 20 cl.\n' +
+      'Do not repeat cocktail recipes. Be creative.\n' +
+      'Use ingredients such that after pouring 60 cocktails roughly 1 liter of every ingredient has been used.\n' +
+      'Format your response as a list of whole numbers separated by a single space character.\n' +
+      'Append to your response a comma and a creative name.\n' +
+      'Each number should represent the amount of the ingredient in cl.\n' +
+      'Include unused ingrediets as 0 in the list.\n' +
+      'The order of the resulting numbers must be the same order as the given list of ingredients.\n' +
+      'Return a single recipe.\n'
+  },
+  { role: 'user', content: 'pour me a drink' }
+]
+OpenAI:DEBUG:request https://api.openai.com/v1/chat/completions {
+  method: 'post',
+  path: '/chat/completions',
+  body: { model: 'gpt-3.5-turbo-1106', messages: [ [Object], [Object] ] },
+  stream: false
+} {
+  'Content-Length': '1704',
+  Accept: 'application/json',
+  'Content-Type': 'application/json',
+  'User-Agent': 'OpenAI/JS 4.19.0',
+  'X-Stainless-Lang': 'js',
+  'X-Stainless-Package-Version': '4.19.0',
+  'X-Stainless-OS': 'Linux',
+  'X-Stainless-Arch': 'arm64',
+  'X-Stainless-Runtime': 'node',
+  'X-Stainless-Runtime-Version': 'v18.17.1',
+  Authorization: 'Bearer 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',
+  'OpenAI-Organization': 'org-XWXjDVcYbBQFaLvR7JTi3pyl'
+}
+OpenAI:DEBUG:response 200 https://api.openai.com/v1/chat/completions Headers {
+  [Symbol(map)]: [Object: null prototype] {
+    date: [ 'Sat, 25 Nov 2023 16:23:55 GMT' ],
+    'content-type': [ 'application/json' ],
+    'transfer-encoding': [ 'chunked' ],
+    connection: [ 'keep-alive' ],
+    'access-control-allow-origin': [ '*' ],
+    'cache-control': [ 'no-cache, must-revalidate' ],
+    'openai-model': [ 'gpt-3.5-turbo-1106' ],
+    'openai-organization': [ 'user-qg6kgf2isdibwhqnphcq5qtm' ],
+    'openai-processing-ms': [ '572' ],
+    'openai-version': [ '2020-10-01' ],
+    'strict-transport-security': [ 'max-age=15724800; includeSubDomains' ],
+    'x-ratelimit-limit-requests': [ '3500' ],
+    'x-ratelimit-limit-tokens': [ '90000' ],
+    'x-ratelimit-limit-tokens_usage_based': [ '90000' ],
+    'x-ratelimit-remaining-requests': [ '3499' ],
+    'x-ratelimit-remaining-tokens': [ '89603' ],
+    'x-ratelimit-remaining-tokens_usage_based': [ '89603' ],
+    'x-ratelimit-reset-requests': [ '17ms' ],
+    'x-ratelimit-reset-tokens': [ '264ms' ],
+    'x-ratelimit-reset-tokens_usage_based': [ '264ms' ],
+    'x-request-id': [ 'ca117b4771199c8b563408ecbfb659aa' ],
+    'cf-cache-status': [ 'DYNAMIC' ],
+    'set-cookie': [
+      '__cf_bm=Eb9MFxEJw_3ZeOSwXC7i0.vLJkjL0nV42CM5IPmxwJQ-1700929435-0-AfPNTh7HD7IPAceuMRMXp9zCjm+H+BSt3HE2HGVabqoPtgjzOkiAkcanXqa9fgcza5r3iuEi5Z7mHUOTkS5wDDc=; path=/; expires=Sat, 25-Nov-23 16:53:55 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None',
+      '_cfuvid=oscbHsyE_5Z3D3L21oQNsHI.NopE9hO74pXWTDh96uA-1700929435744-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'
+    ],
+    server: [ 'cloudflare' ],
+    'cf-ray': [ '82bb3d288f58c25b-VIE' ],
+    'content-encoding': [ 'gzip' ],
+    'alt-svc': [ 'h3=":443"; ma=86400' ]
+  }
+} {
+  id: 'chatcmpl-8OpjfNHVwCmfcpWHzLWfSh2Tap7qH',
+  object: 'chat.completion',
+  created: 1700929435,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 321, completion_tokens: 28, total_tokens: 349 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+OpenAICocktailBot 'alcohol' completion returned successfully.
+{
+  id: 'chatcmpl-8OpjfNHVwCmfcpWHzLWfSh2Tap7qH',
+  object: 'chat.completion',
+  created: 1700929435,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 321, completion_tokens: 28, total_tokens: 349 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+result: {
+  role: 'assistant',
+  content: '10 0 0 0 10 0 0 0 0 0 0 0, Citrus Sunshine Cocktail'
+}
+tokens: 349
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    10, 0, 0, 0, 10,
+     0, 0, 0, 0,  0,
+     0, 0
+  ],
+  name: ' Citrus Sunshine Cocktail'
+}
+Starting dispensing recipe ' Citrus Sunshine Cocktail'...
+Ingredients: [
+  10, 0, 0, 0, 10,
+   0, 0, 0, 0,  0,
+   0, 0
+]
+Drink size: 20
+Dispensing 10 ml of vodka over 5504.587155963302 ms...
+Dispensing 10 ml of ananas juice over 5504.587155963302 ms...
+Dispensing vodka finished.
+Dispensing ananas juice finished.
+Recipe ' Citrus Sunshine Cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' request: [
+  {
+    role: 'system',
+    content: '\n' +
+      'You are a cocktail mixing robot, you are able to pour cocktails with up to 12 different ingredients.\n' +
+      'You can use the following list of alcoholic ingredients: vodka, gin, rum, blue curacao.\n' +
+      'You can use the following list of non-alcoholic ingredients: ananas juice, cherry juice, orange juice, bitter lemon, tonic water, herbal lemonade, bitter orange sirup, soda.\n' +
+      'What I ask you to "pour me a cocktail", you create a random cocktail recipe with your available ingredients and you create a cocktail name.\n' +
+      'The following rules apply to cocktail recipes:\n' +
+      '- consist of a list of amounts of ingredients measured in cl\n' +
+      '- select only one alcoholic ingredient from your given list of alcoholic ingredients\n' +
+      '- the list must contain only one alcoholic ingredient\n' +
+      '- select between one and five non-alcoholic ingredients from your given list of non-alcoholic ingredients\n' +
+      'The overall sum of all cocktail ingredient amounts for a single recipe must be at least 10 cl and is not allowed to exceed 20 cl.\n' +
+      'Do not repeat cocktail recipes. Be creative.\n' +
+      'Use ingredients such that after pouring 60 cocktails roughly 1 liter of every ingredient has been used.\n' +
+      'Format your response as a list of whole numbers separated by a single space character.\n' +
+      'Append to your response a comma and a creative name.\n' +
+      'Each number should represent the amount of the ingredient in cl.\n' +
+      'Include unused ingrediets as 0 in the list.\n' +
+      'The order of the resulting numbers must be the same order as the given list of ingredients.\n' +
+      'Return a single recipe.\n'
+  },
+  { role: 'user', content: 'pour me a drink' }
+]
+OpenAI:DEBUG:request https://api.openai.com/v1/chat/completions {
+  method: 'post',
+  path: '/chat/completions',
+  body: { model: 'gpt-3.5-turbo-1106', messages: [ [Object], [Object] ] },
+  stream: false
+} {
+  'Content-Length': '1704',
+  Accept: 'application/json',
+  'Content-Type': 'application/json',
+  'User-Agent': 'OpenAI/JS 4.19.0',
+  'X-Stainless-Lang': 'js',
+  'X-Stainless-Package-Version': '4.19.0',
+  'X-Stainless-OS': 'Linux',
+  'X-Stainless-Arch': 'arm64',
+  'X-Stainless-Runtime': 'node',
+  'X-Stainless-Runtime-Version': 'v18.17.1',
+  Authorization: 'Bearer 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',
+  'OpenAI-Organization': 'org-XWXjDVcYbBQFaLvR7JTi3pyl'
+}
+OpenAI:DEBUG:response 200 https://api.openai.com/v1/chat/completions Headers {
+  [Symbol(map)]: [Object: null prototype] {
+    date: [ 'Sat, 25 Nov 2023 16:49:12 GMT' ],
+    'content-type': [ 'application/json' ],
+    'transfer-encoding': [ 'chunked' ],
+    connection: [ 'keep-alive' ],
+    'access-control-allow-origin': [ '*' ],
+    'cache-control': [ 'no-cache, must-revalidate' ],
+    'openai-model': [ 'gpt-3.5-turbo-1106' ],
+    'openai-organization': [ 'user-qg6kgf2isdibwhqnphcq5qtm' ],
+    'openai-processing-ms': [ '621' ],
+    'openai-version': [ '2020-10-01' ],
+    'strict-transport-security': [ 'max-age=15724800; includeSubDomains' ],
+    'x-ratelimit-limit-requests': [ '3500' ],
+    'x-ratelimit-limit-tokens': [ '90000' ],
+    'x-ratelimit-limit-tokens_usage_based': [ '90000' ],
+    'x-ratelimit-remaining-requests': [ '3499' ],
+    'x-ratelimit-remaining-tokens': [ '89602' ],
+    'x-ratelimit-remaining-tokens_usage_based': [ '89602' ],
+    'x-ratelimit-reset-requests': [ '17ms' ],
+    'x-ratelimit-reset-tokens': [ '264ms' ],
+    'x-ratelimit-reset-tokens_usage_based': [ '264ms' ],
+    'x-request-id': [ 'cbfc9885c6406f7f81655e0a0c329c09' ],
+    'cf-cache-status': [ 'DYNAMIC' ],
+    'set-cookie': [
+      '__cf_bm=Wuz8OV8.USB.B.kXf1kz0uBOw9bAxZIgFM_aOtPQ9ZM-1700930952-0-AYewwY4Ztb0MYGwbYhlWeWLvGDTjHBl63KTvkzB8yHF/szniY8dakx/Esh6d3+GzYANw3agi0N63mTcBkKZWX+g=; path=/; expires=Sat, 25-Nov-23 17:19:12 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None',
+      '_cfuvid=IO_Yt8YPqp2V2rp6Kz6y_IHN.roYraNDZzdYY9s057I-1700930952631-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'
+    ],
+    server: [ 'cloudflare' ],
+    'cf-ray': [ '82bb6230eab0c2d2-VIE' ],
+    'content-encoding': [ 'gzip' ],
+    'alt-svc': [ 'h3=":443"; ma=86400' ]
+  }
+} {
+  id: 'chatcmpl-8Oq87fF1Jw3gYm4HOvN8ilFre3mma',
+  object: 'chat.completion',
+  created: 1700930951,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 321, completion_tokens: 31, total_tokens: 352 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+OpenAICocktailBot 'alcohol' completion returned successfully.
+{
+  id: 'chatcmpl-8Oq87fF1Jw3gYm4HOvN8ilFre3mma',
+  object: 'chat.completion',
+  created: 1700930951,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 321, completion_tokens: 31, total_tokens: 352 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+result: {
+  role: 'assistant',
+  content: '10 0 5 0 0 0 0 0 0 0 0 0, \nName: Blue Ocean Breeze'
+}
+tokens: 352
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    10, 0, 5, 0, 0,
+     0, 0, 0, 0, 0,
+     0, 0
+  ],
+  name: ' \nName: Blue Ocean Breeze'
+}
+Starting dispensing recipe ' 
+Name: Blue Ocean Breeze'...
+Ingredients: [
+  10, 0, 5, 0, 0,
+   0, 0, 0, 0, 0,
+   0, 0
+]
+Drink size: 15
+Dispensing 10 ml of vodka over 5504.587155963302 ms...
+Dispensing 5 ml of rum over 2752.293577981651 ms...
+Dispensing rum finished.
+Dispensing vodka finished.
+Recipe ' 
+Name: Blue Ocean Breeze' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot creating random cocktail...
+Normalizing drink...
+Drink enlarged to 1.0526315789473684
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    0,
+    0,
+    0,
+    3.1578947368421053,
+    0,
+    4.2105263157894735,
+    0,
+    0,
+    0,
+    2.1052631578947367,
+    0.5263157894736842,
+    0
+  ],
+  name: 'random cocktail'
+}
+Starting dispensing recipe 'random cocktail'...
+Ingredients: [
+  0,
+  0,
+  0,
+  3.1578947368421053,
+  0,
+  4.2105263157894735,
+  0,
+  0,
+  0,
+  2.1052631578947367,
+  0.5263157894736842,
+  0
+]
+Drink size: 10
+Dispensing 3.1578947368421053 ml of blue curacao over 1738.2906808305167 ms...
+Dispensing 4.2105263157894735 ml of cherry juice over 2317.720907774022 ms...
+Dispensing 2.1052631578947367 ml of herbal lemonade over 1158.860453887011 ms...
+Dispensing 0.5263157894736842 ml of bitter orange sirup over 289.7151134717528 ms...
+Dispensing bitter orange sirup finished.
+Dispensing herbal lemonade finished.
+Dispensing blue curacao finished.
+Dispensing cherry juice finished.
+Recipe 'random cocktail' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+18:08:45 GMT+0100 (Central European Standard Time) - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+18:08:45 GMT+0100 (Central European Standard Time) - Ingredient: vodka, alcohol, GPIO ID: 2
+18:08:45 GMT+0100 (Central European Standard Time) - Ingredient: gin, alcohol, GPIO ID: 3
+18:08:45 GMT+0100 (Central European Standard Time) - Ingredient: rum, alcohol, GPIO ID: 4
+18:08:46 GMT+0100 (Central European Standard Time) - Ingredient: blue curacao, alcohol, GPIO ID: 17
+18:08:46 GMT+0100 (Central European Standard Time) - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+18:08:46 GMT+0100 (Central European Standard Time) - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+18:08:46 GMT+0100 (Central European Standard Time) - Ingredient: orange juice, no alcohol, GPIO ID: 21
+18:08:46 GMT+0100 (Central European Standard Time) - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+18:08:46 GMT+0100 (Central European Standard Time) - Ingredient: tonic water, no alcohol, GPIO ID: 16
+18:08:46 GMT+0100 (Central European Standard Time) - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+18:08:46 GMT+0100 (Central European Standard Time) - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+18:08:46 GMT+0100 (Central European Standard Time) - Ingredient: soda, no alcohol, GPIO ID: 0
+18:08:46 GMT+0100 (Central European Standard Time) - OpenAICocktailBot 'alcohol' constructing...
+18:08:46 GMT+0100 (Central European Standard Time) - OpenAICocktailBot 'alcohol' resetting.
+18:08:46 GMT+0100 (Central European Standard Time) - OpenAICocktailBot 'alcohol' constructed.
+18:08:46 GMT+0100 (Central European Standard Time) - OpenAICocktailBot creating random cocktail...
+18:08:46 GMT+0100 (Central European Standard Time) - Normalizing drink...
+18:08:46 GMT+0100 (Central European Standard Time) - Drink enlarged to 1.25
+18:08:46 GMT+0100 (Central European Standard Time) - Drink normalized
+18:08:46 GMT+0100 (Central European Standard Time) - CocktailRecipe {
+  ingredients: [
+    5, 0, 0, 0, 0,
+    0, 0, 0, 0, 0,
+    0, 5
+  ],
+  name: 'random cocktail'
+}
+18:08:46 GMT+0100 (Central European Standard Time) - Starting dispensing recipe 'random cocktail'...
+18:08:46 GMT+0100 (Central European Standard Time) - Ingredients: [
+  5, 0, 0, 0, 0,
+  0, 0, 0, 0, 0,
+  0, 5
+]
+18:08:46 GMT+0100 (Central European Standard Time) - Drink size: 10
+18:08:46 GMT+0100 (Central European Standard Time) - Dispensing 5 ml of vodka over 2752.293577981651 ms...
+18:08:46 GMT+0100 (Central European Standard Time) - Dispensing 5 ml of soda over 2752.293577981651 ms...
+18:08:48 GMT+0100 (Central European Standard Time) - Dispensing vodka finished.
+18:08:48 GMT+0100 (Central European Standard Time) - Dispensing soda finished.
+18:08:48 GMT+0100 (Central European Standard Time) - Recipe 'random cocktail' dispensed.
+18:08:48 GMT+0100 (Central European Standard Time) - Dispensing finished.
+18:08:48 GMT+0100 (Central European Standard Time) - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+19-10-25 -  - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+19-10-25 -  - Ingredient: vodka, alcohol, GPIO ID: 2
+19-10-25 -  - Ingredient: gin, alcohol, GPIO ID: 3
+19-10-25 -  - Ingredient: rum, alcohol, GPIO ID: 4
+19-10-25 -  - Ingredient: blue curacao, alcohol, GPIO ID: 17
+19-10-25 -  - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+19-10-25 -  - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+19-10-25 -  - Ingredient: orange juice, no alcohol, GPIO ID: 21
+19-10-25 -  - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+19-10-25 -  - Ingredient: tonic water, no alcohol, GPIO ID: 16
+19-10-25 -  - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+19-10-25 -  - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+19-10-25 -  - Ingredient: soda, no alcohol, GPIO ID: 0
+19-10-25 -  - OpenAICocktailBot 'alcohol' constructing...
+19-10-25 -  - OpenAICocktailBot 'alcohol' resetting.
+19-10-25 -  - OpenAICocktailBot 'alcohol' constructed.
+19-10-25 -  - OpenAICocktailBot creating random cocktail...
+19-10-25 -  - Normalizing drink...
+19-10-25 -  - Drink normalized
+19-10-25 -  - CocktailRecipe {
+  ingredients: [
+    0, 0, 0, 2, 0,
+    0, 4, 4, 0, 4,
+    0, 0
+  ],
+  name: 'random cocktail'
+}
+19-10-25 -  - Starting dispensing recipe 'random cocktail'...
+19-10-25 -  - Ingredients: [
+  0, 0, 0, 2, 0,
+  0, 4, 4, 0, 4,
+  0, 0
+]
+19-10-25 -  - Drink size: 14
+19-10-25 -  - Dispensing 2 ml of blue curacao over 1100.9174311926606 ms...
+19-10-25 -  - Dispensing 4 ml of orange juice over 2201.8348623853212 ms...
+19-10-25 -  - Dispensing 4 ml of bitter lemon over 2201.8348623853212 ms...
+19-10-25 -  - Dispensing 4 ml of herbal lemonade over 2201.8348623853212 ms...
+19-10-26 -  - Dispensing blue curacao finished.
+19-10-27 -  - Dispensing orange juice finished.
+19-10-27 -  - Dispensing bitter lemon finished.
+19-10-27 -  - Dispensing herbal lemonade finished.
+19-10-27 -  - Recipe 'random cocktail' dispensed.
+19-10-27 -  - Dispensing finished.
+19-10-27 -  - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+19-10-38 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+19-10-38 - Ingredient: vodka, alcohol, GPIO ID: 2
+19-10-38 - Ingredient: gin, alcohol, GPIO ID: 3
+19-10-38 - Ingredient: rum, alcohol, GPIO ID: 4
+19-10-38 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+19-10-38 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+19-10-38 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+19-10-38 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+19-10-38 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+19-10-38 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+19-10-38 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+19-10-38 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+19-10-38 - Ingredient: soda, no alcohol, GPIO ID: 0
+19-10-38 - OpenAICocktailBot 'alcohol' constructing...
+19-10-38 - OpenAICocktailBot 'alcohol' resetting.
+19-10-38 - OpenAICocktailBot 'alcohol' constructed.
+19-10-38 - OpenAICocktailBot creating random cocktail...
+19-10-38 - Normalizing drink...
+19-10-38 - Drink normalized
+19-10-38 - CocktailRecipe {
+  ingredients: [
+      0, 3, 0, 0, 4,
+      2, 0, 0, 0, 4,
+    0.5, 0
+  ],
+  name: 'random cocktail'
+}
+19-10-38 - Starting dispensing recipe 'random cocktail'...
+19-10-38 - Ingredients: [
+    0, 3, 0, 0, 4,
+    2, 0, 0, 0, 4,
+  0.5, 0
+]
+19-10-38 - Drink size: 13.5
+19-10-38 - Dispensing 3 ml of gin over 1651.3761467889908 ms...
+19-10-38 - Dispensing 4 ml of ananas juice over 2201.8348623853212 ms...
+19-10-38 - Dispensing 2 ml of cherry juice over 1100.9174311926606 ms...
+19-10-38 - Dispensing 4 ml of herbal lemonade over 2201.8348623853212 ms...
+19-10-38 - Dispensing 0.5 ml of bitter orange sirup over 275.22935779816515 ms...
+19-10-38 - Dispensing bitter orange sirup finished.
+19-10-39 - Dispensing cherry juice finished.
+19-10-39 - Dispensing gin finished.
+19-10-40 - Dispensing ananas juice finished.
+19-10-40 - Dispensing herbal lemonade finished.
+19-10-40 - Recipe 'random cocktail' dispensed.
+19-10-40 - Dispensing finished.
+19-10-40 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+19:11:27.940 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+19:11:27.965 - Ingredient: vodka, alcohol, GPIO ID: 2
+19:11:27.972 - Ingredient: gin, alcohol, GPIO ID: 3
+19:11:27.976 - Ingredient: rum, alcohol, GPIO ID: 4
+19:11:27.977 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+19:11:27.980 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+19:11:27.983 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+19:11:27.985 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+19:11:27.987 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+19:11:27.989 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+19:11:27.992 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+19:11:27.994 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+19:11:27.996 - Ingredient: soda, no alcohol, GPIO ID: 0
+19:11:27.999 - OpenAICocktailBot 'alcohol' constructing...
+19:11:28.001 - OpenAICocktailBot 'alcohol' resetting.
+19:11:28.012 - OpenAICocktailBot 'alcohol' constructed.
+19:11:28.014 - OpenAICocktailBot creating random cocktail...
+19:11:28.016 - Normalizing drink...
+19:11:28.017 - Drink normalized
+19:11:28.018 - CocktailRecipe {
+  ingredients: [
+      0, 0, 0, 3, 0,
+      2, 0, 2, 0, 2,
+    0.5, 2
+  ],
+  name: 'random cocktail'
+}
+19:11:28.035 - Starting dispensing recipe 'random cocktail'...
+19:11:28.036 - Ingredients: [
+    0, 0, 0, 3, 0,
+    2, 0, 2, 0, 2,
+  0.5, 2
+]
+19:11:28.040 - Drink size: 11.5
+19:11:28.043 - Dispensing 3 ml of blue curacao over 1651.3761467889908 ms...
+19:11:28.047 - Dispensing 2 ml of cherry juice over 1100.9174311926606 ms...
+19:11:28.049 - Dispensing 2 ml of bitter lemon over 1100.9174311926606 ms...
+19:11:28.050 - Dispensing 2 ml of herbal lemonade over 1100.9174311926606 ms...
+19:11:28.051 - Dispensing 0.5 ml of bitter orange sirup over 275.22935779816515 ms...
+19:11:28.053 - Dispensing 2 ml of soda over 1100.9174311926606 ms...
+19:11:28.341 - Dispensing bitter orange sirup finished.
+19:11:29.168 - Dispensing cherry juice finished.
+19:11:29.169 - Dispensing bitter lemon finished.
+19:11:29.172 - Dispensing herbal lemonade finished.
+19:11:29.174 - Dispensing soda finished.
+19:11:29.713 - Dispensing blue curacao finished.
+19:11:29.714 - Recipe 'random cocktail' dispensed.
+19:11:29.714 - Dispensing finished.
+19:11:29.715 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+19:40:53.502 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+19:40:53.519 - Ingredient: vodka, alcohol, GPIO ID: 2
+19:40:53.525 - Ingredient: gin, alcohol, GPIO ID: 3
+19:40:53.529 - Ingredient: rum, alcohol, GPIO ID: 4
+19:40:53.531 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+19:40:53.533 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+19:40:53.536 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+19:40:53.538 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+19:40:53.540 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+19:40:53.544 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+19:40:53.547 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+19:40:53.550 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+19:40:53.552 - Ingredient: soda, no alcohol, GPIO ID: 0
+19:40:53.555 - OpenAICocktailBot 'alcohol' constructing...
+19:40:53.556 - OpenAICocktailBot 'alcohol' resetting.
+19:40:53.564 - OpenAICocktailBot 'alcohol' constructed.
+19:40:53.573 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+19:41:43.069 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+19:41:43.087 - Ingredient: vodka, alcohol, GPIO ID: 2
+19:41:43.092 - Ingredient: gin, alcohol, GPIO ID: 3
+19:41:43.095 - Ingredient: rum, alcohol, GPIO ID: 4
+19:41:43.098 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+19:41:43.100 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+19:41:43.103 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+19:41:43.106 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+19:41:43.107 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+19:41:43.110 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+19:41:43.114 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+19:41:43.116 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+19:41:43.118 - Ingredient: soda, no alcohol, GPIO ID: 0
+19:41:43.122 - OpenAICocktailBot 'alcohol' constructing...
+19:41:43.123 - OpenAICocktailBot 'alcohol' resetting.
+19:41:43.131 - OpenAICocktailBot 'alcohol' constructed.
+19:41:43.141 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+19:44:15.361 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+19:44:15.377 - Ingredient: vodka, alcohol, GPIO ID: 2
+19:44:15.383 - Ingredient: gin, alcohol, GPIO ID: 3
+19:44:15.386 - Ingredient: rum, alcohol, GPIO ID: 4
+19:44:15.388 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+19:44:15.391 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+19:44:15.395 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+19:44:15.397 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+19:44:15.399 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+19:44:15.402 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+19:44:15.408 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+19:44:15.410 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+19:44:15.412 - Ingredient: soda, no alcohol, GPIO ID: 0
+19:44:15.415 - OpenAICocktailBot 'alcohol' constructing...
+19:44:15.417 - OpenAICocktailBot 'alcohol' resetting.
+19:44:15.424 - OpenAICocktailBot 'alcohol' constructed.
+19:44:15.435 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+19:44:16.351 - OpenAICocktailBot 'alcohol' pour me a drink...
+19:44:16.367 - OpenAICocktailBot 'alcohol' request: [
+  {
+    role: 'system',
+    content: '\n' +
+      'You are a cocktail mixing robot, you are able to pour cocktails with up to 12 different ingredients.\n' +
+      'You can use the following list of alcoholic ingredients: vodka, gin, rum, blue curacao.\n' +
+      'You can use the following list of non-alcoholic ingredients: ananas juice, cherry juice, orange juice, bitter lemon, tonic water, herbal lemonade, bitter orange sirup, soda.\n' +
+      'What I ask you to "pour me a cocktail", you create a random cocktail recipe with your available ingredients and you create a cocktail name.\n' +
+      'The following rules apply to cocktail recipes:\n' +
+      '- consist of a list of amounts of ingredients measured in cl\n' +
+      '- select only one alcoholic ingredient from your given list of alcoholic ingredients\n' +
+      '- the list must contain only one alcoholic ingredient\n' +
+      '- select between one and five non-alcoholic ingredients from your given list of non-alcoholic ingredients\n' +
+      'The overall sum of all cocktail ingredient amounts for a single recipe must be at least 10 cl and is not allowed to exceed 20 cl.\n' +
+      'Do not repeat cocktail recipes. Be creative.\n' +
+      'Use ingredients such that after pouring 60 cocktails roughly 1 liter of every ingredient has been used.\n' +
+      'Format your response as a list of whole numbers separated by a single space character.\n' +
+      'Append to your response a comma and a creative name.\n' +
+      'Each number should represent the amount of the ingredient in cl.\n' +
+      'Include unused ingrediets as 0 in the list.\n' +
+      'The order of the resulting numbers must be the same order as the given list of ingredients.\n' +
+      'Return a single recipe.\n'
+  },
+  { role: 'user', content: 'pour me a drink' }
+]
+19:44:16.378 - OpenAI:DEBUG:request https://api.openai.com/v1/chat/completions {
+  method: 'post',
+  path: '/chat/completions',
+  body: { model: 'gpt-3.5-turbo-1106', messages: [ [Object], [Object] ] },
+  stream: false
+} {
+  'Content-Length': '1704',
+  Accept: 'application/json',
+  'Content-Type': 'application/json',
+  'User-Agent': 'OpenAI/JS 4.19.0',
+  'X-Stainless-Lang': 'js',
+  'X-Stainless-Package-Version': '4.19.0',
+  'X-Stainless-OS': 'Linux',
+  'X-Stainless-Arch': 'arm64',
+  'X-Stainless-Runtime': 'node',
+  'X-Stainless-Runtime-Version': 'v18.17.1',
+  Authorization: 'Bearer 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',
+  'OpenAI-Organization': 'org-XWXjDVcYbBQFaLvR7JTi3pyl'
+}
+19:44:18.002 - OpenAI:DEBUG:response 200 https://api.openai.com/v1/chat/completions Headers {
+  [Symbol(map)]: [Object: null prototype] {
+    date: [ 'Sat, 25 Nov 2023 17:44:17 GMT' ],
+    'content-type': [ 'application/json' ],
+    'transfer-encoding': [ 'chunked' ],
+    connection: [ 'keep-alive' ],
+    'access-control-allow-origin': [ '*' ],
+    'cache-control': [ 'no-cache, must-revalidate' ],
+    'openai-model': [ 'gpt-3.5-turbo-1106' ],
+    'openai-organization': [ 'user-qg6kgf2isdibwhqnphcq5qtm' ],
+    'openai-processing-ms': [ '706' ],
+    'openai-version': [ '2020-10-01' ],
+    'strict-transport-security': [ 'max-age=15724800; includeSubDomains' ],
+    'x-ratelimit-limit-requests': [ '3500' ],
+    'x-ratelimit-limit-tokens': [ '90000' ],
+    'x-ratelimit-limit-tokens_usage_based': [ '90000' ],
+    'x-ratelimit-remaining-requests': [ '3499' ],
+    'x-ratelimit-remaining-tokens': [ '89602' ],
+    'x-ratelimit-remaining-tokens_usage_based': [ '89602' ],
+    'x-ratelimit-reset-requests': [ '17ms' ],
+    'x-ratelimit-reset-tokens': [ '264ms' ],
+    'x-ratelimit-reset-tokens_usage_based': [ '264ms' ],
+    'x-request-id': [ 'bdea70e0a6ff84d4a1d690f88ac05723' ],
+    'cf-cache-status': [ 'DYNAMIC' ],
+    'set-cookie': [
+      '__cf_bm=gRG.7WTnORTdc7XbEDHgdcIUWshU9ZxNPQlovfWNO_Y-1700934257-0-ASr901b0OnFhBKYSKR9f9rLGO3rblasVFh4kc4AkgR1JNXEgx3z2gEPdPf5ajwsXb7wOFxOyyxs4P4DHZH8uB2g=; path=/; expires=Sat, 25-Nov-23 18:14:17 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None',
+      '_cfuvid=esMjTsKO9rcJXx5OtS1gbW4SuoxBG.zxusBkPnCdBsI-1700934257822-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'
+    ],
+    server: [ 'cloudflare' ],
+    'cf-ray': [ '82bbb2e1cc7bc282-VIE' ],
+    'content-encoding': [ 'gzip' ],
+    'alt-svc': [ 'h3=":443"; ma=86400' ]
+  }
+} {
+  id: 'chatcmpl-8OqzRz0H2pUcHyOszi0JqVJt1P9r7',
+  object: 'chat.completion',
+  created: 1700934257,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 321, completion_tokens: 27, total_tokens: 348 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+19:44:18.014 - OpenAICocktailBot 'alcohol' completion returned successfully.
+19:44:18.021 - {
+  id: 'chatcmpl-8OqzRz0H2pUcHyOszi0JqVJt1P9r7',
+  object: 'chat.completion',
+  created: 1700934257,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 321, completion_tokens: 27, total_tokens: 348 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+19:44:18.022 - result: {
+  role: 'assistant',
+  content: '10 5 0 0 0 5 0 0 0 0 0 0, Tropical Sunset Glow'
+}
+19:44:18.023 - tokens: 348
+19:44:18.025 - Normalizing drink...
+19:44:18.027 - Drink normalized
+19:44:18.027 - CocktailRecipe {
+  ingredients: [
+    10, 5, 0, 0, 0,
+     5, 0, 0, 0, 0,
+     0, 0
+  ],
+  name: ' Tropical Sunset Glow'
+}
+19:44:18.032 - Starting dispensing recipe ' Tropical Sunset Glow'...
+19:44:18.033 - Ingredients: [
+  10, 5, 0, 0, 0,
+   5, 0, 0, 0, 0,
+   0, 0
+]
+19:44:18.035 - Drink size: 20
+19:44:18.039 - Dispensing 10 ml of vodka over 5504.587155963302 ms...
+19:44:18.043 - Dispensing 5 ml of gin over 2752.293577981651 ms...
+19:44:18.044 - Dispensing 5 ml of cherry juice over 2752.293577981651 ms...
+19:44:20.805 - Dispensing gin finished.
+19:44:20.806 - Dispensing cherry juice finished.
+19:44:23.558 - Dispensing vodka finished.
+19:44:23.560 - Recipe ' Tropical Sunset Glow' dispensed.
+19:44:23.562 - Dispensing finished.
+19:44:26.632 - OpenAICocktailBot creating random cocktail...
+19:44:26.635 - Normalizing drink...
+19:44:26.636 - Drink enlarged to 1.3333333333333333
+19:44:26.640 - Drink normalized
+19:44:26.642 - CocktailRecipe {
+  ingredients: [
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.6666666666666666,
+    5.333333333333333
+  ],
+  name: 'random cocktail'
+}
+19:44:26.645 - Starting dispensing recipe 'random cocktail'...
+19:44:26.646 - Ingredients: [ 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0.6666666666666666, 5.333333333333333 ]
+19:44:26.649 - Drink size: 10
+19:44:26.650 - Dispensing 4 ml of rum over 2201.8348623853212 ms...
+19:44:26.651 - Dispensing 0.6666666666666666 ml of bitter orange sirup over 366.97247706422013 ms...
+19:44:26.653 - Dispensing 5.333333333333333 ml of soda over 2935.779816513761 ms...
+19:44:27.023 - Dispensing bitter orange sirup finished.
+19:44:28.858 - Dispensing rum finished.
+19:44:29.591 - Dispensing soda finished.
+19:44:29.592 - Recipe 'random cocktail' dispensed.
+19:44:29.593 - Dispensing finished.
+19:46:43.009 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+19:46:43.025 - Ingredient: vodka, alcohol, GPIO ID: 2
+19:46:43.031 - Ingredient: gin, alcohol, GPIO ID: 3
+19:46:43.035 - Ingredient: rum, alcohol, GPIO ID: 4
+19:46:43.037 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+19:46:43.039 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+19:46:43.042 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+19:46:43.045 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+19:46:43.047 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+19:46:43.050 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+19:46:43.054 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+19:46:43.056 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+19:46:43.058 - Ingredient: soda, no alcohol, GPIO ID: 0
+19:46:43.062 - OpenAICocktailBot 'alcohol' constructing...
+19:46:43.063 - OpenAICocktailBot 'alcohol' resetting.
+19:46:43.071 - OpenAICocktailBot 'alcohol' constructed.
+19:46:43.083 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+19:46:44.637 - Cleaning...
+19:46:44.639 - Dispensing 100 ml of vodka over 55045.87155963303 ms...
+19:47:05.494 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+19:47:05.512 - Ingredient: vodka, alcohol, GPIO ID: 2
+19:47:05.518 - Ingredient: gin, alcohol, GPIO ID: 3
+19:47:05.522 - Ingredient: rum, alcohol, GPIO ID: 4
+19:47:05.525 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+19:47:05.527 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+19:47:05.532 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+19:47:05.534 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+19:47:05.537 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+19:47:05.544 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+19:47:05.548 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+19:47:05.551 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+19:47:05.552 - Ingredient: soda, no alcohol, GPIO ID: 0
+19:47:05.556 - OpenAICocktailBot 'alcohol' constructing...
+19:47:05.557 - OpenAICocktailBot 'alcohol' resetting.
+19:47:05.565 - OpenAICocktailBot 'alcohol' constructed.
+19:47:05.579 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+20:19:36.971 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+20:19:37.026 - Ingredient: vodka, alcohol, GPIO ID: 2
+20:19:37.054 - Ingredient: gin, alcohol, GPIO ID: 3
+20:19:37.074 - Ingredient: rum, alcohol, GPIO ID: 4
+20:19:37.091 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+20:19:37.115 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+20:19:37.133 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+20:19:37.152 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+20:19:37.171 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+20:19:37.191 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+20:19:37.210 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+20:19:37.228 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+20:19:37.246 - Ingredient: soda, no alcohol, GPIO ID: 0
+20:19:37.249 - OpenAICocktailBot 'alcohol' constructing...
+20:19:37.250 - OpenAICocktailBot 'alcohol' resetting.
+20:19:37.258 - OpenAICocktailBot 'alcohol' constructed.
+20:19:37.267 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+20:19:51.725 - OpenAICocktailBot creating random cocktail...
+20:19:51.729 - Normalizing drink...
+20:19:51.730 - Drink enlarged to 1.0526315789473684
+20:19:51.736 - Drink normalized
+20:19:51.737 - CocktailRecipe {
+  ingredients: [
+    0,
+    0,
+    3.1578947368421053,
+    0,
+    0,
+    2.1052631578947367,
+    0,
+    0,
+    0,
+    4.2105263157894735,
+    0.5263157894736842,
+    0
+  ],
+  name: 'random cocktail'
+}
+20:19:51.806 - Starting dispensing recipe 'random cocktail'...
+20:19:51.823 - Ingredients: [
+  0,
+  0,
+  3.1578947368421053,
+  0,
+  0,
+  2.1052631578947367,
+  0,
+  0,
+  0,
+  4.2105263157894735,
+  0.5263157894736842,
+  0
+]
+20:19:51.843 - Drink size: 10
+20:19:51.846 - Dispensing 3.1578947368421053 ml of rum over 1738.2906808305167 ms...
+20:19:51.855 - Dispensing 2.1052631578947367 ml of cherry juice over 1158.860453887011 ms...
+20:19:51.858 - Dispensing 4.2105263157894735 ml of herbal lemonade over 2317.720907774022 ms...
+20:19:51.860 - Dispensing 0.5263157894736842 ml of bitter orange sirup over 289.7151134717528 ms...
+20:19:52.157 - Dispensing bitter orange sirup finished.
+20:19:53.024 - Dispensing cherry juice finished.
+20:19:53.603 - Dispensing rum finished.
+20:19:54.184 - Dispensing herbal lemonade finished.
+20:19:54.186 - Recipe 'random cocktail' dispensed.
+20:19:54.187 - Dispensing finished.
+20:19:58.748 - OpenAICocktailBot creating random cocktail...
+20:19:58.751 - Normalizing drink...
+20:19:58.755 - Drink normalized
+20:19:58.758 - CocktailRecipe {
+  ingredients: [
+      0, 0, 4, 0, 0,
+      0, 0, 0, 0, 4,
+    0.5, 4
+  ],
+  name: 'random cocktail'
+}
+20:19:58.779 - Starting dispensing recipe 'random cocktail'...
+20:19:58.782 - Ingredients: [
+    0, 0, 4, 0, 0,
+    0, 0, 0, 0, 4,
+  0.5, 4
+]
+20:19:58.799 - Drink size: 12.5
+20:19:58.803 - Dispensing 4 ml of rum over 2201.8348623853212 ms...
+20:19:58.806 - Dispensing 4 ml of herbal lemonade over 2201.8348623853212 ms...
+20:19:58.810 - Dispensing 0.5 ml of bitter orange sirup over 275.22935779816515 ms...
+20:19:58.814 - Dispensing 4 ml of soda over 2201.8348623853212 ms...
+20:19:59.095 - Dispensing bitter orange sirup finished.
+20:20:01.022 - Dispensing rum finished.
+20:20:01.024 - Dispensing herbal lemonade finished.
+20:20:01.027 - Dispensing soda finished.
+20:20:01.028 - Recipe 'random cocktail' dispensed.
+20:20:01.030 - Dispensing finished.
+20:20:03.647 - OpenAICocktailBot 'alcohol' pour me a drink...
+20:20:03.652 - OpenAICocktailBot 'alcohol' request: [
+  {
+    role: 'system',
+    content: '\n' +
+      'You are a cocktail mixing robot, you are able to pour cocktails with up to 12 different ingredients.\n' +
+      'You can use the following list of alcoholic ingredients: vodka, gin, rum, blue curacao.\n' +
+      'You can use the following list of non-alcoholic ingredients: ananas juice, cherry juice, orange juice, bitter lemon, tonic water, herbal lemonade, bitter orange sirup, soda.\n' +
+      'What I ask you to "pour me a cocktail", you create a random cocktail recipe with your available ingredients and you create a cocktail name.\n' +
+      'The following rules apply to cocktail recipes:\n' +
+      '- consist of a list of amounts of ingredients measured in cl\n' +
+      '- select only one alcoholic ingredient from your given list of alcoholic ingredients\n' +
+      '- the list must contain only one alcoholic ingredient\n' +
+      '- select between one and five non-alcoholic ingredients from your given list of non-alcoholic ingredients\n' +
+      'The overall sum of all cocktail ingredient amounts for a single recipe must be at least 10 cl and is not allowed to exceed 20 cl.\n' +
+      'Do not repeat cocktail recipes. Be creative.\n' +
+      'Use ingredients such that after pouring 60 cocktails roughly 1 liter of every ingredient has been used.\n' +
+      'Format your response as a list of whole numbers separated by a single space character.\n' +
+      'Append to your response a comma and a creative name.\n' +
+      'Each number should represent the amount of the ingredient in cl.\n' +
+      'Include unused ingrediets as 0 in the list.\n' +
+      'The order of the resulting numbers must be the same order as the given list of ingredients.\n' +
+      'Return a single recipe.\n'
+  },
+  { role: 'user', content: 'pour me a drink' }
+]
+20:20:03.705 - OpenAI:DEBUG:request https://api.openai.com/v1/chat/completions {
+  method: 'post',
+  path: '/chat/completions',
+  body: { model: 'gpt-3.5-turbo-1106', messages: [ [Object], [Object] ] },
+  stream: false
+} {
+  'Content-Length': '1704',
+  Accept: 'application/json',
+  'Content-Type': 'application/json',
+  'User-Agent': 'OpenAI/JS 4.19.0',
+  'X-Stainless-Lang': 'js',
+  'X-Stainless-Package-Version': '4.19.0',
+  'X-Stainless-OS': 'Linux',
+  'X-Stainless-Arch': 'arm64',
+  'X-Stainless-Runtime': 'node',
+  'X-Stainless-Runtime-Version': 'v18.17.1',
+  Authorization: 'Bearer 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',
+  'OpenAI-Organization': 'org-XWXjDVcYbBQFaLvR7JTi3pyl'
+}
+20:20:05.223 - OpenAI:DEBUG:response 200 https://api.openai.com/v1/chat/completions Headers {
+  [Symbol(map)]: [Object: null prototype] {
+    date: [ 'Sat, 25 Nov 2023 18:20:05 GMT' ],
+    'content-type': [ 'application/json' ],
+    'transfer-encoding': [ 'chunked' ],
+    connection: [ 'keep-alive' ],
+    'access-control-allow-origin': [ '*' ],
+    'cache-control': [ 'no-cache, must-revalidate' ],
+    'openai-model': [ 'gpt-3.5-turbo-1106' ],
+    'openai-organization': [ 'user-qg6kgf2isdibwhqnphcq5qtm' ],
+    'openai-processing-ms': [ '804' ],
+    'openai-version': [ '2020-10-01' ],
+    'strict-transport-security': [ 'max-age=15724800; includeSubDomains' ],
+    'x-ratelimit-limit-requests': [ '3500' ],
+    'x-ratelimit-limit-tokens': [ '90000' ],
+    'x-ratelimit-limit-tokens_usage_based': [ '90000' ],
+    'x-ratelimit-remaining-requests': [ '3499' ],
+    'x-ratelimit-remaining-tokens': [ '89602' ],
+    'x-ratelimit-remaining-tokens_usage_based': [ '89602' ],
+    'x-ratelimit-reset-requests': [ '17ms' ],
+    'x-ratelimit-reset-tokens': [ '264ms' ],
+    'x-ratelimit-reset-tokens_usage_based': [ '264ms' ],
+    'x-request-id': [ 'a586f16e8a7ec63a84e8a94ca1a7ff87' ],
+    'cf-cache-status': [ 'DYNAMIC' ],
+    'set-cookie': [
+      '__cf_bm=Ii3T4rlBcm9m_YKtKXXXCVh3WTae2SKCdnR76xECgK4-1700936405-0-AafexmZSp5KyzhJY6Qni7iNKscVOiv6K2kx3L+61EEks6332o4CTFvSpkX+XqXapotExfZBTrKsARrKhHMbFIwY=; path=/; expires=Sat, 25-Nov-23 18:50:05 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None',
+      '_cfuvid=qqCukfObwMlvSjpDr8wpFbK5GkeISBudS2tSLIlT5zA-1700936405157-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'
+    ],
+    server: [ 'cloudflare' ],
+    'cf-ray': [ '82bbe74dce825a47-VIE' ],
+    'content-encoding': [ 'gzip' ],
+    'alt-svc': [ 'h3=":443"; ma=86400' ]
+  }
+} {
+  id: 'chatcmpl-8OrY4QPiZeI2K4qFQVZjvFOlJlDku',
+  object: 'chat.completion',
+  created: 1700936404,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 321, completion_tokens: 27, total_tokens: 348 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+20:20:05.314 - OpenAICocktailBot 'alcohol' completion returned successfully.
+20:20:05.318 - {
+  id: 'chatcmpl-8OrY4QPiZeI2K4qFQVZjvFOlJlDku',
+  object: 'chat.completion',
+  created: 1700936404,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 321, completion_tokens: 27, total_tokens: 348 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+20:20:05.335 - result: {
+  role: 'assistant',
+  content: '5 10 0 5 0 0 0 0 0 0 0 0, Cherry Paradise Cocktail'
+}
+20:20:05.343 - tokens: 348
+20:20:05.345 - Normalizing drink...
+20:20:05.347 - Drink normalized
+20:20:05.349 - CocktailRecipe {
+  ingredients: [
+    5, 10, 0, 5, 0,
+    0,  0, 0, 0, 0,
+    0,  0
+  ],
+  name: ' Cherry Paradise Cocktail'
+}
+20:20:05.364 - Starting dispensing recipe ' Cherry Paradise Cocktail'...
+20:20:05.366 - Ingredients: [
+  5, 10, 0, 5, 0,
+  0,  0, 0, 0, 0,
+  0,  0
+]
+20:20:05.375 - Drink size: 20
+20:20:05.377 - Dispensing 5 ml of vodka over 2752.293577981651 ms...
+20:20:05.379 - Dispensing 10 ml of gin over 5504.587155963302 ms...
+20:20:05.381 - Dispensing 5 ml of blue curacao over 2752.293577981651 ms...
+20:20:08.140 - Dispensing vodka finished.
+20:20:08.142 - Dispensing blue curacao finished.
+20:20:10.892 - Dispensing gin finished.
+20:20:10.896 - Recipe ' Cherry Paradise Cocktail' dispensed.
+20:20:10.900 - Dispensing finished.
+20:22:09.460 - OpenAICocktailBot creating random cocktail...
+20:22:09.464 - Normalizing drink...
+20:22:09.468 - Drink enlarged to 2.5
+20:22:09.472 - Drink normalized
+20:22:09.476 - CocktailRecipe {
+  ingredients: [
+    0, 5, 0, 0, 0,
+    0, 0, 0, 0, 0,
+    0, 5
+  ],
+  name: 'random cocktail'
+}
+20:22:09.500 - Starting dispensing recipe 'random cocktail'...
+20:22:09.503 - Ingredients: [
+  0, 5, 0, 0, 0,
+  0, 0, 0, 0, 0,
+  0, 5
+]
+20:22:09.517 - Drink size: 10
+20:22:09.523 - Dispensing 5 ml of gin over 2752.293577981651 ms...
+20:22:09.527 - Dispensing 5 ml of soda over 2752.293577981651 ms...
+20:22:12.286 - Dispensing gin finished.
+20:22:12.288 - Dispensing soda finished.
+20:22:12.290 - Recipe 'random cocktail' dispensed.
+20:22:12.291 - Dispensing finished.
+20:22:14.861 - Cleaning...
+20:22:14.867 - Dispensing 100 ml of vodka over 55045.87155963303 ms...
+20:23:09.961 - Dispensing vodka finished.
+20:23:09.965 - Dispensing 100 ml of gin over 55045.87155963303 ms...
+20:24:05.043 - Dispensing gin finished.
+20:24:05.047 - Dispensing 100 ml of rum over 55045.87155963303 ms...
+20:25:00.117 - Dispensing rum finished.
+20:25:00.121 - Dispensing 100 ml of blue curacao over 55045.87155963303 ms...
+20:25:55.173 - Dispensing blue curacao finished.
+20:25:55.177 - Dispensing 100 ml of ananas juice over 55045.87155963303 ms...
+20:26:50.229 - Dispensing ananas juice finished.
+20:26:50.233 - Dispensing 100 ml of cherry juice over 55045.87155963303 ms...
+20:27:45.285 - Dispensing cherry juice finished.
+20:27:45.289 - Dispensing 100 ml of orange juice over 55045.87155963303 ms...
+20:28:40.341 - Dispensing orange juice finished.
+20:28:40.346 - Dispensing 100 ml of bitter lemon over 55045.87155963303 ms...
+20:29:35.397 - Dispensing bitter lemon finished.
+20:29:35.402 - Dispensing 100 ml of tonic water over 55045.87155963303 ms...
+20:30:30.453 - Dispensing tonic water finished.
+20:30:30.458 - Dispensing 100 ml of herbal lemonade over 55045.87155963303 ms...
+20:31:25.509 - Dispensing herbal lemonade finished.
+20:31:25.514 - Dispensing 100 ml of bitter orange sirup over 55045.87155963303 ms...
+20:32:20.565 - Dispensing bitter orange sirup finished.
+20:32:20.570 - Dispensing 100 ml of soda over 55045.87155963303 ms...
+20:33:15.621 - Dispensing soda finished.
+20:33:15.626 - Cleaned.
+20:34:13.049 - Cleaning...
+20:34:13.053 - Dispensing 100 ml of vodka over 55045.87155963303 ms...
+20:35:08.161 - Dispensing vodka finished.
+20:35:08.165 - Dispensing 100 ml of gin over 55045.87155963303 ms...
+20:36:03.249 - Dispensing gin finished.
+20:36:03.254 - Dispensing 100 ml of rum over 55045.87155963303 ms...
+20:36:58.360 - Dispensing rum finished.
+20:36:58.364 - Dispensing 100 ml of blue curacao over 55045.87155963303 ms...
+20:37:53.470 - Dispensing blue curacao finished.
+20:37:53.475 - Dispensing 100 ml of ananas juice over 55045.87155963303 ms...
+20:38:48.581 - Dispensing ananas juice finished.
+20:38:48.585 - Dispensing 100 ml of cherry juice over 55045.87155963303 ms...
+20:39:43.692 - Dispensing cherry juice finished.
+20:39:43.697 - Dispensing 100 ml of orange juice over 55045.87155963303 ms...
+20:40:38.803 - Dispensing orange juice finished.
+20:40:38.808 - Dispensing 100 ml of bitter lemon over 55045.87155963303 ms...
+20:41:33.915 - Dispensing bitter lemon finished.
+20:41:33.920 - Dispensing 100 ml of tonic water over 55045.87155963303 ms...
+20:42:29.025 - Dispensing tonic water finished.
+20:42:29.031 - Dispensing 100 ml of herbal lemonade over 55045.87155963303 ms...
+20:43:27.453 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+20:43:27.468 - Ingredient: vodka, alcohol, GPIO ID: 2
+20:43:27.474 - Ingredient: gin, alcohol, GPIO ID: 3
+20:43:27.479 - Ingredient: rum, alcohol, GPIO ID: 4
+20:43:27.482 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+20:43:27.485 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+20:43:27.489 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+20:43:27.492 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+20:43:27.495 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+20:43:27.499 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+20:43:27.503 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+20:43:27.506 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+20:43:27.509 - Ingredient: soda, no alcohol, GPIO ID: 0
+20:43:27.513 - OpenAICocktailBot 'alcohol' constructing...
+20:43:27.516 - OpenAICocktailBot 'alcohol' resetting.
+20:43:27.523 - OpenAICocktailBot 'alcohol' constructed.
+20:43:27.533 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+20:44:06.572 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+20:44:06.587 - Ingredient: vodka, alcohol, GPIO ID: 2
+20:44:06.594 - Ingredient: gin, alcohol, GPIO ID: 3
+20:44:06.598 - Ingredient: rum, alcohol, GPIO ID: 4
+20:44:06.602 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+20:44:06.605 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+20:44:06.609 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+20:44:06.612 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+20:44:06.615 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+20:44:06.619 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+20:44:06.624 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+20:44:06.627 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+20:44:06.630 - Ingredient: soda, no alcohol, GPIO ID: 0
+20:44:06.634 - OpenAICocktailBot 'alcohol' constructing...
+20:44:06.636 - OpenAICocktailBot 'alcohol' resetting.
+20:44:06.644 - OpenAICocktailBot 'alcohol' constructed.
+20:44:06.654 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+20:52:01.041 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+20:52:01.072 - Ingredient: vodka, alcohol, GPIO ID: 2
+20:52:01.092 - Ingredient: gin, alcohol, GPIO ID: 3
+20:52:01.096 - Ingredient: rum, alcohol, GPIO ID: 4
+20:52:01.098 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+20:52:01.102 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+20:52:01.106 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+20:52:01.108 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+20:52:01.110 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+20:52:01.113 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+20:52:01.116 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+20:52:01.118 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+20:52:01.120 - Ingredient: soda, no alcohol, GPIO ID: 0
+20:52:01.124 - OpenAICocktailBot 'alcohol' constructing...
+20:52:01.125 - OpenAICocktailBot 'alcohol' resetting.
+20:52:01.133 - OpenAICocktailBot 'alcohol' constructed.
+20:52:01.145 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+20:52:50.860 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+20:52:50.878 - Ingredient: vodka, alcohol, GPIO ID: 2
+20:52:50.884 - Ingredient: gin, alcohol, GPIO ID: 3
+20:52:50.889 - Ingredient: rum, alcohol, GPIO ID: 4
+20:52:50.892 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+20:52:50.895 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+20:52:50.899 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+20:52:50.902 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+20:52:50.905 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+20:52:50.909 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+20:52:50.913 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+20:52:50.916 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+20:52:50.919 - Ingredient: soda, no alcohol, GPIO ID: 0
+20:52:50.923 - OpenAICocktailBot 'alcohol' constructing...
+20:52:50.925 - OpenAICocktailBot 'alcohol' resetting.
+20:52:50.933 - OpenAICocktailBot 'alcohol' constructed.
+20:52:50.943 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+20:55:28.931 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+20:55:28.947 - Ingredient: vodka, alcohol, GPIO ID: 2
+20:55:28.954 - Ingredient: gin, alcohol, GPIO ID: 3
+20:55:28.958 - Ingredient: rum, alcohol, GPIO ID: 4
+20:55:28.962 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+20:55:28.965 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+20:55:28.970 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+20:55:28.974 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+20:55:28.977 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+20:55:28.982 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+20:55:28.987 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+20:55:28.990 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+20:55:28.994 - Ingredient: soda, no alcohol, GPIO ID: 0
+20:55:28.998 - OpenAICocktailBot 'alcohol' constructing...
+20:55:29.001 - OpenAICocktailBot 'alcohol' resetting.
+20:55:29.010 - OpenAICocktailBot 'alcohol' constructed.
+20:55:29.020 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+20:58:41.932 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+20:58:41.949 - Ingredient: vodka, alcohol, GPIO ID: 2
+20:58:41.954 - Ingredient: gin, alcohol, GPIO ID: 3
+20:58:41.960 - Ingredient: rum, alcohol, GPIO ID: 4
+20:58:41.961 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+20:58:41.963 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+20:58:41.969 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+20:58:41.970 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+20:58:41.972 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+20:58:41.975 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+20:58:41.978 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+20:58:41.980 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+20:58:41.982 - Ingredient: soda, no alcohol, GPIO ID: 0
+20:58:41.985 - OpenAICocktailBot 'alcohol' constructing...
+20:58:41.986 - OpenAICocktailBot 'alcohol' resetting.
+20:58:41.993 - OpenAICocktailBot 'alcohol' constructed.
+20:58:42.001 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+21:06:23.987 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+21:06:24.025 - Ingredient: vodka, alcohol, GPIO ID: 2
+21:06:24.035 - Ingredient: gin, alcohol, GPIO ID: 3
+21:06:24.040 - Ingredient: rum, alcohol, GPIO ID: 4
+21:06:24.043 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+21:06:24.046 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+21:06:24.050 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+21:06:24.053 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+21:06:24.056 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+21:06:24.060 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+21:06:24.064 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+21:06:24.068 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+21:06:24.278 - Ingredient: soda, no alcohol, GPIO ID: 19
+21:06:24.313 - OpenAICocktailBot 'alcohol' constructing...
+21:06:24.318 - OpenAICocktailBot 'alcohol' resetting.
+21:06:24.325 - OpenAICocktailBot 'alcohol' constructed.
+21:06:24.337 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+21:06:52.893 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+21:06:52.908 - Ingredient: vodka, alcohol, GPIO ID: 2
+21:06:52.915 - Ingredient: gin, alcohol, GPIO ID: 3
+21:06:52.919 - Ingredient: rum, alcohol, GPIO ID: 4
+21:06:52.922 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+21:06:52.925 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+21:06:52.930 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+21:06:52.933 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+21:06:52.936 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+21:06:52.940 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+21:06:52.944 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+21:06:52.947 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+21:06:52.950 - Ingredient: soda, no alcohol, GPIO ID: 19
+21:06:52.954 - OpenAICocktailBot 'alcohol' constructing...
+21:06:52.957 - OpenAICocktailBot 'alcohol' resetting.
+21:06:52.965 - OpenAICocktailBot 'alcohol' constructed.
+21:06:52.975 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+21:06:55.613 - Cleaning...
+21:06:55.619 - Dispensing 10 ml of vodka over 5504.587155963302 ms...
+21:06:55.628 - Dispensing 10 ml of gin over 5504.587155963302 ms...
+21:06:55.632 - Dispensing 10 ml of rum over 5504.587155963302 ms...
+21:06:55.637 - Dispensing 10 ml of blue curacao over 5504.587155963302 ms...
+21:06:55.642 - Dispensing 10 ml of ananas juice over 5504.587155963302 ms...
+21:06:55.649 - Dispensing 10 ml of cherry juice over 5504.587155963302 ms...
+21:06:55.654 - Dispensing 10 ml of orange juice over 5504.587155963302 ms...
+21:06:55.658 - Dispensing 10 ml of bitter lemon over 5504.587155963302 ms...
+21:06:55.662 - Dispensing 10 ml of tonic water over 5504.587155963302 ms...
+21:06:55.667 - Dispensing 10 ml of herbal lemonade over 5504.587155963302 ms...
+21:06:55.671 - Dispensing 10 ml of bitter orange sirup over 5504.587155963302 ms...
+21:06:55.675 - Dispensing 10 ml of soda over 5504.587155963302 ms...
+21:07:01.192 - Dispensing vodka finished.
+21:07:01.195 - Dispensing gin finished.
+21:07:01.197 - Dispensing rum finished.
+21:07:01.200 - Dispensing blue curacao finished.
+21:07:01.202 - Dispensing ananas juice finished.
+21:07:01.204 - Dispensing cherry juice finished.
+21:07:01.206 - Dispensing orange juice finished.
+21:07:01.208 - Dispensing bitter lemon finished.
+21:07:01.211 - Dispensing tonic water finished.
+21:07:01.214 - Dispensing herbal lemonade finished.
+21:07:01.216 - Dispensing bitter orange sirup finished.
+21:07:01.219 - Dispensing soda finished.
+21:07:01.221 - Cleaned.
+21:07:06.387 - Cleaning...
+21:07:06.391 - Dispensing 20 ml of vodka over 11009.174311926605 ms...
+21:07:17.413 - Dispensing vodka finished.
+21:07:17.415 - Dispensing 20 ml of gin over 11009.174311926605 ms...
+21:07:24.582 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+21:07:24.598 - Ingredient: vodka, alcohol, GPIO ID: 2
+21:07:24.603 - Ingredient: gin, alcohol, GPIO ID: 3
+21:07:24.608 - Ingredient: rum, alcohol, GPIO ID: 4
+21:07:24.611 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+21:07:24.614 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+21:07:24.617 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+21:07:24.620 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+21:07:24.623 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+21:07:24.627 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+21:07:24.631 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+21:07:24.634 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+21:07:24.637 - Ingredient: soda, no alcohol, GPIO ID: 19
+21:07:24.640 - OpenAICocktailBot 'alcohol' constructing...
+21:07:24.642 - OpenAICocktailBot 'alcohol' resetting.
+21:07:24.650 - OpenAICocktailBot 'alcohol' constructed.
+21:07:24.659 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+21:07:28.466 - Cleaning...
+21:07:28.472 - Dispensing 10 ml of vodka over 5504.587155963302 ms...
+21:07:28.480 - Dispensing 10 ml of gin over 5504.587155963302 ms...
+21:07:28.485 - Dispensing 10 ml of rum over 5504.587155963302 ms...
+21:07:28.489 - Dispensing 10 ml of blue curacao over 5504.587155963302 ms...
+21:07:28.494 - Dispensing 10 ml of ananas juice over 5504.587155963302 ms...
+21:07:28.501 - Dispensing 10 ml of cherry juice over 5504.587155963302 ms...
+21:07:28.505 - Dispensing 10 ml of orange juice over 5504.587155963302 ms...
+21:07:28.510 - Dispensing 10 ml of bitter lemon over 5504.587155963302 ms...
+21:07:28.514 - Dispensing 10 ml of tonic water over 5504.587155963302 ms...
+21:07:28.518 - Dispensing 10 ml of herbal lemonade over 5504.587155963302 ms...
+21:07:28.521 - Dispensing 10 ml of bitter orange sirup over 5504.587155963302 ms...
+21:07:28.523 - Dispensing 10 ml of soda over 5504.587155963302 ms...
+21:07:34.043 - Dispensing vodka finished.
+21:07:34.053 - Dispensing gin finished.
+21:07:34.057 - Dispensing rum finished.
+21:07:34.061 - Dispensing blue curacao finished.
+21:07:34.067 - Dispensing ananas juice finished.
+21:07:34.071 - Dispensing cherry juice finished.
+21:07:34.075 - Dispensing orange juice finished.
+21:07:34.079 - Dispensing bitter lemon finished.
+21:07:34.085 - Dispensing tonic water finished.
+21:07:34.089 - Dispensing herbal lemonade finished.
+21:07:34.092 - Dispensing bitter orange sirup finished.
+21:07:34.098 - Dispensing soda finished.
+21:07:34.101 - Cleaned.
+21:07:38.304 - Cleaning...
+21:07:38.306 - Dispensing 10 ml of vodka over 5504.587155963302 ms...
+21:07:38.308 - Dispensing 10 ml of gin over 5504.587155963302 ms...
+21:07:38.309 - Dispensing 10 ml of rum over 5504.587155963302 ms...
+21:07:38.311 - Dispensing 10 ml of blue curacao over 5504.587155963302 ms...
+21:07:38.313 - Dispensing 10 ml of ananas juice over 5504.587155963302 ms...
+21:07:38.316 - Dispensing 10 ml of cherry juice over 5504.587155963302 ms...
+21:07:38.317 - Dispensing 10 ml of orange juice over 5504.587155963302 ms...
+21:07:38.319 - Dispensing 10 ml of bitter lemon over 5504.587155963302 ms...
+21:07:38.321 - Dispensing 10 ml of tonic water over 5504.587155963302 ms...
+21:07:38.322 - Dispensing 10 ml of herbal lemonade over 5504.587155963302 ms...
+21:07:38.324 - Dispensing 10 ml of bitter orange sirup over 5504.587155963302 ms...
+21:07:38.326 - Dispensing 10 ml of soda over 5504.587155963302 ms...
+21:07:43.840 - Dispensing vodka finished.
+21:07:43.842 - Dispensing gin finished.
+21:07:43.844 - Dispensing rum finished.
+21:07:43.846 - Dispensing blue curacao finished.
+21:07:43.847 - Dispensing ananas juice finished.
+21:07:43.849 - Dispensing cherry juice finished.
+21:07:43.851 - Dispensing orange juice finished.
+21:07:43.853 - Dispensing bitter lemon finished.
+21:07:43.854 - Dispensing tonic water finished.
+21:07:43.856 - Dispensing herbal lemonade finished.
+21:07:43.858 - Dispensing bitter orange sirup finished.
+21:07:43.860 - Dispensing soda finished.
+21:07:43.861 - Cleaned.
+21:07:57.107 - OpenAICocktailBot creating random cocktail...
+21:07:57.112 - Normalizing drink...
+21:07:57.116 - Drink normalized
+21:07:57.119 - CocktailRecipe {
+  ingredients: [
+    0, 0, 0, 3, 4,
+    0, 0, 2, 2, 0,
+    0, 2
+  ],
+  name: 'random cocktail'
+}
+21:07:57.161 - Starting dispensing recipe 'random cocktail'...
+21:07:57.164 - Ingredients: [
+  0, 0, 0, 3, 4,
+  0, 0, 2, 2, 0,
+  0, 2
+]
+21:07:57.180 - Drink size: 13
+21:07:57.184 - Dispensing 3 ml of blue curacao over 1651.3761467889908 ms...
+21:07:57.188 - Dispensing 4 ml of ananas juice over 2201.8348623853212 ms...
+21:07:57.190 - Dispensing 2 ml of bitter lemon over 1100.9174311926606 ms...
+21:07:57.191 - Dispensing 2 ml of tonic water over 1100.9174311926606 ms...
+21:07:57.193 - Dispensing 2 ml of soda over 1100.9174311926606 ms...
+21:07:58.297 - Dispensing bitter lemon finished.
+21:07:58.299 - Dispensing tonic water finished.
+21:07:58.301 - Dispensing soda finished.
+21:07:58.847 - Dispensing blue curacao finished.
+21:07:59.397 - Dispensing ananas juice finished.
+21:07:59.398 - Recipe 'random cocktail' dispensed.
+21:07:59.400 - Dispensing finished.
+21:08:05.700 - OpenAICocktailBot creating random cocktail...
+21:08:05.703 - Normalizing drink...
+21:08:05.707 - Drink normalized
+21:08:05.710 - CocktailRecipe {
+  ingredients: [
+      0, 0, 4, 0, 0,
+      0, 4, 0, 0, 4,
+    0.5, 4
+  ],
+  name: 'random cocktail'
+}
+21:08:05.732 - Starting dispensing recipe 'random cocktail'...
+21:08:05.735 - Ingredients: [
+    0, 0, 4, 0, 0,
+    0, 4, 0, 0, 4,
+  0.5, 4
+]
+21:08:05.752 - Drink size: 16.5
+21:08:05.755 - Dispensing 4 ml of rum over 2201.8348623853212 ms...
+21:08:05.759 - Dispensing 4 ml of orange juice over 2201.8348623853212 ms...
+21:08:05.762 - Dispensing 4 ml of herbal lemonade over 2201.8348623853212 ms...
+21:08:05.766 - Dispensing 0.5 ml of bitter orange sirup over 275.22935779816515 ms...
+21:08:05.769 - Dispensing 4 ml of soda over 2201.8348623853212 ms...
+21:08:06.050 - Dispensing bitter orange sirup finished.
+21:08:07.977 - Dispensing rum finished.
+21:08:07.979 - Dispensing orange juice finished.
+21:08:07.981 - Dispensing herbal lemonade finished.
+21:08:07.983 - Dispensing soda finished.
+21:08:07.985 - Recipe 'random cocktail' dispensed.
+21:08:07.986 - Dispensing finished.
+21:08:09.341 - OpenAICocktailBot creating random cocktail...
+21:08:09.343 - Normalizing drink...
+21:08:09.345 - Drink normalized
+21:08:09.348 - CocktailRecipe {
+  ingredients: [
+    0, 3, 0, 0, 2,
+    0, 2, 4, 4, 0,
+    0, 2
+  ],
+  name: 'random cocktail'
+}
+21:08:09.358 - Starting dispensing recipe 'random cocktail'...
+21:08:09.359 - Ingredients: [
+  0, 3, 0, 0, 2,
+  0, 2, 4, 4, 0,
+  0, 2
+]
+21:08:09.367 - Drink size: 17
+21:08:09.368 - Dispensing 3 ml of gin over 1651.3761467889908 ms...
+21:08:09.371 - Dispensing 2 ml of ananas juice over 1100.9174311926606 ms...
+21:08:09.373 - Dispensing 2 ml of orange juice over 1100.9174311926606 ms...
+21:08:09.374 - Dispensing 4 ml of bitter lemon over 2201.8348623853212 ms...
+21:08:09.376 - Dispensing 4 ml of tonic water over 2201.8348623853212 ms...
+21:08:09.378 - Dispensing 2 ml of soda over 1100.9174311926606 ms...
+21:08:10.482 - Dispensing ananas juice finished.
+21:08:10.484 - Dispensing orange juice finished.
+21:08:10.486 - Dispensing soda finished.
+21:08:11.033 - Dispensing gin finished.
+21:08:11.582 - Dispensing bitter lemon finished.
+21:08:11.586 - Dispensing tonic water finished.
+21:08:11.590 - Recipe 'random cocktail' dispensed.
+21:08:11.594 - Dispensing finished.
+21:08:14.000 - OpenAICocktailBot creating random cocktail...
+21:08:14.004 - Normalizing drink...
+21:08:14.008 - Drink normalized
+21:08:14.011 - CocktailRecipe {
+  ingredients: [
+    0, 0, 3, 0, 0,
+    0, 0, 4, 4, 0,
+    0, 0
+  ],
+  name: 'random cocktail'
+}
+21:08:14.033 - Starting dispensing recipe 'random cocktail'...
+21:08:14.036 - Ingredients: [
+  0, 0, 3, 0, 0,
+  0, 0, 4, 4, 0,
+  0, 0
+]
+21:08:14.049 - Drink size: 11
+21:08:14.055 - Dispensing 3 ml of rum over 1651.3761467889908 ms...
+21:08:14.059 - Dispensing 4 ml of bitter lemon over 2201.8348623853212 ms...
+21:08:14.062 - Dispensing 4 ml of tonic water over 2201.8348623853212 ms...
+21:08:15.720 - Dispensing rum finished.
+21:08:16.269 - Dispensing bitter lemon finished.
+21:08:16.271 - Dispensing tonic water finished.
+21:08:16.273 - Recipe 'random cocktail' dispensed.
+21:08:16.275 - Dispensing finished.
+21:08:17.561 - OpenAICocktailBot creating random cocktail...
+21:08:17.563 - Normalizing drink...
+21:08:17.565 - Drink enlarged to 1.6666666666666667
+21:08:17.567 - Drink normalized
+21:08:17.568 - CocktailRecipe {
+  ingredients: [
+    3.3333333333333335,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    6.666666666666667
+  ],
+  name: 'random cocktail'
+}
+21:08:17.586 - Starting dispensing recipe 'random cocktail'...
+21:08:17.587 - Ingredients: [ 3.3333333333333335, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6.666666666666667 ]
+21:08:17.590 - Drink size: 10
+21:08:17.592 - Dispensing 3.3333333333333335 ml of vodka over 1834.862385321101 ms...
+21:08:17.593 - Dispensing 6.666666666666667 ml of soda over 3669.724770642202 ms...
+21:08:19.432 - Dispensing vodka finished.
+21:08:21.268 - Dispensing soda finished.
+21:08:21.272 - Recipe 'random cocktail' dispensed.
+21:08:21.275 - Dispensing finished.
+21:08:22.284 - OpenAICocktailBot creating random cocktail...
+21:08:22.287 - Normalizing drink...
+21:08:22.291 - Drink enlarged to 1.25
+21:08:22.295 - Drink normalized
+21:08:22.298 - CocktailRecipe {
+  ingredients: [
+    0, 2.5, 0, 0, 0,
+    5, 2.5, 0, 0, 0,
+    0,   0
+  ],
+  name: 'random cocktail'
+}
+21:08:22.316 - Starting dispensing recipe 'random cocktail'...
+21:08:22.319 - Ingredients: [
+  0, 2.5, 0, 0, 0,
+  5, 2.5, 0, 0, 0,
+  0,   0
+]
+21:08:22.331 - Drink size: 10
+21:08:22.334 - Dispensing 2.5 ml of gin over 1376.1467889908256 ms...
+21:08:22.337 - Dispensing 5 ml of cherry juice over 2752.293577981651 ms...
+21:08:22.340 - Dispensing 2.5 ml of orange juice over 1376.1467889908256 ms...
+21:08:23.721 - Dispensing gin finished.
+21:08:23.725 - Dispensing orange juice finished.
+21:08:25.097 - Dispensing cherry juice finished.
+21:08:25.101 - Recipe 'random cocktail' dispensed.
+21:08:25.104 - Dispensing finished.
+21:08:25.918 - OpenAICocktailBot creating random cocktail...
+21:08:25.921 - Normalizing drink...
+21:08:25.925 - Drink normalized
+21:08:25.929 - CocktailRecipe {
+  ingredients: [
+    0, 2, 0, 0, 0,
+    0, 2, 2, 2, 2,
+    0, 0
+  ],
+  name: 'random cocktail'
+}
+21:08:25.952 - Starting dispensing recipe 'random cocktail'...
+21:08:25.956 - Ingredients: [
+  0, 2, 0, 0, 0,
+  0, 2, 2, 2, 2,
+  0, 0
+]
+21:08:25.970 - Drink size: 10
+21:08:25.974 - Dispensing 2 ml of gin over 1100.9174311926606 ms...
+21:08:25.978 - Dispensing 2 ml of orange juice over 1100.9174311926606 ms...
+21:08:25.981 - Dispensing 2 ml of bitter lemon over 1100.9174311926606 ms...
+21:08:25.985 - Dispensing 2 ml of tonic water over 1100.9174311926606 ms...
+21:08:25.988 - Dispensing 2 ml of herbal lemonade over 1100.9174311926606 ms...
+21:08:27.095 - Dispensing gin finished.
+21:08:27.097 - Dispensing orange juice finished.
+21:08:27.099 - Dispensing bitter lemon finished.
+21:08:27.101 - Dispensing tonic water finished.
+21:08:27.103 - Dispensing herbal lemonade finished.
+21:08:27.105 - Recipe 'random cocktail' dispensed.
+21:08:27.106 - Dispensing finished.
+21:08:28.663 - OpenAICocktailBot creating random cocktail...
+21:08:28.665 - Normalizing drink...
+21:08:28.667 - Drink normalized
+21:08:28.669 - CocktailRecipe {
+  ingredients: [
+      3, 0, 0, 0, 2,
+      4, 2, 2, 0, 0,
+    0.5, 0
+  ],
+  name: 'random cocktail'
+}
+21:08:28.679 - Starting dispensing recipe 'random cocktail'...
+21:08:28.680 - Ingredients: [
+    3, 0, 0, 0, 2,
+    4, 2, 2, 0, 0,
+  0.5, 0
+]
+21:08:28.686 - Drink size: 13.5
+21:08:28.688 - Dispensing 3 ml of vodka over 1651.3761467889908 ms...
+21:08:28.690 - Dispensing 2 ml of ananas juice over 1100.9174311926606 ms...
+21:08:28.691 - Dispensing 4 ml of cherry juice over 2201.8348623853212 ms...
+21:08:28.693 - Dispensing 2 ml of orange juice over 1100.9174311926606 ms...
+21:08:28.695 - Dispensing 2 ml of bitter lemon over 1100.9174311926606 ms...
+21:08:28.696 - Dispensing 0.5 ml of bitter orange sirup over 275.22935779816515 ms...
+21:08:28.974 - Dispensing bitter orange sirup finished.
+21:08:29.801 - Dispensing ananas juice finished.
+21:08:29.803 - Dispensing orange juice finished.
+21:08:29.805 - Dispensing bitter lemon finished.
+21:08:30.350 - Dispensing vodka finished.
+21:08:30.901 - Dispensing cherry juice finished.
+21:08:30.902 - Recipe 'random cocktail' dispensed.
+21:08:30.904 - Dispensing finished.
+21:08:41.562 - OpenAICocktailBot creating random cocktail...
+21:08:41.566 - Normalizing drink...
+21:08:41.569 - Drink normalized
+21:08:41.573 - CocktailRecipe {
+  ingredients: [
+      3, 0, 0, 0, 2,
+      2, 0, 0, 2, 0,
+    0.5, 4
+  ],
+  name: 'random cocktail'
+}
+21:08:41.595 - Starting dispensing recipe 'random cocktail'...
+21:08:41.598 - Ingredients: [
+    3, 0, 0, 0, 2,
+    2, 0, 0, 2, 0,
+  0.5, 4
+]
+21:08:41.612 - Drink size: 13.5
+21:08:41.615 - Dispensing 3 ml of vodka over 1651.3761467889908 ms...
+21:08:41.619 - Dispensing 2 ml of ananas juice over 1100.9174311926606 ms...
+21:08:41.622 - Dispensing 2 ml of cherry juice over 1100.9174311926606 ms...
+21:08:41.626 - Dispensing 2 ml of tonic water over 1100.9174311926606 ms...
+21:08:41.629 - Dispensing 0.5 ml of bitter orange sirup over 275.22935779816515 ms...
+21:08:41.633 - Dispensing 4 ml of soda over 2201.8348623853212 ms...
+21:08:41.914 - Dispensing bitter orange sirup finished.
+21:08:42.739 - Dispensing ananas juice finished.
+21:08:42.741 - Dispensing cherry juice finished.
+21:08:42.743 - Dispensing tonic water finished.
+21:08:43.290 - Dispensing vodka finished.
+21:08:43.840 - Dispensing soda finished.
+21:08:43.842 - Recipe 'random cocktail' dispensed.
+21:08:43.844 - Dispensing finished.
+21:09:00.691 - Cleaning...
+21:09:00.696 - Dispensing 20 ml of vodka over 11009.174311926605 ms...
+21:09:11.720 - Dispensing vodka finished.
+21:09:11.724 - Dispensing 20 ml of gin over 11009.174311926605 ms...
+21:09:22.750 - Dispensing gin finished.
+21:09:22.754 - Dispensing 20 ml of rum over 11009.174311926605 ms...
+21:09:33.769 - Dispensing rum finished.
+21:09:33.773 - Dispensing 20 ml of blue curacao over 11009.174311926605 ms...
+21:09:44.799 - Dispensing blue curacao finished.
+21:09:44.803 - Dispensing 20 ml of ananas juice over 11009.174311926605 ms...
+21:09:55.827 - Dispensing ananas juice finished.
+21:09:55.831 - Dispensing 20 ml of cherry juice over 11009.174311926605 ms...
+21:10:06.857 - Dispensing cherry juice finished.
+21:10:06.861 - Dispensing 20 ml of orange juice over 11009.174311926605 ms...
+21:10:17.887 - Dispensing orange juice finished.
+21:10:17.891 - Dispensing 20 ml of bitter lemon over 11009.174311926605 ms...
+21:10:28.916 - Dispensing bitter lemon finished.
+21:10:28.918 - Dispensing 20 ml of tonic water over 11009.174311926605 ms...
+21:10:39.941 - Dispensing tonic water finished.
+21:10:39.943 - Dispensing 20 ml of herbal lemonade over 11009.174311926605 ms...
+21:10:50.967 - Dispensing herbal lemonade finished.
+21:10:50.971 - Dispensing 20 ml of bitter orange sirup over 11009.174311926605 ms...
+21:11:01.997 - Dispensing bitter orange sirup finished.
+21:11:02.000 - Dispensing 20 ml of soda over 11009.174311926605 ms...
+21:11:13.021 - Dispensing soda finished.
+21:11:13.023 - Cleaned.
+21:12:38.063 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+21:12:38.078 - Ingredient: vodka, alcohol, GPIO ID: 2
+21:12:38.084 - Ingredient: gin, alcohol, GPIO ID: 3
+21:12:38.089 - Ingredient: rum, alcohol, GPIO ID: 4
+21:12:38.092 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+21:12:38.095 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+21:12:38.099 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+21:12:38.102 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+21:12:38.105 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+21:12:38.109 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+21:12:38.114 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+21:12:38.117 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+21:12:38.120 - Ingredient: soda, no alcohol, GPIO ID: 19
+21:12:38.124 - OpenAICocktailBot 'alcohol' constructing...
+21:12:38.126 - OpenAICocktailBot 'alcohol' resetting.
+21:12:38.134 - OpenAICocktailBot 'alcohol' constructed.
+21:12:38.147 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+21:13:14.026 - Cleaning...
+21:13:14.033 - Dispensing 200 ml of vodka over 110091.74311926606 ms...
+21:15:04.234 - Dispensing vodka finished.
+21:15:04.241 - Cleaned.
+21:19:00.931 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+21:19:00.947 - Ingredient: vodka, alcohol, GPIO ID: 2
+21:19:00.954 - Ingredient: gin, alcohol, GPIO ID: 3
+21:19:00.958 - Ingredient: rum, alcohol, GPIO ID: 4
+21:19:00.962 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+21:19:00.966 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+21:19:00.970 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+21:19:00.974 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+21:19:00.977 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+21:19:00.982 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+21:19:00.986 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+21:19:00.990 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+21:19:00.993 - Ingredient: soda, no alcohol, GPIO ID: 19
+21:19:00.998 - OpenAICocktailBot 'alcohol' constructing...
+21:19:01.001 - OpenAICocktailBot 'alcohol' resetting.
+21:19:01.009 - OpenAICocktailBot 'alcohol' constructed.
+21:19:01.021 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+21:19:05.770 - OpenAICocktailBot creating random cocktail...
+21:19:05.773 - Normalizing drink...
+21:19:05.776 - Drink normalized
+21:19:05.779 - CocktailRecipe {
+  ingredients: [
+      0, 0, 2, 0, 2,
+      0, 4, 4, 0, 0,
+    0.5, 0
+  ],
+  name: 'random cocktail'
+}
+21:19:05.801 - Starting dispensing recipe 'random cocktail'...
+21:19:05.803 - Ingredients: [
+    0, 0, 2, 0, 2,
+    0, 4, 4, 0, 0,
+  0.5, 0
+]
+21:19:05.812 - Drink size: 12.5
+21:19:05.814 - Dispensing 2 cl of rum over 11009.174311926605 ms...
+21:19:05.818 - Dispensing 2 cl of ananas juice over 11009.174311926605 ms...
+21:19:05.820 - Dispensing 4 cl of orange juice over 22018.34862385321 ms...
+21:19:05.822 - Dispensing 4 cl of bitter lemon over 22018.34862385321 ms...
+21:19:05.824 - Dispensing 0.5 cl of bitter orange sirup over 2752.293577981651 ms...
+21:19:08.591 - Dispensing bitter orange sirup finished.
+21:19:16.846 - Dispensing ananas juice finished.
+21:19:16.850 - Dispensing rum finished.
+21:19:27.859 - Dispensing orange juice finished.
+21:19:27.865 - Dispensing bitter lemon finished.
+21:19:27.869 - Recipe 'random cocktail' dispensed.
+21:19:27.873 - Dispensing finished.
+21:19:40.850 - OpenAICocktailBot creating random cocktail...
+21:19:40.854 - Normalizing drink...
+21:19:40.858 - Drink normalized
+21:19:40.861 - CocktailRecipe {
+  ingredients: [
+    0, 0, 0, 4, 4,
+    0, 2, 0, 0, 0,
+    0, 0
+  ],
+  name: 'random cocktail'
+}
+21:19:40.882 - Starting dispensing recipe 'random cocktail'...
+21:19:40.885 - Ingredients: [
+  0, 0, 0, 4, 4,
+  0, 2, 0, 0, 0,
+  0, 0
+]
+21:19:40.901 - Drink size: 10
+21:19:40.904 - Dispensing 4 cl of blue curacao over 22018.34862385321 ms...
+21:19:40.908 - Dispensing 4 cl of ananas juice over 22018.34862385321 ms...
+21:19:40.911 - Dispensing 2 cl of orange juice over 11009.174311926605 ms...
+21:19:51.936 - Dispensing orange juice finished.
+21:20:02.938 - Dispensing blue curacao finished.
+21:20:02.944 - Dispensing ananas juice finished.
+21:20:02.948 - Recipe 'random cocktail' dispensed.
+21:20:02.951 - Dispensing finished.
+21:20:14.607 - OpenAICocktailBot 'alcohol' pour me a drink...
+21:20:14.618 - OpenAICocktailBot 'alcohol' request: [
+  {
+    role: 'system',
+    content: '\n' +
+      'You are a cocktail mixing robot, you are able to pour cocktails with up to 12 different ingredients.\n' +
+      'You can use the following list of alcoholic ingredients: vodka, gin, rum, blue curacao.\n' +
+      'You can use the following list of non-alcoholic ingredients: ananas juice, cherry juice, orange juice, bitter lemon, tonic water, herbal lemonade, bitter orange sirup, soda.\n' +
+      'What I ask you to "pour me a cocktail", you create a random cocktail recipe with your available ingredients and you create a cocktail name.\n' +
+      'The following rules apply to cocktail recipes:\n' +
+      '- consist of a list of amounts of ingredients measured in cl\n' +
+      '- select only one alcoholic ingredient from your given list of alcoholic ingredients\n' +
+      '- the list must contain only one alcoholic ingredient\n' +
+      '- select between one and five non-alcoholic ingredients from your given list of non-alcoholic ingredients\n' +
+      'The overall sum of all cocktail ingredient amounts for a single recipe must be at least 10 cl and is not allowed to exceed 20 cl.\n' +
+      'Do not repeat cocktail recipes. Be creative.\n' +
+      'Use ingredients such that after pouring 60 cocktails roughly 1 liter of every ingredient has been used.\n' +
+      'Format your response as a list of whole numbers separated by a single space character.\n' +
+      'Append to your response a comma and a creative name.\n' +
+      'Each number should represent the amount of the ingredient in cl.\n' +
+      'Include unused ingrediets as 0 in the list.\n' +
+      'The order of the resulting numbers must be the same order as the given list of ingredients.\n' +
+      'Return a single recipe.\n'
+  },
+  { role: 'user', content: 'pour me a drink' }
+]
+21:20:14.708 - OpenAI:DEBUG:request https://api.openai.com/v1/chat/completions {
+  method: 'post',
+  path: '/chat/completions',
+  body: { model: 'gpt-3.5-turbo-1106', messages: [ [Object], [Object] ] },
+  stream: false
+} {
+  'Content-Length': '1704',
+  Accept: 'application/json',
+  'Content-Type': 'application/json',
+  'User-Agent': 'OpenAI/JS 4.19.0',
+  'X-Stainless-Lang': 'js',
+  'X-Stainless-Package-Version': '4.19.0',
+  'X-Stainless-OS': 'Linux',
+  'X-Stainless-Arch': 'arm64',
+  'X-Stainless-Runtime': 'node',
+  'X-Stainless-Runtime-Version': 'v18.17.1',
+  Authorization: 'Bearer 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',
+  'OpenAI-Organization': 'org-XWXjDVcYbBQFaLvR7JTi3pyl'
+}
+21:20:15.956 - OpenAI:DEBUG:response 200 https://api.openai.com/v1/chat/completions Headers {
+  [Symbol(map)]: [Object: null prototype] {
+    date: [ 'Sat, 25 Nov 2023 19:20:15 GMT' ],
+    'content-type': [ 'application/json' ],
+    'transfer-encoding': [ 'chunked' ],
+    connection: [ 'keep-alive' ],
+    'access-control-allow-origin': [ '*' ],
+    'cache-control': [ 'no-cache, must-revalidate' ],
+    'openai-model': [ 'gpt-3.5-turbo-1106' ],
+    'openai-organization': [ 'user-qg6kgf2isdibwhqnphcq5qtm' ],
+    'openai-processing-ms': [ '597' ],
+    'openai-version': [ '2020-10-01' ],
+    'strict-transport-security': [ 'max-age=15724800; includeSubDomains' ],
+    'x-ratelimit-limit-requests': [ '3500' ],
+    'x-ratelimit-limit-tokens': [ '90000' ],
+    'x-ratelimit-limit-tokens_usage_based': [ '90000' ],
+    'x-ratelimit-remaining-requests': [ '3499' ],
+    'x-ratelimit-remaining-tokens': [ '89602' ],
+    'x-ratelimit-remaining-tokens_usage_based': [ '89602' ],
+    'x-ratelimit-reset-requests': [ '17ms' ],
+    'x-ratelimit-reset-tokens': [ '264ms' ],
+    'x-ratelimit-reset-tokens_usage_based': [ '264ms' ],
+    'x-request-id': [ '2eff85293c87a9dd081dc212de9faeb5' ],
+    'cf-cache-status': [ 'DYNAMIC' ],
+    'set-cookie': [
+      '__cf_bm=_ZrfLETBJuzjA.wEn8.3NiDyahAsr4.E7hZLXbfZbl8-1700940015-0-AWt0H7GRfoh4pQSWm9jYWMhaxkFNH8V7y75i9dPDhF0YHzP5bgncjXftjy4YyZIE5ghcZyB9b7yRsw+i5g+U514=; path=/; expires=Sat, 25-Nov-23 19:50:15 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None',
+      '_cfuvid=L4JQ7DNKL1dXchRGw5Ii4r2vEA.d0jKjqdrwC8VGpxo-1700940015907-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'
+    ],
+    server: [ 'cloudflare' ],
+    'cf-ray': [ '82bc3f76698c5ba1-VIE' ],
+    'content-encoding': [ 'gzip' ],
+    'alt-svc': [ 'h3=":443"; ma=86400' ]
+  }
+} {
+  id: 'chatcmpl-8OsUJ6FnL4uT1OiboOJv5RSy4EVG4',
+  object: 'chat.completion',
+  created: 1700940015,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 321, completion_tokens: 30, total_tokens: 351 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+21:20:16.048 - OpenAICocktailBot 'alcohol' completion returned successfully.
+21:20:16.051 - {
+  id: 'chatcmpl-8OsUJ6FnL4uT1OiboOJv5RSy4EVG4',
+  object: 'chat.completion',
+  created: 1700940015,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 321, completion_tokens: 30, total_tokens: 351 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+21:20:16.068 - result: {
+  role: 'assistant',
+  content: '10 0 0 4 0 0 0 0 0 0 0 0, \nTropical Breeze Cocktail'
+}
+21:20:16.077 - tokens: 351
+21:20:16.079 - Normalizing drink...
+21:20:16.082 - Drink normalized
+21:20:16.084 - CocktailRecipe {
+  ingredients: [
+    10, 0, 0, 4, 0,
+     0, 0, 0, 0, 0,
+     0, 0
+  ],
+  name: ' \nTropical Breeze Cocktail'
+}
+21:20:16.099 - Starting dispensing recipe ' 
+Tropical Breeze Cocktail'...
+21:20:16.103 - Ingredients: [
+  10, 0, 0, 4, 0,
+   0, 0, 0, 0, 0,
+   0, 0
+]
+21:20:16.112 - Drink size: 14
+21:20:16.114 - Dispensing 10 cl of vodka over 55045.87155963303 ms...
+21:20:16.116 - Dispensing 4 cl of blue curacao over 22018.34862385321 ms...
+21:20:38.157 - Dispensing blue curacao finished.
+21:21:11.181 - Dispensing vodka finished.
+21:21:11.186 - Recipe ' 
+Tropical Breeze Cocktail' dispensed.
+21:21:11.193 - Dispensing finished.
+21:21:24.085 - OpenAICocktailBot 'alcohol' pour me a drink...
+21:21:24.092 - OpenAICocktailBot 'alcohol' request: [
+  {
+    role: 'system',
+    content: '\n' +
+      'You are a cocktail mixing robot, you are able to pour cocktails with up to 12 different ingredients.\n' +
+      'You can use the following list of alcoholic ingredients: vodka, gin, rum, blue curacao.\n' +
+      'You can use the following list of non-alcoholic ingredients: ananas juice, cherry juice, orange juice, bitter lemon, tonic water, herbal lemonade, bitter orange sirup, soda.\n' +
+      'What I ask you to "pour me a cocktail", you create a random cocktail recipe with your available ingredients and you create a cocktail name.\n' +
+      'The following rules apply to cocktail recipes:\n' +
+      '- consist of a list of amounts of ingredients measured in cl\n' +
+      '- select only one alcoholic ingredient from your given list of alcoholic ingredients\n' +
+      '- the list must contain only one alcoholic ingredient\n' +
+      '- select between one and five non-alcoholic ingredients from your given list of non-alcoholic ingredients\n' +
+      'The overall sum of all cocktail ingredient amounts for a single recipe must be at least 10 cl and is not allowed to exceed 20 cl.\n' +
+      'Do not repeat cocktail recipes. Be creative.\n' +
+      'Use ingredients such that after pouring 60 cocktails roughly 1 liter of every ingredient has been used.\n' +
+      'Format your response as a list of whole numbers separated by a single space character.\n' +
+      'Append to your response a comma and a creative name.\n' +
+      'Each number should represent the amount of the ingredient in cl.\n' +
+      'Include unused ingrediets as 0 in the list.\n' +
+      'The order of the resulting numbers must be the same order as the given list of ingredients.\n' +
+      'Return a single recipe.\n'
+  },
+  { role: 'user', content: 'pour me a drink' },
+  {
+    role: 'assistant',
+    content: '10 0 0 4 0 0 0 0 0 0 0 0, \nTropical Breeze Cocktail'
+  },
+  { role: 'user', content: 'pour me a drink' }
+]
+21:21:24.186 - OpenAI:DEBUG:request https://api.openai.com/v1/chat/completions {
+  method: 'post',
+  path: '/chat/completions',
+  body: {
+    model: 'gpt-3.5-turbo-1106',
+    messages: [ [Object], [Object], [Object], [Object] ]
+  },
+  stream: false
+} {
+  'Content-Length': '1886',
+  Accept: 'application/json',
+  'Content-Type': 'application/json',
+  'User-Agent': 'OpenAI/JS 4.19.0',
+  'X-Stainless-Lang': 'js',
+  'X-Stainless-Package-Version': '4.19.0',
+  'X-Stainless-OS': 'Linux',
+  'X-Stainless-Arch': 'arm64',
+  'X-Stainless-Runtime': 'node',
+  'X-Stainless-Runtime-Version': 'v18.17.1',
+  Authorization: 'Bearer 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',
+  'OpenAI-Organization': 'org-XWXjDVcYbBQFaLvR7JTi3pyl'
+}
+21:21:25.187 - OpenAI:DEBUG:response 200 https://api.openai.com/v1/chat/completions Headers {
+  [Symbol(map)]: [Object: null prototype] {
+    date: [ 'Sat, 25 Nov 2023 19:21:25 GMT' ],
+    'content-type': [ 'application/json' ],
+    'transfer-encoding': [ 'chunked' ],
+    connection: [ 'keep-alive' ],
+    'access-control-allow-origin': [ '*' ],
+    'cache-control': [ 'no-cache, must-revalidate' ],
+    'openai-model': [ 'gpt-3.5-turbo-1106' ],
+    'openai-organization': [ 'user-qg6kgf2isdibwhqnphcq5qtm' ],
+    'openai-processing-ms': [ '645' ],
+    'openai-version': [ '2020-10-01' ],
+    'strict-transport-security': [ 'max-age=15724800; includeSubDomains' ],
+    'x-ratelimit-limit-requests': [ '3500' ],
+    'x-ratelimit-limit-tokens': [ '90000' ],
+    'x-ratelimit-limit-tokens_usage_based': [ '90000' ],
+    'x-ratelimit-remaining-requests': [ '3499' ],
+    'x-ratelimit-remaining-tokens': [ '89584' ],
+    'x-ratelimit-remaining-tokens_usage_based': [ '89584' ],
+    'x-ratelimit-reset-requests': [ '17ms' ],
+    'x-ratelimit-reset-tokens': [ '277ms' ],
+    'x-ratelimit-reset-tokens_usage_based': [ '277ms' ],
+    'x-request-id': [ 'b023e9cebc9b8f2a237b55c84f5fdeda' ],
+    'cf-cache-status': [ 'DYNAMIC' ],
+    'set-cookie': [
+      '__cf_bm=f1j5ELNYOeiGJsJZkFbG8ZbydZIb95eLKMPfn1s4bRQ-1700940085-0-AV3EhvyjNnivaZaBUMaGvCw/06egH5YUublb+R6aXsZ/SkE6BRsqofc+hnswgvMjzE+c1nsqwaRe2r4h21Ob8t4=; path=/; expires=Sat, 25-Nov-23 19:51:25 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None',
+      '_cfuvid=VB31_JT4vDaTVUOOJsRISg6zvkhgHUWK7jCc3f95r_Q-1700940085166-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'
+    ],
+    server: [ 'cloudflare' ],
+    'cf-ray': [ '82bc4126f99f3247-VIE' ],
+    'content-encoding': [ 'gzip' ],
+    'alt-svc': [ 'h3=":443"; ma=86400' ]
+  }
+} {
+  id: 'chatcmpl-8OsVQrvd7htI4zH4R6VeRtw11XYew',
+  object: 'chat.completion',
+  created: 1700940084,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 363, completion_tokens: 29, total_tokens: 392 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+21:21:25.264 - OpenAICocktailBot 'alcohol' completion returned successfully.
+21:21:25.267 - {
+  id: 'chatcmpl-8OsVQrvd7htI4zH4R6VeRtw11XYew',
+  object: 'chat.completion',
+  created: 1700940084,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 363, completion_tokens: 29, total_tokens: 392 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+21:21:25.285 - result: {
+  role: 'assistant',
+  content: '5 0 0 4 0 0 7 0 0 0 0 0, \nCitrus Sunset Cocktail'
+}
+21:21:25.293 - tokens: 392
+21:21:25.296 - Normalizing drink...
+21:21:25.298 - Drink normalized
+21:21:25.300 - CocktailRecipe {
+  ingredients: [
+    5, 0, 0, 4, 0,
+    0, 7, 0, 0, 0,
+    0, 0
+  ],
+  name: ' \nCitrus Sunset Cocktail'
+}
+21:21:25.315 - Starting dispensing recipe ' 
+Citrus Sunset Cocktail'...
+21:21:25.318 - Ingredients: [
+  5, 0, 0, 4, 0,
+  0, 7, 0, 0, 0,
+  0, 0
+]
+21:21:25.327 - Drink size: 16
+21:21:25.330 - Dispensing 5 cl of vodka over 27522.935779816515 ms...
+21:21:25.332 - Dispensing 4 cl of blue curacao over 22018.34862385321 ms...
+21:21:25.335 - Dispensing 7 cl of orange juice over 38532.11009174312 ms...
+21:21:47.369 - Dispensing blue curacao finished.
+21:21:52.866 - Dispensing vodka finished.
+21:22:03.881 - Dispensing orange juice finished.
+21:22:03.885 - Recipe ' 
+Citrus Sunset Cocktail' dispensed.
+21:22:03.893 - Dispensing finished.
+21:22:20.759 - OpenAICocktailBot creating random cocktail...
+21:22:20.763 - Normalizing drink...
+21:22:20.767 - Drink enlarged to 1.6666666666666667
+21:22:20.771 - Drink normalized
+21:22:20.775 - CocktailRecipe {
+  ingredients: [
+    0,
+    3.3333333333333335,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    6.666666666666667
+  ],
+  name: 'random cocktail'
+}
+21:22:20.817 - Starting dispensing recipe 'random cocktail'...
+21:22:20.821 - Ingredients: [ 0, 3.3333333333333335, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6.666666666666667 ]
+21:22:20.824 - Drink size: 10
+21:22:20.828 - Dispensing 3.3333333333333335 cl of gin over 18348.62385321101 ms...
+21:22:20.831 - Dispensing 6.666666666666667 cl of soda over 36697.24770642202 ms...
+21:22:39.206 - Dispensing gin finished.
+21:22:57.553 - Dispensing soda finished.
+21:22:57.556 - Recipe 'random cocktail' dispensed.
+21:22:57.560 - Dispensing finished.
+21:23:48.504 - OpenAICocktailBot creating random cocktail...
+21:23:48.508 - Normalizing drink...
+21:23:48.511 - Drink normalized
+21:23:48.515 - CocktailRecipe {
+  ingredients: [
+      0, 0, 3, 0, 0,
+      4, 0, 2, 4, 0,
+    0.5, 0
+  ],
+  name: 'random cocktail'
+}
+21:23:48.536 - Starting dispensing recipe 'random cocktail'...
+21:23:48.540 - Ingredients: [
+    0, 0, 3, 0, 0,
+    4, 0, 2, 4, 0,
+  0.5, 0
+]
+21:23:48.554 - Drink size: 13.5
+21:23:48.558 - Dispensing 3 cl of rum over 16513.761467889908 ms...
+21:23:48.561 - Dispensing 4 cl of cherry juice over 22018.34862385321 ms...
+21:23:48.566 - Dispensing 2 cl of bitter lemon over 11009.174311926605 ms...
+21:23:48.570 - Dispensing 4 cl of tonic water over 22018.34862385321 ms...
+21:23:48.573 - Dispensing 0.5 cl of bitter orange sirup over 2752.293577981651 ms...
+21:23:51.334 - Dispensing bitter orange sirup finished.
+21:23:59.593 - Dispensing bitter lemon finished.
+21:24:05.098 - Dispensing rum finished.
+21:24:10.602 - Dispensing cherry juice finished.
+21:24:10.606 - Dispensing tonic water finished.
+21:24:10.610 - Recipe 'random cocktail' dispensed.
+21:24:10.614 - Dispensing finished.
+21:25:14.993 - Cleaning...
+21:25:14.997 - Dispensing 20 cl of vodka over 110091.74311926606 ms...
+21:26:42.025 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+21:26:42.040 - Ingredient: vodka, alcohol, GPIO ID: 2
+21:26:42.046 - Ingredient: gin, alcohol, GPIO ID: 3
+21:26:42.050 - Ingredient: rum, alcohol, GPIO ID: 4
+21:26:42.053 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+21:26:42.056 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+21:26:42.060 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+21:26:42.063 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+21:26:42.065 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+21:26:42.069 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+21:26:42.073 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+21:26:42.076 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+21:26:42.078 - Ingredient: soda, no alcohol, GPIO ID: 19
+21:26:42.082 - OpenAICocktailBot 'alcohol' constructing...
+21:26:42.084 - OpenAICocktailBot 'alcohol' resetting.
+21:26:42.092 - OpenAICocktailBot 'alcohol' constructed.
+21:26:42.101 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+21:27:03.738 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+21:27:03.754 - Ingredient: vodka, alcohol, GPIO ID: 2
+21:27:03.760 - Ingredient: gin, alcohol, GPIO ID: 3
+21:27:03.764 - Ingredient: rum, alcohol, GPIO ID: 4
+21:27:03.767 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+21:27:03.770 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+21:27:03.774 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+21:27:03.778 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+21:27:03.780 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+21:27:03.784 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+21:27:03.789 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+21:27:03.792 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+21:27:03.795 - Ingredient: soda, no alcohol, GPIO ID: 19
+21:27:03.798 - OpenAICocktailBot 'alcohol' constructing...
+21:27:03.801 - OpenAICocktailBot 'alcohol' resetting.
+21:27:03.809 - OpenAICocktailBot 'alcohol' constructed.
+21:27:03.820 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+21:27:06.666 - Cleaning...
+21:27:06.669 - Dispensing 10 cl of vodka over 55045.87155963303 ms...
+21:28:01.748 - Dispensing vodka finished.
+21:28:01.756 - Dispensing 10 cl of gin over 55045.87155963303 ms...
+21:28:56.829 - Dispensing gin finished.
+21:28:56.834 - Dispensing 10 cl of rum over 55045.87155963303 ms...
+21:29:51.914 - Dispensing rum finished.
+21:29:51.918 - Dispensing 10 cl of blue curacao over 55045.87155963303 ms...
+21:30:46.993 - Dispensing blue curacao finished.
+21:30:46.998 - Dispensing 10 cl of ananas juice over 55045.87155963303 ms...
+21:31:42.093 - Dispensing ananas juice finished.
+21:31:42.095 - Dispensing 10 cl of cherry juice over 55045.87155963303 ms...
+21:32:37.149 - Dispensing cherry juice finished.
+21:32:37.154 - Dispensing 10 cl of orange juice over 55045.87155963303 ms...
+21:33:32.205 - Dispensing orange juice finished.
+21:33:32.210 - Dispensing 10 cl of bitter lemon over 55045.87155963303 ms...
+21:34:27.261 - Dispensing bitter lemon finished.
+21:34:27.266 - Dispensing 10 cl of tonic water over 55045.87155963303 ms...
+21:35:22.377 - Dispensing tonic water finished.
+21:35:22.382 - Dispensing 10 cl of herbal lemonade over 55045.87155963303 ms...
+21:36:17.482 - Dispensing herbal lemonade finished.
+21:36:17.487 - Dispensing 10 cl of bitter orange sirup over 55045.87155963303 ms...
+21:37:12.561 - Dispensing bitter orange sirup finished.
+21:37:12.569 - Dispensing 10 cl of soda over 55045.87155963303 ms...
+21:38:07.641 - Dispensing soda finished.
+21:38:07.647 - Cleaned.

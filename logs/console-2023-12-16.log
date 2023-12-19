@@ -1,0 +1,1890 @@
+01:21:44.183 - AI cocktail
+01:21:44.190 - OpenAICocktailBot 'alcohol' pour me a drink...
+01:21:44.195 - Waiting for OpenAI GTP API reply...
+01:21:45.264 - OpenAICocktailBot 'alcohol' completion returned successfully.
+01:21:45.270 - result: {
+  role: 'assistant',
+  content: 'Minty Beach, 3 cl rum, 4 cl tonic water, 2 cl orange juice, 4 cl herbal lemonade'
+}
+01:21:45.292 - tokens: 376
+01:21:45.299 - Minty Beach: 3.0 cl rum, 2.0 cl orange juice, 4.0 cl tonic water, 4.0 cl herbal lemonade
+01:21:45.305 - Starting dispensing recipe 'Minty Beach'...
+01:21:45.311 - Ingredients: 0 0 3 0 0 0 2 0 4 4 0 0
+01:21:45.316 - Drink size: 13
+01:21:45.323 - Dispensing 3 cl of rum over 16.5 s...
+01:21:45.329 - Dispensing 2 cl of orange juice over 11.0 s...
+01:21:45.335 - Dispensing 4 cl of tonic water over 22.0 s...
+01:21:45.338 - Dispensing 4 cl of herbal lemonade over 22.0 s...
+01:21:56.359 - Dispensing orange juice finished.
+01:22:01.860 - Dispensing rum finished.
+01:22:07.366 - Dispensing tonic water finished.
+01:22:07.373 - Dispensing herbal lemonade finished.
+01:22:07.380 - Recipe 'Minty Beach' dispensed.
+01:22:07.386 - Dispensing finished.
+01:27:03.116 - OpenAICocktailBot creating random cocktail...
+01:27:03.124 - Normalizing drink...
+01:27:03.132 - Drink enlarged to 1.6666666666666667
+01:27:03.138 - Drink normalized
+01:27:03.144 - random cocktail: 6.7 cl gin, 3.3 cl orange juice
+01:27:03.151 - Starting dispensing recipe 'random cocktail'...
+01:27:03.157 - Ingredients: 0 6.666666666666667 0 0 0 0 3.3333333333333335 0 0 0 0 0
+01:27:03.163 - Drink size: 10
+01:27:03.169 - Dispensing 6.666666666666667 cl of gin over 36.7 s...
+01:27:03.176 - Dispensing 3.3333333333333335 cl of orange juice over 18.3 s...
+01:27:21.534 - Dispensing orange juice finished.
+01:27:39.899 - Dispensing gin finished.
+01:27:39.905 - Recipe 'random cocktail' dispensed.
+01:27:39.911 - Dispensing finished.
+01:27:58.955 - OpenAICocktailBot creating random cocktail...
+01:27:58.962 - Normalizing drink...
+01:27:58.968 - Drink normalized
+01:27:58.974 - random cocktail: 4.0 cl ananas juice, 2.0 cl cherry juice, 4.0 cl bitter lemon, 4.0 cl herbal lemonade, 0.50 cl bitter orange sirup, 2.0 cl soda
+01:27:58.980 - Starting dispensing recipe 'random cocktail'...
+01:27:58.986 - Ingredients: 0 0 0 0 4 2 0 4 0 4 0.5 2
+01:27:58.993 - Drink size: 16.5
+01:27:58.999 - Dispensing 4 cl of ananas juice over 22.0 s...
+01:27:59.005 - Dispensing 2 cl of cherry juice over 11.0 s...
+01:27:59.012 - Dispensing 4 cl of bitter lemon over 22.0 s...
+01:27:59.018 - Dispensing 4 cl of herbal lemonade over 22.0 s...
+01:27:59.025 - Dispensing 0.5 cl of bitter orange sirup over 2.75 s...
+01:27:59.031 - Dispensing 2 cl of soda over 11.0 s...
+01:28:01.790 - Dispensing bitter orange sirup finished.
+01:28:10.053 - Dispensing cherry juice finished.
+01:28:10.059 - Dispensing soda finished.
+01:28:21.055 - Dispensing ananas juice finished.
+01:28:21.062 - Dispensing bitter lemon finished.
+01:28:21.069 - Dispensing herbal lemonade finished.
+01:28:21.075 - Recipe 'random cocktail' dispensed.
+01:28:21.081 - Dispensing finished.
+01:38:09.119 - Starting pump vodka...
+01:38:09.128 - Pump vodka started.
+01:38:09.731 - Starting pump gin...
+01:38:09.738 - Pump gin started.
+01:38:10.255 - Starting pump rum...
+01:38:10.261 - Pump rum started.
+01:38:10.799 - Starting pump blue curacao...
+01:38:10.806 - Pump blue curacao started.
+01:38:11.351 - Starting pump ananas juice...
+01:38:11.358 - Pump ananas juice started.
+01:38:11.875 - Starting pump cherry juice...
+01:38:11.882 - Pump cherry juice started.
+01:38:29.555 - Stopping pump vodka...
+01:38:29.562 - Pump vodka stopped.
+01:38:30.085 - Stopping pump gin...
+01:38:30.092 - Pump gin stopped.
+01:38:30.625 - Stopping pump rum...
+01:38:30.632 - Pump rum stopped.
+01:38:31.495 - Stopping pump blue curacao...
+01:38:31.501 - Pump blue curacao stopped.
+01:38:33.727 - Stopping pump ananas juice...
+01:38:33.734 - Pump ananas juice stopped.
+01:38:34.735 - Stopping pump cherry juice...
+01:38:34.741 - Pump cherry juice stopped.
+01:40:22.784 - Starting pump orange juice...
+01:40:22.791 - Pump orange juice started.
+01:40:23.270 - Starting pump bitter lemon...
+01:40:23.276 - Pump bitter lemon started.
+01:40:23.894 - Starting pump tonic water...
+01:40:23.907 - Pump tonic water started.
+01:40:24.600 - Starting pump herbal lemonade...
+01:40:24.607 - Pump herbal lemonade started.
+01:40:25.580 - Starting pump bitter orange sirup...
+01:40:25.587 - Pump bitter orange sirup started.
+01:40:26.380 - Starting pump soda...
+01:40:26.387 - Pump soda started.
+01:40:47.354 - Stopping pump orange juice...
+01:40:47.361 - Pump orange juice stopped.
+01:40:48.066 - Stopping pump bitter lemon...
+01:40:48.072 - Pump bitter lemon stopped.
+01:40:48.849 - Stopping pump tonic water...
+01:40:48.855 - Pump tonic water stopped.
+01:40:49.452 - Stopping pump herbal lemonade...
+01:40:49.458 - Pump herbal lemonade stopped.
+01:40:50.106 - Stopping pump bitter orange sirup...
+01:40:50.113 - Pump bitter orange sirup stopped.
+01:40:50.766 - Stopping pump soda...
+01:40:50.773 - Pump soda stopped.
+01:41:03.608 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+01:43:01.880 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+01:43:01.929 - Press Ctrl-C to exit.
+01:43:01.936 - Setting up buttons...
+01:43:02.052 - All LEDs off
+01:43:02.065 - Ingredient: vodka, alcohol, GPIO ID: 2
+01:43:02.097 - Ingredient: gin, alcohol, GPIO ID: 3
+01:43:02.120 - Ingredient: rum, alcohol, GPIO ID: 4
+01:43:02.139 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+01:43:02.157 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+01:43:02.177 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+01:43:02.197 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+01:43:02.216 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+01:43:02.236 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+01:43:02.254 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+01:43:02.274 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+01:43:02.293 - Ingredient: soda, no alcohol, GPIO ID: 19
+01:43:02.315 - OpenAICocktailBot 'alcohol' constructing...
+01:43:02.317 - OpenAICocktailBot 'alcohol' resetting.
+01:43:02.328 - OpenAICocktailBot 'alcohol' constructed.
+01:43:02.329 - f1...f12 start/stop dispensing
+01:43:02.330 - a        AI cocktail
+01:43:02.331 - r        (r)andom cocktail
+01:43:02.333 - n        random (n)icolas cocktail with alcohol
+01:43:02.333 - Ctrl-c   quit
+01:43:02.341 - Reading squat bot config...
+01:43:02.343 - Ssquat bot config: SquatBotConfig {
+  targetSquats: 5,
+  gameWinTimeout_s: 60,
+  faceMinX: 320,
+  faceMaxX: 420,
+  gameStartTimeout_s: 3,
+  topOffset_px: 20,
+  bottomOffset_px: 0,
+  gameLeftTimeout_s: 5,
+  squatFactor: 1.3
+}
+01:43:02.352 - Creating web server...
+01:43:02.358 - index 0 argument -> /usr/bin/node
+01:43:02.358 - index 1 argument -> /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/index.js
+01:43:02.366 - Creating socket.io server...
+01:43:02.376 - Server path: ./ui
+01:43:02.382 - Starting web server....
+01:43:02.400 - Web server ready: listening on *:5000
+18:06:19.871 - Starting pump vodka...
+18:06:19.880 - Pump vodka started.
+18:06:20.259 - Starting pump gin...
+18:06:20.267 - Pump gin started.
+18:06:20.597 - Starting pump rum...
+18:06:20.603 - Pump rum started.
+18:06:20.911 - Starting pump blue curacao...
+18:06:20.918 - Pump blue curacao started.
+18:06:21.209 - Starting pump ananas juice...
+18:06:21.217 - Pump ananas juice started.
+18:06:21.507 - Starting pump cherry juice...
+18:06:21.513 - Pump cherry juice started.
+18:06:31.214 - Stopping pump vodka...
+18:06:31.223 - Pump vodka stopped.
+18:06:31.810 - Stopping pump gin...
+18:06:31.816 - Pump gin stopped.
+18:06:32.179 - Stopping pump rum...
+18:06:32.188 - Pump rum stopped.
+18:06:32.510 - Stopping pump blue curacao...
+18:06:32.516 - Pump blue curacao stopped.
+18:06:32.847 - Stopping pump ananas juice...
+18:06:32.853 - Pump ananas juice stopped.
+18:06:33.292 - Stopping pump cherry juice...
+18:06:33.298 - Pump cherry juice stopped.
+18:06:39.130 - Starting pump vodka...
+18:06:39.136 - Pump vodka started.
+18:06:39.904 - Stopping pump vodka...
+18:06:39.914 - Pump vodka stopped.
+18:06:40.874 - Starting pump gin...
+18:06:40.880 - Pump gin started.
+18:06:41.691 - Stopping pump gin...
+18:06:41.697 - Pump gin stopped.
+18:06:42.624 - Starting pump rum...
+18:06:42.630 - Pump rum started.
+18:06:43.562 - Stopping pump rum...
+18:06:43.568 - Pump rum stopped.
+18:06:44.356 - Starting pump blue curacao...
+18:06:44.362 - Pump blue curacao started.
+18:06:45.130 - Stopping pump blue curacao...
+18:06:45.137 - Pump blue curacao stopped.
+18:06:46.014 - Starting pump ananas juice...
+18:06:46.019 - Pump ananas juice started.
+18:06:47.256 - Stopping pump ananas juice...
+18:06:47.261 - Pump ananas juice stopped.
+18:06:48.253 - Starting pump cherry juice...
+18:06:48.259 - Pump cherry juice started.
+18:06:49.077 - Stopping pump cherry juice...
+18:06:49.082 - Pump cherry juice stopped.
+18:06:51.834 - Starting pump orange juice...
+18:06:51.839 - Pump orange juice started.
+18:06:52.342 - Starting pump bitter lemon...
+18:06:52.347 - Pump bitter lemon started.
+18:06:52.759 - Starting pump tonic water...
+18:06:52.768 - Pump tonic water started.
+18:06:53.081 - Starting pump herbal lemonade...
+18:06:53.087 - Pump herbal lemonade started.
+18:06:53.421 - Starting pump bitter orange sirup...
+18:06:53.426 - Pump bitter orange sirup started.
+18:06:53.831 - Starting pump soda...
+18:06:53.836 - Pump soda started.
+18:06:55.600 - Stopping pump orange juice...
+18:06:55.606 - Pump orange juice stopped.
+18:06:55.954 - Stopping pump bitter lemon...
+18:06:55.960 - Pump bitter lemon stopped.
+18:06:56.316 - Stopping pump tonic water...
+18:06:56.321 - Pump tonic water stopped.
+18:06:56.614 - Stopping pump herbal lemonade...
+18:06:56.619 - Pump herbal lemonade stopped.
+18:06:56.941 - Stopping pump bitter orange sirup...
+18:06:56.947 - Pump bitter orange sirup stopped.
+18:06:57.307 - Stopping pump soda...
+18:06:57.313 - Pump soda stopped.
+18:07:00.270 - Starting pump orange juice...
+18:07:00.276 - Pump orange juice started.
+18:07:01.986 - Stopping pump orange juice...
+18:07:01.991 - Pump orange juice stopped.
+18:07:03.151 - Starting pump orange juice...
+18:07:03.157 - Pump orange juice started.
+18:07:04.173 - Stopping pump orange juice...
+18:07:04.179 - Pump orange juice stopped.
+18:07:11.267 - Starting pump bitter lemon...
+18:07:11.273 - Pump bitter lemon started.
+18:07:13.358 - Stopping pump bitter lemon...
+18:07:13.363 - Pump bitter lemon stopped.
+18:07:14.072 - Starting pump tonic water...
+18:07:14.078 - Pump tonic water started.
+18:07:16.268 - Stopping pump tonic water...
+18:07:16.274 - Pump tonic water stopped.
+18:07:16.968 - Starting pump herbal lemonade...
+18:07:16.973 - Pump herbal lemonade started.
+18:07:19.703 - Stopping pump herbal lemonade...
+18:07:19.709 - Pump herbal lemonade stopped.
+18:07:20.581 - Starting pump bitter orange sirup...
+18:07:20.587 - Pump bitter orange sirup started.
+18:07:22.312 - Stopping pump bitter orange sirup...
+18:07:22.318 - Pump bitter orange sirup stopped.
+18:07:23.276 - Starting pump soda...
+18:07:23.282 - Pump soda started.
+18:07:25.216 - Stopping pump soda...
+18:07:25.222 - Pump soda stopped.
+18:07:30.551 - Starting pump bitter orange sirup...
+18:07:30.557 - Pump bitter orange sirup started.
+18:07:33.109 - Stopping pump bitter orange sirup...
+18:07:33.115 - Pump bitter orange sirup stopped.
+18:07:34.134 - Starting pump herbal lemonade...
+18:07:34.143 - Pump herbal lemonade started.
+18:07:36.762 - Stopping pump herbal lemonade...
+18:07:36.768 - Pump herbal lemonade stopped.
+18:07:38.984 - Starting pump herbal lemonade...
+18:07:38.990 - Pump herbal lemonade started.
+18:07:44.645 - Stopping pump herbal lemonade...
+18:07:44.651 - Pump herbal lemonade stopped.
+18:07:45.525 - Starting pump tonic water...
+18:07:45.531 - Pump tonic water started.
+18:07:47.527 - Stopping pump tonic water...
+18:07:47.533 - Pump tonic water stopped.
+18:07:49.216 - Starting pump tonic water...
+18:07:49.222 - Pump tonic water started.
+18:07:50.920 - Stopping pump tonic water...
+18:07:50.926 - Pump tonic water stopped.
+18:07:52.360 - Starting pump bitter lemon...
+18:07:52.366 - Pump bitter lemon started.
+18:07:55.094 - Stopping pump bitter lemon...
+18:07:55.100 - Pump bitter lemon stopped.
+18:07:56.308 - Starting pump orange juice...
+18:07:56.314 - Pump orange juice started.
+18:07:57.428 - Stopping pump orange juice...
+18:07:57.433 - Pump orange juice stopped.
+18:08:42.454 - AI cocktail
+18:08:42.461 - OpenAICocktailBot 'alcohol' pour me a drink...
+18:08:42.467 - Waiting for OpenAI GTP API reply...
+18:09:30.269 - undefined
+18:09:30.275 - Error
+18:09:30.280 - undefined
+18:09:30.285 - OpenAICocktailBot 'alcohol' error during OpenAI request: Error: Connection error.. We'll pour you a random drink instead.
+18:09:30.291 - OpenAICocktailBot creating random cocktail...
+18:09:30.298 - Normalizing drink...
+18:09:30.303 - Drink normalized
+18:09:30.309 - random cocktail: 2.0 cl vodka, 2.0 cl ananas juice, 4.0 cl tonic water, 2.0 cl herbal lemonade, 0.50 cl bitter orange sirup, 2.0 cl soda
+18:09:30.316 - Starting dispensing recipe 'random cocktail'...
+18:09:30.320 - Ingredients: 2 0 0 0 2 0 0 0 4 2 0.5 2
+18:09:30.322 - Drink size: 12.5
+18:09:30.325 - Dispensing 2 cl of vodka over 11.0 s...
+18:09:30.328 - Dispensing 2 cl of ananas juice over 11.0 s...
+18:09:30.331 - Dispensing 4 cl of tonic water over 22.0 s...
+18:09:30.334 - Dispensing 2 cl of herbal lemonade over 11.0 s...
+18:09:30.336 - Dispensing 0.5 cl of bitter orange sirup over 2.75 s...
+18:09:30.339 - Dispensing 2 cl of soda over 11.0 s...
+18:09:33.098 - Dispensing bitter orange sirup finished.
+18:09:41.362 - Dispensing vodka finished.
+18:09:41.368 - Dispensing ananas juice finished.
+18:09:41.374 - Dispensing herbal lemonade finished.
+18:09:41.380 - Dispensing soda finished.
+18:09:52.373 - Dispensing tonic water finished.
+18:09:52.379 - Recipe 'random cocktail' dispensed.
+18:09:52.384 - Dispensing finished.
+18:12:16.639 - AI cocktail
+18:12:16.645 - OpenAICocktailBot 'alcohol' pour me a drink...
+18:12:16.651 - Waiting for OpenAI GTP API reply...
+18:15:48.400 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+18:15:54.190 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+18:15:54.201 - Press Ctrl-C to exit.
+18:15:54.210 - Setting up buttons...
+18:15:54.221 - All LEDs off
+18:15:54.254 - Ingredient: vodka, alcohol, GPIO ID: 2
+18:15:54.259 - Ingredient: gin, alcohol, GPIO ID: 3
+18:15:54.263 - Ingredient: rum, alcohol, GPIO ID: 4
+18:15:54.267 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+18:15:54.272 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+18:15:54.277 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+18:15:54.281 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+18:15:54.285 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+18:15:54.289 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+18:15:54.293 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+18:15:54.296 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+18:15:54.301 - Ingredient: soda, no alcohol, GPIO ID: 19
+18:15:54.306 - OpenAICocktailBot 'alcohol' constructing...
+18:15:54.309 - OpenAICocktailBot 'alcohol' resetting.
+18:15:54.316 - OpenAICocktailBot 'alcohol' constructed.
+18:15:54.319 - f1...f12 start/stop dispensing
+18:15:54.322 - a        AI cocktail
+18:15:54.324 - r        (r)andom cocktail
+18:15:54.327 - n        random (n)icolas cocktail with alcohol
+18:15:54.329 - Ctrl-c   quit
+18:15:54.340 - Reading squat bot config...
+18:15:54.343 - Ssquat bot config: SquatBotConfig {
+  targetSquats: 5,
+  gameWinTimeout_s: 60,
+  faceMinX: 320,
+  faceMaxX: 420,
+  gameStartTimeout_s: 3,
+  topOffset_px: 20,
+  bottomOffset_px: 0,
+  gameLeftTimeout_s: 5,
+  squatFactor: 1.3
+}
+18:15:54.374 - Creating web server...
+18:15:54.398 - index 0 argument -> /usr/bin/node
+18:15:54.400 - index 1 argument -> /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/index.js
+18:15:54.407 - Creating socket.io server...
+18:15:54.419 - Server path: ./ui
+18:15:54.427 - Starting web server....
+18:15:54.445 - Web server ready: listening on *:5000
+18:15:57.436 - AI cocktail
+18:15:57.439 - OpenAICocktailBot 'alcohol' pour me a drink...
+18:15:57.442 - Waiting for OpenAI GTP API reply...
+18:16:44.765 - undefined
+18:16:44.772 - Error
+18:16:44.777 - undefined
+18:16:44.782 - OpenAICocktailBot 'alcohol' error during OpenAI request: Error: Connection error.. We'll pour you a random drink instead.
+18:16:44.789 - OpenAICocktailBot creating random cocktail...
+18:16:44.796 - Normalizing drink...
+18:16:44.802 - Drink normalized
+18:16:44.809 - random cocktail: 3.0 cl vodka, 2.0 cl ananas juice, 2.0 cl cherry juice, 4.0 cl bitter lemon, 4.0 cl tonic water, 2.0 cl herbal lemonade
+18:16:44.816 - Starting dispensing recipe 'random cocktail'...
+18:16:44.822 - Ingredients: 3 0 0 0 2 2 0 4 4 2 0 0
+18:16:44.828 - Drink size: 17
+18:16:44.836 - Dispensing 3 cl of vodka over 16.5 s...
+18:16:44.842 - Dispensing 2 cl of ananas juice over 11.0 s...
+18:16:44.848 - Dispensing 2 cl of cherry juice over 11.0 s...
+18:16:44.854 - Dispensing 4 cl of bitter lemon over 22.0 s...
+18:16:44.860 - Dispensing 4 cl of tonic water over 22.0 s...
+18:16:44.863 - Dispensing 2 cl of herbal lemonade over 11.0 s...
+18:16:55.883 - Dispensing ananas juice finished.
+18:16:55.889 - Dispensing cherry juice finished.
+18:16:55.895 - Dispensing herbal lemonade finished.
+18:17:01.388 - Dispensing vodka finished.
+18:17:06.897 - Dispensing bitter lemon finished.
+18:17:06.904 - Dispensing tonic water finished.
+18:17:06.908 - Recipe 'random cocktail' dispensed.
+18:17:06.913 - Dispensing finished.
+18:17:40.397 - AI cocktail
+18:17:40.403 - OpenAICocktailBot 'alcohol' pour me a drink...
+18:17:40.408 - Waiting for OpenAI GTP API reply...
+18:18:27.632 - undefined
+18:18:27.638 - Error
+18:18:27.643 - undefined
+18:18:27.648 - OpenAICocktailBot 'alcohol' error during OpenAI request: Error: Connection error.. We'll pour you a random drink instead.
+18:18:27.654 - OpenAICocktailBot creating random cocktail...
+18:18:27.659 - Normalizing drink...
+18:18:27.664 - Drink normalized
+18:18:27.668 - random cocktail: 3.0 cl blue curacao, 4.0 cl orange juice, 2.0 cl bitter lemon, 2.0 cl tonic water, 4.0 cl herbal lemonade
+18:18:27.672 - Starting dispensing recipe 'random cocktail'...
+18:18:27.677 - Ingredients: 0 0 0 3 0 0 4 2 2 4 0 0
+18:18:27.681 - Drink size: 15
+18:18:27.688 - Dispensing 3 cl of blue curacao over 16.5 s...
+18:18:27.692 - Dispensing 4 cl of orange juice over 22.0 s...
+18:18:27.697 - Dispensing 2 cl of bitter lemon over 11.0 s...
+18:18:27.701 - Dispensing 2 cl of tonic water over 11.0 s...
+18:18:27.706 - Dispensing 4 cl of herbal lemonade over 22.0 s...
+18:18:38.723 - Dispensing bitter lemon finished.
+18:18:38.726 - Dispensing tonic water finished.
+18:18:44.231 - Dispensing blue curacao finished.
+18:18:49.736 - Dispensing orange juice finished.
+18:18:49.742 - Dispensing herbal lemonade finished.
+18:18:49.748 - Recipe 'random cocktail' dispensed.
+18:18:49.754 - Dispensing finished.
+18:20:26.531 - AI cocktail
+18:20:26.537 - OpenAICocktailBot 'alcohol' pour me a drink...
+18:20:26.543 - Waiting for OpenAI GTP API reply...
+18:20:47.910 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+18:25:34.643 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+18:25:34.697 - Press Ctrl-C to exit.
+18:25:34.705 - Setting up buttons...
+18:25:35.091 - All LEDs off
+18:25:35.102 - Ingredient: vodka, alcohol, GPIO ID: 2
+18:25:35.125 - Ingredient: gin, alcohol, GPIO ID: 3
+18:25:35.145 - Ingredient: rum, alcohol, GPIO ID: 4
+18:25:35.170 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+18:25:35.193 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+18:25:35.215 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+18:25:35.236 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+18:25:35.259 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+18:25:35.283 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+18:25:35.302 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+18:25:35.325 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+18:25:35.348 - Ingredient: soda, no alcohol, GPIO ID: 19
+18:25:35.371 - OpenAICocktailBot 'alcohol' constructing...
+18:25:35.373 - OpenAICocktailBot 'alcohol' resetting.
+18:25:35.380 - OpenAICocktailBot 'alcohol' constructed.
+18:25:35.381 - f1...f12 start/stop dispensing
+18:25:35.382 - a        AI cocktail
+18:25:35.383 - r        (r)andom cocktail
+18:25:35.385 - n        random (n)icolas cocktail with alcohol
+18:25:35.386 - Ctrl-c   quit
+18:25:35.396 - Reading squat bot config...
+18:25:35.397 - Ssquat bot config: SquatBotConfig {
+  targetSquats: 5,
+  gameWinTimeout_s: 60,
+  faceMinX: 320,
+  faceMaxX: 420,
+  gameStartTimeout_s: 3,
+  topOffset_px: 20,
+  bottomOffset_px: 0,
+  gameLeftTimeout_s: 5,
+  squatFactor: 1.3
+}
+18:25:35.408 - Creating web server...
+18:25:35.415 - index 0 argument -> /usr/bin/node
+18:25:35.416 - index 1 argument -> /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/index.js
+18:25:35.429 - Creating socket.io server...
+18:25:35.443 - Server path: ./ui
+18:25:35.455 - Starting web server....
+18:25:35.476 - Web server ready: listening on *:5000
+18:25:46.267 - AI cocktail
+18:25:46.272 - OpenAICocktailBot 'alcohol' pour me a drink...
+18:25:46.274 - Waiting for OpenAI GTP API reply...
+18:26:34.024 - undefined
+18:26:34.027 - Error
+18:26:34.028 - undefined
+18:26:34.030 - OpenAICocktailBot 'alcohol' error during OpenAI request: Error: Connection error.. We'll pour you a random drink instead.
+18:26:34.033 - OpenAICocktailBot creating random cocktail...
+18:26:34.036 - Normalizing drink...
+18:26:34.042 - Drink enlarged to 1.1764705882352942
+18:26:34.044 - Drink normalized
+18:26:34.046 - random cocktail: 4.7 cl blue curacao, 4.7 cl orange juice, 0.59 cl bitter orange sirup
+18:26:34.049 - Starting dispensing recipe 'random cocktail'...
+18:26:34.050 - Ingredients: 0 0 0 4.705882352941177 0 0 4.705882352941177 0 0 0 0.5882352941176471 0
+18:26:34.051 - Drink size: 10
+18:26:34.054 - Dispensing 4.705882352941177 cl of blue curacao over 25.9 s...
+18:26:34.056 - Dispensing 4.705882352941177 cl of orange juice over 25.9 s...
+18:26:34.058 - Dispensing 0.5882352941176471 cl of bitter orange sirup over 3.24 s...
+18:26:37.303 - Dispensing bitter orange sirup finished.
+18:26:59.967 - Dispensing blue curacao finished.
+18:26:59.968 - Dispensing orange juice finished.
+18:26:59.969 - Recipe 'random cocktail' dispensed.
+18:26:59.970 - Dispensing finished.
+18:27:10.399 - AI cocktail
+18:27:10.401 - OpenAICocktailBot 'alcohol' pour me a drink...
+18:27:10.406 - Waiting for OpenAI GTP API reply...
+18:27:58.105 - undefined
+18:27:58.107 - Error
+18:27:58.108 - undefined
+18:27:58.109 - OpenAICocktailBot 'alcohol' error during OpenAI request: Error: Connection error.. We'll pour you a random drink instead.
+18:27:58.110 - OpenAICocktailBot creating random cocktail...
+18:27:58.111 - Normalizing drink...
+18:27:58.111 - Drink normalized
+18:27:58.112 - random cocktail: 3.0 cl vodka, 2.0 cl cherry juice, 4.0 cl orange juice, 4.0 cl bitter lemon, 4.0 cl tonic water, 0.50 cl bitter orange sirup
+18:27:58.113 - Starting dispensing recipe 'random cocktail'...
+18:27:58.114 - Ingredients: 3 0 0 0 0 2 4 4 4 0 0.5 0
+18:27:58.117 - Drink size: 17.5
+18:27:58.119 - Dispensing 3 cl of vodka over 16.5 s...
+18:27:58.120 - Dispensing 2 cl of cherry juice over 11.0 s...
+18:27:58.122 - Dispensing 4 cl of orange juice over 22.0 s...
+18:27:58.123 - Dispensing 4 cl of bitter lemon over 22.0 s...
+18:27:58.125 - Dispensing 4 cl of tonic water over 22.0 s...
+18:27:58.127 - Dispensing 0.5 cl of bitter orange sirup over 2.75 s...
+18:28:00.886 - Dispensing bitter orange sirup finished.
+18:28:09.146 - Dispensing cherry juice finished.
+18:28:14.650 - Dispensing vodka finished.
+18:28:20.155 - Dispensing orange juice finished.
+18:28:20.157 - Dispensing bitter lemon finished.
+18:28:20.159 - Dispensing tonic water finished.
+18:28:20.160 - Recipe 'random cocktail' dispensed.
+18:28:20.161 - Dispensing finished.
+18:29:13.959 - AI cocktail
+18:29:13.960 - OpenAICocktailBot 'alcohol' pour me a drink...
+18:29:13.961 - Waiting for OpenAI GTP API reply...
+18:29:16.624 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+18:32:49.945 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+18:32:49.970 - Press Ctrl-C to exit.
+18:32:49.990 - Setting up buttons...
+18:32:50.044 - All LEDs off
+18:32:50.146 - Ingredient: vodka, alcohol, GPIO ID: 2
+18:32:50.158 - Ingredient: gin, alcohol, GPIO ID: 3
+18:32:50.161 - Ingredient: rum, alcohol, GPIO ID: 4
+18:32:50.171 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+18:32:50.173 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+18:32:50.181 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+18:32:50.183 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+18:32:50.186 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+18:32:50.198 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+18:32:50.202 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+18:32:50.206 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+18:32:50.210 - Ingredient: soda, no alcohol, GPIO ID: 19
+18:32:50.218 - OpenAICocktailBot 'alcohol' constructing...
+18:32:50.219 - OpenAICocktailBot 'alcohol' resetting.
+18:32:50.232 - OpenAICocktailBot 'alcohol' constructed.
+18:32:50.233 - f1...f12 start/stop dispensing
+18:32:50.235 - a        AI cocktail
+18:32:50.236 - r        (r)andom cocktail
+18:32:50.237 - n        random (n)icolas cocktail with alcohol
+18:32:50.238 - Ctrl-c   quit
+18:32:50.251 - Reading squat bot config...
+18:32:50.254 - Ssquat bot config: SquatBotConfig {
+  targetSquats: 5,
+  gameWinTimeout_s: 60,
+  faceMinX: 320,
+  faceMaxX: 420,
+  gameStartTimeout_s: 3,
+  topOffset_px: 20,
+  bottomOffset_px: 0,
+  gameLeftTimeout_s: 5,
+  squatFactor: 1.3
+}
+18:32:50.270 - Creating web server...
+18:32:50.331 - index 0 argument -> /usr/bin/node
+18:32:50.332 - index 1 argument -> /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/index.js
+18:32:50.348 - Creating socket.io server...
+18:32:50.369 - Server path: ./ui
+18:32:50.384 - Starting web server....
+18:32:50.427 - Web server ready: listening on *:5000
+18:33:29.950 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+18:34:39.135 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+18:34:39.145 - Press Ctrl-C to exit.
+18:34:39.152 - Setting up buttons...
+18:34:39.165 - All LEDs off
+18:34:39.207 - Ingredient: vodka, alcohol, GPIO ID: 2
+18:34:39.210 - Ingredient: gin, alcohol, GPIO ID: 3
+18:34:39.212 - Ingredient: rum, alcohol, GPIO ID: 4
+18:34:39.214 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+18:34:39.216 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+18:34:39.221 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+18:34:39.223 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+18:34:39.226 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+18:34:39.230 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+18:34:39.233 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+18:34:39.235 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+18:34:39.239 - Ingredient: soda, no alcohol, GPIO ID: 19
+18:34:39.242 - OpenAICocktailBot 'alcohol' constructing...
+18:34:39.243 - OpenAICocktailBot 'alcohol' resetting.
+18:34:39.251 - OpenAICocktailBot 'alcohol' constructed.
+18:34:39.252 - f1...f12 start/stop dispensing
+18:34:39.254 - a        AI cocktail
+18:34:39.255 - r        (r)andom cocktail
+18:34:39.256 - n        random (n)icolas cocktail with alcohol
+18:34:39.256 - Ctrl-c   quit
+18:34:39.269 - Reading squat bot config...
+18:34:39.270 - Ssquat bot config: SquatBotConfig {
+  targetSquats: 5,
+  gameWinTimeout_s: 60,
+  faceMinX: 320,
+  faceMaxX: 420,
+  gameStartTimeout_s: 3,
+  topOffset_px: 20,
+  bottomOffset_px: 0,
+  gameLeftTimeout_s: 5,
+  squatFactor: 1.3
+}
+18:34:39.283 - Creating web server...
+18:34:39.314 - index 0 argument -> /usr/bin/node
+18:34:39.315 - index 1 argument -> /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/index.js
+18:34:39.325 - Creating socket.io server...
+18:34:39.336 - Server path: ./ui
+18:34:39.346 - Starting web server....
+18:34:39.368 - Web server ready: listening on *:5000
+18:34:40.348 - AI cocktail
+18:34:40.350 - OpenAICocktailBot 'alcohol' pour me a drink...
+18:34:40.351 - Waiting for OpenAI GTP API reply...
+18:34:46.757 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+18:35:37.236 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+18:35:37.246 - Press Ctrl-C to exit.
+18:35:37.258 - Setting up buttons...
+18:35:37.269 - All LEDs off
+18:35:37.320 - Ingredient: vodka, alcohol, GPIO ID: 2
+18:35:37.324 - Ingredient: gin, alcohol, GPIO ID: 3
+18:35:37.326 - Ingredient: rum, alcohol, GPIO ID: 4
+18:35:37.328 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+18:35:37.329 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+18:35:37.339 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+18:35:37.341 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+18:35:37.343 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+18:35:37.346 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+18:35:37.347 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+18:35:37.349 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+18:35:37.352 - Ingredient: soda, no alcohol, GPIO ID: 19
+18:35:37.355 - OpenAICocktailBot 'alcohol' constructing...
+18:35:37.357 - OpenAICocktailBot 'alcohol' resetting.
+18:35:37.366 - OpenAICocktailBot 'alcohol' constructed.
+18:35:37.367 - f1...f12 start/stop dispensing
+18:35:37.368 - a        AI cocktail
+18:35:37.369 - r        (r)andom cocktail
+18:35:37.371 - n        random (n)icolas cocktail with alcohol
+18:35:37.372 - Ctrl-c   quit
+18:35:37.382 - Reading squat bot config...
+18:35:37.383 - Ssquat bot config: SquatBotConfig {
+  targetSquats: 5,
+  gameWinTimeout_s: 60,
+  faceMinX: 320,
+  faceMaxX: 420,
+  gameStartTimeout_s: 3,
+  topOffset_px: 20,
+  bottomOffset_px: 0,
+  gameLeftTimeout_s: 5,
+  squatFactor: 1.3
+}
+18:35:37.395 - Creating web server...
+18:35:37.436 - index 0 argument -> /usr/bin/node
+18:35:37.437 - index 1 argument -> /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/index.js
+18:35:37.445 - Creating socket.io server...
+18:35:37.459 - Server path: ./ui
+18:35:37.470 - Starting web server....
+18:35:37.490 - Web server ready: listening on *:5000
+18:35:51.153 - AI cocktail
+18:35:51.157 - OpenAICocktailBot 'alcohol' pour me a drink...
+18:35:51.159 - Waiting for OpenAI GTP API reply...
+18:35:52.663 - OpenAICocktailBot 'alcohol' completion returned successfully.
+18:35:52.664 - result: {
+  role: 'assistant',
+  content: 'Caribbean Breeze, 4 cl rum, 4 cl ananas juice, 3 cl cherry juice, 2 cl orange juice'
+}
+18:35:52.667 - tokens: 225
+18:35:52.669 - Caribbean Breeze: 4.0 cl rum, 4.0 cl ananas juice, 3.0 cl cherry juice, 2.0 cl orange juice
+18:35:52.671 - Starting dispensing recipe 'Caribbean Breeze'...
+18:35:52.671 - Ingredients: 0 0 4 0 4 3 2 0 0 0 0 0
+18:35:52.672 - Drink size: 13
+18:35:52.674 - Dispensing 4 cl of rum over 22.0 s...
+18:35:52.675 - Dispensing 4 cl of ananas juice over 22.0 s...
+18:35:52.676 - Dispensing 3 cl of cherry juice over 16.5 s...
+18:35:52.677 - Dispensing 2 cl of orange juice over 11.0 s...
+18:36:03.697 - Dispensing orange juice finished.
+18:36:09.196 - Dispensing cherry juice finished.
+18:36:14.707 - Dispensing rum finished.
+18:36:14.710 - Dispensing ananas juice finished.
+18:36:14.711 - Recipe 'Caribbean Breeze' dispensed.
+18:36:14.712 - Dispensing finished.
+18:39:46.824 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+18:40:33.664 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+18:40:33.677 - Press Ctrl-C to exit.
+18:40:33.684 - Setting up buttons...
+18:40:33.700 - All LEDs off
+18:40:33.751 - Ingredient: vodka, alcohol, GPIO ID: 2
+18:40:33.754 - Ingredient: gin, alcohol, GPIO ID: 3
+18:40:33.757 - Ingredient: rum, alcohol, GPIO ID: 4
+18:40:33.760 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+18:40:33.772 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+18:40:33.778 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+18:40:33.782 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+18:40:33.786 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+18:40:33.794 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+18:40:33.797 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+18:40:33.799 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+18:40:33.805 - Ingredient: soda, no alcohol, GPIO ID: 19
+18:40:33.814 - OpenAICocktailBot 'alcohol' constructing...
+18:40:33.821 - OpenAICocktailBot 'alcohol' resetting.
+18:40:33.831 - OpenAICocktailBot 'alcohol' constructed.
+18:40:33.833 - f1...f12 start/stop dispensing
+18:40:33.835 - a        AI cocktail
+18:40:33.837 - r        (r)andom cocktail
+18:40:33.839 - n        random (n)icolas cocktail with alcohol
+18:40:33.839 - Ctrl-c   quit
+18:40:33.858 - Reading squat bot config...
+18:40:33.860 - Ssquat bot config: SquatBotConfig {
+  targetSquats: 5,
+  gameWinTimeout_s: 60,
+  faceMinX: 320,
+  faceMaxX: 420,
+  gameStartTimeout_s: 3,
+  topOffset_px: 20,
+  bottomOffset_px: 0,
+  gameLeftTimeout_s: 5,
+  squatFactor: 1.3
+}
+18:40:33.875 - Creating web server...
+18:40:33.886 - index 0 argument -> /usr/bin/node
+18:40:33.887 - index 1 argument -> /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/index.js
+18:40:33.897 - Creating socket.io server...
+18:40:33.941 - Server path: ./ui
+18:40:33.948 - Starting web server....
+18:40:33.968 - Web server ready: listening on *:5000
+18:55:03.956 - AI cocktail
+18:55:03.958 - OpenAICocktailBot 'alcohol' pour me a drink...
+18:55:03.960 - Waiting for OpenAI GTP API reply...
+18:55:05.464 - OpenAICocktailBot 'alcohol' completion returned successfully.
+18:55:05.465 - result: {
+  role: 'assistant',
+  content: 'Electric Ocean, 3 cl blue curacao, 4 cl ananas juice, 3 cl orange juice, 2 cl tonic water'
+}
+18:55:05.468 - tokens: 225
+18:55:05.470 - Electric Ocean: 3.0 cl blue curacao, 4.0 cl ananas juice, 3.0 cl orange juice, 2.0 cl tonic water
+18:55:05.472 - Starting dispensing recipe 'Electric Ocean'...
+18:55:05.473 - Ingredients: 0 0 0 3 4 0 3 0 2 0 0 0
+18:55:05.473 - Drink size: 12
+18:55:05.475 - Dispensing 3 cl of blue curacao over 16.5 s...
+18:55:05.476 - Dispensing 4 cl of ananas juice over 22.0 s...
+18:55:05.477 - Dispensing 3 cl of orange juice over 16.5 s...
+18:55:05.478 - Dispensing 2 cl of tonic water over 11.0 s...
+18:55:16.500 - Dispensing tonic water finished.
+18:55:22.000 - Dispensing blue curacao finished.
+18:55:22.002 - Dispensing orange juice finished.
+18:55:27.505 - Dispensing ananas juice finished.
+18:55:27.507 - Recipe 'Electric Ocean' dispensed.
+18:55:27.507 - Dispensing finished.
+18:58:30.692 - AI cocktail
+18:58:30.693 - OpenAICocktailBot 'alcohol' pour me a drink...
+18:58:30.694 - Waiting for OpenAI GTP API reply...
+18:58:31.861 - OpenAICocktailBot 'alcohol' completion returned successfully.
+18:58:31.862 - result: {
+  role: 'assistant',
+  content: 'Tropical Breeze, 2.5 cl rum, 5 cl ananas juice, 4 cl orange juice, 3 cl cherry juice'
+}
+18:58:31.864 - tokens: 267
+18:58:31.866 - Tropical Breeze: 2.5 cl rum, 5.0 cl ananas juice, 3.0 cl cherry juice, 4.0 cl orange juice
+18:58:31.869 - Starting dispensing recipe 'Tropical Breeze'...
+18:58:31.870 - Ingredients: 0 0 2.5 0 5 3 4 0 0 0 0 0
+18:58:31.871 - Drink size: 14.5
+18:58:31.872 - Dispensing 2.5 cl of rum over 13.8 s...
+18:58:31.872 - Dispensing 5 cl of ananas juice over 27.5 s...
+18:58:31.873 - Dispensing 3 cl of cherry juice over 16.5 s...
+18:58:31.874 - Dispensing 4 cl of orange juice over 22.0 s...
+18:58:45.647 - Dispensing rum finished.
+18:58:48.395 - Dispensing cherry juice finished.
+18:58:53.901 - Dispensing orange juice finished.
+18:58:59.405 - Dispensing ananas juice finished.
+18:58:59.407 - Recipe 'Tropical Breeze' dispensed.
+18:58:59.408 - Dispensing finished.
+19:00:42.370 - AI cocktail
+19:00:42.372 - OpenAICocktailBot 'alcohol' pour me a drink...
+19:00:42.373 - Waiting for OpenAI GTP API reply...
+19:00:43.486 - OpenAICocktailBot 'alcohol' completion returned successfully.
+19:00:43.488 - result: {
+  role: 'assistant',
+  content: 'Midnight Sparkle, 4 cl vodka, 3 cl blue curacao, 3 cl tonic water, 2 cl bitter lemon'
+}
+19:00:43.490 - tokens: 307
+19:00:43.491 - Midnight Sparkle: 4.0 cl vodka, 3.0 cl blue curacao, 2.0 cl bitter lemon, 3.0 cl tonic water
+19:00:43.492 - Starting dispensing recipe 'Midnight Sparkle'...
+19:00:43.493 - Ingredients: 4 0 0 3 0 0 0 2 3 0 0 0
+19:00:43.494 - Drink size: 12
+19:00:43.495 - Dispensing 4 cl of vodka over 22.0 s...
+19:00:43.496 - Dispensing 3 cl of blue curacao over 16.5 s...
+19:00:43.497 - Dispensing 2 cl of bitter lemon over 11.0 s...
+19:00:43.500 - Dispensing 3 cl of tonic water over 16.5 s...
+19:00:54.518 - Dispensing bitter lemon finished.
+19:01:00.023 - Dispensing blue curacao finished.
+19:01:00.025 - Dispensing tonic water finished.
+19:01:05.523 - Dispensing vodka finished.
+19:01:05.523 - Recipe 'Midnight Sparkle' dispensed.
+19:01:05.524 - Dispensing finished.
+19:04:10.599 - AI cocktail
+19:04:10.601 - OpenAICocktailBot 'alcohol' pour me a drink...
+19:04:10.602 - Waiting for OpenAI GTP API reply...
+19:04:11.709 - OpenAICocktailBot 'alcohol' completion returned successfully.
+19:04:11.710 - result: {
+  role: 'assistant',
+  content: 'Sunset Bliss, 3.5 cl gin, 4 cl orange juice, 3 cl ananas juice, 2 cl bitter orange sirup'
+}
+19:04:11.712 - tokens: 350
+19:04:11.713 - Sunset Bliss: 3.5 cl gin, 3.0 cl ananas juice, 4.0 cl orange juice, 2.0 cl bitter orange sirup
+19:04:11.714 - Starting dispensing recipe 'Sunset Bliss'...
+19:04:11.715 - Ingredients: 0 3.5 0 0 3 0 4 0 0 0 2 0
+19:04:11.715 - Drink size: 12.5
+19:04:11.719 - Dispensing 3.5 cl of gin over 19.3 s...
+19:04:11.720 - Dispensing 3 cl of ananas juice over 16.5 s...
+19:04:11.721 - Dispensing 4 cl of orange juice over 22.0 s...
+19:04:11.722 - Dispensing 2 cl of bitter orange sirup over 11.0 s...
+19:04:22.740 - Dispensing bitter orange sirup finished.
+19:04:28.238 - Dispensing ananas juice finished.
+19:04:30.992 - Dispensing gin finished.
+19:04:33.744 - Dispensing orange juice finished.
+19:04:33.746 - Recipe 'Sunset Bliss' dispensed.
+19:04:33.747 - Dispensing finished.
+19:36:32.955 - AI cocktail
+19:36:32.956 - OpenAICocktailBot 'alcohol' pour me a drink...
+19:36:32.958 - Waiting for OpenAI GTP API reply...
+19:36:33.876 - OpenAICocktailBot 'alcohol' completion returned successfully.
+19:36:33.878 - result: {
+  role: 'assistant',
+  content: 'Ocean Dream, 4 cl gin, 5 cl ananas juice, 3 cl bitter lemon'
+}
+19:36:33.883 - tokens: 382
+19:36:33.885 - Ocean Dream: 4.0 cl gin, 5.0 cl ananas juice, 3.0 cl bitter lemon
+19:36:33.887 - Starting dispensing recipe 'Ocean Dream'...
+19:36:33.889 - Ingredients: 0 4 0 0 5 0 0 3 0 0 0 0
+19:36:33.890 - Drink size: 12
+19:36:33.892 - Dispensing 4 cl of gin over 22.0 s...
+19:36:33.893 - Dispensing 5 cl of ananas juice over 27.5 s...
+19:36:33.894 - Dispensing 3 cl of bitter lemon over 16.5 s...
+19:36:50.409 - Dispensing bitter lemon finished.
+19:36:55.919 - Dispensing gin finished.
+19:37:01.424 - Dispensing ananas juice finished.
+19:37:01.425 - Recipe 'Ocean Dream' dispensed.
+19:37:01.426 - Dispensing finished.
+19:41:07.662 - AI cocktail
+19:41:07.664 - OpenAICocktailBot 'alcohol' pour me a drink...
+19:41:07.665 - Waiting for OpenAI GTP API reply...
+19:41:08.904 - OpenAICocktailBot 'alcohol' completion returned successfully.
+19:41:08.906 - result: {
+  role: 'assistant',
+  content: 'Neon Breeze, 3 cl blue curacao, 4 cl ananas juice, 3 cl orange juice, 2 cl soda'
+}
+19:41:08.907 - tokens: 423
+19:41:08.908 - Neon Breeze: 3.0 cl blue curacao, 4.0 cl ananas juice, 3.0 cl orange juice, 2.0 cl soda
+19:41:08.909 - Starting dispensing recipe 'Neon Breeze'...
+19:41:08.910 - Ingredients: 0 0 0 3 4 0 3 0 0 0 0 2
+19:41:08.911 - Drink size: 12
+19:41:08.911 - Dispensing 3 cl of blue curacao over 16.5 s...
+19:41:08.912 - Dispensing 4 cl of ananas juice over 22.0 s...
+19:41:08.914 - Dispensing 3 cl of orange juice over 16.5 s...
+19:41:08.914 - Dispensing 2 cl of soda over 11.0 s...
+19:41:19.936 - Dispensing soda finished.
+19:41:25.438 - Dispensing blue curacao finished.
+19:41:25.439 - Dispensing orange juice finished.
+19:41:30.943 - Dispensing ananas juice finished.
+19:41:30.945 - Recipe 'Neon Breeze' dispensed.
+19:41:30.946 - Dispensing finished.
+19:54:40.126 - AI cocktail
+19:54:40.127 - OpenAICocktailBot 'alcohol' pour me a drink...
+19:54:40.128 - Waiting for OpenAI GTP API reply...
+19:54:41.200 - OpenAICocktailBot 'alcohol' completion returned successfully.
+19:54:41.202 - result: {
+  role: 'assistant',
+  content: 'Emerald Isle, 3.5 cl vodka, 5 cl herbal lemonade, 2 cl bitter lemon'
+}
+19:54:41.204 - tokens: 458
+19:54:41.205 - Emerald Isle: 3.5 cl vodka, 2.0 cl bitter lemon, 5.0 cl herbal lemonade
+19:54:41.206 - Starting dispensing recipe 'Emerald Isle'...
+19:54:41.207 - Ingredients: 3.5 0 0 0 0 0 0 2 0 5 0 0
+19:54:41.208 - Drink size: 10.5
+19:54:41.210 - Dispensing 3.5 cl of vodka over 19.3 s...
+19:54:41.211 - Dispensing 2 cl of bitter lemon over 11.0 s...
+19:54:41.213 - Dispensing 5 cl of herbal lemonade over 27.5 s...
+19:54:52.232 - Dispensing bitter lemon finished.
+19:55:00.491 - Dispensing vodka finished.
+19:55:08.739 - Dispensing herbal lemonade finished.
+19:55:08.740 - Recipe 'Emerald Isle' dispensed.
+19:55:08.741 - Dispensing finished.
+20:04:29.970 - AI cocktail
+20:04:29.971 - OpenAICocktailBot 'alcohol' pour me a drink...
+20:04:29.972 - Waiting for OpenAI GTP API reply...
+20:04:31.636 - OpenAICocktailBot 'alcohol' completion returned successfully.
+20:04:31.637 - result: {
+  role: 'assistant',
+  content: 'Caribbean Sunset, 4 cl rum, 4 cl ananas juice, 3 cl cherry juice, 2 cl bitter orange sirup'
+}
+20:04:31.638 - tokens: 499
+20:04:31.639 - Caribbean Sunset: 4.0 cl rum, 4.0 cl ananas juice, 3.0 cl cherry juice, 2.0 cl bitter orange sirup
+20:04:31.640 - Starting dispensing recipe 'Caribbean Sunset'...
+20:04:31.641 - Ingredients: 0 0 4 0 4 3 0 0 0 0 2 0
+20:04:31.641 - Drink size: 13
+20:04:31.642 - Dispensing 4 cl of rum over 22.0 s...
+20:04:31.643 - Dispensing 4 cl of ananas juice over 22.0 s...
+20:04:31.644 - Dispensing 3 cl of cherry juice over 16.5 s...
+20:04:31.644 - Dispensing 2 cl of bitter orange sirup over 11.0 s...
+20:04:42.657 - Dispensing bitter orange sirup finished.
+20:04:48.166 - Dispensing cherry juice finished.
+20:04:53.671 - Dispensing rum finished.
+20:04:53.678 - Dispensing ananas juice finished.
+20:04:53.679 - Recipe 'Caribbean Sunset' dispensed.
+20:04:53.680 - Dispensing finished.
+20:06:29.531 - OpenAICocktailBot creating random cocktail...
+20:06:29.536 - Normalizing drink...
+20:06:29.537 - Drink normalized
+20:06:29.538 - random cocktail: 4.0 cl ananas juice, 4.0 cl cherry juice, 4.0 cl bitter lemon, 3.0 cl soda
+20:06:29.539 - Starting dispensing recipe 'random cocktail'...
+20:06:29.540 - Ingredients: 0 0 0 0 4 4 0 4 0 0 0 3
+20:06:29.540 - Drink size: 15
+20:06:29.541 - Dispensing 4 cl of ananas juice over 22.0 s...
+20:06:29.542 - Dispensing 4 cl of cherry juice over 22.0 s...
+20:06:29.544 - Dispensing 4 cl of bitter lemon over 22.0 s...
+20:06:29.545 - Dispensing 3 cl of soda over 16.5 s...
+20:06:46.069 - Dispensing soda finished.
+20:06:51.572 - Dispensing ananas juice finished.
+20:06:51.574 - Dispensing cherry juice finished.
+20:06:51.575 - Dispensing bitter lemon finished.
+20:06:51.576 - Recipe 'random cocktail' dispensed.
+20:06:51.577 - Dispensing finished.
+20:12:14.347 - AI cocktail
+20:12:14.349 - OpenAICocktailBot 'alcohol' pour me a drink...
+20:12:14.350 - Waiting for OpenAI GTP API reply...
+20:12:15.518 - OpenAICocktailBot 'alcohol' completion returned successfully.
+20:12:15.519 - result: {
+  role: 'assistant',
+  content: 'Purple Rain, 3.5 cl blue curacao, 5 cl cherry juice, 2.5 cl tonic water'
+}
+20:12:15.521 - tokens: 536
+20:12:15.522 - Purple Rain: 3.5 cl blue curacao, 5.0 cl cherry juice, 2.5 cl tonic water
+20:12:15.523 - Starting dispensing recipe 'Purple Rain'...
+20:12:15.524 - Ingredients: 0 0 0 3.5 0 5 0 0 2.5 0 0 0
+20:12:15.524 - Drink size: 11
+20:12:15.525 - Dispensing 3.5 cl of blue curacao over 19.3 s...
+20:12:15.526 - Dispensing 5 cl of cherry juice over 27.5 s...
+20:12:15.527 - Dispensing 2.5 cl of tonic water over 13.8 s...
+20:12:29.300 - Dispensing tonic water finished.
+20:12:34.800 - Dispensing blue curacao finished.
+20:12:43.056 - Dispensing cherry juice finished.
+20:12:43.057 - Recipe 'Purple Rain' dispensed.
+20:12:43.058 - Dispensing finished.
+20:14:15.838 - AI cocktail
+20:14:15.840 - OpenAICocktailBot 'alcohol' pour me a drink...
+20:14:15.841 - Waiting for OpenAI GTP API reply...
+20:14:16.953 - OpenAICocktailBot 'alcohol' completion returned successfully.
+20:14:16.954 - result: {
+  role: 'assistant',
+  content: 'Misty Morning, 3 cl gin, 4 cl orange juice, 3 cl tonic water, 2 cl herbal lemonade'
+}
+20:14:16.955 - tokens: 575
+20:14:16.956 - Misty Morning: 3.0 cl gin, 4.0 cl orange juice, 3.0 cl tonic water, 2.0 cl herbal lemonade
+20:14:16.957 - Starting dispensing recipe 'Misty Morning'...
+20:14:16.958 - Ingredients: 0 3 0 0 0 0 4 0 3 2 0 0
+20:14:16.959 - Drink size: 12
+20:14:16.960 - Dispensing 3 cl of gin over 16.5 s...
+20:14:16.960 - Dispensing 4 cl of orange juice over 22.0 s...
+20:14:16.961 - Dispensing 3 cl of tonic water over 16.5 s...
+20:14:16.962 - Dispensing 2 cl of herbal lemonade over 11.0 s...
+20:14:27.981 - Dispensing herbal lemonade finished.
+20:14:33.478 - Dispensing gin finished.
+20:14:33.479 - Dispensing tonic water finished.
+20:14:38.982 - Dispensing orange juice finished.
+20:14:38.985 - Recipe 'Misty Morning' dispensed.
+20:14:38.986 - Dispensing finished.
+20:31:28.792 - AI cocktail
+20:31:28.793 - OpenAICocktailBot 'alcohol' pour me a drink...
+20:31:28.795 - Waiting for OpenAI GTP API reply...
+20:31:32.293 - OpenAICocktailBot 'alcohol' completion returned successfully.
+20:31:32.294 - result: {
+  role: 'assistant',
+  content: 'Island Breeze, 4 cl rum, 5 cl ananas juice, 3 cl orange juice, 2 cl soda'
+}
+20:31:32.296 - tokens: 614
+20:31:32.297 - Island Breeze: 4.0 cl rum, 5.0 cl ananas juice, 3.0 cl orange juice, 2.0 cl soda
+20:31:32.298 - Starting dispensing recipe 'Island Breeze'...
+20:31:32.299 - Ingredients: 0 0 4 0 5 0 3 0 0 0 0 2
+20:31:32.299 - Drink size: 14
+20:31:32.300 - Dispensing 4 cl of rum over 22.0 s...
+20:31:32.301 - Dispensing 5 cl of ananas juice over 27.5 s...
+20:31:32.302 - Dispensing 3 cl of orange juice over 16.5 s...
+20:31:32.303 - Dispensing 2 cl of soda over 11.0 s...
+20:31:43.318 - Dispensing soda finished.
+20:31:48.825 - Dispensing orange juice finished.
+20:31:54.329 - Dispensing rum finished.
+20:31:59.834 - Dispensing ananas juice finished.
+20:31:59.835 - Recipe 'Island Breeze' dispensed.
+20:31:59.836 - Dispensing finished.
+20:37:36.258 - AI cocktail
+20:37:36.259 - OpenAICocktailBot 'alcohol' pour me a drink...
+20:37:36.260 - Waiting for OpenAI GTP API reply...
+20:37:37.463 - OpenAICocktailBot 'alcohol' completion returned successfully.
+20:37:37.464 - result: {
+  role: 'assistant',
+  content: 'Crimson Sky, 3 cl vodka, 4 cl cherry juice, 3 cl orange juice, 2 cl bitter lemon'
+}
+20:37:37.465 - tokens: 653
+20:37:37.466 - Crimson Sky: 3.0 cl vodka, 4.0 cl cherry juice, 3.0 cl orange juice, 2.0 cl bitter lemon
+20:37:37.467 - Starting dispensing recipe 'Crimson Sky'...
+20:37:37.468 - Ingredients: 3 0 0 0 0 4 3 2 0 0 0 0
+20:37:37.468 - Drink size: 12
+20:37:37.469 - Dispensing 3 cl of vodka over 16.5 s...
+20:37:37.470 - Dispensing 4 cl of cherry juice over 22.0 s...
+20:37:37.470 - Dispensing 3 cl of orange juice over 16.5 s...
+20:37:37.471 - Dispensing 2 cl of bitter lemon over 11.0 s...
+20:37:48.489 - Dispensing bitter lemon finished.
+20:37:53.992 - Dispensing vodka finished.
+20:37:53.994 - Dispensing orange juice finished.
+20:37:59.497 - Dispensing cherry juice finished.
+20:37:59.498 - Recipe 'Crimson Sky' dispensed.
+20:37:59.499 - Dispensing finished.
+20:40:32.060 - OpenAICocktailBot creating random cocktail...
+20:40:32.061 - Normalizing drink...
+20:40:32.062 - Drink normalized
+20:40:32.063 - random cocktail: 4.0 cl cherry juice, 4.0 cl bitter lemon, 0.50 cl bitter orange sirup, 2.0 cl soda
+20:40:32.064 - Starting dispensing recipe 'random cocktail'...
+20:40:32.064 - Ingredients: 0 0 0 0 0 4 0 4 0 0 0.5 2
+20:40:32.065 - Drink size: 10.5
+20:40:32.066 - Dispensing 4 cl of cherry juice over 22.0 s...
+20:40:32.067 - Dispensing 4 cl of bitter lemon over 22.0 s...
+20:40:32.068 - Dispensing 0.5 cl of bitter orange sirup over 2.75 s...
+20:40:32.069 - Dispensing 2 cl of soda over 11.0 s...
+20:40:34.826 - Dispensing bitter orange sirup finished.
+20:40:43.083 - Dispensing soda finished.
+20:40:54.089 - Dispensing cherry juice finished.
+20:40:54.090 - Dispensing bitter lemon finished.
+20:40:54.092 - Recipe 'random cocktail' dispensed.
+20:40:54.092 - Dispensing finished.
+20:52:43.860 - AI cocktail
+20:52:43.862 - OpenAICocktailBot 'alcohol' pour me a drink...
+20:52:43.863 - Waiting for OpenAI GTP API reply...
+20:52:44.993 - OpenAICocktailBot 'alcohol' completion returned successfully.
+20:52:44.994 - result: {
+  role: 'assistant',
+  content: 'Golden Sunset, 3.5 cl rum, 4 cl orange juice, 3 cl ananas juice, 2 cl soda'
+}
+20:52:44.999 - tokens: 692
+20:52:45.000 - Golden Sunset: 3.5 cl rum, 3.0 cl ananas juice, 4.0 cl orange juice, 2.0 cl soda
+20:52:45.001 - Starting dispensing recipe 'Golden Sunset'...
+20:52:45.002 - Ingredients: 0 0 3.5 0 3 0 4 0 0 0 0 2
+20:52:45.002 - Drink size: 12.5
+20:52:45.003 - Dispensing 3.5 cl of rum over 19.3 s...
+20:52:45.004 - Dispensing 3 cl of ananas juice over 16.5 s...
+20:52:45.005 - Dispensing 4 cl of orange juice over 22.0 s...
+20:52:45.006 - Dispensing 2 cl of soda over 11.0 s...
+20:52:56.026 - Dispensing soda finished.
+20:53:01.527 - Dispensing ananas juice finished.
+20:53:04.277 - Dispensing rum finished.
+20:53:07.030 - Dispensing orange juice finished.
+20:53:07.031 - Recipe 'Golden Sunset' dispensed.
+20:53:07.033 - Dispensing finished.
+20:58:55.936 - AI cocktail
+20:58:55.938 - OpenAICocktailBot 'alcohol' pour me a drink...
+20:58:55.939 - Waiting for OpenAI GTP API reply...
+20:58:57.100 - OpenAICocktailBot 'alcohol' completion returned successfully.
+20:58:57.101 - result: {
+  role: 'assistant',
+  content: 'Caribbean Crush, 4 cl rum, 5 cl ananas juice, 3 cl orange juice, 2 cl orange bitter syrup'
+}
+20:58:57.102 - tokens: 732
+20:58:57.103 - Caribbean Crush: 4.0 cl rum, 5.0 cl ananas juice, 3.0 cl orange juice
+20:58:57.103 - Starting dispensing recipe 'Caribbean Crush'...
+20:58:57.104 - Ingredients: 0 0 4 0 5 0 3 0 0 0 0 0
+20:58:57.104 - Drink size: 12
+20:58:57.105 - Dispensing 4 cl of rum over 22.0 s...
+20:58:57.105 - Dispensing 5 cl of ananas juice over 27.5 s...
+20:58:57.106 - Dispensing 3 cl of orange juice over 16.5 s...
+20:59:13.623 - Dispensing orange juice finished.
+20:59:19.130 - Dispensing rum finished.
+20:59:24.634 - Dispensing ananas juice finished.
+20:59:24.636 - Recipe 'Caribbean Crush' dispensed.
+20:59:24.638 - Dispensing finished.
+21:00:45.544 - AI cocktail
+21:00:45.546 - OpenAICocktailBot 'alcohol' pour me a drink...
+21:00:45.547 - Waiting for OpenAI GTP API reply...
+21:00:46.711 - OpenAICocktailBot 'alcohol' completion returned successfully.
+21:00:46.712 - result: {
+  role: 'assistant',
+  content: 'Azure Paradise, 3 cl blue curacao, 4 cl ananas juice, 3 cl orange juice, 2 cl tonic water'
+}
+21:00:46.714 - tokens: 772
+21:00:46.715 - Azure Paradise: 3.0 cl blue curacao, 4.0 cl ananas juice, 3.0 cl orange juice, 2.0 cl tonic water
+21:00:46.716 - Starting dispensing recipe 'Azure Paradise'...
+21:00:46.717 - Ingredients: 0 0 0 3 4 0 3 0 2 0 0 0
+21:00:46.718 - Drink size: 12
+21:00:46.718 - Dispensing 3 cl of blue curacao over 16.5 s...
+21:00:46.719 - Dispensing 4 cl of ananas juice over 22.0 s...
+21:00:46.720 - Dispensing 3 cl of orange juice over 16.5 s...
+21:00:46.721 - Dispensing 2 cl of tonic water over 11.0 s...
+21:00:57.740 - Dispensing tonic water finished.
+21:01:03.243 - Dispensing blue curacao finished.
+21:01:03.244 - Dispensing orange juice finished.
+21:01:08.747 - Dispensing ananas juice finished.
+21:01:08.748 - Recipe 'Azure Paradise' dispensed.
+21:01:08.749 - Dispensing finished.
+21:05:40.491 - AI cocktail
+21:05:40.492 - OpenAICocktailBot 'alcohol' pour me a drink...
+21:05:40.493 - Waiting for OpenAI GTP API reply...
+21:05:41.451 - OpenAICocktailBot 'alcohol' completion returned successfully.
+21:05:41.452 - result: {
+  role: 'assistant',
+  content: 'Lemon Lime Surprise, 3.5 cl vodka, 4 cl bitter lemon, 3 cl herbal lemonade'
+}
+21:05:41.454 - tokens: 808
+21:05:41.455 - Lemon Lime Surprise: 3.5 cl vodka, 4.0 cl bitter lemon, 3.0 cl herbal lemonade
+21:05:41.456 - Starting dispensing recipe 'Lemon Lime Surprise'...
+21:05:41.456 - Ingredients: 3.5 0 0 0 0 0 0 4 0 3 0 0
+21:05:41.457 - Drink size: 10.5
+21:05:41.458 - Dispensing 3.5 cl of vodka over 19.3 s...
+21:05:41.459 - Dispensing 4 cl of bitter lemon over 22.0 s...
+21:05:41.460 - Dispensing 3 cl of herbal lemonade over 16.5 s...
+21:05:57.988 - Dispensing herbal lemonade finished.
+21:06:00.731 - Dispensing vodka finished.
+21:06:03.483 - Dispensing bitter lemon finished.
+21:06:03.484 - Recipe 'Lemon Lime Surprise' dispensed.
+21:06:03.485 - Dispensing finished.
+21:09:08.932 - AI cocktail
+21:09:08.934 - OpenAICocktailBot 'alcohol' pour me a drink...
+21:09:08.935 - Waiting for OpenAI GTP API reply...
+21:09:09.972 - OpenAICocktailBot 'alcohol' completion returned successfully.
+21:09:09.973 - result: {
+  role: 'assistant',
+  content: 'Purple Haze, 3.5 cl blue curacao, 5 cl cherry juice, 2.5 cl soda'
+}
+21:09:09.975 - tokens: 845
+21:09:09.978 - Purple Haze: 3.5 cl blue curacao, 5.0 cl cherry juice, 2.5 cl soda
+21:09:09.979 - Starting dispensing recipe 'Purple Haze'...
+21:09:09.979 - Ingredients: 0 0 0 3.5 0 5 0 0 0 0 0 2.5
+21:09:09.980 - Drink size: 11
+21:09:09.981 - Dispensing 3.5 cl of blue curacao over 19.3 s...
+21:09:09.981 - Dispensing 5 cl of cherry juice over 27.5 s...
+21:09:09.982 - Dispensing 2.5 cl of soda over 13.8 s...
+21:09:23.755 - Dispensing soda finished.
+21:09:29.256 - Dispensing blue curacao finished.
+21:09:37.514 - Dispensing cherry juice finished.
+21:09:37.515 - Recipe 'Purple Haze' dispensed.
+21:09:37.516 - Dispensing finished.
+21:13:07.084 - AI cocktail
+21:13:07.086 - OpenAICocktailBot 'alcohol' pour me a drink...
+21:13:07.086 - Waiting for OpenAI GTP API reply...
+21:13:08.137 - OpenAICocktailBot 'alcohol' completion returned successfully.
+21:13:08.139 - result: {
+  role: 'assistant',
+  content: 'Sunset Surprise, 3 cl rum, 4 cl ananas juice, 3 cl orange juice, 2 cl bitter lemon'
+}
+21:13:08.141 - tokens: 884
+21:13:08.143 - Sunset Surprise: 3.0 cl rum, 4.0 cl ananas juice, 3.0 cl orange juice, 2.0 cl bitter lemon
+21:13:08.143 - Starting dispensing recipe 'Sunset Surprise'...
+21:13:08.144 - Ingredients: 0 0 3 0 4 0 3 2 0 0 0 0
+21:13:08.145 - Drink size: 12
+21:13:08.146 - Dispensing 3 cl of rum over 16.5 s...
+21:13:08.147 - Dispensing 4 cl of ananas juice over 22.0 s...
+21:13:08.147 - Dispensing 3 cl of orange juice over 16.5 s...
+21:13:08.148 - Dispensing 2 cl of bitter lemon over 11.0 s...
+21:13:19.168 - Dispensing bitter lemon finished.
+21:13:24.670 - Dispensing rum finished.
+21:13:24.672 - Dispensing orange juice finished.
+21:13:30.175 - Dispensing ananas juice finished.
+21:13:30.176 - Recipe 'Sunset Surprise' dispensed.
+21:13:30.178 - Dispensing finished.
+21:24:19.230 - AI cocktail
+21:24:19.231 - OpenAICocktailBot 'alcohol' pour me a drink...
+21:24:19.233 - Waiting for OpenAI GTP API reply...
+21:24:20.235 - OpenAICocktailBot 'alcohol' completion returned successfully.
+21:24:20.236 - result: {
+  role: 'assistant',
+  content: 'Caribbean Crush, 4 cl rum, 5 cl ananas juice, 3 cl orange juice, 2 cl orange bitter syrup'
+}
+21:24:20.238 - tokens: 924
+21:24:20.240 - Caribbean Crush: 4.0 cl rum, 5.0 cl ananas juice, 3.0 cl orange juice
+21:24:20.241 - Starting dispensing recipe 'Caribbean Crush'...
+21:24:20.242 - Ingredients: 0 0 4 0 5 0 3 0 0 0 0 0
+21:24:20.243 - Drink size: 12
+21:24:20.244 - Dispensing 4 cl of rum over 22.0 s...
+21:24:20.245 - Dispensing 5 cl of ananas juice over 27.5 s...
+21:24:20.246 - Dispensing 3 cl of orange juice over 16.5 s...
+21:24:36.775 - Dispensing orange juice finished.
+21:24:42.272 - Dispensing rum finished.
+21:24:47.775 - Dispensing ananas juice finished.
+21:24:47.777 - Recipe 'Caribbean Crush' dispensed.
+21:24:47.778 - Dispensing finished.
+21:31:18.997 - AI cocktail
+21:31:18.999 - OpenAICocktailBot 'alcohol' pour me a drink...
+21:31:19.000 - Waiting for OpenAI GTP API reply...
+21:31:20.388 - OpenAICocktailBot 'alcohol' completion returned successfully.
+21:31:20.388 - result: {
+  role: 'assistant',
+  content: 'Summer Sunset, 3 cl vodka, 4 cl orange juice, 3 cl ananas juice, 2 cl soda'
+}
+21:31:20.390 - tokens: 961
+21:31:20.391 - Summer Sunset: 3.0 cl vodka, 3.0 cl ananas juice, 4.0 cl orange juice, 2.0 cl soda
+21:31:20.391 - Starting dispensing recipe 'Summer Sunset'...
+21:31:20.392 - Ingredients: 3 0 0 0 3 0 4 0 0 0 0 2
+21:31:20.392 - Drink size: 12
+21:31:20.392 - Dispensing 3 cl of vodka over 16.5 s...
+21:31:20.393 - Dispensing 3 cl of ananas juice over 16.5 s...
+21:31:20.394 - Dispensing 4 cl of orange juice over 22.0 s...
+21:31:20.394 - Dispensing 2 cl of soda over 11.0 s...
+21:31:31.412 - Dispensing soda finished.
+21:31:36.915 - Dispensing vodka finished.
+21:31:36.917 - Dispensing ananas juice finished.
+21:31:42.418 - Dispensing orange juice finished.
+21:31:42.420 - Recipe 'Summer Sunset' dispensed.
+21:31:42.421 - Dispensing finished.
+21:32:47.910 - AI cocktail
+21:32:47.912 - OpenAICocktailBot 'alcohol' pour me a drink...
+21:32:47.913 - Waiting for OpenAI GTP API reply...
+21:32:49.096 - OpenAICocktailBot 'alcohol' completion returned successfully.
+21:32:49.097 - result: {
+  role: 'assistant',
+  content: "Mermaid's Melody, 3.5 cl blue curacao, 5 cl ananas juice, 3 cl orange juice, 2 cl soda"
+}
+21:32:49.099 - tokens: 1005
+21:32:49.101 - Mermaid's Melody: 3.5 cl blue curacao, 5.0 cl ananas juice, 3.0 cl orange juice, 2.0 cl soda
+21:32:49.102 - Starting dispensing recipe 'Mermaid's Melody'...
+21:32:49.102 - Ingredients: 0 0 0 3.5 5 0 3 0 0 0 0 2
+21:32:49.103 - Drink size: 13.5
+21:32:49.106 - Dispensing 3.5 cl of blue curacao over 19.3 s...
+21:32:49.108 - Dispensing 5 cl of ananas juice over 27.5 s...
+21:32:49.109 - Dispensing 3 cl of orange juice over 16.5 s...
+21:32:49.110 - Dispensing 2 cl of soda over 11.0 s...
+21:33:00.126 - Dispensing soda finished.
+21:33:05.632 - Dispensing orange juice finished.
+21:33:08.382 - Dispensing blue curacao finished.
+21:33:16.639 - Dispensing ananas juice finished.
+21:33:16.640 - Recipe 'Mermaid's Melody' dispensed.
+21:33:16.641 - Dispensing finished.
+21:37:18.467 - AI cocktail
+21:37:18.469 - OpenAICocktailBot 'alcohol' pour me a drink...
+21:37:18.470 - Waiting for OpenAI GTP API reply...
+21:37:19.551 - OpenAICocktailBot 'alcohol' completion returned successfully.
+21:37:19.553 - result: {
+  role: 'assistant',
+  content: 'Midnight Serenade, 3 cl rum, 4 cl cherry juice, 3 cl ananas juice, 2 cl bitter orange syrup'
+}
+21:37:19.554 - tokens: 1046
+21:37:19.555 - Midnight Serenade: 3.0 cl rum, 3.0 cl ananas juice, 4.0 cl cherry juice
+21:37:19.556 - Starting dispensing recipe 'Midnight Serenade'...
+21:37:19.557 - Ingredients: 0 0 3 0 3 4 0 0 0 0 0 0
+21:37:19.557 - Drink size: 10
+21:37:19.558 - Dispensing 3 cl of rum over 16.5 s...
+21:37:19.559 - Dispensing 3 cl of ananas juice over 16.5 s...
+21:37:19.560 - Dispensing 4 cl of cherry juice over 22.0 s...
+21:37:36.088 - Dispensing rum finished.
+21:37:36.089 - Dispensing ananas juice finished.
+21:37:41.587 - Dispensing cherry juice finished.
+21:37:41.588 - Recipe 'Midnight Serenade' dispensed.
+21:37:41.589 - Dispensing finished.
+21:38:09.513 - AI cocktail
+21:38:09.515 - OpenAICocktailBot 'alcohol' pour me a drink...
+21:38:09.516 - Waiting for OpenAI GTP API reply...
+21:38:10.595 - OpenAICocktailBot 'alcohol' completion returned successfully.
+21:38:10.596 - result: {
+  role: 'assistant',
+  content: 'Starry Night, 3 cl gin, 4 cl orange juice, 3 cl tonic water, 2 cl herbal lemonade'
+}
+21:38:10.598 - tokens: 1085
+21:38:10.600 - Starry Night: 3.0 cl gin, 4.0 cl orange juice, 3.0 cl tonic water, 2.0 cl herbal lemonade
+21:38:10.601 - Starting dispensing recipe 'Starry Night'...
+21:38:10.602 - Ingredients: 0 3 0 0 0 0 4 0 3 2 0 0
+21:38:10.602 - Drink size: 12
+21:38:10.603 - Dispensing 3 cl of gin over 16.5 s...
+21:38:10.604 - Dispensing 4 cl of orange juice over 22.0 s...
+21:38:10.605 - Dispensing 3 cl of tonic water over 16.5 s...
+21:38:10.607 - Dispensing 2 cl of herbal lemonade over 11.0 s...
+21:38:21.625 - Dispensing herbal lemonade finished.
+21:38:27.128 - Dispensing gin finished.
+21:38:27.132 - Dispensing tonic water finished.
+21:38:32.633 - Dispensing orange juice finished.
+21:38:32.634 - Recipe 'Starry Night' dispensed.
+21:38:32.635 - Dispensing finished.
+21:39:23.511 - AI cocktail
+21:39:23.513 - OpenAICocktailBot 'alcohol' pour me a drink...
+21:39:23.514 - Waiting for OpenAI GTP API reply...
+21:39:24.615 - OpenAICocktailBot 'alcohol' completion returned successfully.
+21:39:24.616 - result: {
+  role: 'assistant',
+  content: 'Ocean Breeze, 3.5 cl blue curacao, 4 cl ananas juice, 3 cl orange juice, 2 cl soda'
+}
+21:39:24.618 - tokens: 1127
+21:39:24.619 - Ocean Breeze: 3.5 cl blue curacao, 4.0 cl ananas juice, 3.0 cl orange juice, 2.0 cl soda
+21:39:24.620 - Starting dispensing recipe 'Ocean Breeze'...
+21:39:24.620 - Ingredients: 0 0 0 3.5 4 0 3 0 0 0 0 2
+21:39:24.621 - Drink size: 12.5
+21:39:24.622 - Dispensing 3.5 cl of blue curacao over 19.3 s...
+21:39:24.623 - Dispensing 4 cl of ananas juice over 22.0 s...
+21:39:24.624 - Dispensing 3 cl of orange juice over 16.5 s...
+21:39:24.625 - Dispensing 2 cl of soda over 11.0 s...
+21:39:35.643 - Dispensing soda finished.
+21:39:41.146 - Dispensing orange juice finished.
+21:39:43.894 - Dispensing blue curacao finished.
+21:39:46.647 - Dispensing ananas juice finished.
+21:39:46.649 - Recipe 'Ocean Breeze' dispensed.
+21:39:46.650 - Dispensing finished.
+21:43:33.568 - AI cocktail
+21:43:33.569 - OpenAICocktailBot 'alcohol' pour me a drink...
+21:43:33.570 - Waiting for OpenAI GTP API reply...
+21:43:34.702 - OpenAICocktailBot 'alcohol' completion returned successfully.
+21:43:34.703 - result: {
+  role: 'assistant',
+  content: 'Blue Lagoon, 3 cl vodka, 5 cl blue curacao, 3 cl ananas juice, 2 cl soda'
+}
+21:43:34.704 - tokens: 1166
+21:43:34.705 - Blue Lagoon: 3.0 cl vodka, 5.0 cl blue curacao, 3.0 cl ananas juice, 2.0 cl soda
+21:43:34.706 - Starting dispensing recipe 'Blue Lagoon'...
+21:43:34.706 - Ingredients: 3 0 0 5 3 0 0 0 0 0 0 2
+21:43:34.707 - Drink size: 13
+21:43:34.708 - Dispensing 3 cl of vodka over 16.5 s...
+21:43:34.708 - Dispensing 5 cl of blue curacao over 27.5 s...
+21:43:34.709 - Dispensing 3 cl of ananas juice over 16.5 s...
+21:43:34.710 - Dispensing 2 cl of soda over 11.0 s...
+21:43:45.724 - Dispensing soda finished.
+21:43:51.231 - Dispensing vodka finished.
+21:43:51.233 - Dispensing ananas juice finished.
+21:44:02.244 - Dispensing blue curacao finished.
+21:44:02.244 - Recipe 'Blue Lagoon' dispensed.
+21:44:02.245 - Dispensing finished.
+21:46:27.931 - AI cocktail
+21:46:27.932 - OpenAICocktailBot 'alcohol' pour me a drink...
+21:46:27.933 - Waiting for OpenAI GTP API reply...
+21:46:29.195 - OpenAICocktailBot 'alcohol' completion returned successfully.
+21:46:29.196 - result: {
+  role: 'assistant',
+  content: 'Caribbean Dream, 3.5 cl rum, 4 cl ananas juice, 3 cl orange juice, 2 cl soda'
+}
+21:46:29.198 - tokens: 1206
+21:46:29.199 - Caribbean Dream: 3.5 cl rum, 4.0 cl ananas juice, 3.0 cl orange juice, 2.0 cl soda
+21:46:29.200 - Starting dispensing recipe 'Caribbean Dream'...
+21:46:29.200 - Ingredients: 0 0 3.5 0 4 0 3 0 0 0 0 2
+21:46:29.201 - Drink size: 12.5
+21:46:29.202 - Dispensing 3.5 cl of rum over 19.3 s...
+21:46:29.203 - Dispensing 4 cl of ananas juice over 22.0 s...
+21:46:29.204 - Dispensing 3 cl of orange juice over 16.5 s...
+21:46:29.205 - Dispensing 2 cl of soda over 11.0 s...
+21:46:40.222 - Dispensing soda finished.
+21:46:45.723 - Dispensing orange juice finished.
+21:46:48.476 - Dispensing rum finished.
+21:46:51.228 - Dispensing ananas juice finished.
+21:46:51.229 - Recipe 'Caribbean Dream' dispensed.
+21:46:51.231 - Dispensing finished.
+21:47:03.033 - AI cocktail
+21:47:03.034 - OpenAICocktailBot 'alcohol' pour me a drink...
+21:47:03.035 - Waiting for OpenAI GTP API reply...
+21:47:03.994 - OpenAICocktailBot 'alcohol' completion returned successfully.
+21:47:03.994 - result: {
+  role: 'assistant',
+  content: 'Tropical Dream, 3 cl rum, 4 cl ananas juice, 3 cl orange juice, 2 cl soda'
+}
+21:47:03.996 - tokens: 1244
+21:47:03.997 - Tropical Dream: 3.0 cl rum, 4.0 cl ananas juice, 3.0 cl orange juice, 2.0 cl soda
+21:47:03.998 - Starting dispensing recipe 'Tropical Dream'...
+21:47:03.998 - Ingredients: 0 0 3 0 4 0 3 0 0 0 0 2
+21:47:03.998 - Drink size: 12
+21:47:03.999 - Dispensing 3 cl of rum over 16.5 s...
+21:47:03.999 - Dispensing 4 cl of ananas juice over 22.0 s...
+21:47:04.000 - Dispensing 3 cl of orange juice over 16.5 s...
+21:47:04.000 - Dispensing 2 cl of soda over 11.0 s...
+21:47:15.013 - Dispensing soda finished.
+21:47:20.517 - Dispensing rum finished.
+21:47:20.518 - Dispensing orange juice finished.
+21:47:26.026 - Dispensing ananas juice finished.
+21:47:26.030 - Recipe 'Tropical Dream' dispensed.
+21:47:26.031 - Dispensing finished.
+21:52:27.700 - AI cocktail
+21:52:27.702 - OpenAICocktailBot 'alcohol' pour me a drink...
+21:52:27.703 - Waiting for OpenAI GTP API reply...
+21:52:28.838 - OpenAICocktailBot 'alcohol' completion returned successfully.
+21:52:28.839 - result: {
+  role: 'assistant',
+  content: 'Minty Blue, 3.5 cl blue curacao, 4 cl ananas juice, 3 cl herbal lemonade'
+}
+21:52:28.841 - tokens: 1283
+21:52:28.842 - Minty Blue: 3.5 cl blue curacao, 4.0 cl ananas juice, 3.0 cl herbal lemonade
+21:52:28.843 - Starting dispensing recipe 'Minty Blue'...
+21:52:28.844 - Ingredients: 0 0 0 3.5 4 0 0 0 0 3 0 0
+21:52:28.844 - Drink size: 10.5
+21:52:28.845 - Dispensing 3.5 cl of blue curacao over 19.3 s...
+21:52:28.846 - Dispensing 4 cl of ananas juice over 22.0 s...
+21:52:28.847 - Dispensing 3 cl of herbal lemonade over 16.5 s...
+21:52:45.364 - Dispensing herbal lemonade finished.
+21:52:48.118 - Dispensing blue curacao finished.
+21:52:50.870 - Dispensing ananas juice finished.
+21:52:50.871 - Recipe 'Minty Blue' dispensed.
+21:52:50.873 - Dispensing finished.
+22:04:52.161 - AI cocktail
+22:04:52.162 - OpenAICocktailBot 'alcohol' pour me a drink...
+22:04:52.163 - Waiting for OpenAI GTP API reply...
+22:04:55.488 - OpenAICocktailBot 'alcohol' completion returned successfully.
+22:04:55.489 - result: {
+  role: 'assistant',
+  content: 'Caribbean Sunset, 3.5 cl rum, 4 cl ananas juice, 3 cl cherry juice, 2 cl bitter orange syrup'
+}
+22:04:55.490 - tokens: 1325
+22:04:55.492 - Caribbean Sunset: 3.5 cl rum, 4.0 cl ananas juice, 3.0 cl cherry juice
+22:04:55.492 - Starting dispensing recipe 'Caribbean Sunset'...
+22:04:55.493 - Ingredients: 0 0 3.5 0 4 3 0 0 0 0 0 0
+22:04:55.494 - Drink size: 10.5
+22:04:55.495 - Dispensing 3.5 cl of rum over 19.3 s...
+22:04:55.496 - Dispensing 4 cl of ananas juice over 22.0 s...
+22:04:55.497 - Dispensing 3 cl of cherry juice over 16.5 s...
+22:05:12.025 - Dispensing cherry juice finished.
+22:05:14.766 - Dispensing rum finished.
+22:05:17.520 - Dispensing ananas juice finished.
+22:05:17.522 - Recipe 'Caribbean Sunset' dispensed.
+22:05:17.522 - Dispensing finished.
+22:06:21.694 - AI cocktail
+22:06:21.695 - OpenAICocktailBot 'alcohol' pour me a drink...
+22:06:21.696 - Waiting for OpenAI GTP API reply...
+22:06:27.790 - OpenAICocktailBot 'alcohol' completion returned successfully.
+22:06:27.791 - result: {
+  role: 'assistant',
+  content: 'Emerald Fizz, 3 cl gin, 4 cl tonic water, 3 cl herbal lemonade, 2 cl soda'
+}
+22:06:27.792 - tokens: 1364
+22:06:27.794 - Emerald Fizz: 3.0 cl gin, 4.0 cl tonic water, 3.0 cl herbal lemonade, 2.0 cl soda
+22:06:27.795 - Starting dispensing recipe 'Emerald Fizz'...
+22:06:27.795 - Ingredients: 0 3 0 0 0 0 0 0 4 3 0 2
+22:06:27.796 - Drink size: 12
+22:06:27.797 - Dispensing 3 cl of gin over 16.5 s...
+22:06:27.798 - Dispensing 4 cl of tonic water over 22.0 s...
+22:06:27.799 - Dispensing 3 cl of herbal lemonade over 16.5 s...
+22:06:27.800 - Dispensing 2 cl of soda over 11.0 s...
+22:06:38.819 - Dispensing soda finished.
+22:06:44.321 - Dispensing gin finished.
+22:06:44.325 - Dispensing herbal lemonade finished.
+22:06:49.827 - Dispensing tonic water finished.
+22:06:49.829 - Recipe 'Emerald Fizz' dispensed.
+22:06:49.830 - Dispensing finished.
+22:18:45.769 - AI cocktail
+22:18:45.770 - OpenAICocktailBot 'alcohol' pour me a drink...
+22:18:45.771 - Waiting for OpenAI GTP API reply...
+22:18:46.972 - OpenAICocktailBot 'alcohol' completion returned successfully.
+22:18:46.973 - result: {
+  role: 'assistant',
+  content: 'Caribbean Sunset, 4 cl rum, 5 cl ananas juice, 3 cl orange juice, 2 cl soda'
+}
+22:18:46.975 - tokens: 1402
+22:18:46.977 - Caribbean Sunset: 4.0 cl rum, 5.0 cl ananas juice, 3.0 cl orange juice, 2.0 cl soda
+22:18:46.978 - Starting dispensing recipe 'Caribbean Sunset'...
+22:18:46.979 - Ingredients: 0 0 4 0 5 0 3 0 0 0 0 2
+22:18:46.981 - Drink size: 14
+22:18:46.982 - Dispensing 4 cl of rum over 22.0 s...
+22:18:46.983 - Dispensing 5 cl of ananas juice over 27.5 s...
+22:18:46.986 - Dispensing 3 cl of orange juice over 16.5 s...
+22:18:46.987 - Dispensing 2 cl of soda over 11.0 s...
+22:18:58.006 - Dispensing soda finished.
+22:19:03.506 - Dispensing orange juice finished.
+22:19:09.015 - Dispensing rum finished.
+22:19:14.519 - Dispensing ananas juice finished.
+22:19:14.520 - Recipe 'Caribbean Sunset' dispensed.
+22:19:14.521 - Dispensing finished.
+22:44:27.712 - AI cocktail
+22:44:27.714 - OpenAICocktailBot 'alcohol' pour me a drink...
+22:44:27.715 - Waiting for OpenAI GTP API reply...
+22:44:28.733 - OpenAICocktailBot 'alcohol' completion returned successfully.
+22:44:28.734 - result: {
+  role: 'assistant',
+  content: 'Purple Rain, 3.5 cl blue curacao, 5 cl cherry juice, 2.5 cl tonic water'
+}
+22:44:28.735 - tokens: 1439
+22:44:28.736 - Purple Rain: 3.5 cl blue curacao, 5.0 cl cherry juice, 2.5 cl tonic water
+22:44:28.737 - Starting dispensing recipe 'Purple Rain'...
+22:44:28.738 - Ingredients: 0 0 0 3.5 0 5 0 0 2.5 0 0 0
+22:44:28.739 - Drink size: 11
+22:44:28.739 - Dispensing 3.5 cl of blue curacao over 19.3 s...
+22:44:28.740 - Dispensing 5 cl of cherry juice over 27.5 s...
+22:44:28.741 - Dispensing 2.5 cl of tonic water over 13.8 s...
+22:44:42.514 - Dispensing tonic water finished.
+22:44:48.011 - Dispensing blue curacao finished.
+22:44:56.273 - Dispensing cherry juice finished.
+22:44:56.275 - Recipe 'Purple Rain' dispensed.
+22:44:56.275 - Dispensing finished.
+22:45:51.774 - AI cocktail
+22:45:51.775 - OpenAICocktailBot 'alcohol' pour me a drink...
+22:45:51.776 - Waiting for OpenAI GTP API reply...
+22:45:52.897 - OpenAICocktailBot 'alcohol' completion returned successfully.
+22:45:52.899 - result: {
+  role: 'assistant',
+  content: 'Midnight Mist, 3.5 cl vodka, 4 cl bitter lemon, 3 cl herbal lemonade'
+}
+22:45:52.903 - tokens: 1474
+22:45:52.905 - Midnight Mist: 3.5 cl vodka, 4.0 cl bitter lemon, 3.0 cl herbal lemonade
+22:45:52.907 - Starting dispensing recipe 'Midnight Mist'...
+22:45:52.908 - Ingredients: 3.5 0 0 0 0 0 0 4 0 3 0 0
+22:45:52.909 - Drink size: 10.5
+22:45:52.910 - Dispensing 3.5 cl of vodka over 19.3 s...
+22:45:52.912 - Dispensing 4 cl of bitter lemon over 22.0 s...
+22:45:52.913 - Dispensing 3 cl of herbal lemonade over 16.5 s...
+22:46:09.439 - Dispensing herbal lemonade finished.
+22:46:12.185 - Dispensing vodka finished.
+22:46:14.937 - Dispensing bitter lemon finished.
+22:46:14.938 - Recipe 'Midnight Mist' dispensed.
+22:46:14.939 - Dispensing finished.
+22:47:13.504 - AI cocktail
+22:47:13.505 - OpenAICocktailBot 'alcohol' pour me a drink...
+22:47:13.506 - Waiting for OpenAI GTP API reply...
+22:47:14.826 - OpenAICocktailBot 'alcohol' completion returned successfully.
+22:47:14.827 - result: {
+  role: 'assistant',
+  content: 'Tropical Twist, 4 cl rum, 4 cl ananas juice, 3 cl cherry juice'
+}
+22:47:14.829 - tokens: 1507
+22:47:14.830 - Tropical Twist: 4.0 cl rum, 4.0 cl ananas juice, 3.0 cl cherry juice
+22:47:14.831 - Starting dispensing recipe 'Tropical Twist'...
+22:47:14.831 - Ingredients: 0 0 4 0 4 3 0 0 0 0 0 0
+22:47:14.832 - Drink size: 11
+22:47:14.833 - Dispensing 4 cl of rum over 22.0 s...
+22:47:14.834 - Dispensing 4 cl of ananas juice over 22.0 s...
+22:47:14.834 - Dispensing 3 cl of cherry juice over 16.5 s...
+22:47:31.362 - Dispensing cherry juice finished.
+22:47:36.860 - Dispensing rum finished.
+22:47:36.864 - Dispensing ananas juice finished.
+22:47:36.865 - Recipe 'Tropical Twist' dispensed.
+22:47:36.866 - Dispensing finished.
+22:48:54.671 - AI cocktail
+22:48:54.672 - OpenAICocktailBot 'alcohol' pour me a drink...
+22:48:54.673 - Waiting for OpenAI GTP API reply...
+22:48:56.342 - OpenAICocktailBot 'alcohol' completion returned successfully.
+22:48:56.343 - result: {
+  role: 'assistant',
+  content: 'Sapphire Splash, 3 cl blue curacao, 4 cl ananas juice, 3 cl bitter lemon'
+}
+22:48:56.344 - tokens: 1542
+22:48:56.345 - Sapphire Splash: 3.0 cl blue curacao, 4.0 cl ananas juice, 3.0 cl bitter lemon
+22:48:56.346 - Starting dispensing recipe 'Sapphire Splash'...
+22:48:56.347 - Ingredients: 0 0 0 3 4 0 0 3 0 0 0 0
+22:48:56.347 - Drink size: 10
+22:48:56.348 - Dispensing 3 cl of blue curacao over 16.5 s...
+22:48:56.349 - Dispensing 4 cl of ananas juice over 22.0 s...
+22:48:56.350 - Dispensing 3 cl of bitter lemon over 16.5 s...
+22:49:12.877 - Dispensing blue curacao finished.
+22:49:12.879 - Dispensing bitter lemon finished.
+22:49:18.372 - Dispensing ananas juice finished.
+22:49:18.374 - Recipe 'Sapphire Splash' dispensed.
+22:49:18.375 - Dispensing finished.
+22:49:30.872 - Starting pump vodka...
+22:49:30.875 - Pump vodka started.
+22:49:36.284 - Stopping pump vodka...
+22:49:36.286 - Pump vodka stopped.
+22:50:30.328 - AI cocktail
+22:50:30.330 - OpenAICocktailBot 'alcohol' pour me a drink...
+22:50:30.331 - Waiting for OpenAI GTP API reply...
+22:50:31.532 - OpenAICocktailBot 'alcohol' completion returned successfully.
+22:50:31.534 - result: {
+  role: 'assistant',
+  content: 'Electric Lemonade, 4 cl vodka, 5 cl bitter lemon, 3 cl herbal lemonade'
+}
+22:50:31.536 - tokens: 1575
+22:50:31.538 - Electric Lemonade: 4.0 cl vodka, 5.0 cl bitter lemon, 3.0 cl herbal lemonade
+22:50:31.540 - Starting dispensing recipe 'Electric Lemonade'...
+22:50:31.541 - Ingredients: 4 0 0 0 0 0 0 5 0 3 0 0
+22:50:31.543 - Drink size: 12
+22:50:31.545 - Dispensing 4 cl of vodka over 22.0 s...
+22:50:31.547 - Dispensing 5 cl of bitter lemon over 27.5 s...
+22:50:31.549 - Dispensing 3 cl of herbal lemonade over 16.5 s...
+22:50:48.066 - Dispensing herbal lemonade finished.
+22:50:53.575 - Dispensing vodka finished.
+22:50:59.078 - Dispensing bitter lemon finished.
+22:50:59.079 - Recipe 'Electric Lemonade' dispensed.
+22:50:59.080 - Dispensing finished.
+22:52:06.155 - AI cocktail
+22:52:06.156 - OpenAICocktailBot 'alcohol' pour me a drink...
+22:52:06.156 - Waiting for OpenAI GTP API reply...
+22:52:07.362 - OpenAICocktailBot 'alcohol' completion returned successfully.
+22:52:07.363 - result: {
+  role: 'assistant',
+  content: 'Island Martini, 3.5 cl rum, 4 cl ananas juice, 3 cl orange juice, 2 cl soda'
+}
+22:52:07.364 - tokens: 1616
+22:52:07.366 - Island Martini: 3.5 cl rum, 4.0 cl ananas juice, 3.0 cl orange juice, 2.0 cl soda
+22:52:07.367 - Starting dispensing recipe 'Island Martini'...
+22:52:07.367 - Ingredients: 0 0 3.5 0 4 0 3 0 0 0 0 2
+22:52:07.368 - Drink size: 12.5
+22:52:07.369 - Dispensing 3.5 cl of rum over 19.3 s...
+22:52:07.370 - Dispensing 4 cl of ananas juice over 22.0 s...
+22:52:07.371 - Dispensing 3 cl of orange juice over 16.5 s...
+22:52:07.372 - Dispensing 2 cl of soda over 11.0 s...
+22:52:18.385 - Dispensing soda finished.
+22:52:23.892 - Dispensing orange juice finished.
+22:52:26.640 - Dispensing rum finished.
+22:52:29.395 - Dispensing ananas juice finished.
+22:52:29.396 - Recipe 'Island Martini' dispensed.
+22:52:29.397 - Dispensing finished.
+22:58:54.851 - AI cocktail
+22:58:54.852 - OpenAICocktailBot 'alcohol' pour me a drink...
+22:58:54.853 - Waiting for OpenAI GTP API reply...
+22:58:56.114 - OpenAICocktailBot 'alcohol' completion returned successfully.
+22:58:56.116 - result: {
+  role: 'assistant',
+  content: 'Golden Glow, 3.5 cl rum, 4 cl ananas juice, 3 cl orange juice, 2 cl soda'
+}
+22:58:56.120 - tokens: 1655
+22:58:56.122 - Golden Glow: 3.5 cl rum, 4.0 cl ananas juice, 3.0 cl orange juice, 2.0 cl soda
+22:58:56.123 - Starting dispensing recipe 'Golden Glow'...
+22:58:56.124 - Ingredients: 0 0 3.5 0 4 0 3 0 0 0 0 2
+22:58:56.129 - Drink size: 12.5
+22:58:56.130 - Dispensing 3.5 cl of rum over 19.3 s...
+22:58:56.131 - Dispensing 4 cl of ananas juice over 22.0 s...
+22:58:56.132 - Dispensing 3 cl of orange juice over 16.5 s...
+22:58:56.134 - Dispensing 2 cl of soda over 11.0 s...
+22:59:07.152 - Dispensing soda finished.
+22:59:12.655 - Dispensing orange juice finished.
+22:59:15.406 - Dispensing rum finished.
+22:59:18.156 - Dispensing ananas juice finished.
+22:59:18.157 - Recipe 'Golden Glow' dispensed.
+22:59:18.158 - Dispensing finished.
+22:59:56.899 - AI cocktail
+22:59:56.900 - OpenAICocktailBot 'alcohol' pour me a drink...
+22:59:56.901 - Waiting for OpenAI GTP API reply...
+22:59:58.219 - OpenAICocktailBot 'alcohol' completion returned successfully.
+22:59:58.220 - result: {
+  role: 'assistant',
+  content: 'Caribbean Dream, 3 cl rum, 4 cl pineapple juice, 3 cl cherry juice, 2 cl orange bitter syrup'
+}
+22:59:58.222 - tokens: 1694
+22:59:58.223 - Caribbean Dream: 3.0 cl rum, 3.0 cl cherry juice
+22:59:58.224 - Starting dispensing recipe 'Caribbean Dream'...
+22:59:58.225 - Ingredients: 0 0 3 0 0 3 0 0 0 0 0 0
+22:59:58.226 - Drink size: 6
+22:59:58.227 - Dispensing 3 cl of rum over 16.5 s...
+22:59:58.228 - Dispensing 3 cl of cherry juice over 16.5 s...
+23:00:14.756 - Dispensing rum finished.
+23:00:14.757 - Dispensing cherry juice finished.
+23:00:14.759 - Recipe 'Caribbean Dream' dispensed.
+23:00:14.759 - Dispensing finished.
+23:14:58.166 - AI cocktail
+23:14:58.167 - OpenAICocktailBot 'alcohol' pour me a drink...
+23:14:58.168 - Waiting for OpenAI GTP API reply...
+23:14:59.912 - OpenAICocktailBot 'alcohol' completion returned successfully.
+23:14:59.913 - result: {
+  role: 'assistant',
+  content: 'Sunset Twist, 3.5 cl gin, 4 cl orange juice, 3 cl ananas juice, 2 cl soda'
+}
+23:14:59.914 - tokens: 1734
+23:14:59.915 - Sunset Twist: 3.5 cl gin, 3.0 cl ananas juice, 4.0 cl orange juice, 2.0 cl soda
+23:14:59.915 - Starting dispensing recipe 'Sunset Twist'...
+23:14:59.916 - Ingredients: 0 3.5 0 0 3 0 4 0 0 0 0 2
+23:14:59.916 - Drink size: 12.5
+23:14:59.917 - Dispensing 3.5 cl of gin over 19.3 s...
+23:14:59.917 - Dispensing 3 cl of ananas juice over 16.5 s...
+23:14:59.918 - Dispensing 4 cl of orange juice over 22.0 s...
+23:14:59.918 - Dispensing 2 cl of soda over 11.0 s...
+23:15:10.936 - Dispensing soda finished.
+23:15:16.439 - Dispensing ananas juice finished.
+23:15:19.187 - Dispensing gin finished.
+23:15:21.941 - Dispensing orange juice finished.
+23:15:21.943 - Recipe 'Sunset Twist' dispensed.
+23:15:21.944 - Dispensing finished.
+23:22:27.316 - AI cocktail
+23:22:27.317 - OpenAICocktailBot 'alcohol' pour me a drink...
+23:22:27.318 - Waiting for OpenAI GTP API reply...
+23:22:29.000 - OpenAICocktailBot 'alcohol' completion returned successfully.
+23:22:29.001 - result: {
+  role: 'assistant',
+  content: 'Tropical Bliss, 3.5 cl rum, 4 cl orange juice, 3 cl ananas juice, 2 cl soda'
+}
+23:22:29.004 - tokens: 1774
+23:22:29.005 - Tropical Bliss: 3.5 cl rum, 3.0 cl ananas juice, 4.0 cl orange juice, 2.0 cl soda
+23:22:29.006 - Starting dispensing recipe 'Tropical Bliss'...
+23:22:29.008 - Ingredients: 0 0 3.5 0 3 0 4 0 0 0 0 2
+23:22:29.009 - Drink size: 12.5
+23:22:29.010 - Dispensing 3.5 cl of rum over 19.3 s...
+23:22:29.011 - Dispensing 3 cl of ananas juice over 16.5 s...
+23:22:29.013 - Dispensing 4 cl of orange juice over 22.0 s...
+23:22:29.015 - Dispensing 2 cl of soda over 11.0 s...
+23:22:40.034 - Dispensing soda finished.
+23:22:45.537 - Dispensing ananas juice finished.
+23:22:48.285 - Dispensing rum finished.
+23:22:51.039 - Dispensing orange juice finished.
+23:22:51.040 - Recipe 'Tropical Bliss' dispensed.
+23:22:51.042 - Dispensing finished.
+23:24:52.462 - AI cocktail
+23:24:52.464 - OpenAICocktailBot 'alcohol' pour me a drink...
+23:24:52.465 - Waiting for OpenAI GTP API reply...
+23:24:55.078 - OpenAICocktailBot 'alcohol' completion returned successfully.
+23:24:55.080 - result: {
+  role: 'assistant',
+  content: 'Coral Breeze, 3 cl vodka, 4 cl cherry juice, 3 cl orange juice, 2 cl bitter lemon'
+}
+23:24:55.081 - tokens: 1813
+23:24:55.082 - Coral Breeze: 3.0 cl vodka, 4.0 cl cherry juice, 3.0 cl orange juice, 2.0 cl bitter lemon
+23:24:55.083 - Starting dispensing recipe 'Coral Breeze'...
+23:24:55.084 - Ingredients: 3 0 0 0 0 4 3 2 0 0 0 0
+23:24:55.085 - Drink size: 12
+23:24:55.086 - Dispensing 3 cl of vodka over 16.5 s...
+23:24:55.086 - Dispensing 4 cl of cherry juice over 22.0 s...
+23:24:55.087 - Dispensing 3 cl of orange juice over 16.5 s...
+23:24:55.088 - Dispensing 2 cl of bitter lemon over 11.0 s...
+23:25:06.101 - Dispensing bitter lemon finished.
+23:25:11.610 - Dispensing vodka finished.
+23:25:11.612 - Dispensing orange juice finished.
+23:25:17.115 - Dispensing cherry juice finished.
+23:25:17.116 - Recipe 'Coral Breeze' dispensed.
+23:25:17.117 - Dispensing finished.
+23:25:40.980 - AI cocktail
+23:25:40.981 - OpenAICocktailBot 'alcohol' pour me a drink...
+23:25:40.982 - Waiting for OpenAI GTP API reply...
+23:25:44.246 - OpenAICocktailBot 'alcohol' completion returned successfully.
+23:25:44.247 - result: {
+  role: 'assistant',
+  content: 'Ocean Spark, 3.5 cl blue curacao, 4 cl ananas juice, 3 cl orange juice, 2 cl soda'
+}
+23:25:44.255 - tokens: 1854
+23:25:44.257 - Ocean Spark: 3.5 cl blue curacao, 4.0 cl ananas juice, 3.0 cl orange juice, 2.0 cl soda
+23:25:44.258 - Starting dispensing recipe 'Ocean Spark'...
+23:25:44.258 - Ingredients: 0 0 0 3.5 4 0 3 0 0 0 0 2
+23:25:44.259 - Drink size: 12.5
+23:25:44.261 - Dispensing 3.5 cl of blue curacao over 19.3 s...
+23:25:44.262 - Dispensing 4 cl of ananas juice over 22.0 s...
+23:25:44.264 - Dispensing 3 cl of orange juice over 16.5 s...
+23:25:44.265 - Dispensing 2 cl of soda over 11.0 s...
+23:25:55.288 - Dispensing soda finished.
+23:26:00.791 - Dispensing orange juice finished.
+23:26:03.539 - Dispensing blue curacao finished.
+23:26:06.291 - Dispensing ananas juice finished.
+23:26:06.292 - Recipe 'Ocean Spark' dispensed.
+23:26:06.292 - Dispensing finished.
+23:27:03.384 - Starting pump vodka...
+23:27:03.386 - Pump vodka started.
+23:27:10.179 - Stopping pump vodka...
+23:27:10.182 - Pump vodka stopped.
+23:32:04.928 - AI cocktail
+23:32:04.929 - OpenAICocktailBot 'alcohol' pour me a drink...
+23:32:04.930 - Waiting for OpenAI GTP API reply...
+23:32:06.168 - OpenAICocktailBot 'alcohol' completion returned successfully.
+23:32:06.169 - result: {
+  role: 'assistant',
+  content: 'Blushing Sunset, 3.5 cl rum, 5 cl pineapple juice, 3 cl cherry juice, 2 cl orange bitter syrup'
+}
+23:32:06.170 - tokens: 1895
+23:32:06.170 - Blushing Sunset: 3.5 cl rum, 3.0 cl cherry juice
+23:32:06.171 - Starting dispensing recipe 'Blushing Sunset'...
+23:32:06.171 - Ingredients: 0 0 3.5 0 0 3 0 0 0 0 0 0
+23:32:06.172 - Drink size: 6.5
+23:32:06.172 - Dispensing 3.5 cl of rum over 19.3 s...
+23:32:06.172 - Dispensing 3 cl of cherry juice over 16.5 s...
+23:32:22.691 - Dispensing cherry juice finished.
+23:32:25.442 - Dispensing rum finished.
+23:32:25.444 - Recipe 'Blushing Sunset' dispensed.
+23:32:25.444 - Dispensing finished.
+23:57:41.622 - AI cocktail
+23:57:41.623 - OpenAICocktailBot 'alcohol' pour me a drink...
+23:57:41.624 - Waiting for OpenAI GTP API reply...
+23:57:42.761 - OpenAICocktailBot 'alcohol' completion returned successfully.
+23:57:42.762 - result: {
+  role: 'assistant',
+  content: 'Sunset Dream, 3 cl rum, 4 cl pineapple juice, 3 cl cherry juice, 2 cl orange bitter syrup'
+}
+23:57:42.764 - tokens: 1934
+23:57:42.765 - Sunset Dream: 3.0 cl rum, 3.0 cl cherry juice
+23:57:42.766 - Starting dispensing recipe 'Sunset Dream'...
+23:57:42.767 - Ingredients: 0 0 3 0 0 3 0 0 0 0 0 0
+23:57:42.767 - Drink size: 6
+23:57:42.768 - Dispensing 3 cl of rum over 16.5 s...
+23:57:42.769 - Dispensing 3 cl of cherry juice over 16.5 s...
+23:57:59.294 - Dispensing rum finished.
+23:57:59.296 - Dispensing cherry juice finished.
+23:57:59.297 - Recipe 'Sunset Dream' dispensed.
+23:57:59.298 - Dispensing finished.
+24:24:09.789 - AI cocktail
+24:24:09.790 - OpenAICocktailBot 'alcohol' pour me a drink...
+24:24:09.791 - Waiting for OpenAI GTP API reply...
+24:24:10.855 - OpenAICocktailBot 'alcohol' completion returned successfully.
+24:24:10.856 - result: {
+  role: 'assistant',
+  content: 'Caribbean Sunset, 3.5 cl rum, 4 cl pineapple juice, 3 cl cherry juice, 2 cl orange bitter syrup'
+}
+24:24:10.857 - tokens: 1975
+24:24:10.857 - Caribbean Sunset: 3.5 cl rum, 3.0 cl cherry juice
+24:24:10.858 - Starting dispensing recipe 'Caribbean Sunset'...
+24:24:10.858 - Ingredients: 0 0 3.5 0 0 3 0 0 0 0 0 0
+24:24:10.859 - Drink size: 6.5
+24:24:10.859 - Dispensing 3.5 cl of rum over 19.3 s...
+24:24:10.860 - Dispensing 3 cl of cherry juice over 16.5 s...
+24:24:27.381 - Dispensing cherry juice finished.
+24:24:30.130 - Dispensing rum finished.
+24:24:30.131 - Recipe 'Caribbean Sunset' dispensed.
+24:24:30.132 - Dispensing finished.
+24:26:20.269 - AI cocktail
+24:26:20.270 - OpenAICocktailBot 'alcohol' pour me a drink...
+24:26:20.271 - Waiting for OpenAI GTP API reply...
+24:26:21.958 - OpenAICocktailBot 'alcohol' completion returned successfully.
+24:26:21.959 - result: {
+  role: 'assistant',
+  content: 'Tropical Sparkle, 3.5 cl rum, 4 cl pineapple juice, 3 cl cherry juice, 2 cl soda'
+}
+24:26:21.961 - tokens: 2015
+24:26:21.962 - Tropical Sparkle: 3.5 cl rum, 3.0 cl cherry juice, 2.0 cl soda
+24:26:21.963 - Starting dispensing recipe 'Tropical Sparkle'...
+24:26:21.964 - Ingredients: 0 0 3.5 0 0 3 0 0 0 0 0 2
+24:26:21.964 - Drink size: 8.5
+24:26:21.965 - Dispensing 3.5 cl of rum over 19.3 s...
+24:26:21.966 - Dispensing 3 cl of cherry juice over 16.5 s...
+24:26:21.967 - Dispensing 2 cl of soda over 11.0 s...
+24:26:32.985 - Dispensing soda finished.
+24:26:38.488 - Dispensing cherry juice finished.
+24:26:41.238 - Dispensing rum finished.
+24:26:41.239 - Recipe 'Tropical Sparkle' dispensed.
+24:26:41.240 - Dispensing finished.
+24:34:28.865 - AI cocktail
+24:34:28.866 - OpenAICocktailBot 'alcohol' pour me a drink...
+24:34:28.867 - Waiting for OpenAI GTP API reply...
+24:34:30.113 - OpenAICocktailBot 'alcohol' completion returned successfully.
+24:34:30.115 - result: {
+  role: 'assistant',
+  content: 'Caribbean Breeze, 3.5 cl rum, 4 cl pineapple juice, 3 cl cherry juice, 2 cl soda'
+}
+24:34:30.116 - tokens: 2055
+24:34:30.118 - Caribbean Breeze: 3.5 cl rum, 3.0 cl cherry juice, 2.0 cl soda
+24:34:30.119 - Starting dispensing recipe 'Caribbean Breeze'...
+24:34:30.120 - Ingredients: 0 0 3.5 0 0 3 0 0 0 0 0 2
+24:34:30.121 - Drink size: 8.5
+24:34:30.122 - Dispensing 3.5 cl of rum over 19.3 s...
+24:34:30.123 - Dispensing 3 cl of cherry juice over 16.5 s...
+24:34:30.124 - Dispensing 2 cl of soda over 11.0 s...
+24:34:41.144 - Dispensing soda finished.
+24:34:46.646 - Dispensing cherry juice finished.
+24:34:49.396 - Dispensing rum finished.
+24:34:49.397 - Recipe 'Caribbean Breeze' dispensed.
+24:34:49.399 - Dispensing finished.
+24:35:28.263 - AI cocktail
+24:35:28.265 - OpenAICocktailBot 'alcohol' pour me a drink...
+24:35:28.266 - Waiting for OpenAI GTP API reply...
+24:35:29.446 - OpenAICocktailBot 'alcohol' completion returned successfully.
+24:35:29.447 - result: {
+  role: 'assistant',
+  content: 'Caribbean Sunset, 3.5 cl rum, 4 cl pineapple juice, 3 cl cherry juice, 2 cl orange bitter syrup'
+}
+24:35:29.449 - tokens: 2096
+24:35:29.450 - Caribbean Sunset: 3.5 cl rum, 3.0 cl cherry juice
+24:35:29.451 - Starting dispensing recipe 'Caribbean Sunset'...
+24:35:29.451 - Ingredients: 0 0 3.5 0 0 3 0 0 0 0 0 0
+24:35:29.452 - Drink size: 6.5
+24:35:29.452 - Dispensing 3.5 cl of rum over 19.3 s...
+24:35:29.453 - Dispensing 3 cl of cherry juice over 16.5 s...
+24:35:45.981 - Dispensing cherry juice finished.
+24:35:48.724 - Dispensing rum finished.
+24:35:48.725 - Recipe 'Caribbean Sunset' dispensed.
+24:35:48.726 - Dispensing finished.
+24:36:48.430 - AI cocktail
+24:36:48.431 - OpenAICocktailBot 'alcohol' pour me a drink...
+24:36:48.432 - Waiting for OpenAI GTP API reply...
+24:36:49.466 - OpenAICocktailBot 'alcohol' completion returned successfully.
+24:36:49.466 - result: {
+  role: 'assistant',
+  content: 'Tropical Sunset, 3.5 cl rum, 4 cl pineapple juice, 3 cl cherry juice, 2 cl soda'
+}
+24:36:49.468 - tokens: 2135
+24:36:49.469 - Tropical Sunset: 3.5 cl rum, 3.0 cl cherry juice, 2.0 cl soda
+24:36:49.470 - Starting dispensing recipe 'Tropical Sunset'...
+24:36:49.470 - Ingredients: 0 0 3.5 0 0 3 0 0 0 0 0 2
+24:36:49.471 - Drink size: 8.5
+24:36:49.472 - Dispensing 3.5 cl of rum over 19.3 s...
+24:36:49.473 - Dispensing 3 cl of cherry juice over 16.5 s...
+24:36:49.474 - Dispensing 2 cl of soda over 11.0 s...
+24:37:00.492 - Dispensing soda finished.
+24:37:05.994 - Dispensing cherry juice finished.
+24:37:08.744 - Dispensing rum finished.
+24:37:08.746 - Recipe 'Tropical Sunset' dispensed.
+24:37:08.746 - Dispensing finished.
+24:38:04.014 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+24:38:09.478 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+24:38:09.488 - Press Ctrl-C to exit.
+24:38:09.496 - Setting up buttons...
+24:38:09.508 - All LEDs off
+24:38:09.549 - Ingredient: vodka, alcohol, GPIO ID: 2
+24:38:09.552 - Ingredient: gin, alcohol, GPIO ID: 3
+24:38:09.554 - Ingredient: rum, alcohol, GPIO ID: 4
+24:38:09.557 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+24:38:09.559 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+24:38:09.564 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+24:38:09.567 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+24:38:09.570 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+24:38:09.574 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+24:38:09.576 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+24:38:09.579 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+24:38:09.582 - Ingredient: soda, no alcohol, GPIO ID: 19
+24:38:09.585 - OpenAICocktailBot 'alcohol' constructing...
+24:38:09.586 - OpenAICocktailBot 'alcohol' resetting.
+24:38:09.596 - OpenAICocktailBot 'alcohol' constructed.
+24:38:09.597 - f1...f12 start/stop dispensing
+24:38:09.598 - a        AI cocktail
+24:38:09.599 - r        (r)andom cocktail
+24:38:09.601 - n        random (n)icolas cocktail with alcohol
+24:38:09.602 - Ctrl-c   quit
+24:38:09.612 - Reading squat bot config...
+24:38:09.614 - Ssquat bot config: SquatBotConfig {
+  targetSquats: 5,
+  gameWinTimeout_s: 60,
+  faceMinX: 320,
+  faceMaxX: 420,
+  gameStartTimeout_s: 3,
+  topOffset_px: 20,
+  bottomOffset_px: 0,
+  gameLeftTimeout_s: 5,
+  squatFactor: 1.3
+}
+24:38:09.626 - Creating web server...
+24:38:09.657 - index 0 argument -> /usr/bin/node
+24:38:09.658 - index 1 argument -> /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/index.js
+24:38:09.666 - Creating socket.io server...
+24:38:09.678 - Server path: ./ui
+24:38:09.686 - Starting web server....
+24:38:09.709 - Web server ready: listening on *:5000

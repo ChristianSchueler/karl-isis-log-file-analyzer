@@ -1,0 +1,292 @@
+Running on Raspberry Pi!
+Karl-Isis the 25001 - Dispenser booting...
+Asking for cocktail...
+Text result:
+{
+  "ingredients": [
+    {"ingredient": "rum", "amount": 6},
+    {"ingredient": "pineapple juice", "amount": 4},
+    {"ingredient": "soda", "amount": 3}
+  ],
+  "drinkSize": 13,
+  "name": "Caribbean Breeze"
+}
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+Running on Raspberry Pi!
+Karl-Isis the 25001 - Dispenser booting...
+Asking for cocktail...
+Text result:
+{
+  "ingredients": [
+    {"ingredient": "rum", "amount": 5},
+    {"ingredient": "pineapple juice", "amount": 5},
+    {"ingredient": "soda", "amount": 3}
+  ],
+  "drinkSize": 13,
+  "name": "Caribbean Breeze"
+}
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+button:
+Running on Raspberry Pi!
+Karl-Isis the 25001 - Dispenser booting...
+Asking for cocktail...
+button: 1 null
+button: 1 null
+Text result:
+{
+  "ingredients": [
+    {"ingredient": "vodka", "amount": 2},
+    {"ingredient": "rum", "amount": 3},
+    {"ingredient": "pineapple juice", "amount": 4},
+    {"ingredient": "soda", "amount": 3}
+  ],
+  "drinkSize": 12,
+  "name": "Tropical Breeze"
+}
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 1 null
+button: 1 null
+Running on Raspberry Pi!
+Karl-Isis the 25001 - Dispenser booting...
+Asking for cocktail...
+Text result:
+{
+  "ingredients": [
+    {"ingredient": "rum", "amount": 4},
+    {"ingredient": "pineapple juice", "amount": 5},
+    {"ingredient": "soda", "amount": 3}
+  ],
+  "drinkSize": 12,
+  "name": "Tropical Breeze"
+}
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+button: 1 null
+Running on Raspberry Pi!
+Karl-Isis the 25001 - Dispenser booting...
+Asking for cocktail...
+Text result:
+{
+  "ingredients": [
+    {"ingredient": "rum", "amount": 6},
+    {"ingredient": "pineapple juice", "amount": 4},
+    {"ingredient": "soda", "amount": 2}
+  ],
+  "drinkSize": 12,
+  "name": "Caribbean Breeze"
+}
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+Running on Raspberry Pi!
+Karl-Isis the 25001 - Dispenser booting...
+Asking for cocktail...
+Text result:
+{
+  "ingredients": [
+    {"ingredient": "rum", "amount": 5},
+    {"ingredient": "pineapple juice", "amount": 5},
+    {"ingredient": "soda", "amount": 5}
+  ],
+  "drinkSize": 15,
+  "name": "Caribbean Breeze"
+}
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 1 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+Running on Raspberry Pi!
+Karl-Isis the 25001 - Dispenser booting...
+Asking for cocktail...
+Text result:
+{
+  "ingredients": [
+    {"ingredient": "rum", "amount": 6},
+    {"ingredient": "pineapple juice", "amount": 6},
+    {"ingredient": "soda", "amount": 4}
+  ],
+  "drinkSize": 16,
+  "name": "Caribbean Breeze"
+}
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+button: 0 null
+button: 1 null
+Running on Raspberry Pi!
+Karl-Isis the 25001 - Dispenser booting...
+Asking for cocktail...
+Text result:
+{
+  "ingredients": [
+    { "ingredient": "rum", "amount": 6 },
+    { "ingredient": "pineapple juice", "amount": 4 },
+    { "ingredient": "soda", "amount": 4 }
+  ],
+  "drinkSize": 14,
+  "name": "Tropical Breeze"
+}
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+button: 1 null
+button: 1 null
+button: 1 null
+button: 1 null
+button: 1 null
+button: 1 null
+button: 1 null
+button: 1 null
+button: 1 null
+button: 1 null
+Running on Raspberry Pi!
+Karl-Isis the 25001 - Dispenser booting...
+OpenAICocktailBot '0 alcohol
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Running on Raspberry Pi!
+Karl-Isis the 25001 - Dispenser booting...
+OpenAICocktailBot '0 alcohol system description....
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Running on Raspberry Pi!
+Karl-Isis the 25001 - Dispenser booting...
+OpenAICocktailBot '0' alcohol system description....
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Running on Raspberry Pi!
+Karl-Isis the 25001 - Dispenser booting...
+OpenAICocktailBot '$1' alcohol system description....
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Running on Raspberry Pi!
+Karl-Isis the 25001 - Dispenser booting...
+OpenAICocktailBot 'alcohol' constructing...
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+Running on Raspberry Pi!
+Karl-Isis the 25001 - Dispenser booting...
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.

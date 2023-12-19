@@ -1,0 +1,427 @@
+21:45:54.764 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+21:45:54.774 - Press Ctrl-C to exit.
+21:45:54.783 - Ingredient: vodka, alcohol, GPIO ID: 2
+21:45:54.822 - Ingredient: gin, alcohol, GPIO ID: 3
+21:45:54.849 - Ingredient: rum, alcohol, GPIO ID: 4
+21:45:54.874 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+21:45:54.899 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+21:45:54.922 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+21:45:54.946 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+21:45:54.971 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+21:45:54.996 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+21:45:55.021 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+21:45:55.046 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+21:45:55.071 - Ingredient: soda, no alcohol, GPIO ID: 19
+21:45:55.097 - OpenAICocktailBot 'alcohol' constructing...
+21:45:55.103 - OpenAICocktailBot 'alcohol' resetting.
+21:45:55.113 - OpenAICocktailBot 'alcohol' constructed.
+21:45:55.117 - f1...f12 start/stop dispensing
+21:45:55.121 - a        AI cocktail
+21:45:55.124 - r        (r)andom cocktail
+21:45:55.128 - n        random (n)icolas cocktail with alcohol
+21:45:55.131 - Ctrl-c   quit
+21:46:05.869 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+21:49:49.058 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+21:49:49.062 - Press Ctrl-C to exit.
+21:49:49.071 - Ingredient: vodka, alcohol, GPIO ID: 2
+21:49:49.079 - Ingredient: gin, alcohol, GPIO ID: 3
+21:49:49.081 - Ingredient: rum, alcohol, GPIO ID: 4
+21:49:49.084 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+21:49:49.086 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+21:49:49.088 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+21:49:49.091 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+21:49:49.094 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+21:49:49.097 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+21:49:49.100 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+21:49:49.103 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+21:49:49.106 - Ingredient: soda, no alcohol, GPIO ID: 19
+21:49:49.109 - OpenAICocktailBot 'alcohol' constructing...
+21:49:49.110 - OpenAICocktailBot 'alcohol' resetting.
+21:49:49.120 - OpenAICocktailBot 'alcohol' constructed.
+21:49:49.121 - f1...f12 start/stop dispensing
+21:49:49.122 - a        AI cocktail
+21:49:49.122 - r        (r)andom cocktail
+21:49:49.123 - n        random (n)icolas cocktail with alcohol
+21:49:49.123 - Ctrl-c   quit
+21:49:59.152 - key pressed: up
+21:50:05.669 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+21:50:05.670 - key pressed: c
+21:50:33.563 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+21:50:33.565 - Press Ctrl-C to exit.
+21:50:33.573 - Ingredient: vodka, alcohol, GPIO ID: 2
+21:50:33.580 - Ingredient: gin, alcohol, GPIO ID: 3
+21:50:33.583 - Ingredient: rum, alcohol, GPIO ID: 4
+21:50:33.586 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+21:50:33.589 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+21:50:33.590 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+21:50:33.593 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+21:50:33.596 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+21:50:33.599 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+21:50:33.603 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+21:50:33.606 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+21:50:33.608 - Ingredient: soda, no alcohol, GPIO ID: 19
+21:50:33.613 - OpenAICocktailBot 'alcohol' constructing...
+21:50:33.614 - OpenAICocktailBot 'alcohol' resetting.
+21:50:33.622 - OpenAICocktailBot 'alcohol' constructed.
+21:50:33.623 - f1...f12 start/stop dispensing
+21:50:33.623 - a        AI cocktail
+21:50:33.623 - r        (r)andom cocktail
+21:50:33.624 - n        random (n)icolas cocktail with alcohol
+21:50:33.624 - Ctrl-c   quit
+21:50:44.977 - key pressed: q
+21:50:46.663 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+21:50:46.666 - key pressed: c
+21:53:05.363 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+21:53:05.365 - Press Ctrl-C to exit.
+21:53:05.373 - Ingredient: vodka, alcohol, GPIO ID: 2
+21:53:05.374 - Running on Windows - only for development!
+21:53:05.375 - Ingredient: gin, alcohol, GPIO ID: 3
+21:53:05.376 - Running on Windows - only for development!
+21:53:05.378 - Ingredient: rum, alcohol, GPIO ID: 4
+21:53:05.379 - Running on Windows - only for development!
+21:53:05.381 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+21:53:05.384 - Running on Windows - only for development!
+21:53:05.386 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+21:53:05.387 - Running on Windows - only for development!
+21:53:05.388 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+21:53:05.388 - Running on Windows - only for development!
+21:53:05.389 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+21:53:05.390 - Running on Windows - only for development!
+21:53:05.390 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+21:53:05.390 - Running on Windows - only for development!
+21:53:05.391 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+21:53:05.392 - Running on Windows - only for development!
+21:53:05.393 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+21:53:05.394 - Running on Windows - only for development!
+21:53:05.395 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+21:53:05.395 - Running on Windows - only for development!
+21:53:05.396 - Ingredient: soda, no alcohol, GPIO ID: 19
+21:53:05.397 - Running on Windows - only for development!
+21:53:05.399 - OpenAICocktailBot 'alcohol' constructing...
+21:53:05.414 - OpenAICocktailBot 'alcohol' resetting.
+21:53:05.421 - OpenAICocktailBot 'alcohol' constructed.
+21:53:05.421 - f1...f12 start/stop dispensing
+21:53:05.422 - a        AI cocktail
+21:53:05.422 - r        (r)andom cocktail
+21:53:05.423 - n        random (n)icolas cocktail with alcohol
+21:53:05.424 - Ctrl-c   quit
+21:53:05.427 - creating internal web server
+21:53:05.444 - starting internal web server....
+21:53:05.498 - internal web server ready: listening on *:5000
+21:53:06.935 - opening URL: http://localhost:5000
+21:53:46.957 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+21:53:46.959 - Press Ctrl-C to exit.
+21:53:46.967 - Ingredient: vodka, alcohol, GPIO ID: 2
+21:53:46.968 - Running on Windows - only for development!
+21:53:46.969 - Ingredient: gin, alcohol, GPIO ID: 3
+21:53:46.971 - Running on Windows - only for development!
+21:53:46.972 - Ingredient: rum, alcohol, GPIO ID: 4
+21:53:46.974 - Running on Windows - only for development!
+21:53:46.977 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+21:53:46.979 - Running on Windows - only for development!
+21:53:46.981 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+21:53:46.982 - Running on Windows - only for development!
+21:53:46.983 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+21:53:46.983 - Running on Windows - only for development!
+21:53:46.984 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+21:53:46.984 - Running on Windows - only for development!
+21:53:46.985 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+21:53:46.986 - Running on Windows - only for development!
+21:53:46.987 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+21:53:46.987 - Running on Windows - only for development!
+21:53:46.989 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+21:53:46.989 - Running on Windows - only for development!
+21:53:46.990 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+21:53:46.991 - Running on Windows - only for development!
+21:53:46.993 - Ingredient: soda, no alcohol, GPIO ID: 19
+21:53:46.993 - Running on Windows - only for development!
+21:53:47.006 - OpenAICocktailBot 'alcohol' constructing...
+21:53:47.007 - OpenAICocktailBot 'alcohol' resetting.
+21:53:47.015 - OpenAICocktailBot 'alcohol' constructed.
+21:53:47.016 - f1...f12 start/stop dispensing
+21:53:47.017 - a        AI cocktail
+21:53:47.017 - r        (r)andom cocktail
+21:53:47.018 - n        random (n)icolas cocktail with alcohol
+21:53:47.018 - Ctrl-c   quit
+21:53:47.022 - creating internal web server
+21:53:47.038 - starting internal web server....
+21:53:47.094 - internal web server ready: listening on *:5000
+21:53:47.746 - opening URL: http://localhost:5000
+21:58:18.564 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+21:58:18.575 - Press Ctrl-C to exit.
+21:58:18.584 - Ingredient: vodka, alcohol, GPIO ID: 2
+21:58:18.585 - Running on Windows - only for development!
+21:58:18.587 - Ingredient: gin, alcohol, GPIO ID: 3
+21:58:18.589 - Running on Windows - only for development!
+21:58:18.590 - Ingredient: rum, alcohol, GPIO ID: 4
+21:58:18.592 - Running on Windows - only for development!
+21:58:18.594 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+21:58:18.595 - Running on Windows - only for development!
+21:58:18.597 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+21:58:18.598 - Running on Windows - only for development!
+21:58:18.598 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+21:58:18.599 - Running on Windows - only for development!
+21:58:18.599 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+21:58:18.600 - Running on Windows - only for development!
+21:58:18.600 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+21:58:18.601 - Running on Windows - only for development!
+21:58:18.602 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+21:58:18.602 - Running on Windows - only for development!
+21:58:18.603 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+21:58:18.604 - Running on Windows - only for development!
+21:58:18.605 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+21:58:18.606 - Running on Windows - only for development!
+21:58:18.606 - Ingredient: soda, no alcohol, GPIO ID: 19
+21:58:18.607 - Running on Windows - only for development!
+21:58:18.609 - OpenAICocktailBot 'alcohol' constructing...
+21:58:18.610 - OpenAICocktailBot 'alcohol' resetting.
+21:58:18.615 - OpenAICocktailBot 'alcohol' constructed.
+21:58:18.616 - f1...f12 start/stop dispensing
+21:58:18.617 - a        AI cocktail
+21:58:18.618 - r        (r)andom cocktail
+21:58:18.618 - n        random (n)icolas cocktail with alcohol
+21:58:18.619 - Ctrl-c   quit
+21:58:18.622 - creating internal web server
+21:58:18.641 - starting internal web server....
+21:58:18.698 - internal web server ready: listening on *:5000
+21:58:21.607 - opening URL: http://localhost:5000
+22:05:49.405 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+22:05:49.408 - Press Ctrl-C to exit.
+22:05:49.417 - Ingredient: vodka, alcohol, GPIO ID: 2
+22:05:49.418 - Running on Windows - only for development!
+22:05:49.420 - Ingredient: gin, alcohol, GPIO ID: 3
+22:05:49.421 - Running on Windows - only for development!
+22:05:49.423 - Ingredient: rum, alcohol, GPIO ID: 4
+22:05:49.424 - Running on Windows - only for development!
+22:05:49.426 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+22:05:49.428 - Running on Windows - only for development!
+22:05:49.430 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+22:05:49.431 - Running on Windows - only for development!
+22:05:49.432 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+22:05:49.432 - Running on Windows - only for development!
+22:05:49.433 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+22:05:49.434 - Running on Windows - only for development!
+22:05:49.434 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+22:05:49.435 - Running on Windows - only for development!
+22:05:49.436 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+22:05:49.437 - Running on Windows - only for development!
+22:05:49.438 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+22:05:49.439 - Running on Windows - only for development!
+22:05:49.440 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+22:05:49.441 - Running on Windows - only for development!
+22:05:49.442 - Ingredient: soda, no alcohol, GPIO ID: 19
+22:05:49.443 - Running on Windows - only for development!
+22:05:49.446 - OpenAICocktailBot 'alcohol' constructing...
+22:05:49.447 - OpenAICocktailBot 'alcohol' resetting.
+22:05:49.454 - OpenAICocktailBot 'alcohol' constructed.
+22:05:49.455 - f1...f12 start/stop dispensing
+22:05:49.456 - a        AI cocktail
+22:05:49.458 - r        (r)andom cocktail
+22:05:49.460 - n        random (n)icolas cocktail with alcohol
+22:05:49.461 - Ctrl-c   quit
+22:05:49.464 - creating internal web server
+22:05:49.480 - starting internal web server....
+22:05:49.535 - internal web server ready: listening on *:5000
+22:05:50.182 - opening URL: http://localhost:5000
+22:09:56.766 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+22:09:56.768 - Press Ctrl-C to exit.
+22:09:56.776 - Ingredient: vodka, alcohol, GPIO ID: 2
+22:09:56.777 - Running on Windows - only for development!
+22:09:56.779 - Ingredient: gin, alcohol, GPIO ID: 3
+22:09:56.780 - Running on Windows - only for development!
+22:09:56.781 - Ingredient: rum, alcohol, GPIO ID: 4
+22:09:56.783 - Running on Windows - only for development!
+22:09:56.784 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+22:09:56.787 - Running on Windows - only for development!
+22:09:56.789 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+22:09:56.790 - Running on Windows - only for development!
+22:09:56.791 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+22:09:56.791 - Running on Windows - only for development!
+22:09:56.792 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+22:09:56.792 - Running on Windows - only for development!
+22:09:56.793 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+22:09:56.793 - Running on Windows - only for development!
+22:09:56.794 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+22:09:56.794 - Running on Windows - only for development!
+22:09:56.795 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+22:09:56.796 - Running on Windows - only for development!
+22:09:56.797 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+22:09:56.798 - Running on Windows - only for development!
+22:09:56.799 - Ingredient: soda, no alcohol, GPIO ID: 19
+22:09:56.800 - Running on Windows - only for development!
+22:09:56.802 - OpenAICocktailBot 'alcohol' constructing...
+22:09:56.803 - OpenAICocktailBot 'alcohol' resetting.
+22:09:56.810 - OpenAICocktailBot 'alcohol' constructed.
+22:09:56.811 - f1...f12 start/stop dispensing
+22:09:56.811 - a        AI cocktail
+22:09:56.813 - r        (r)andom cocktail
+22:09:56.814 - n        random (n)icolas cocktail with alcohol
+22:09:56.814 - Ctrl-c   quit
+22:09:56.819 - creating internal web server
+22:09:56.835 - starting internal web server....
+22:09:56.893 - internal web server ready: listening on *:5000
+22:09:57.575 - opening URL: http://localhost:5000
+22:11:48.795 - key pressed: a
+22:11:48.801 - OpenAICocktailBot 'alcohol' pour me a drink...
+22:11:48.817 - OpenAICocktailBot 'alcohol' request: [
+  {
+    role: 'system',
+    content: '\n' +
+      'You are a cocktail mixing robot, you are able to pour cocktails.\n' +
+      'Ingredients are measured in cl.\n' +
+      "Be creative, don't repeat a cocktail recipe.\n" +
+      'What I ask you to "pour me a cocktail", you preform the following steps:\n' +
+      'First, select an alcoholic ingredient exclusively from the following list: vodka, gin, rum, blue curacao and select an amount between 2 cl and 4 cl.\n' +
+      'Second, select one to five non-alcoholic ingredients exclusively from the following list: ananas juice, cherry juice, orange juice, bitter lemon, tonic water, herbal lemonade, bitter orange sirup, soda and for each ingredient select an amount between 2 cl and 6 cl.\n' +
+      'Third, select a fancy cocktail name.\n' +
+      'Format your response as comma separated text: cocktail name, amount of alcoholic ingredient and alcoholic ingredient name separated by a single space, all non-alcoholic ingredients including amounts\n'
+  },
+  { role: 'user', content: 'pour me a drink' }
+]
+22:11:48.819 - Waiting for OpenAI GTP API reply...
+22:11:48.857 - OpenAI:DEBUG:request https://api.openai.com/v1/chat/completions {
+  method: 'post',
+  path: '/chat/completions',
+  body: { model: 'gpt-3.5-turbo-1106', messages: [ [Object], [Object] ] },
+  stream: false
+} {
+  'Content-Length': '1060',
+  Accept: 'application/json',
+  'Content-Type': 'application/json',
+  'User-Agent': 'OpenAI/JS 4.19.0',
+  'X-Stainless-Lang': 'js',
+  'X-Stainless-Package-Version': '4.19.0',
+  'X-Stainless-OS': 'Linux',
+  'X-Stainless-Arch': 'arm64',
+  'X-Stainless-Runtime': 'node',
+  'X-Stainless-Runtime-Version': 'v18.17.1',
+  Authorization: 'Bearer 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',
+  'OpenAI-Organization': 'org-XWXjDVcYbBQFaLvR7JTi3pyl'
+}
+22:11:50.957 - OpenAI:DEBUG:response 200 https://api.openai.com/v1/chat/completions Headers {
+  [Symbol(map)]: [Object: null prototype] {
+    date: [ 'Fri, 01 Dec 2023 20:11:50 GMT' ],
+    'content-type': [ 'application/json' ],
+    'transfer-encoding': [ 'chunked' ],
+    connection: [ 'keep-alive' ],
+    'access-control-allow-origin': [ '*' ],
+    'cache-control': [ 'no-cache, must-revalidate' ],
+    'openai-model': [ 'gpt-3.5-turbo-1106' ],
+    'openai-organization': [ 'user-qg6kgf2isdibwhqnphcq5qtm' ],
+    'openai-processing-ms': [ '1240' ],
+    'openai-version': [ '2020-10-01' ],
+    'strict-transport-security': [ 'max-age=15724800; includeSubDomains' ],
+    'x-ratelimit-limit-requests': [ '10000' ],
+    'x-ratelimit-limit-tokens': [ '60000' ],
+    'x-ratelimit-limit-tokens_usage_based': [ '60000' ],
+    'x-ratelimit-remaining-requests': [ '9999' ],
+    'x-ratelimit-remaining-tokens': [ '59761' ],
+    'x-ratelimit-remaining-tokens_usage_based': [ '59761' ],
+    'x-ratelimit-reset-requests': [ '8.64s' ],
+    'x-ratelimit-reset-tokens': [ '239ms' ],
+    'x-ratelimit-reset-tokens_usage_based': [ '239ms' ],
+    'x-request-id': [ '7e6f377ae08b642f33834fbe38f4ba16' ],
+    'cf-cache-status': [ 'DYNAMIC' ],
+    'set-cookie': [
+      '__cf_bm=sOPg8njIsu66zSF_6OnamPGcZAGkeofDj6tyk2o8nys-1701461510-0-AZM/2ZvUMnvo3q1QRid6dwkgH7ta+1X7eWSsXKtfOR4EtpM9Re1xpuDThCtg3MgVroRYpNzn4H+TgisGISl6aEA=; path=/; expires=Fri, 01-Dec-23 20:41:50 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None',
+      '_cfuvid=Es71OBClIRN7eiDL8NBMr1FP._FcsezZOudw0pfyq3M-1701461510844-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'
+    ],
+    server: [ 'cloudflare' ],
+    'cf-ray': [ '82edfb41dbe43251-VIE' ],
+    'content-encoding': [ 'gzip' ],
+    'alt-svc': [ 'h3=":443"; ma=86400' ]
+  }
+} {
+  id: 'chatcmpl-8R49VhcJNlvD7oCPrsniKiTyPOL22',
+  object: 'chat.completion',
+  created: 1701461509,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 197, completion_tokens: 28, total_tokens: 225 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+22:11:50.967 - OpenAICocktailBot 'alcohol' completion returned successfully.
+22:11:50.970 - {
+  id: 'chatcmpl-8R49VhcJNlvD7oCPrsniKiTyPOL22',
+  object: 'chat.completion',
+  created: 1701461509,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 197, completion_tokens: 28, total_tokens: 225 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+22:11:50.971 - result: {
+  role: 'assistant',
+  content: 'Tropical Breeze, 3 cl rum, 4 cl ananas juice, 3 cl orange juice, 2 cl cherry juice'
+}
+22:11:50.973 - tokens: 225
+22:11:50.978 - [ '3', 'cl', 'rum' ]
+22:11:50.982 - [ '4', 'cl', 'ananas', 'juice' ]
+22:11:50.994 - [ '3', 'cl', 'orange', 'juice' ]
+22:11:51.006 - [ '2', 'cl', 'cherry', 'juice' ]
+22:11:51.021 - Tropical Breeze: 3.0 cl rum, 4.0 cl ananas juice, 2.0 cl cherry juice, 3.0 cl orange juice
+22:11:51.025 - Starting dispensing recipe 'Tropical Breeze'...
+22:11:51.036 - Ingredients: 0 0 3 0 4 2 3 0 0 0 0 0
+22:11:51.040 - Drink size: 12
+22:11:51.049 - Dispensing 3 cl of rum over 16.5 s...
+22:11:51.055 - Dispensing 4 cl of ananas juice over 22.0 s...
+22:11:51.058 - Dispensing 2 cl of cherry juice over 11.0 s...
+22:11:51.086 - Dispensing 3 cl of orange juice over 16.5 s...
+22:12:02.120 - Dispensing cherry juice finished.
+22:12:07.630 - Dispensing rum finished.
+22:12:07.638 - Dispensing orange juice finished.
+22:12:13.129 - Dispensing ananas juice finished.
+22:12:13.131 - Recipe 'Tropical Breeze' dispensed.
+22:12:13.132 - Dispensing finished.
+22:14:45.457 - key pressed: q
+22:15:42.699 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+22:15:42.747 - Press Ctrl-C to exit.
+22:15:42.755 - Ingredient: vodka, alcohol, GPIO ID: 2
+22:15:42.757 - Running on Windows - only for development!
+22:15:42.758 - Ingredient: gin, alcohol, GPIO ID: 3
+22:15:42.759 - Running on Windows - only for development!
+22:15:42.760 - Ingredient: rum, alcohol, GPIO ID: 4
+22:15:42.761 - Running on Windows - only for development!
+22:15:42.763 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+22:15:42.767 - Running on Windows - only for development!
+22:15:42.768 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+22:15:42.769 - Running on Windows - only for development!
+22:15:42.770 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+22:15:42.772 - Running on Windows - only for development!
+22:15:42.773 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+22:15:42.776 - Running on Windows - only for development!
+22:15:42.777 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+22:15:42.778 - Running on Windows - only for development!
+22:15:42.778 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+22:15:42.779 - Running on Windows - only for development!
+22:15:42.780 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+22:15:42.785 - Running on Windows - only for development!
+22:15:42.787 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+22:15:42.789 - Running on Windows - only for development!
+22:15:42.790 - Ingredient: soda, no alcohol, GPIO ID: 19
+22:15:42.791 - Running on Windows - only for development!
+22:15:42.794 - OpenAICocktailBot 'alcohol' constructing...
+22:15:42.796 - OpenAICocktailBot 'alcohol' resetting.
+22:15:42.803 - OpenAICocktailBot 'alcohol' constructed.
+22:15:42.804 - f1...f12 start/stop dispensing
+22:15:42.804 - a        AI cocktail
+22:15:42.805 - r        (r)andom cocktail
+22:15:42.805 - n        random (n)icolas cocktail with alcohol
+22:15:42.805 - Ctrl-c   quit
+22:15:42.817 - creating internal web server
+22:15:42.847 - starting internal web server....
+22:15:42.877 - internal web server ready: listening on *:5000
+22:15:51.066 - key pressed: r
+22:15:51.069 - OpenAICocktailBot creating random cocktail...
+22:15:51.072 - Normalizing drink...
+22:15:51.074 - Drink normalized
+22:15:51.075 - random cocktail: 2.0 cl rum, 4.0 cl cherry juice, 2.0 cl bitter lemon, 4.0 cl herbal lemonade, 2.0 cl soda
+22:15:51.077 - Starting dispensing recipe 'random cocktail'...
+22:15:51.078 - Ingredients: 0 0 2 0 0 4 0 2 0 4 0 2
+22:15:51.080 - Drink size: 14
+22:15:51.085 - Dispensing 2 cl of rum over 11.0 s...
+22:15:51.089 - Dispensing 4 cl of cherry juice over 22.0 s...
+22:15:51.091 - Dispensing 2 cl of bitter lemon over 11.0 s...
+22:15:51.092 - Dispensing 4 cl of herbal lemonade over 22.0 s...
+22:15:51.094 - Dispensing 2 cl of soda over 11.0 s...
+22:15:56.680 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.

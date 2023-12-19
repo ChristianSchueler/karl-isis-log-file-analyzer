@@ -1,0 +1,30 @@
+time;name;vodka;gin;rum;blue curacao;ananas juice;cherry juice;orange juice;bitter lemon;tonic water;herbal lemonade;bitter orange sirup;soda;recipe
+01:00:22.176;Electric Blue Lagoon;0;0;0;3;4;0;0;0;0;0;0;3;3.0 cl blue curacao, 4.0 cl ananas juice, 3.0 cl soda
+01:22:35.784;Caribbean Sunset;0;0;4;0;0;3;5;0;0;0;0;2;4.0 cl rum, 3.0 cl cherry juice, 5.0 cl orange juice, 2.0 cl soda
+01:23:11.302;Mystical Garden;0;2,5;0;0;0;0;4;2;3;4;0;0;2.5 cl gin, 4.0 cl orange juice, 2.0 cl bitter lemon, 3.0 cl tonic water, 4.0 cl herbal lemonade
+01:44:23.847;Tropical Breeze;3,5;0;0;0;4;0;2,5;0;0;0;3;0;3.5 cl vodka, 4.0 cl ananas juice, 2.5 cl orange juice, 3.0 cl bitter orange sirup
+01:45:25.155;Ocean Soul;0;0;3;5;0;0;4;0;0;0;0;0;3.0 cl rum, 5.0 cl blue curacao, 4.0 cl orange juice
+16:11:13.145;Tropical Sunset;0;0;3;0;4;2;3;0;0;0;0;0;3.0 cl rum, 4.0 cl ananas juice, 2.0 cl cherry juice, 3.0 cl orange juice
+16:19:47.548;Ocean Breeze;0;0;0;3;0;0;5;0;4;0;0;0;3.0 cl blue curacao, 5.0 cl orange juice, 4.0 cl tonic water
+16:27:51.129;Lemon Bliss;2,5;0;0;0;0;0;0;3;0;6;0;0;2.5 cl vodka, 3.0 cl bitter lemon, 6.0 cl herbal lemonade
+16:40:06.095;Purple Rain;0;4;0;0;0;5;0;0;0;0;0;3;4.0 cl gin, 5.0 cl cherry juice, 3.0 cl soda
+16:43:31.680;random cocktail;0;0;0;0;0;0;2;2;4;0;0;4;2.0 cl orange juice, 2.0 cl bitter lemon, 4.0 cl tonic water, 4.0 cl soda
+17:07:28.920;random cocktail;0;0;0;0;0;0;0;0;0;6,666666666666667;0;3,3333333333333335;6.7 cl herbal lemonade, 3.3 cl soda
+17:20:08.714;Spicy Sunset;0;0;3,5;0;4;0;3;0;0;0;2;0;3.5 cl rum, 4.0 cl ananas juice, 3.0 cl orange juice, 2.0 cl bitter orange sirup
+17:23:47.091;Midnight Sparkle;0;0;0;3;0;0;5;0;4;0;0;0;3.0 cl blue curacao, 5.0 cl orange juice, 4.0 cl tonic water
+17:30:16.145;random cocktail;0;0;0;0;0;2;0;0;2;4;0,5;3;2.0 cl cherry juice, 2.0 cl tonic water, 4.0 cl herbal lemonade, 0.50 cl bitter orange sirup, 3.0 cl soda
+17:36:31.684;Sunset Sip;2,5;0;0;0;4;2;3;0;0;0;0;4;2.5 cl vodka, 4.0 cl ananas juice, 2.0 cl cherry juice, 3.0 cl orange juice, 4.0 cl soda
+17:41:04.670;Electric Blue;0;0;0;4;0;0;0;3;5;0;0;0;4.0 cl blue curacao, 3.0 cl bitter lemon, 5.0 cl tonic water
+17:53:37.371;Midsummer Dream;0;0;3;0;4;0;3;0;0;0;2;0;3.0 cl rum, 4.0 cl ananas juice, 3.0 cl orange juice, 2.0 cl bitter orange sirup
+17:54:23.542;Citrus Delight;2;0;0;0;0;0;6;0;0;0;0;3;2.0 cl vodka, 6.0 cl orange juice, 3.0 cl soda
+18:00:29.863;random cocktail;0;0;0;0;0;0;0;0;0;0;1,1111111111111112;8,88888888888889;1.1 cl bitter orange sirup, 8.9 cl soda
+18:05:11.676;Minty Paradise;0;0;3,5;0;0;0;4;0;3;2;0;0;3.5 cl rum, 4.0 cl orange juice, 3.0 cl tonic water, 2.0 cl herbal lemonade
+18:27:21.257;random cocktail;2,3529411764705883;0;0;0;4,705882352941177;0;0;0;0;0;0,5882352941176471;2,3529411764705883;2.4 cl vodka, 4.7 cl ananas juice, 0.59 cl bitter orange sirup, 2.4 cl soda
+18:28:33.786;Tropical Twilight;0;0;3;0;4;0;3;0;0;0;2;0;3.0 cl rum, 4.0 cl ananas juice, 3.0 cl orange juice, 2.0 cl bitter orange sirup
+18:44:06.875;Lemon Lime Fizz;0;3,5;0;0;0;0;0;4;0;0;0;3;3.5 cl gin, 4.0 cl bitter lemon, 3.0 cl soda
+18:48:10.664;random cocktail;0;0;0;0;0;0;0;0;4,2105263157894735;2,1052631578947367;0,5263157894736842;3,1578947368421053;4.2 cl tonic water, 2.1 cl herbal lemonade, 0.53 cl bitter orange sirup, 3.2 cl soda
+19:02:30.801;Caribbean Breeze;0;0;3;0;4;2;3;0;0;0;0;0;3.0 cl rum, 4.0 cl ananas juice, 2.0 cl cherry juice, 3.0 cl orange juice
+19:05:34.260;Blue Lagoon;4;0;0;5;0;0;0;0;0;0;0;0;4.0 cl vodka, 5.0 cl blue curacao
+19:07:04.221;random cocktail;0;0;0;0;0;0;0;0;5,333333333333333;0;0,6666666666666666;4;5.3 cl tonic water, 0.67 cl bitter orange sirup, 4.0 cl soda
+19:30:24.285;Mindful Melon;0;0;3,5;0;4;0;3;0;0;0;0;2;3.5 cl rum, 4.0 cl ananas juice, 3.0 cl orange juice, 2.0 cl soda
+20:07:41.579;Green Garden;0;2,5;0;0;0;0;0;0;6;3;0;0;2.5 cl gin, 6.0 cl tonic water, 3.0 cl herbal lemonade

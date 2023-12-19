@@ -1,0 +1,1860 @@
+Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+Ingredient: vodka, alcohol, GPIO ID: 2
+Ingredient: gin, alcohol, GPIO ID: 3
+Ingredient: rum, alcohol, GPIO ID: 4
+Ingredient: blue curacao, alcohol, GPIO ID: 17
+Ingredient: ananas juice, no alcohol, GPIO ID: 18
+Ingredient: cherry juice, no alcohol, GPIO ID: 27
+Ingredient: orange juice, no alcohol, GPIO ID: 21
+Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+Ingredient: tonic water, no alcohol, GPIO ID: 16
+Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+Ingredient: bitter orange sirup, no alcohol, GPIO ID: 0
+Ingredient: soda, no alcohol, GPIO ID: 0
+OpenAICocktailBot 'alcohol' constructing...
+OpenAICocktailBot 'alcohol' resetting.
+OpenAICocktailBot 'alcohol' constructed.
+OpenAICocktailBot 'alcohol' pour me a drink...
+OpenAICocktailBot 'alcohol' request: [
+  {
+    role: 'system',
+    content: '\n' +
+      'You are a cocktail mixing robot, you are able to pour cocktails with up to 9 different ingredients.\n' +
+      'You can use the following ingredients: vodka, gin, rum, blue curacao, ananas juice, cherry juice, orange juice, bitter lemon, tonic water, herbal lemonade, bitter orange sirup, soda.\n' +
+      'What I ask you to "pour me a cocktail", you create a recipe with your available ingredients and you create a cocktail name.\n' +
+      'A cocktail recipe consists of a list of amounts of ingredients measured in cl.\n' +
+      'A cocktail recipe contains at least 2 ingredients.\n' +
+      'A cocktail recipe must contain a maximum of 4 cl of alcohol.\n' +
+      'The overall sum of all cocktail ingredient amounts for a single recipe must be at least 10 cl and is not allowed to exceed 20 cl.\n' +
+      'Do not repeat cocktail recipes. Be creative.\n' +
+      'Use ingredients such that after pouring 60 cocktails roughly 1 liter of every ingredient has been used.\n' +
+      'Format your response as a list of whole numbers separated by a single space character.\n' +
+      'Append to your response a comma and a creative name.\n' +
+      'Each number should represent the amount of the ingredient in cl.\n' +
+      'Include unused ingrediets as 0 in the list.\n' +
+      'The order of the resulting numbers must be the same order as the given list of ingredients.\n' +
+      'Return a single recipe.\n'
+  },
+  { role: 'user', content: 'pour me a drink' }
+]
+OpenAICocktailBot 'alcohol' completion returned successfully.
+{
+  id: 'chatcmpl-8OoQtmHRlPAoYiwcjqAjPFINzfTcO',
+  object: 'chat.completion',
+  created: 1700924427,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 278, completion_tokens: 27, total_tokens: 305 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+result: {
+  role: 'assistant',
+  content: '3 2 1 0 4 5 0 2 0 0 0 3, Tropical Sunset Sunrise'
+}
+tokens: 305
+Normalizing drink...
+Drink normalized
+CocktailRecipe {
+  ingredients: [
+    3, 2, 1, 0, 4,
+    5, 0, 2, 0, 0,
+    0, 3
+  ],
+  name: ' Tropical Sunset Sunrise'
+}
+Starting dispensing recipe ' Tropical Sunset Sunrise'...
+Ingredients: [
+  3, 2, 1, 0, 4,
+  5, 0, 2, 0, 0,
+  0, 3
+]
+Dispensing 3 ml of vodka over 1651.3761467889908 ms...
+Dispensing 2 ml of gin over 1100.9174311926606 ms...
+Dispensing 1 ml of rum over 550.4587155963303 ms...
+Dispensing 4 ml of ananas juice over 2201.8348623853212 ms...
+Dispensing 5 ml of cherry juice over 2752.293577981651 ms...
+Dispensing 2 ml of bitter lemon over 1100.9174311926606 ms...
+Dispensing 3 ml of soda over 1651.3761467889908 ms...
+Dispensing rum finished.
+Dispensing gin finished.
+Dispensing bitter lemon finished.
+Dispensing vodka finished.
+Dispensing soda finished.
+Dispensing ananas juice finished.
+Dispensing cherry juice finished.
+Recipe ' Tropical Sunset Sunrise' dispensed.
+Dispensing finished.
+Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+12:43:39.568 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+12:43:39.611 - Ingredient: vodka, alcohol, GPIO ID: 2
+12:43:39.869 - Ingredient: gin, alcohol, GPIO ID: 3
+12:43:39.914 - Ingredient: rum, alcohol, GPIO ID: 4
+12:43:39.954 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+12:43:39.986 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+12:43:40.010 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+12:43:40.036 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+12:43:40.058 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+12:43:40.088 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+12:43:40.115 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+12:43:40.156 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+12:43:40.190 - Ingredient: soda, no alcohol, GPIO ID: 19
+12:43:40.217 - OpenAICocktailBot 'alcohol' constructing...
+12:43:40.220 - OpenAICocktailBot 'alcohol' resetting.
+12:43:40.231 - OpenAICocktailBot 'alcohol' constructed.
+12:43:40.247 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+12:43:58.975 - key a
+12:43:58.978 - data { sequence: 'a', name: 'a', ctrl: false, meta: false, shift: false }
+12:44:00.636 - key b
+12:44:00.638 - data { sequence: 'b', name: 'b', ctrl: false, meta: false, shift: false }
+12:44:33.961 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+12:44:33.975 - Ingredient: vodka, alcohol, GPIO ID: 2
+12:44:33.982 - Ingredient: gin, alcohol, GPIO ID: 3
+12:44:33.984 - Ingredient: rum, alcohol, GPIO ID: 4
+12:44:33.986 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+12:44:33.989 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+12:44:33.992 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+12:44:33.994 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+12:44:33.996 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+12:44:33.999 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+12:44:34.003 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+12:44:34.005 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+12:44:34.007 - Ingredient: soda, no alcohol, GPIO ID: 19
+12:44:34.010 - OpenAICocktailBot 'alcohol' constructing...
+12:44:34.011 - OpenAICocktailBot 'alcohol' resetting.
+12:44:34.020 - OpenAICocktailBot 'alcohol' constructed.
+12:44:34.034 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+12:44:37.549 - key undefined
+12:44:37.552 - data {
+  sequence: '\x1BOQ',
+  name: 'f2',
+  ctrl: false,
+  meta: false,
+  shift: false,
+  code: 'OQ'
+}
+12:46:23.323 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+12:46:23.336 - Ingredient: vodka, alcohol, GPIO ID: 2
+12:46:23.343 - Ingredient: gin, alcohol, GPIO ID: 3
+12:46:23.346 - Ingredient: rum, alcohol, GPIO ID: 4
+12:46:23.348 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+12:46:23.350 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+12:46:23.353 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+12:46:23.355 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+12:46:23.357 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+12:46:23.360 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+12:46:23.364 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+12:46:23.366 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+12:46:23.368 - Ingredient: soda, no alcohol, GPIO ID: 19
+12:46:23.371 - OpenAICocktailBot 'alcohol' constructing...
+12:46:23.372 - OpenAICocktailBot 'alcohol' resetting.
+12:46:23.381 - OpenAICocktailBot 'alcohol' constructed.
+12:46:23.393 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+12:46:25.725 - key l
+12:46:25.726 - data { sequence: 'l', name: 'l', ctrl: false, meta: false, shift: false }
+12:46:27.409 - key undefined
+12:46:27.411 - data {
+  sequence: '\x1BOQ',
+  name: 'f2',
+  ctrl: false,
+  meta: false,
+  shift: false,
+  code: 'OQ'
+}
+12:46:29.371 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+12:47:12.289 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+12:47:12.302 - Ingredient: vodka, alcohol, GPIO ID: 2
+12:47:12.310 - Ingredient: gin, alcohol, GPIO ID: 3
+12:47:12.312 - Ingredient: rum, alcohol, GPIO ID: 4
+12:47:12.314 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+12:47:12.316 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+12:47:12.319 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+12:47:12.321 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+12:47:12.323 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+12:47:12.326 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+12:47:12.330 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+12:47:12.332 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+12:47:12.333 - Ingredient: soda, no alcohol, GPIO ID: 19
+12:47:12.336 - OpenAICocktailBot 'alcohol' constructing...
+12:47:12.337 - OpenAICocktailBot 'alcohol' resetting.
+12:47:12.344 - OpenAICocktailBot 'alcohol' constructed.
+12:47:12.357 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+12:47:13.326 - key pressed: 3 data: { sequence: '3', name: '3', ctrl: false, meta: false, shift: false }
+12:47:14.370 - key pressed: undefined data: {
+  sequence: '\x1BOQ',
+  name: 'f2',
+  ctrl: false,
+  meta: false,
+  shift: false,
+  code: 'OQ'
+}
+12:47:18.609 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+13:00:12.310 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+13:00:12.348 - Press Ctrl-C to exit.
+13:00:12.358 - Ingredient: vodka, alcohol, GPIO ID: 2
+13:00:12.369 - Ingredient: gin, alcohol, GPIO ID: 3
+13:00:12.372 - Ingredient: rum, alcohol, GPIO ID: 4
+13:00:12.374 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+13:00:12.375 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+13:00:12.379 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+13:00:12.381 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+13:00:12.384 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+13:00:12.388 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+13:00:12.391 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+13:00:12.395 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+13:00:12.397 - Ingredient: soda, no alcohol, GPIO ID: 19
+13:00:12.402 - OpenAICocktailBot 'alcohol' constructing...
+13:00:12.405 - OpenAICocktailBot 'alcohol' resetting.
+13:00:12.414 - OpenAICocktailBot 'alcohol' constructed.
+13:00:12.429 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+13:00:13.859 - key pressed: undefined data: {
+  sequence: '\x1BOQ',
+  name: 'f2',
+  ctrl: false,
+  meta: false,
+  shift: false,
+  code: 'OQ'
+}
+13:00:13.870 - Starting pump gin...
+13:00:13.875 - Pump gin started.
+13:00:14.787 - key pressed: undefined data: {
+  sequence: '\x1BOQ',
+  name: 'f2',
+  ctrl: false,
+  meta: false,
+  shift: false,
+  code: 'OQ'
+}
+13:00:14.789 - Stopping pump gin...
+13:00:14.791 - Pump gin stopped.
+13:00:15.475 - key pressed: undefined data: {
+  sequence: '\x1BOQ',
+  name: 'f2',
+  ctrl: false,
+  meta: false,
+  shift: false,
+  code: 'OQ'
+}
+13:00:15.477 - Starting pump gin...
+13:00:15.479 - Pump gin started.
+13:00:15.979 - key pressed: undefined data: {
+  sequence: '\x1BOQ',
+  name: 'f2',
+  ctrl: false,
+  meta: false,
+  shift: false,
+  code: 'OQ'
+}
+13:00:15.982 - Stopping pump gin...
+13:00:15.984 - Pump gin stopped.
+13:00:18.448 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+13:00:51.576 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+13:00:51.584 - Press Ctrl-C to exit.
+13:00:51.592 - Ingredient: vodka, alcohol, GPIO ID: 2
+13:00:51.599 - Ingredient: gin, alcohol, GPIO ID: 3
+13:00:51.601 - Ingredient: rum, alcohol, GPIO ID: 4
+13:00:51.604 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+13:00:51.606 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+13:00:51.610 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+13:00:51.613 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+13:00:51.616 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+13:00:51.619 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+13:00:51.622 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+13:00:51.625 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+13:00:51.627 - Ingredient: soda, no alcohol, GPIO ID: 19
+13:00:51.630 - OpenAICocktailBot 'alcohol' constructing...
+13:00:51.633 - OpenAICocktailBot 'alcohol' resetting.
+13:00:51.640 - OpenAICocktailBot 'alcohol' constructed.
+13:00:51.652 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+13:00:52.675 - key pressed: f2
+13:00:52.677 - Starting pump gin...
+13:00:52.688 - Pump gin started.
+13:00:54.071 - key pressed: f2
+13:00:54.072 - Stopping pump gin...
+13:00:54.075 - Pump gin stopped.
+13:00:56.854 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+13:01:56.783 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+13:01:56.790 - Press Ctrl-C to exit.
+13:01:56.796 - Ingredient: vodka, alcohol, GPIO ID: 2
+13:01:56.802 - Ingredient: gin, alcohol, GPIO ID: 3
+13:01:56.804 - Ingredient: rum, alcohol, GPIO ID: 4
+13:01:56.805 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+13:01:56.807 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+13:01:56.809 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+13:01:56.811 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+13:01:56.813 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+13:01:56.815 - Ingredient: tonic water, no alcohol, GPIO ID: 16
+13:01:56.818 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 26
+13:01:56.819 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+13:01:56.821 - Ingredient: soda, no alcohol, GPIO ID: 19
+13:01:56.823 - OpenAICocktailBot 'alcohol' constructing...
+13:01:56.825 - OpenAICocktailBot 'alcohol' resetting.
+13:01:56.830 - OpenAICocktailBot 'alcohol' constructed.
+13:01:56.841 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+13:02:04.607 - key pressed: f1
+13:02:04.609 - Starting pump vodka...
+13:02:04.615 - Pump vodka started.
+13:02:05.230 - key pressed: f1
+13:02:05.232 - Stopping pump vodka...
+13:02:05.233 - Pump vodka stopped.
+13:02:05.704 - key pressed: f2
+13:02:05.705 - Starting pump gin...
+13:02:05.706 - Pump gin started.
+13:02:06.193 - key pressed: f2
+13:02:06.194 - Stopping pump gin...
+13:02:06.198 - Pump gin stopped.
+13:02:06.955 - key pressed: f3
+13:02:06.958 - Starting pump rum...
+13:02:06.961 - Pump rum started.
+13:02:07.501 - key pressed: f3
+13:02:07.504 - Stopping pump rum...
+13:02:07.506 - Pump rum stopped.
+13:02:07.976 - key pressed: f4
+13:02:07.980 - Starting pump blue curacao...
+13:02:07.985 - Pump blue curacao started.
+13:02:08.498 - key pressed: f4
+13:02:08.503 - Stopping pump blue curacao...
+13:02:08.508 - Pump blue curacao stopped.
+13:02:08.892 - key pressed: f5
+13:02:08.900 - Starting pump ananas juice...
+13:02:08.905 - Pump ananas juice started.
+13:02:09.382 - key pressed: f5
+13:02:09.386 - Stopping pump ananas juice...
+13:02:09.392 - Pump ananas juice stopped.
+13:02:09.760 - key pressed: f6
+13:02:09.765 - Starting pump cherry juice...
+13:02:09.772 - Pump cherry juice started.
+13:02:10.218 - key pressed: f6
+13:02:10.222 - Stopping pump cherry juice...
+13:02:10.227 - Pump cherry juice stopped.
+13:02:10.572 - key pressed: f7
+13:02:10.576 - Starting pump orange juice...
+13:02:10.581 - Pump orange juice started.
+13:02:11.030 - key pressed: f7
+13:02:11.034 - Stopping pump orange juice...
+13:02:11.042 - Pump orange juice stopped.
+13:02:11.432 - key pressed: f8
+13:02:11.436 - Starting pump bitter lemon...
+13:02:11.441 - Pump bitter lemon started.
+13:02:11.890 - key pressed: f8
+13:02:11.894 - Stopping pump bitter lemon...
+13:02:11.899 - Pump bitter lemon stopped.
+13:02:12.315 - key pressed: f9
+13:02:12.318 - Starting pump tonic water...
+13:02:12.320 - Pump tonic water started.
+13:02:12.733 - key pressed: f9
+13:02:12.736 - Stopping pump tonic water...
+13:02:12.739 - Pump tonic water stopped.
+13:02:13.119 - key pressed: f10
+13:02:13.121 - Starting pump herbal lemonade...
+13:02:13.124 - Pump herbal lemonade started.
+13:02:13.545 - key pressed: f10
+13:02:13.548 - Stopping pump herbal lemonade...
+13:02:13.551 - Pump herbal lemonade stopped.
+13:02:13.932 - key pressed: f11
+13:02:13.934 - Starting pump bitter orange sirup...
+13:02:13.937 - Pump bitter orange sirup started.
+13:02:14.334 - key pressed: f11
+13:02:14.336 - Stopping pump bitter orange sirup...
+13:02:14.339 - Pump bitter orange sirup stopped.
+13:02:14.719 - key pressed: f12
+13:02:14.722 - Starting pump soda...
+13:02:14.724 - Pump soda started.
+13:02:15.153 - key pressed: f12
+13:02:15.156 - Stopping pump soda...
+13:02:15.158 - Pump soda stopped.
+13:02:18.724 - key pressed: f1
+13:02:18.728 - Starting pump vodka...
+13:02:18.733 - Pump vodka started.
+13:02:19.007 - key pressed: f2
+13:02:19.010 - Starting pump gin...
+13:02:19.015 - Pump gin started.
+13:02:19.264 - key pressed: f3
+13:02:19.267 - Starting pump rum...
+13:02:19.272 - Pump rum started.
+13:02:19.466 - key pressed: f4
+13:02:19.469 - Starting pump blue curacao...
+13:02:19.473 - Pump blue curacao started.
+13:02:20.043 - key pressed: f4
+13:02:20.045 - Stopping pump blue curacao...
+13:02:20.047 - Pump blue curacao stopped.
+13:02:20.285 - key pressed: f3
+13:02:20.287 - Stopping pump rum...
+13:02:20.289 - Pump rum stopped.
+13:02:20.503 - key pressed: f2
+13:02:20.505 - Stopping pump gin...
+13:02:20.508 - Pump gin stopped.
+13:02:20.721 - key pressed: f1
+13:02:20.723 - Stopping pump vodka...
+13:02:20.725 - Pump vodka stopped.
+13:06:18.658 - key pressed: f1
+13:06:18.662 - Starting pump vodka...
+13:06:18.666 - Pump vodka started.
+13:06:22.500 - key pressed: f1
+13:06:22.502 - Stopping pump vodka...
+13:06:22.504 - Pump vodka stopped.
+13:06:25.020 - key pressed: f2
+13:06:25.023 - Starting pump gin...
+13:06:25.026 - Pump gin started.
+13:06:25.976 - key pressed: f2
+13:06:25.978 - Stopping pump gin...
+13:06:25.980 - Pump gin stopped.
+13:06:28.018 - key pressed: f3
+13:06:28.020 - Starting pump rum...
+13:06:28.022 - Pump rum started.
+13:06:28.271 - key pressed: f3
+13:06:28.272 - Stopping pump rum...
+13:06:28.274 - Pump rum stopped.
+13:06:28.311 - key pressed: f3
+13:06:28.312 - Starting pump rum...
+13:06:28.314 - Pump rum started.
+13:06:28.351 - key pressed: f3
+13:06:28.352 - Stopping pump rum...
+13:06:28.354 - Pump rum stopped.
+13:06:28.391 - key pressed: f3
+13:06:28.392 - Starting pump rum...
+13:06:28.394 - Pump rum started.
+13:06:28.431 - key pressed: f3
+13:06:28.432 - Stopping pump rum...
+13:06:28.434 - Pump rum stopped.
+13:06:28.471 - key pressed: f3
+13:06:28.472 - Starting pump rum...
+13:06:28.474 - Pump rum started.
+13:06:28.511 - key pressed: f3
+13:06:28.512 - Stopping pump rum...
+13:06:28.514 - Pump rum stopped.
+13:06:28.900 - key pressed: f3
+13:06:28.901 - Starting pump rum...
+13:06:28.903 - Pump rum started.
+13:06:33.654 - key pressed: f3
+13:06:33.655 - Stopping pump rum...
+13:06:33.657 - Pump rum stopped.
+13:06:34.120 - key pressed: f3
+13:06:34.121 - Starting pump rum...
+13:06:34.123 - Pump rum started.
+13:06:34.538 - key pressed: f3
+13:06:34.539 - Stopping pump rum...
+13:06:34.541 - Pump rum stopped.
+13:06:35.156 - key pressed: f3
+13:06:35.157 - Starting pump rum...
+13:06:35.159 - Pump rum started.
+13:06:35.678 - key pressed: f3
+13:06:35.681 - Stopping pump rum...
+13:06:35.685 - Pump rum stopped.
+13:06:40.160 - key pressed: f4
+13:06:40.161 - Starting pump blue curacao...
+13:06:40.163 - Pump blue curacao started.
+13:06:40.962 - key pressed: f4
+13:06:40.963 - Stopping pump blue curacao...
+13:06:40.965 - Pump blue curacao stopped.
+13:06:43.076 - key pressed: f5
+13:06:43.077 - Starting pump ananas juice...
+13:06:43.079 - Pump ananas juice started.
+13:06:43.726 - key pressed: f5
+13:06:43.727 - Stopping pump ananas juice...
+13:06:43.729 - Pump ananas juice stopped.
+13:06:46.728 - key pressed: f6
+13:06:46.729 - Starting pump cherry juice...
+13:06:46.731 - Pump cherry juice started.
+13:06:47.506 - key pressed: f6
+13:06:47.507 - Stopping pump cherry juice...
+13:06:47.509 - Pump cherry juice stopped.
+13:06:48.036 - key pressed: f6
+13:06:48.037 - Starting pump cherry juice...
+13:06:48.039 - Pump cherry juice started.
+13:06:49.838 - key pressed: f6
+13:06:49.839 - Stopping pump cherry juice...
+13:06:49.841 - Pump cherry juice stopped.
+13:06:55.920 - key pressed: f7
+13:06:55.921 - Starting pump orange juice...
+13:06:55.923 - Pump orange juice started.
+13:06:56.618 - key pressed: f7
+13:06:56.619 - Stopping pump orange juice...
+13:06:56.621 - Pump orange juice stopped.
+13:06:58.084 - key pressed: f7
+13:06:58.086 - Starting pump orange juice...
+13:06:58.088 - Pump orange juice started.
+13:06:59.862 - key pressed: f7
+13:06:59.863 - Stopping pump orange juice...
+13:06:59.865 - Pump orange juice stopped.
+13:07:00.192 - key pressed: f7
+13:07:00.193 - Starting pump orange juice...
+13:07:00.195 - Pump orange juice started.
+13:07:00.722 - key pressed: f7
+13:07:00.723 - Stopping pump orange juice...
+13:07:00.725 - Pump orange juice stopped.
+13:07:03.332 - key pressed: f8
+13:07:03.333 - Starting pump bitter lemon...
+13:07:03.336 - Pump bitter lemon started.
+13:07:03.603 - key pressed: f8
+13:07:03.604 - Stopping pump bitter lemon...
+13:07:03.607 - Pump bitter lemon stopped.
+13:07:03.949 - key pressed: f8
+13:07:03.951 - Starting pump bitter lemon...
+13:07:03.953 - Pump bitter lemon started.
+13:07:04.211 - key pressed: f8
+13:07:04.212 - Stopping pump bitter lemon...
+13:07:04.215 - Pump bitter lemon stopped.
+13:07:05.055 - key pressed: f8
+13:07:05.057 - Starting pump bitter lemon...
+13:07:05.060 - Pump bitter lemon started.
+13:07:05.331 - key pressed: f8
+13:07:05.332 - Stopping pump bitter lemon...
+13:07:05.335 - Pump bitter lemon stopped.
+13:07:05.371 - key pressed: f8
+13:07:05.372 - Starting pump bitter lemon...
+13:07:05.375 - Pump bitter lemon started.
+13:07:05.411 - key pressed: f8
+13:07:05.412 - Stopping pump bitter lemon...
+13:07:05.415 - Pump bitter lemon stopped.
+13:07:05.451 - key pressed: f8
+13:07:05.452 - Starting pump bitter lemon...
+13:07:05.454 - Pump bitter lemon started.
+13:07:06.105 - key pressed: f8
+13:07:06.107 - Stopping pump bitter lemon...
+13:07:06.110 - Pump bitter lemon stopped.
+13:07:06.892 - key pressed: f8
+13:07:06.893 - Starting pump bitter lemon...
+13:07:06.896 - Pump bitter lemon started.
+13:07:07.155 - key pressed: f8
+13:07:07.157 - Stopping pump bitter lemon...
+13:07:07.159 - Pump bitter lemon stopped.
+13:07:07.550 - key pressed: f8
+13:07:07.551 - Starting pump bitter lemon...
+13:07:07.554 - Pump bitter lemon started.
+13:07:08.992 - key pressed: f8
+13:07:08.993 - Stopping pump bitter lemon...
+13:07:08.996 - Pump bitter lemon stopped.
+13:07:15.537 - key pressed: f9
+13:07:15.539 - Starting pump tonic water...
+13:07:15.542 - Pump tonic water started.
+13:07:15.795 - key pressed: f9
+13:07:15.796 - Stopping pump tonic water...
+13:07:15.799 - Pump tonic water stopped.
+13:07:16.219 - key pressed: f9
+13:07:16.221 - Starting pump tonic water...
+13:07:16.223 - Pump tonic water started.
+13:07:16.869 - key pressed: f9
+13:07:16.871 - Stopping pump tonic water...
+13:07:16.874 - Pump tonic water stopped.
+13:07:19.519 - key pressed: f9
+13:07:19.521 - Starting pump tonic water...
+13:07:19.524 - Pump tonic water started.
+13:07:19.795 - key pressed: f9
+13:07:19.796 - Stopping pump tonic water...
+13:07:19.799 - Pump tonic water stopped.
+13:07:20.417 - key pressed: f9
+13:07:20.419 - Starting pump tonic water...
+13:07:20.421 - Pump tonic water started.
+13:07:20.891 - key pressed: f9
+13:07:20.893 - Stopping pump tonic water...
+13:07:20.895 - Pump tonic water stopped.
+13:07:23.213 - key pressed: f9
+13:07:23.215 - Starting pump tonic water...
+13:07:23.217 - Pump tonic water started.
+13:07:23.687 - key pressed: f9
+13:07:23.689 - Stopping pump tonic water...
+13:07:23.691 - Pump tonic water stopped.
+13:21:53.160 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+13:21:56.945 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+13:21:56.956 - Press Ctrl-C to exit.
+13:21:56.964 - Ingredient: vodka, alcohol, GPIO ID: 2
+13:21:56.971 - Ingredient: gin, alcohol, GPIO ID: 3
+13:21:56.975 - Ingredient: rum, alcohol, GPIO ID: 4
+13:21:56.978 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+13:21:56.981 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+13:21:56.985 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+13:21:56.989 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+13:21:56.993 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+13:21:56.996 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+13:21:57.000 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+13:21:57.004 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+13:21:57.007 - Ingredient: soda, no alcohol, GPIO ID: 19
+13:21:57.011 - OpenAICocktailBot 'alcohol' constructing...
+13:21:57.015 - OpenAICocktailBot 'alcohol' resetting.
+13:21:57.022 - OpenAICocktailBot 'alcohol' constructed.
+13:21:57.041 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+13:22:04.136 - key pressed: f9
+13:22:04.138 - Starting pump tonic water...
+13:22:04.144 - Pump tonic water started.
+13:22:05.391 - key pressed: f9
+13:22:05.394 - Stopping pump tonic water...
+13:22:05.397 - Pump tonic water stopped.
+13:22:05.737 - key pressed: f9
+13:22:05.740 - Starting pump tonic water...
+13:22:05.742 - Pump tonic water started.
+13:22:06.419 - key pressed: f9
+13:22:06.421 - Stopping pump tonic water...
+13:22:06.425 - Pump tonic water stopped.
+13:22:07.669 - key pressed: f9
+13:22:07.671 - Starting pump tonic water...
+13:22:07.674 - Pump tonic water started.
+13:22:08.311 - key pressed: f9
+13:22:08.313 - Stopping pump tonic water...
+13:22:08.317 - Pump tonic water stopped.
+13:22:10.378 - key pressed: f10
+13:22:10.382 - Starting pump herbal lemonade...
+13:22:10.387 - Pump herbal lemonade started.
+13:22:11.115 - key pressed: f10
+13:22:11.117 - Stopping pump herbal lemonade...
+13:22:11.119 - Pump herbal lemonade stopped.
+13:22:11.501 - key pressed: f10
+13:22:11.504 - Starting pump herbal lemonade...
+13:22:11.506 - Pump herbal lemonade started.
+13:22:12.415 - key pressed: f10
+13:22:12.417 - Stopping pump herbal lemonade...
+13:22:12.420 - Pump herbal lemonade stopped.
+13:22:12.777 - key pressed: f10
+13:22:12.779 - Starting pump herbal lemonade...
+13:22:12.782 - Pump herbal lemonade started.
+13:22:14.251 - key pressed: f10
+13:22:14.253 - Stopping pump herbal lemonade...
+13:22:14.256 - Pump herbal lemonade stopped.
+13:22:18.349 - key pressed: f11
+13:22:18.351 - Starting pump bitter orange sirup...
+13:22:18.354 - Pump bitter orange sirup started.
+13:22:20.911 - key pressed: f11
+13:22:20.913 - Stopping pump bitter orange sirup...
+13:22:20.917 - Pump bitter orange sirup stopped.
+13:22:22.201 - key pressed: f11
+13:22:22.203 - Starting pump bitter orange sirup...
+13:22:22.205 - Pump bitter orange sirup started.
+13:22:22.651 - key pressed: f11
+13:22:22.653 - Stopping pump bitter orange sirup...
+13:22:22.655 - Pump bitter orange sirup stopped.
+13:22:23.765 - key pressed: f12
+13:22:23.767 - Starting pump soda...
+13:22:23.769 - Pump soda started.
+13:22:25.383 - key pressed: f12
+13:22:25.385 - Stopping pump soda...
+13:22:25.388 - Pump soda stopped.
+13:22:25.769 - key pressed: f12
+13:22:25.771 - Starting pump soda...
+13:22:25.773 - Pump soda started.
+13:22:26.187 - key pressed: f12
+13:22:26.189 - Stopping pump soda...
+13:22:26.192 - Pump soda stopped.
+13:33:08.146 - key pressed: f1
+13:33:08.150 - Starting pump vodka...
+13:33:08.155 - Pump vodka started.
+13:33:08.676 - key pressed: f1
+13:33:08.680 - Stopping pump vodka...
+13:33:08.685 - Pump vodka stopped.
+13:33:09.086 - key pressed: f1
+13:33:09.089 - Starting pump vodka...
+13:33:09.094 - Pump vodka started.
+13:33:09.448 - key pressed: f1
+13:33:09.451 - Stopping pump vodka...
+13:33:09.456 - Pump vodka stopped.
+13:33:13.113 - key pressed: f1
+13:33:13.115 - Starting pump vodka...
+13:33:13.117 - Pump vodka started.
+13:33:13.475 - key pressed: f2
+13:33:13.477 - Starting pump gin...
+13:33:13.479 - Pump gin started.
+13:33:13.781 - key pressed: f3
+13:33:13.783 - Starting pump rum...
+13:33:13.786 - Pump rum started.
+13:33:14.127 - key pressed: f4
+13:33:14.129 - Starting pump blue curacao...
+13:33:14.131 - Pump blue curacao started.
+13:33:59.145 - key pressed: f1
+13:33:59.149 - Stopping pump vodka...
+13:33:59.153 - Pump vodka stopped.
+13:33:59.419 - key pressed: f2
+13:33:59.423 - Stopping pump gin...
+13:33:59.427 - Pump gin stopped.
+13:33:59.661 - key pressed: f3
+13:33:59.665 - Stopping pump rum...
+13:33:59.671 - Pump rum stopped.
+13:33:59.895 - key pressed: f4
+13:33:59.898 - Stopping pump blue curacao...
+13:33:59.901 - Pump blue curacao stopped.
+13:34:13.769 - key pressed: f1
+13:34:13.772 - Starting pump vodka...
+13:34:13.782 - Pump vodka started.
+13:34:27.219 - key pressed: f1
+13:34:27.223 - Stopping pump vodka...
+13:34:27.226 - Pump vodka stopped.
+13:34:28.756 - key pressed: f2
+13:34:28.758 - Starting pump gin...
+13:34:28.760 - Pump gin started.
+13:34:56.119 - key pressed: f2
+13:34:56.122 - Stopping pump gin...
+13:34:56.126 - Pump gin stopped.
+13:43:55.629 - key pressed: f2
+13:43:55.632 - Starting pump gin...
+13:43:55.636 - Pump gin started.
+13:43:58.294 - key pressed: f2
+13:43:58.296 - Stopping pump gin...
+13:43:58.298 - Pump gin stopped.
+13:43:58.584 - key pressed: f1
+13:43:58.586 - Starting pump vodka...
+13:43:58.588 - Pump vodka started.
+13:44:00.474 - key pressed: f1
+13:44:00.476 - Stopping pump vodka...
+13:44:00.478 - Pump vodka stopped.
+13:44:01.316 - key pressed: f3
+13:44:01.318 - Starting pump rum...
+13:44:01.320 - Pump rum started.
+13:44:04.510 - key pressed: f3
+13:44:04.512 - Stopping pump rum...
+13:44:04.514 - Pump rum stopped.
+13:44:05.400 - key pressed: f4
+13:44:05.402 - Starting pump blue curacao...
+13:44:05.404 - Pump blue curacao started.
+13:44:10.794 - key pressed: f4
+13:44:10.796 - Stopping pump blue curacao...
+13:44:10.798 - Pump blue curacao stopped.
+13:44:12.660 - key pressed: f5
+13:44:12.662 - Starting pump ananas juice...
+13:44:12.664 - Pump ananas juice started.
+13:44:17.142 - key pressed: f6
+13:44:17.144 - Starting pump cherry juice...
+13:44:17.146 - Pump cherry juice started.
+13:44:17.497 - key pressed: f7
+13:44:17.500 - Starting pump orange juice...
+13:44:17.504 - Pump orange juice started.
+13:44:17.866 - key pressed: f8
+13:44:17.868 - Starting pump bitter lemon...
+13:44:17.870 - Pump bitter lemon started.
+13:44:54.228 - key pressed: f5
+13:44:54.232 - Stopping pump ananas juice...
+13:44:54.236 - Pump ananas juice stopped.
+13:44:54.470 - key pressed: f6
+13:44:54.473 - Stopping pump cherry juice...
+13:44:54.477 - Pump cherry juice stopped.
+13:44:54.704 - key pressed: f7
+13:44:54.708 - Stopping pump orange juice...
+13:44:54.711 - Pump orange juice stopped.
+13:44:54.923 - key pressed: f8
+13:44:54.926 - Stopping pump bitter lemon...
+13:44:54.930 - Pump bitter lemon stopped.
+13:44:55.860 - key pressed: f5
+13:44:55.864 - Starting pump ananas juice...
+13:44:55.868 - Pump ananas juice started.
+13:44:58.758 - key pressed: f5
+13:44:58.760 - Stopping pump ananas juice...
+13:44:58.762 - Pump ananas juice stopped.
+13:45:24.920 - key pressed: f5
+13:45:24.924 - Starting pump ananas juice...
+13:45:24.928 - Pump ananas juice started.
+13:45:30.842 - key pressed: f5
+13:45:30.844 - Stopping pump ananas juice...
+13:45:30.846 - Pump ananas juice stopped.
+13:46:52.724 - key pressed: f5
+13:46:52.727 - Starting pump ananas juice...
+13:46:52.732 - Pump ananas juice started.
+13:46:59.718 - key pressed: f5
+13:46:59.721 - Stopping pump ananas juice...
+13:46:59.727 - Pump ananas juice stopped.
+13:47:39.655 - key pressed: f5
+13:47:39.659 - Starting pump ananas juice...
+13:47:39.664 - Pump ananas juice started.
+13:47:48.409 - key pressed: f5
+13:47:48.413 - Stopping pump ananas juice...
+13:47:48.417 - Pump ananas juice stopped.
+13:51:10.586 - key pressed: f5
+13:51:10.590 - Starting pump ananas juice...
+13:51:10.594 - Pump ananas juice started.
+13:51:51.788 - key pressed: f5
+13:51:51.792 - Stopping pump ananas juice...
+13:51:51.796 - Pump ananas juice stopped.
+13:51:52.726 - key pressed: f6
+13:51:52.730 - Starting pump cherry juice...
+13:51:52.734 - Pump cherry juice started.
+13:52:47.167 - key pressed: f6
+13:52:47.171 - Stopping pump cherry juice...
+13:52:47.176 - Pump cherry juice stopped.
+13:52:53.953 - key pressed: f6
+13:52:53.957 - Starting pump cherry juice...
+13:52:53.962 - Pump cherry juice started.
+13:52:59.483 - key pressed: f6
+13:52:59.485 - Stopping pump cherry juice...
+13:52:59.487 - Pump cherry juice stopped.
+13:53:28.349 - key pressed: f7
+13:53:28.353 - Starting pump orange juice...
+13:53:28.357 - Pump orange juice started.
+13:53:50.159 - key pressed: f7
+13:53:50.163 - Stopping pump orange juice...
+13:53:50.167 - Pump orange juice stopped.
+13:53:50.545 - key pressed: f8
+13:53:50.549 - Starting pump bitter lemon...
+13:53:50.553 - Pump bitter lemon started.
+13:54:39.075 - key pressed: f8
+13:54:39.079 - Stopping pump bitter lemon...
+13:54:39.083 - Pump bitter lemon stopped.
+13:54:39.685 - key pressed: f9
+13:54:39.689 - Starting pump tonic water...
+13:54:39.693 - Pump tonic water started.
+13:54:39.999 - key pressed: f10
+13:54:40.003 - Starting pump herbal lemonade...
+13:54:40.007 - Pump herbal lemonade started.
+13:54:40.273 - key pressed: f11
+13:54:40.276 - Starting pump bitter orange sirup...
+13:54:40.280 - Pump bitter orange sirup started.
+13:54:40.555 - key pressed: f12
+13:54:40.559 - Starting pump soda...
+13:54:40.563 - Pump soda started.
+13:55:33.341 - key pressed: f9
+13:55:33.344 - Stopping pump tonic water...
+13:55:33.349 - Pump tonic water stopped.
+13:55:33.559 - key pressed: f10
+13:55:33.562 - Stopping pump herbal lemonade...
+13:55:33.567 - Pump herbal lemonade stopped.
+13:55:33.744 - key pressed: f11
+13:55:33.748 - Stopping pump bitter orange sirup...
+13:55:33.751 - Pump bitter orange sirup stopped.
+13:55:33.939 - key pressed: f12
+13:55:33.942 - Stopping pump soda...
+13:55:33.947 - Pump soda stopped.
+13:55:34.972 - key pressed: f12
+13:55:34.976 - Starting pump soda...
+13:55:34.981 - Pump soda started.
+13:55:35.807 - key pressed: f12
+13:55:35.810 - Stopping pump soda...
+13:55:35.815 - Pump soda stopped.
+13:55:51.056 - key pressed: f12
+13:55:51.060 - Starting pump soda...
+13:55:51.064 - Pump soda started.
+13:56:39.434 - key pressed: f12
+13:56:39.438 - Stopping pump soda...
+13:56:39.442 - Pump soda stopped.
+13:56:40.260 - key pressed: f11
+13:56:40.264 - Starting pump bitter orange sirup...
+13:56:40.268 - Pump bitter orange sirup started.
+13:57:00.662 - key pressed: f11
+13:57:00.666 - Stopping pump bitter orange sirup...
+13:57:00.670 - Pump bitter orange sirup stopped.
+13:57:01.144 - key pressed: f10
+13:57:01.148 - Starting pump herbal lemonade...
+13:57:01.152 - Pump herbal lemonade started.
+13:57:48.994 - key pressed: f10
+13:57:48.997 - Stopping pump herbal lemonade...
+13:57:49.002 - Pump herbal lemonade stopped.
+                                                                                                                                                                                                                                                                                                                                                                                                                                      13:33:01.579 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+13:33:01.626 - Press Ctrl-C to exit.
+13:33:01.634 - Ingredient: vodka, alcohol, GPIO ID: 2
+13:33:01.663 - Ingredient: gin, alcohol, GPIO ID: 3
+13:33:01.684 - Ingredient: rum, alcohol, GPIO ID: 4
+13:33:01.702 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+13:33:01.722 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+13:33:01.742 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+13:33:01.760 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+13:33:01.780 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+13:33:01.798 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+13:33:01.819 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+13:33:01.839 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+13:33:01.857 - Ingredient: soda, no alcohol, GPIO ID: 19
+13:33:01.880 - OpenAICocktailBot 'alcohol' constructing...
+13:33:01.882 - OpenAICocktailBot 'alcohol' resetting.
+13:33:01.888 - OpenAICocktailBot 'alcohol' constructed.
+13:33:01.900 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+13:33:03.882 - key pressed: f1
+13:33:03.884 - Starting pump vodka...
+13:33:03.887 - Pump vodka started.
+13:33:04.122 - key pressed: f2
+13:33:04.123 - Starting pump gin...
+13:33:04.124 - Pump gin started.
+13:33:04.387 - key pressed: f3
+13:33:04.388 - Starting pump rum...
+13:33:04.389 - Pump rum started.
+13:33:04.709 - key pressed: f4
+13:33:04.710 - Starting pump blue curacao...
+13:33:04.713 - Pump blue curacao started.
+14:02:19.167 - key pressed: f1
+14:02:19.173 - Stopping pump vodka...
+14:02:19.178 - Pump vodka stopped.
+14:02:19.769 - key pressed: f2
+14:02:19.773 - Stopping pump gin...
+14:02:19.778 - Pump gin stopped.
+14:02:20.218 - key pressed: f3
+14:02:20.222 - Stopping pump rum...
+14:02:20.229 - Pump rum stopped.
+14:02:20.700 - key pressed: f4
+14:02:20.704 - Stopping pump blue curacao...
+14:02:20.708 - Pump blue curacao stopped.
+14:02:25.918 - key pressed: f5
+14:02:25.924 - Starting pump ananas juice...
+14:02:25.928 - Pump ananas juice started.
+14:02:26.368 - key pressed: f6
+14:02:26.371 - Starting pump cherry juice...
+14:02:26.376 - Pump cherry juice started.
+14:02:26.762 - key pressed: f7
+14:02:26.765 - Starting pump orange juice...
+14:02:26.769 - Pump orange juice started.
+14:02:27.132 - key pressed: f8
+14:02:27.135 - Starting pump bitter lemon...
+14:02:27.139 - Pump bitter lemon started.
+14:03:25.139 - key pressed: f5
+14:03:25.142 - Stopping pump ananas juice...
+14:03:25.146 - Pump ananas juice stopped.
+14:03:25.493 - key pressed: f6
+14:03:25.496 - Stopping pump cherry juice...
+14:03:25.504 - Pump cherry juice stopped.
+14:03:25.855 - key pressed: f7
+14:03:25.858 - Stopping pump orange juice...
+14:03:25.861 - Pump orange juice stopped.
+14:03:26.224 - key pressed: f8
+14:03:26.228 - Stopping pump bitter lemon...
+14:03:26.232 - Pump bitter lemon stopped.
+14:03:28.139 - key pressed: f9
+14:03:28.142 - Starting pump tonic water...
+14:03:28.146 - Pump tonic water started.
+14:03:28.445 - key pressed: f10
+14:03:28.448 - Starting pump herbal lemonade...
+14:03:28.455 - Pump herbal lemonade started.
+14:03:28.806 - key pressed: f11
+14:03:28.810 - Starting pump bitter orange sirup...
+14:03:28.814 - Pump bitter orange sirup started.
+14:03:29.152 - key pressed: f12
+14:03:29.156 - Starting pump soda...
+14:03:29.160 - Pump soda started.
+14:04:54.892 - key pressed: f9
+14:04:54.906 - Stopping pump tonic water...
+14:04:54.916 - Pump tonic water stopped.
+14:04:55.180 - key pressed: f10
+14:04:55.184 - Stopping pump herbal lemonade...
+14:04:55.221 - Pump herbal lemonade stopped.
+14:04:55.541 - key pressed: f11
+14:04:55.544 - Stopping pump bitter orange sirup...
+14:04:55.547 - Pump bitter orange sirup stopped.
+14:04:55.913 - key pressed: f12
+14:04:55.917 - Stopping pump soda...
+14:04:55.921 - Pump soda stopped.
+14:05:03.004 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+14:05:03.013 - Press Ctrl-C to exit.
+14:05:03.022 - Ingredient: vodka, alcohol, GPIO ID: 2
+14:05:03.041 - Ingredient: gin, alcohol, GPIO ID: 3
+14:05:03.043 - Ingredient: rum, alcohol, GPIO ID: 4
+14:05:03.044 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+14:05:03.046 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+14:05:03.050 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+14:05:03.052 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+14:05:03.055 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+14:05:03.057 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+14:05:03.060 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+14:05:03.063 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+14:05:03.065 - Ingredient: soda, no alcohol, GPIO ID: 19
+14:05:03.068 - OpenAICocktailBot 'alcohol' constructing...
+14:05:03.071 - OpenAICocktailBot 'alcohol' resetting.
+14:05:03.076 - OpenAICocktailBot 'alcohol' constructed.
+14:05:03.090 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+14:05:04.572 - key pressed: a
+14:05:07.948 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+14:07:23.554 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+14:07:23.563 - Press Ctrl-C to exit.
+14:07:23.573 - Ingredient: vodka, alcohol, GPIO ID: 2
+14:07:23.579 - Ingredient: gin, alcohol, GPIO ID: 3
+14:07:23.580 - Ingredient: rum, alcohol, GPIO ID: 4
+14:07:23.583 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+14:07:23.585 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+14:07:23.588 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+14:07:23.590 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+14:07:23.594 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+14:07:23.595 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+14:07:23.598 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+14:07:23.600 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+14:07:23.603 - Ingredient: soda, no alcohol, GPIO ID: 19
+14:07:23.605 - OpenAICocktailBot 'alcohol' constructing...
+14:07:23.607 - OpenAICocktailBot 'alcohol' resetting.
+14:07:23.615 - OpenAICocktailBot 'alcohol' constructed.
+14:07:23.627 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+14:07:27.887 - key pressed: n
+14:07:27.890 - OpenAICocktailBot creating random cocktail...
+14:07:27.894 - Normalizing drink...
+14:07:27.898 - Drink enlarged to 1.1764705882352942
+14:07:27.904 - Drink normalized
+14:07:27.905 - CocktailRecipe {
+  ingredients: [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2.3529411764705883,
+    2.3529411764705883,
+    0,
+    2.3529411764705883,
+    2.3529411764705883,
+    0.5882352941176471,
+    0
+  ],
+  name: 'random cocktail'
+}
+14:07:27.927 - Starting dispensing recipe 'random cocktail'...
+14:07:27.929 - Ingredients: [
+  0,
+  0,
+  0,
+  0,
+  0,
+  2.3529411764705883,
+  2.3529411764705883,
+  0,
+  2.3529411764705883,
+  2.3529411764705883,
+  0.5882352941176471,
+  0
+]
+14:07:27.933 - Drink size: 10
+14:07:27.936 - Dispensing 2.3529411764705883 cl of cherry juice over 12951.969778737182 ms...
+14:07:27.943 - Dispensing 2.3529411764705883 cl of orange juice over 12951.969778737182 ms...
+14:07:27.944 - Dispensing 2.3529411764705883 cl of tonic water over 12951.969778737182 ms...
+14:07:27.946 - Dispensing 2.3529411764705883 cl of herbal lemonade over 12951.969778737182 ms...
+14:07:27.948 - Dispensing 0.5882352941176471 cl of bitter orange sirup over 3237.9924446842956 ms...
+14:07:31.201 - Dispensing bitter orange sirup finished.
+14:07:40.921 - Dispensing cherry juice finished.
+14:07:40.923 - Dispensing orange juice finished.
+14:07:40.925 - Dispensing tonic water finished.
+14:07:40.930 - Dispensing herbal lemonade finished.
+14:07:40.931 - Recipe 'random cocktail' dispensed.
+14:07:40.933 - Dispensing finished.
+14:07:45.415 - key pressed: n
+14:07:45.416 - OpenAICocktailBot creating random cocktail...
+14:07:45.418 - Normalizing drink...
+14:07:45.419 - Drink enlarged to 2.5
+14:07:45.420 - Drink normalized
+14:07:45.422 - CocktailRecipe {
+  ingredients: [
+     0, 0, 0, 0, 0,
+    10, 0, 0, 0, 0,
+     0, 0
+  ],
+  name: 'random cocktail'
+}
+14:07:45.426 - Starting dispensing recipe 'random cocktail'...
+14:07:45.426 - Ingredients: [
+   0, 0, 0, 0, 0,
+  10, 0, 0, 0, 0,
+   0, 0
+]
+14:07:45.433 - Drink size: 10
+14:07:45.434 - Dispensing 10 cl of cherry juice over 55045.87155963303 ms...
+14:08:40.536 - Dispensing cherry juice finished.
+14:08:40.537 - Recipe 'random cocktail' dispensed.
+14:08:40.537 - Dispensing finished.
+14:08:42.157 - key pressed: n
+14:08:42.158 - OpenAICocktailBot creating random cocktail...
+14:08:42.159 - Normalizing drink...
+14:08:42.160 - Drink enlarged to 1.1764705882352942
+14:08:42.162 - Drink normalized
+14:08:42.163 - CocktailRecipe {
+  ingredients: [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2.3529411764705883,
+    4.705882352941177,
+    0,
+    2.3529411764705883,
+    0,
+    0.5882352941176471,
+    0
+  ],
+  name: 'random cocktail'
+}
+14:08:42.165 - Starting dispensing recipe 'random cocktail'...
+14:08:42.165 - Ingredients: [
+  0,
+  0,
+  0,
+  0,
+  0,
+  2.3529411764705883,
+  4.705882352941177,
+  0,
+  2.3529411764705883,
+  0,
+  0.5882352941176471,
+  0
+]
+14:08:42.169 - Drink size: 10
+14:08:42.170 - Dispensing 2.3529411764705883 cl of cherry juice over 12951.969778737182 ms...
+14:08:42.172 - Dispensing 4.705882352941177 cl of orange juice over 25903.939557474365 ms...
+14:08:42.174 - Dispensing 2.3529411764705883 cl of tonic water over 12951.969778737182 ms...
+14:08:42.176 - Dispensing 0.5882352941176471 cl of bitter orange sirup over 3237.9924446842956 ms...
+14:08:45.421 - Dispensing bitter orange sirup finished.
+14:08:55.143 - Dispensing cherry juice finished.
+14:08:55.144 - Dispensing tonic water finished.
+14:09:08.096 - Dispensing orange juice finished.
+14:09:08.096 - Recipe 'random cocktail' dispensed.
+14:09:08.097 - Dispensing finished.
+14:11:26.847 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+14:11:48.817 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+14:11:48.885 - Press Ctrl-C to exit.
+14:11:48.895 - Ingredient: vodka, alcohol, GPIO ID: 2
+14:11:48.906 - Ingredient: gin, alcohol, GPIO ID: 3
+14:11:48.909 - Ingredient: rum, alcohol, GPIO ID: 4
+14:11:48.911 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+14:11:48.913 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+14:11:48.917 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+14:11:48.919 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+14:11:48.922 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+14:11:48.925 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+14:11:48.928 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+14:11:48.931 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+14:11:48.933 - Ingredient: soda, no alcohol, GPIO ID: 19
+14:11:48.935 - OpenAICocktailBot 'alcohol' constructing...
+14:11:48.938 - OpenAICocktailBot 'alcohol' resetting.
+14:11:48.945 - OpenAICocktailBot 'alcohol' constructed.
+14:11:48.960 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+14:11:51.652 - key pressed: n
+14:11:51.654 - OpenAICocktailBot creating random cocktail...
+14:11:51.656 - Normalizing drink...
+14:11:51.658 - Drink enlarged to 2.5
+14:11:51.662 - Drink normalized
+14:11:51.663 - CocktailRecipe {
+  ingredients: [
+    0, 0, 0, 0, 0,
+    0, 5, 0, 0, 0,
+    0, 5
+  ],
+  name: 'random cocktail'
+}
+14:11:51.676 - Starting dispensing recipe 'random cocktail'...
+14:11:51.677 - Ingredients: [
+  0, 0, 0, 0, 0,
+  0, 5, 0, 0, 0,
+  0, 5
+]
+14:11:51.680 - Drink size: 10
+14:11:51.682 - Dispensing 5 cl of orange juice over 27522.935779816515 ms...
+14:11:51.686 - Dispensing 5 cl of soda over 27522.935779816515 ms...
+14:12:19.217 - Dispensing orange juice finished.
+14:12:19.219 - Dispensing soda finished.
+14:12:19.220 - Recipe 'random cocktail' dispensed.
+14:12:19.221 - Dispensing finished.
+14:12:31.948 - key pressed: n
+14:12:31.949 - OpenAICocktailBot creating random cocktail...
+14:12:31.950 - Normalizing drink...
+14:12:31.951 - Drink enlarged to 1.25
+14:12:31.952 - Drink normalized
+14:12:31.952 - CocktailRecipe {
+  ingredients: [
+    0,   0, 0, 0,   0,
+    0,   0, 0, 5, 2.5,
+    0, 2.5
+  ],
+  name: 'random cocktail'
+}
+14:12:31.955 - Starting dispensing recipe 'random cocktail'...
+14:12:31.956 - Ingredients: [
+  0,   0, 0, 0,   0,
+  0,   0, 0, 5, 2.5,
+  0, 2.5
+]
+14:12:31.960 - Drink size: 10
+14:12:31.962 - Dispensing 5 cl of tonic water over 27522.935779816515 ms...
+14:12:31.963 - Dispensing 2.5 cl of herbal lemonade over 13761.467889908257 ms...
+14:12:31.964 - Dispensing 2.5 cl of soda over 13761.467889908257 ms...
+14:12:45.743 - Dispensing herbal lemonade finished.
+14:12:45.745 - Dispensing soda finished.
+14:12:59.504 - Dispensing tonic water finished.
+14:12:59.505 - Recipe 'random cocktail' dispensed.
+14:12:59.506 - Dispensing finished.
+14:13:00.689 - key pressed: b
+14:13:00.690 - OpenAICocktailBot creating random cocktail...
+14:13:00.691 - Normalizing drink...
+14:13:00.692 - Drink normalized
+14:13:00.693 - CocktailRecipe {
+  ingredients: [
+    0, 0, 2, 0, 4,
+    0, 0, 0, 4, 0,
+    0, 0
+  ],
+  name: 'random cocktail'
+}
+14:13:00.695 - Starting dispensing recipe 'random cocktail'...
+14:13:00.696 - Ingredients: [
+  0, 0, 2, 0, 4,
+  0, 0, 0, 4, 0,
+  0, 0
+]
+14:13:00.701 - Drink size: 10
+14:13:00.703 - Dispensing 2 cl of rum over 11009.174311926605 ms...
+14:13:00.704 - Dispensing 4 cl of ananas juice over 22018.34862385321 ms...
+14:13:00.705 - Dispensing 4 cl of tonic water over 22018.34862385321 ms...
+14:13:11.734 - Dispensing rum finished.
+14:13:22.744 - Dispensing ananas juice finished.
+14:13:22.745 - Dispensing tonic water finished.
+14:13:22.747 - Recipe 'random cocktail' dispensed.
+14:13:22.748 - Dispensing finished.
+14:13:23.586 - key pressed: a
+14:13:23.589 - OpenAICocktailBot 'alcohol' pour me a drink...
+14:13:23.599 - OpenAICocktailBot 'alcohol' request: [
+  {
+    role: 'system',
+    content: '\n' +
+      'You are a cocktail mixing robot, you are able to pour cocktails with up to 12 different ingredients.\n' +
+      'You can use the following list of alcoholic ingredients: vodka, gin, rum, blue curacao.\n' +
+      'You can use the following list of non-alcoholic ingredients: ananas juice, cherry juice, orange juice, bitter lemon, tonic water, herbal lemonade, bitter orange sirup, soda.\n' +
+      'What I ask you to "pour me a cocktail", you create a random cocktail recipe with your available ingredients and you create a cocktail name.\n' +
+      'The following rules apply to cocktail recipes:\n' +
+      '- consist of a list of amounts of ingredients measured in cl\n' +
+      '- select only one alcoholic ingredient from your given list of alcoholic ingredients\n' +
+      '- the list must contain only one alcoholic ingredient\n' +
+      '- select between one and five non-alcoholic ingredients from your given list of non-alcoholic ingredients\n' +
+      'The overall sum of all cocktail ingredient amounts for a single recipe must be at least 10 cl and is not allowed to exceed 20 cl.\n' +
+      'Do not repeat cocktail recipes. Be creative.\n' +
+      'Use ingredients such that after pouring 60 cocktails roughly 1 liter of every ingredient has been used.\n' +
+      'Format your response as a list of whole numbers separated by a single space character.\n' +
+      'Append to your response a comma and a creative name.\n' +
+      'Each number should represent the amount of the ingredient in cl.\n' +
+      'Include unused ingrediets as 0 in the list.\n' +
+      'The order of the resulting numbers must be the same order as the given list of ingredients.\n' +
+      'Return a single recipe.\n'
+  },
+  { role: 'user', content: 'pour me a drink' }
+]
+14:13:23.618 - OpenAI:DEBUG:request https://api.openai.com/v1/chat/completions {
+  method: 'post',
+  path: '/chat/completions',
+  body: { model: 'gpt-3.5-turbo-1106', messages: [ [Object], [Object] ] },
+  stream: false
+} {
+  'Content-Length': '1704',
+  Accept: 'application/json',
+  'Content-Type': 'application/json',
+  'User-Agent': 'OpenAI/JS 4.19.0',
+  'X-Stainless-Lang': 'js',
+  'X-Stainless-Package-Version': '4.19.0',
+  'X-Stainless-OS': 'Linux',
+  'X-Stainless-Arch': 'arm64',
+  'X-Stainless-Runtime': 'node',
+  'X-Stainless-Runtime-Version': 'v18.17.1',
+  Authorization: 'Bearer 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',
+  'OpenAI-Organization': 'org-XWXjDVcYbBQFaLvR7JTi3pyl'
+}
+14:13:25.733 - OpenAI:DEBUG:response 200 https://api.openai.com/v1/chat/completions Headers {
+  [Symbol(map)]: [Object: null prototype] {
+    date: [ 'Sun, 26 Nov 2023 12:13:25 GMT' ],
+    'content-type': [ 'application/json' ],
+    'transfer-encoding': [ 'chunked' ],
+    connection: [ 'keep-alive' ],
+    'access-control-allow-origin': [ '*' ],
+    'cache-control': [ 'no-cache, must-revalidate' ],
+    'openai-model': [ 'gpt-3.5-turbo-1106' ],
+    'openai-organization': [ 'user-qg6kgf2isdibwhqnphcq5qtm' ],
+    'openai-processing-ms': [ '1388' ],
+    'openai-version': [ '2020-10-01' ],
+    'strict-transport-security': [ 'max-age=15724800; includeSubDomains' ],
+    'x-ratelimit-limit-requests': [ '3500' ],
+    'x-ratelimit-limit-tokens': [ '90000' ],
+    'x-ratelimit-limit-tokens_usage_based': [ '90000' ],
+    'x-ratelimit-remaining-requests': [ '3499' ],
+    'x-ratelimit-remaining-tokens': [ '89602' ],
+    'x-ratelimit-remaining-tokens_usage_based': [ '89602' ],
+    'x-ratelimit-reset-requests': [ '17ms' ],
+    'x-ratelimit-reset-tokens': [ '264ms' ],
+    'x-ratelimit-reset-tokens_usage_based': [ '264ms' ],
+    'x-request-id': [ '30c9f7cc746bd82a734e5dcc23cef11a' ],
+    'cf-cache-status': [ 'DYNAMIC' ],
+    'set-cookie': [
+      '__cf_bm=3zpCTtPiYixPyG1OxhG0hGdDGEyvk2EVs3dcwgDDvWQ-1701000805-0-AZ58od+1fhr4HmUQwhEGnF2ojopNE5kP0A+a2glQBBEmBm9HTibqW22xlPHyzT2/10thRef/dQsCWK0DJyzIemo=; path=/; expires=Sun, 26-Nov-23 12:43:25 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None',
+      '_cfuvid=7_bS0q6I9uxSwn8cUvxcAsOdeyBgMansPtmCM0BSrZI-1701000805667-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'
+    ],
+    server: [ 'cloudflare' ],
+    'cf-ray': [ '82c20b91290fc2ed-VIE' ],
+    'content-encoding': [ 'gzip' ],
+    'alt-svc': [ 'h3=":443"; ma=86400' ]
+  }
+} {
+  id: 'chatcmpl-8P8ImcorGU0HcDxV3iH8CwWeXMgb1',
+  object: 'chat.completion',
+  created: 1701000804,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 321, completion_tokens: 29, total_tokens: 350 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+14:13:25.745 - OpenAICocktailBot 'alcohol' completion returned successfully.
+14:13:25.746 - {
+  id: 'chatcmpl-8P8ImcorGU0HcDxV3iH8CwWeXMgb1',
+  object: 'chat.completion',
+  created: 1701000804,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 321, completion_tokens: 29, total_tokens: 350 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+14:13:25.747 - result: {
+  role: 'assistant',
+  content: '10 1 6 0 0 0 0 0 0 0 0 0, Exotic Breeze cocktail'
+}
+14:13:25.748 - tokens: 350
+14:13:25.749 - Normalizing drink...
+14:13:25.750 - Drink normalized
+14:13:25.752 - CocktailRecipe {
+  ingredients: [
+    10, 1, 6, 0, 0,
+     0, 0, 0, 0, 0,
+     0, 0
+  ],
+  name: ' Exotic Breeze cocktail'
+}
+14:13:25.757 - Starting dispensing recipe ' Exotic Breeze cocktail'...
+14:13:25.758 - Ingredients: [
+  10, 1, 6, 0, 0,
+   0, 0, 0, 0, 0,
+   0, 0
+]
+14:13:25.760 - Drink size: 17
+14:13:25.761 - Dispensing 10 cl of vodka over 55045.87155963303 ms...
+14:13:25.762 - Dispensing 1 cl of gin over 5504.587155963302 ms...
+14:13:25.763 - Dispensing 6 cl of rum over 33027.522935779816 ms...
+14:13:31.271 - Dispensing gin finished.
+14:13:58.821 - Dispensing rum finished.
+14:14:20.831 - Dispensing vodka finished.
+14:14:20.832 - Recipe ' Exotic Breeze cocktail' dispensed.
+14:14:20.832 - Dispensing finished.
+14:14:45.447 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+14:15:19.531 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+14:15:25.767 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+14:15:25.775 - Press Ctrl-C to exit.
+14:15:25.783 - Ingredient: vodka, alcohol, GPIO ID: 2
+14:15:25.790 - Ingredient: gin, alcohol, GPIO ID: 3
+14:15:25.793 - Ingredient: rum, alcohol, GPIO ID: 4
+14:15:25.795 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+14:15:25.798 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+14:15:25.802 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+14:15:25.806 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+14:15:25.812 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+14:15:25.816 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+14:15:25.821 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+14:15:25.825 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+14:15:25.829 - Ingredient: soda, no alcohol, GPIO ID: 19
+14:15:25.834 - OpenAICocktailBot 'alcohol' constructing...
+14:15:25.839 - OpenAICocktailBot 'alcohol' resetting.
+14:15:25.849 - OpenAICocktailBot 'alcohol' constructed.
+14:15:25.868 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+14:15:27.457 - key pressed: n
+14:15:27.460 - OpenAICocktailBot creating random cocktail...
+14:15:27.463 - Normalizing drink...
+14:15:27.466 - Drink normalized
+14:15:27.468 - CocktailRecipe {
+  ingredients: [
+    0, 0, 0, 0, 2,
+    0, 0, 0, 2, 4,
+    0, 4
+  ],
+  name: 'random cocktail'
+}
+14:15:27.489 - Starting dispensing recipe 'random cocktail'...
+14:15:27.491 - Ingredients: [
+  0, 0, 0, 0, 2,
+  0, 0, 0, 2, 4,
+  0, 4
+]
+14:15:27.500 - Drink size: 12
+14:15:27.503 - Dispensing 2 cl of ananas juice over 11009.174311926605 ms...
+14:15:27.506 - Dispensing 2 cl of tonic water over 11009.174311926605 ms...
+14:15:27.509 - Dispensing 4 cl of herbal lemonade over 22018.34862385321 ms...
+14:15:27.511 - Dispensing 4 cl of soda over 22018.34862385321 ms...
+14:15:38.534 - Dispensing ananas juice finished.
+14:15:38.540 - Dispensing tonic water finished.
+14:15:49.547 - Dispensing herbal lemonade finished.
+14:15:49.552 - Dispensing soda finished.
+14:15:49.556 - Recipe 'random cocktail' dispensed.
+14:15:49.560 - Dispensing finished.
+14:21:25.704 - key pressed: f5
+14:21:25.709 - Starting pump ananas juice...
+14:21:25.716 - Pump ananas juice started.
+14:21:45.370 - key pressed: f5
+14:21:45.375 - Stopping pump ananas juice...
+14:21:45.380 - Pump ananas juice stopped.
+14:21:49.451 - key pressed: f5
+14:21:49.454 - Starting pump ananas juice...
+14:21:49.456 - Pump ananas juice started.
+14:21:49.789 - key pressed: f5
+14:21:49.791 - Stopping pump ananas juice...
+14:21:49.793 - Pump ananas juice stopped.
+14:21:50.719 - key pressed: f5
+14:21:50.722 - Starting pump ananas juice...
+14:21:50.724 - Pump ananas juice started.
+14:21:50.929 - key pressed: f5
+14:21:50.931 - Stopping pump ananas juice...
+14:21:50.933 - Pump ananas juice stopped.
+14:21:54.948 - key pressed: f6
+14:21:54.950 - Starting pump cherry juice...
+14:21:54.952 - Pump cherry juice started.
+14:22:17.541 - key pressed: f6
+14:22:17.545 - Stopping pump cherry juice...
+14:22:17.549 - Pump cherry juice stopped.
+14:22:18.735 - key pressed: f6
+14:22:18.737 - Starting pump cherry juice...
+14:22:18.740 - Pump cherry juice started.
+14:22:19.065 - key pressed: f6
+14:22:19.066 - Stopping pump cherry juice...
+14:22:19.070 - Pump cherry juice stopped.
+14:22:24.275 - key pressed: f7
+14:22:24.277 - Starting pump orange juice...
+14:22:24.279 - Pump orange juice started.
+14:22:29.013 - key pressed: f7
+14:22:29.018 - Stopping pump orange juice...
+14:22:29.024 - Pump orange juice stopped.
+14:22:29.471 - key pressed: f7
+14:22:29.472 - Starting pump orange juice...
+14:22:29.476 - Pump orange juice started.
+14:22:32.801 - key pressed: f7
+14:22:32.803 - Stopping pump orange juice...
+14:22:32.805 - Pump orange juice stopped.
+14:22:34.035 - key pressed: f8
+14:22:34.037 - Starting pump bitter lemon...
+14:22:34.039 - Pump bitter lemon started.
+14:22:53.853 - key pressed: f8
+14:22:53.857 - Stopping pump bitter lemon...
+14:22:53.864 - Pump bitter lemon stopped.
+14:22:54.943 - key pressed: f8
+14:22:54.947 - Starting pump bitter lemon...
+14:22:54.952 - Pump bitter lemon started.
+14:22:55.929 - key pressed: f8
+14:22:55.930 - Stopping pump bitter lemon...
+14:22:55.933 - Pump bitter lemon stopped.
+14:22:58.074 - key pressed: f9
+14:22:58.076 - Starting pump tonic water...
+14:22:58.079 - Pump tonic water started.
+14:23:19.541 - key pressed: f9
+14:23:19.545 - Stopping pump tonic water...
+14:23:19.549 - Pump tonic water stopped.
+14:23:20.894 - key pressed: f10
+14:23:20.896 - Starting pump herbal lemonade...
+14:23:20.899 - Pump herbal lemonade started.
+14:23:52.385 - key pressed: f10
+14:23:52.389 - Stopping pump herbal lemonade...
+14:23:52.393 - Pump herbal lemonade stopped.
+14:23:56.730 - key pressed: f11
+14:23:56.732 - Starting pump bitter orange sirup...
+14:23:56.734 - Pump bitter orange sirup started.
+14:24:10.773 - key pressed: f11
+14:24:10.777 - Stopping pump bitter orange sirup...
+14:24:10.784 - Pump bitter orange sirup stopped.
+14:24:12.502 - key pressed: f12
+14:24:12.504 - Starting pump soda...
+14:24:12.506 - Pump soda started.
+14:24:26.313 - key pressed: f12
+14:24:26.316 - Stopping pump soda...
+14:24:26.323 - Pump soda stopped.
+14:24:39.187 - key pressed: f12
+14:24:39.191 - Starting pump soda...
+14:24:39.195 - Pump soda started.
+14:24:43.068 - key pressed: f12
+14:24:43.070 - Stopping pump soda...
+14:24:43.072 - Pump soda stopped.
+14:24:45.158 - key pressed: f12
+14:24:45.160 - Starting pump soda...
+14:24:45.162 - Pump soda started.
+14:24:46.032 - key pressed: f12
+14:24:46.034 - Stopping pump soda...
+14:24:46.036 - Pump soda stopped.
+14:24:48.706 - key pressed: f12
+14:24:48.708 - Starting pump soda...
+14:24:48.710 - Pump soda started.
+14:24:49.588 - key pressed: f12
+14:24:49.590 - Stopping pump soda...
+14:24:49.594 - Pump soda stopped.
+14:24:50.766 - key pressed: f12
+14:24:50.768 - Starting pump soda...
+14:24:50.770 - Pump soda started.
+14:25:01.560 - key pressed: f12
+14:25:01.564 - Stopping pump soda...
+14:25:01.568 - Pump soda stopped.
+14:28:56.721 - key pressed: f1
+14:28:56.724 - Starting pump vodka...
+14:28:56.727 - Pump vodka started.
+14:29:08.251 - key pressed: f1
+14:29:08.255 - Stopping pump vodka...
+14:29:08.259 - Pump vodka stopped.
+14:29:09.301 - key pressed: f2
+14:29:09.305 - Starting pump gin...
+14:29:09.309 - Pump gin started.
+14:29:39.463 - key pressed: f2
+14:29:39.467 - Stopping pump gin...
+14:29:39.470 - Pump gin stopped.
+14:29:43.513 - key pressed: f2
+14:29:43.514 - Starting pump gin...
+14:29:43.516 - Pump gin started.
+14:30:13.315 - key pressed: f2
+14:30:13.318 - Stopping pump gin...
+14:30:13.322 - Pump gin stopped.
+14:30:15.036 - key pressed: f3
+14:30:15.038 - Starting pump rum...
+14:30:15.040 - Pump rum started.
+14:30:22.070 - key pressed: f3
+14:30:22.072 - Stopping pump rum...
+14:30:22.074 - Pump rum stopped.
+14:30:24.056 - key pressed: f4
+14:30:24.058 - Starting pump blue curacao...
+14:30:24.060 - Pump blue curacao started.
+14:30:42.307 - key pressed: f4
+14:30:42.310 - Stopping pump blue curacao...
+14:30:42.316 - Pump blue curacao stopped.
+14:32:13.965 - key pressed: n
+14:32:13.968 - OpenAICocktailBot creating random cocktail...
+14:32:13.971 - Normalizing drink...
+14:32:13.974 - Drink normalized
+14:32:13.977 - CocktailRecipe {
+  ingredients: [
+      0, 0, 0, 0, 0,
+      0, 2, 2, 0, 4,
+    0.5, 4
+  ],
+  name: 'random cocktail'
+}
+14:32:13.997 - Starting dispensing recipe 'random cocktail'...
+14:32:14.000 - Ingredients: [
+    0, 0, 0, 0, 0,
+    0, 2, 2, 0, 4,
+  0.5, 4
+]
+14:32:14.014 - Drink size: 12.5
+14:32:14.016 - Dispensing 2 cl of orange juice over 11009.174311926605 ms...
+14:32:14.018 - Dispensing 2 cl of bitter lemon over 11009.174311926605 ms...
+14:32:14.020 - Dispensing 4 cl of herbal lemonade over 22018.34862385321 ms...
+14:32:14.022 - Dispensing 0.5 cl of bitter orange sirup over 2752.293577981651 ms...
+14:32:14.025 - Dispensing 4 cl of soda over 22018.34862385321 ms...
+14:32:16.783 - Dispensing bitter orange sirup finished.
+14:32:25.046 - Dispensing orange juice finished.
+14:32:25.048 - Dispensing bitter lemon finished.
+14:32:36.058 - Dispensing herbal lemonade finished.
+14:32:36.061 - Dispensing soda finished.
+14:32:36.064 - Recipe 'random cocktail' dispensed.
+14:32:36.067 - Dispensing finished.
+14:34:07.966 - key pressed: r
+14:34:07.970 - OpenAICocktailBot creating random cocktail...
+14:34:07.974 - Normalizing drink...
+14:34:07.977 - Drink enlarged to 1.6666666666666667
+14:34:07.981 - Drink normalized
+14:34:07.984 - CocktailRecipe {
+  ingredients: [
+    0,
+    3.3333333333333335,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3.3333333333333335,
+    0,
+    0,
+    3.3333333333333335
+  ],
+  name: 'random cocktail'
+}
+14:34:08.025 - Starting dispensing recipe 'random cocktail'...
+14:34:08.028 - Ingredients: [
+  0,
+  3.3333333333333335,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  3.3333333333333335,
+  0,
+  0,
+  3.3333333333333335
+]
+14:34:08.044 - Drink size: 10
+14:34:08.045 - Dispensing 3.3333333333333335 cl of gin over 18348.62385321101 ms...
+14:34:08.047 - Dispensing 3.3333333333333335 cl of tonic water over 18348.62385321101 ms...
+14:34:08.050 - Dispensing 3.3333333333333335 cl of soda over 18348.62385321101 ms...
+14:34:26.420 - Dispensing gin finished.
+14:34:26.423 - Dispensing tonic water finished.
+14:34:26.427 - Dispensing soda finished.
+14:34:26.430 - Recipe 'random cocktail' dispensed.
+14:34:26.433 - Dispensing finished.
+14:35:40.079 - key pressed: n
+14:35:40.082 - OpenAICocktailBot creating random cocktail...
+14:35:40.085 - Normalizing drink...
+14:35:40.088 - Drink enlarged to 1.3333333333333333
+14:35:40.092 - Drink normalized
+14:35:40.094 - CocktailRecipe {
+  ingredients: [
+    0,
+    0,
+    0,
+    0,
+    2.6666666666666665,
+    0,
+    0,
+    0,
+    2.6666666666666665,
+    0,
+    0.6666666666666666,
+    4
+  ],
+  name: 'random cocktail'
+}
+14:35:40.129 - Starting dispensing recipe 'random cocktail'...
+14:35:40.132 - Ingredients: [
+  0,
+  0,
+  0,
+  0,
+  2.6666666666666665,
+  0,
+  0,
+  0,
+  2.6666666666666665,
+  0,
+  0.6666666666666666,
+  4
+]
+14:35:40.162 - Drink size: 10
+14:35:40.166 - Dispensing 2.6666666666666665 cl of ananas juice over 14678.899082568807 ms...
+14:35:40.168 - Dispensing 2.6666666666666665 cl of tonic water over 14678.899082568807 ms...
+14:35:40.170 - Dispensing 0.6666666666666666 cl of bitter orange sirup over 3669.7247706422017 ms...
+14:35:40.172 - Dispensing 4 cl of soda over 22018.34862385321 ms...
+14:35:43.848 - Dispensing bitter orange sirup finished.
+14:35:54.859 - Dispensing ananas juice finished.
+14:35:54.863 - Dispensing tonic water finished.
+14:36:02.203 - Dispensing soda finished.
+14:36:02.207 - Recipe 'random cocktail' dispensed.
+14:36:02.210 - Dispensing finished.
+14:47:55.419 - key pressed: n
+14:47:55.423 - OpenAICocktailBot creating random cocktail...
+14:47:55.426 - Normalizing drink...
+14:47:55.429 - Drink normalized
+14:47:55.432 - CocktailRecipe {
+  ingredients: [
+    0, 0, 0, 0, 0,
+    4, 4, 4, 2, 0,
+    0, 2
+  ],
+  name: 'random cocktail'
+}
+14:47:55.450 - Starting dispensing recipe 'random cocktail'...
+14:47:55.453 - Ingredients: [
+  0, 0, 0, 0, 0,
+  4, 4, 4, 2, 0,
+  0, 2
+]
+14:47:55.466 - Drink size: 16
+14:47:55.470 - Dispensing 4 cl of cherry juice over 22018.34862385321 ms...
+14:47:55.473 - Dispensing 4 cl of orange juice over 22018.34862385321 ms...
+14:47:55.478 - Dispensing 4 cl of bitter lemon over 22018.34862385321 ms...
+14:47:55.481 - Dispensing 2 cl of tonic water over 11009.174311926605 ms...
+14:47:55.484 - Dispensing 2 cl of soda over 11009.174311926605 ms...
+14:48:06.510 - Dispensing tonic water finished.
+14:48:06.513 - Dispensing soda finished.
+14:48:17.515 - Dispensing cherry juice finished.
+14:48:17.519 - Dispensing orange juice finished.
+14:48:17.523 - Dispensing bitter lemon finished.
+14:48:17.526 - Recipe 'random cocktail' dispensed.
+14:48:17.529 - Dispensing finished.
+14:48:42.813 - key pressed: r
+14:48:42.817 - OpenAICocktailBot creating random cocktail...
+14:48:42.820 - Normalizing drink...
+14:48:42.824 - Drink enlarged to 1.6666666666666667
+14:48:42.827 - Drink normalized
+14:48:42.830 - CocktailRecipe {
+  ingredients: [
+    0,
+    6.666666666666667,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3.3333333333333335,
+    0,
+    0,
+    0
+  ],
+  name: 'random cocktail'
+}
+14:48:42.863 - Starting dispensing recipe 'random cocktail'...
+14:48:42.865 - Ingredients: [ 0, 6.666666666666667, 0, 0, 0, 0, 0, 0, 3.3333333333333335, 0, 0, 0 ]
+14:48:42.869 - Drink size: 10
+14:48:42.871 - Dispensing 6.666666666666667 cl of gin over 36697.24770642202 ms...
+14:48:42.874 - Dispensing 3.3333333333333335 cl of tonic water over 18348.62385321101 ms...
+14:49:01.246 - Dispensing tonic water finished.
+14:49:19.594 - Dispensing gin finished.
+14:49:19.597 - Recipe 'random cocktail' dispensed.
+14:49:19.601 - Dispensing finished.
+14:49:42.486 - key pressed: f12
+14:49:42.490 - Starting pump soda...
+14:49:42.494 - Pump soda started.
+14:49:43.816 - key pressed: f11
+14:49:43.818 - Starting pump bitter orange sirup...
+14:49:43.820 - Pump bitter orange sirup started.
+14:49:47.354 - key pressed: f10
+14:49:47.356 - Starting pump herbal lemonade...
+14:49:47.358 - Pump herbal lemonade started.
+14:49:48.284 - key pressed: f9
+14:49:48.286 - Starting pump tonic water...
+14:49:48.288 - Pump tonic water started.
+14:49:57.398 - key pressed: f9
+14:49:57.400 - Stopping pump tonic water...
+14:49:57.402 - Pump tonic water stopped.
+14:49:57.688 - key pressed: f10
+14:49:57.690 - Stopping pump herbal lemonade...
+14:49:57.692 - Pump herbal lemonade stopped.
+14:49:58.018 - key pressed: f11
+14:49:58.020 - Stopping pump bitter orange sirup...
+14:49:58.022 - Pump bitter orange sirup stopped.
+14:49:58.388 - key pressed: f12
+14:49:58.390 - Stopping pump soda...
+14:49:58.392 - Pump soda stopped.
+14:50:02.230 - key pressed: f5
+14:50:02.232 - Starting pump ananas juice...
+14:50:02.234 - Pump ananas juice started.
+14:50:08.136 - key pressed: f5
+14:50:08.138 - Stopping pump ananas juice...
+14:50:08.140 - Pump ananas juice stopped.
+14:50:20.162 - key pressed: f4
+14:50:20.166 - Starting pump blue curacao...
+14:50:20.171 - Pump blue curacao started.
+14:50:22.756 - key pressed: f4
+14:50:22.758 - Stopping pump blue curacao...
+14:50:22.760 - Pump blue curacao stopped.
+14:52:44.901 - key pressed: f1
+14:52:44.905 - Starting pump vodka...
+14:52:44.910 - Pump vodka started.
+14:52:45.159 - key pressed: f2
+14:52:45.163 - Starting pump gin...
+14:52:45.168 - Pump gin started.
+14:52:45.401 - key pressed: f3
+14:52:45.405 - Starting pump rum...
+14:52:45.408 - Pump rum started.
+14:52:45.595 - key pressed: f4
+14:52:45.598 - Starting pump blue curacao...
+14:52:45.602 - Pump blue curacao started.
+14:53:09.949 - key pressed: f1
+14:53:09.953 - Stopping pump vodka...
+14:53:09.957 - Pump vodka stopped.
+14:53:10.151 - key pressed: f2
+14:53:10.154 - Stopping pump gin...
+14:53:10.158 - Pump gin stopped.
+14:53:10.361 - key pressed: f3
+14:53:10.365 - Stopping pump rum...
+14:53:10.369 - Pump rum stopped.
+14:53:10.563 - key pressed: f4
+14:53:10.567 - Stopping pump blue curacao...
+14:53:10.571 - Pump blue curacao stopped.
+14:53:11.069 - key pressed: f5
+14:53:11.073 - Starting pump ananas juice...
+14:53:11.077 - Pump ananas juice started.
+14:53:11.303 - key pressed: f6
+14:53:11.306 - Starting pump cherry juice...
+14:53:11.310 - Pump cherry juice started.
+14:53:11.521 - key pressed: f7
+14:53:11.525 - Starting pump orange juice...
+14:53:11.529 - Pump orange juice started.
+14:53:11.747 - key pressed: f8
+14:53:11.751 - Starting pump bitter lemon...
+14:53:11.755 - Pump bitter lemon started.
+14:53:33.069 - key pressed: f5
+14:53:33.073 - Stopping pump ananas juice...
+14:53:33.077 - Pump ananas juice stopped.
+14:53:33.295 - key pressed: f6
+14:53:33.298 - Stopping pump cherry juice...
+14:53:33.302 - Pump cherry juice stopped.
+14:53:33.521 - key pressed: f7
+14:53:33.524 - Stopping pump orange juice...
+14:53:33.527 - Pump orange juice stopped.
+14:53:33.723 - key pressed: f8
+14:53:33.726 - Stopping pump bitter lemon...
+14:53:33.729 - Pump bitter lemon stopped.
+14:53:34.053 - key pressed: f9
+14:53:34.056 - Starting pump tonic water...
+14:53:34.060 - Pump tonic water started.
+14:53:34.287 - key pressed: f10
+14:53:34.290 - Starting pump herbal lemonade...
+14:53:34.294 - Pump herbal lemonade started.
+14:53:34.513 - key pressed: f11
+14:53:34.516 - Starting pump bitter orange sirup...
+14:53:34.520 - Pump bitter orange sirup started.
+14:53:34.747 - key pressed: f12
+14:53:34.750 - Starting pump soda...
+14:53:34.753 - Pump soda started.
+14:54:10.309 - key pressed: f9
+14:54:10.312 - Stopping pump tonic water...
+14:54:10.317 - Pump tonic water stopped.
+14:54:10.535 - key pressed: f10
+14:54:10.538 - Stopping pump herbal lemonade...
+14:54:10.541 - Pump herbal lemonade stopped.
+14:54:10.737 - key pressed: f11
+14:54:10.740 - Stopping pump bitter orange sirup...
+14:54:10.745 - Pump bitter orange sirup stopped.
+14:54:10.931 - key pressed: f12
+14:54:10.934 - Stopping pump soda...
+14:54:10.938 - Pump soda stopped.
+14:54:50.540 - key pressed: f1
+14:54:50.544 - Starting pump vodka...
+14:54:50.549 - Pump vodka started.
+14:54:50.854 - key pressed: f2
+14:54:50.858 - Starting pump gin...
+14:54:50.862 - Pump gin started.
+14:54:51.080 - key pressed: f3
+14:54:51.084 - Starting pump rum...
+14:54:51.087 - Pump rum started.
+14:54:51.298 - key pressed: f4
+14:54:51.302 - Starting pump blue curacao...
+14:54:51.305 - Pump blue curacao started.
+14:55:01.292 - key pressed: f1
+14:55:01.295 - Stopping pump vodka...
+14:55:01.299 - Pump vodka stopped.
+14:55:01.582 - key pressed: f2
+14:55:01.586 - Stopping pump gin...
+14:55:01.590 - Pump gin stopped.
+14:55:01.824 - key pressed: f3
+14:55:01.828 - Stopping pump rum...
+14:55:01.831 - Pump rum stopped.
+14:55:02.018 - key pressed: f4
+14:55:02.021 - Stopping pump blue curacao...
+14:55:02.025 - Pump blue curacao stopped.
+14:55:02.372 - key pressed: f5
+14:55:02.376 - Starting pump ananas juice...
+14:55:02.380 - Pump ananas juice started.
+14:55:02.590 - key pressed: f6
+14:55:02.594 - Starting pump cherry juice...
+14:55:02.598 - Pump cherry juice started.
+14:55:02.840 - key pressed: f7
+14:55:02.844 - Starting pump orange juice...
+14:55:02.848 - Pump orange juice started.
+14:55:03.090 - key pressed: f8
+14:55:03.094 - Starting pump bitter lemon...
+14:55:03.098 - Pump bitter lemon started.
+14:55:12.740 - key pressed: f5
+14:55:12.744 - Stopping pump ananas juice...
+14:55:12.748 - Pump ananas juice stopped.
+14:55:12.950 - key pressed: f6
+14:55:12.953 - Stopping pump cherry juice...
+14:55:12.957 - Pump cherry juice stopped.
+14:55:13.200 - key pressed: f7
+14:55:13.203 - Stopping pump orange juice...
+14:55:13.207 - Pump orange juice stopped.
+14:55:13.394 - key pressed: f8
+14:55:13.397 - Stopping pump bitter lemon...
+14:55:13.401 - Pump bitter lemon stopped.
+14:55:13.764 - key pressed: f9
+14:55:13.768 - Starting pump tonic water...
+14:55:13.772 - Pump tonic water started.
+14:55:14.030 - key pressed: f10
+14:55:14.033 - Starting pump herbal lemonade...
+14:55:14.037 - Pump herbal lemonade started.
+14:55:14.280 - key pressed: f11
+14:55:14.283 - Starting pump bitter orange sirup...
+14:55:14.287 - Pump bitter orange sirup started.
+14:55:14.506 - key pressed: f12
+14:55:14.509 - Starting pump soda...
+14:55:14.513 - Pump soda started.
+14:55:24.292 - key pressed: f9
+14:55:24.295 - Stopping pump tonic water...
+14:55:24.299 - Pump tonic water stopped.
+14:55:24.566 - key pressed: f10
+14:55:24.569 - Stopping pump herbal lemonade...
+14:55:24.573 - Pump herbal lemonade stopped.
+14:55:24.824 - key pressed: f11
+14:55:24.827 - Stopping pump bitter orange sirup...
+14:55:24.831 - Pump bitter orange sirup stopped.
+14:55:25.066 - key pressed: f12
+14:55:25.069 - Stopping pump soda...
+14:55:25.073 - Pump soda stopped.
+15:01:12.299 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.

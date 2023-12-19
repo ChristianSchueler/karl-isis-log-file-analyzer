@@ -1,0 +1,1286 @@
+16:31:53.192 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+16:31:53.195 - Press Ctrl-C to exit.
+16:31:53.202 - Running on Windows - only for development!
+16:31:53.203 - Running on Windows - only for development!
+16:31:53.206 - Ingredient: vodka, alcohol, GPIO ID: 2
+16:31:53.208 - Running on Windows - only for development!
+16:31:53.209 - Ingredient: gin, alcohol, GPIO ID: 3
+16:31:53.210 - Running on Windows - only for development!
+16:31:53.212 - Ingredient: rum, alcohol, GPIO ID: 4
+16:31:53.213 - Running on Windows - only for development!
+16:31:53.215 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+16:31:53.216 - Running on Windows - only for development!
+16:31:53.217 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+16:31:53.218 - Running on Windows - only for development!
+16:31:53.219 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+16:31:53.219 - Running on Windows - only for development!
+16:31:53.220 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+16:31:53.223 - Running on Windows - only for development!
+16:31:53.224 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+16:31:53.225 - Running on Windows - only for development!
+16:31:53.225 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+16:31:53.226 - Running on Windows - only for development!
+16:31:53.227 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+16:31:53.228 - Running on Windows - only for development!
+16:31:53.229 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+16:31:53.230 - Running on Windows - only for development!
+16:31:53.232 - Ingredient: soda, no alcohol, GPIO ID: 19
+16:31:53.234 - Running on Windows - only for development!
+16:31:53.236 - OpenAICocktailBot 'alcohol' constructing...
+16:31:53.237 - OpenAICocktailBot 'alcohol' resetting.
+16:31:53.245 - OpenAICocktailBot 'alcohol' constructed.
+16:31:53.246 - f1...f12 start/stop dispensing
+16:31:53.246 - a        AI cocktail
+16:31:53.247 - r        (r)andom cocktail
+16:31:53.247 - n        random (n)icolas cocktail with alcohol
+16:31:53.248 - Ctrl-c   quit
+16:31:53.251 - Creating web server...
+16:31:53.257 - index 0 argument -> /home/bartender/roboex2023/karl-isis-the-25001/node_modules/electron/dist/electron
+16:31:53.259 - index 1 argument -> ./dist/ts/index.js
+16:31:53.261 - Creating socket.io server...
+16:31:53.274 - Server path: /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/../../ui
+16:31:53.286 - Starting web server....
+16:31:53.343 - Web server ready: listening on *:5000
+16:31:55.799 - opening URL: http://localhost:5000
+16:31:59.649 - socket.io connect
+16:33:09.885 - socket: gameWon
+16:33:09.943 - Yay! Game won! Buttons are now enabled.
+16:33:43.805 - socket: gameWon
+16:33:43.808 - Yay! Game won! Buttons are now enabled.
+16:34:46.168 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+16:34:46.170 - Press Ctrl-C to exit.
+16:34:46.179 - Running on Windows - only for development!
+16:34:46.180 - Running on Windows - only for development!
+16:34:46.182 - Ingredient: vodka, alcohol, GPIO ID: 2
+16:34:46.183 - Running on Windows - only for development!
+16:34:46.185 - Ingredient: gin, alcohol, GPIO ID: 3
+16:34:46.186 - Running on Windows - only for development!
+16:34:46.187 - Ingredient: rum, alcohol, GPIO ID: 4
+16:34:46.188 - Running on Windows - only for development!
+16:34:46.190 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+16:34:46.191 - Running on Windows - only for development!
+16:34:46.192 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+16:34:46.192 - Running on Windows - only for development!
+16:34:46.193 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+16:34:46.193 - Running on Windows - only for development!
+16:34:46.194 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+16:34:46.194 - Running on Windows - only for development!
+16:34:46.195 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+16:34:46.195 - Running on Windows - only for development!
+16:34:46.195 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+16:34:46.196 - Running on Windows - only for development!
+16:34:46.197 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+16:34:46.198 - Running on Windows - only for development!
+16:34:46.200 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+16:34:46.201 - Running on Windows - only for development!
+16:34:46.201 - Ingredient: soda, no alcohol, GPIO ID: 19
+16:34:46.202 - Running on Windows - only for development!
+16:34:46.204 - OpenAICocktailBot 'alcohol' constructing...
+16:34:46.205 - OpenAICocktailBot 'alcohol' resetting.
+16:34:46.212 - OpenAICocktailBot 'alcohol' constructed.
+16:34:46.213 - f1...f12 start/stop dispensing
+16:34:46.213 - a        AI cocktail
+16:34:46.214 - r        (r)andom cocktail
+16:34:46.215 - n        random (n)icolas cocktail with alcohol
+16:34:46.215 - Ctrl-c   quit
+16:34:46.220 - Creating web server...
+16:34:46.229 - index 0 argument -> /home/bartender/roboex2023/karl-isis-the-25001/node_modules/electron/dist/electron
+16:34:46.229 - index 1 argument -> ./dist/ts/index.js
+16:34:46.231 - Creating socket.io server...
+16:34:46.243 - Server path: /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/../../ui
+16:34:46.255 - Starting web server....
+16:34:46.307 - Web server ready: listening on *:5000
+16:34:47.165 - opening URL: http://localhost:5000
+16:34:51.457 - socket.io connect
+16:35:46.737 - socket: gameWon
+16:35:46.740 - Yay! Game won! Buttons are now enabled.
+16:36:12.298 - socket: gameWon
+16:36:12.300 - Yay! Game won! Buttons are now enabled.
+16:36:34.528 - socket: gameWon
+16:36:34.529 - Yay! Game won! Buttons are now enabled.
+23:21:32.552 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+23:21:32.578 - Press Ctrl-C to exit.
+23:21:32.588 - Ingredient: vodka, alcohol, GPIO ID: 2
+23:21:32.589 - Ingredient: gin, alcohol, GPIO ID: 3
+23:21:32.590 - Ingredient: rum, alcohol, GPIO ID: 4
+23:21:32.591 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+23:21:32.593 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+23:21:32.596 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+23:21:32.600 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+23:21:32.605 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+23:21:32.610 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+23:21:32.613 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+23:21:32.617 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+23:21:32.621 - Ingredient: soda, no alcohol, GPIO ID: 19
+23:21:32.627 - OpenAICocktailBot 'alcohol' constructing...
+23:21:32.631 - OpenAICocktailBot 'alcohol' resetting.
+23:21:32.640 - OpenAICocktailBot 'alcohol' constructed.
+23:21:32.644 - f1...f12 start/stop dispensing
+23:21:32.647 - a        AI cocktail
+23:21:32.650 - r        (r)andom cocktail
+23:21:32.654 - n        random (n)icolas cocktail with alcohol
+23:21:32.657 - Ctrl-c   quit
+23:21:32.670 - Reading squat bot config...
+23:21:32.674 - Ssquat bot config: SquatBotConfig {
+  targetSquats: 3,
+  gameWinTimeout_s: 10,
+  faceMinX: 100,
+  faceMaxX: 540,
+  gameStartTimeout_s: 3,
+  topOffset_px: 20,
+  bottomOffset_px: 0,
+  gameLeftTimeout_s: 3,
+  squatFactor: 1.2
+}
+23:21:32.712 - Creating web server...
+23:21:32.721 - index 0 argument -> /usr/bin/node
+23:21:32.724 - index 1 argument -> /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/index.js
+23:21:32.732 - Creating socket.io server...
+23:21:32.745 - Server path: ./ui
+23:21:32.756 - Starting web server....
+23:21:32.781 - Web server ready: listening on *:5000
+23:24:50.881 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+23:25:58.147 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+23:25:58.159 - Press Ctrl-C to exit.
+23:25:58.169 - Setting up buttons...
+23:25:58.175 - Ingredient: vodka, alcohol, GPIO ID: 2
+23:25:58.179 - Ingredient: gin, alcohol, GPIO ID: 3
+23:25:58.183 - Ingredient: rum, alcohol, GPIO ID: 4
+23:25:58.189 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+23:25:58.193 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+23:25:58.197 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+23:25:58.202 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+23:25:58.207 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+23:25:58.211 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+23:25:58.215 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+23:25:58.218 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+23:25:58.223 - Ingredient: soda, no alcohol, GPIO ID: 19
+23:25:58.228 - OpenAICocktailBot 'alcohol' constructing...
+23:25:58.233 - OpenAICocktailBot 'alcohol' resetting.
+23:25:58.242 - OpenAICocktailBot 'alcohol' constructed.
+23:25:58.246 - f1...f12 start/stop dispensing
+23:25:58.249 - a        AI cocktail
+23:25:58.253 - r        (r)andom cocktail
+23:25:58.256 - n        random (n)icolas cocktail with alcohol
+23:25:58.261 - Ctrl-c   quit
+23:25:58.273 - Reading squat bot config...
+23:25:58.278 - Ssquat bot config: SquatBotConfig {
+  targetSquats: 3,
+  gameWinTimeout_s: 10,
+  faceMinX: 100,
+  faceMaxX: 540,
+  gameStartTimeout_s: 3,
+  topOffset_px: 20,
+  bottomOffset_px: 0,
+  gameLeftTimeout_s: 3,
+  squatFactor: 1.2
+}
+23:25:58.318 - Creating web server...
+23:25:58.327 - index 0 argument -> /usr/bin/node
+23:25:58.331 - index 1 argument -> /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/index.js
+23:25:58.340 - Creating socket.io server...
+23:25:58.353 - Server path: ./ui
+23:25:58.363 - Starting web server....
+23:25:58.388 - Web server ready: listening on *:5000
+23:26:31.687 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+23:27:43.483 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+23:27:43.494 - Press Ctrl-C to exit.
+23:27:43.503 - Setting up buttons...
+23:27:43.508 - Ingredient: vodka, alcohol, GPIO ID: 2
+23:27:43.512 - Ingredient: gin, alcohol, GPIO ID: 3
+23:27:43.515 - Ingredient: rum, alcohol, GPIO ID: 4
+23:27:43.520 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+23:27:43.523 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+23:27:43.525 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+23:27:43.530 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+23:27:43.533 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+23:27:43.536 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+23:27:43.539 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+23:27:43.542 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+23:27:43.546 - Ingredient: soda, no alcohol, GPIO ID: 19
+23:27:43.550 - OpenAICocktailBot 'alcohol' constructing...
+23:27:43.553 - OpenAICocktailBot 'alcohol' resetting.
+23:27:43.561 - OpenAICocktailBot 'alcohol' constructed.
+23:27:43.564 - f1...f12 start/stop dispensing
+23:27:43.567 - a        AI cocktail
+23:27:43.569 - r        (r)andom cocktail
+23:27:43.572 - n        random (n)icolas cocktail with alcohol
+23:27:43.575 - Ctrl-c   quit
+23:27:43.587 - Reading squat bot config...
+23:27:43.590 - Ssquat bot config: SquatBotConfig {
+  targetSquats: 3,
+  gameWinTimeout_s: 10,
+  faceMinX: 100,
+  faceMaxX: 540,
+  gameStartTimeout_s: 3,
+  topOffset_px: 20,
+  bottomOffset_px: 0,
+  gameLeftTimeout_s: 3,
+  squatFactor: 1.2
+}
+23:27:43.622 - Creating web server...
+23:27:43.630 - index 0 argument -> /usr/bin/node
+23:27:43.632 - index 1 argument -> /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/index.js
+23:27:43.640 - Creating socket.io server...
+23:27:43.653 - Server path: ./ui
+23:27:43.663 - Starting web server....
+23:27:43.688 - Web server ready: listening on *:5000
+23:33:02.091 - key pressed: tab
+23:35:10.570 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+23:35:46.884 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+23:35:46.895 - Press Ctrl-C to exit.
+23:35:46.904 - Setting up buttons...
+23:35:47.029 - Ingredient: vodka, alcohol, GPIO ID: 2
+23:35:47.076 - Ingredient: gin, alcohol, GPIO ID: 3
+23:35:47.105 - Ingredient: rum, alcohol, GPIO ID: 4
+23:35:47.148 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+23:35:47.170 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+23:35:47.197 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+23:35:47.221 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+23:35:47.244 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+23:35:47.267 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+23:35:47.292 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+23:35:47.316 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+23:35:47.339 - Ingredient: soda, no alcohol, GPIO ID: 19
+23:35:47.363 - OpenAICocktailBot 'alcohol' constructing...
+23:35:47.367 - OpenAICocktailBot 'alcohol' resetting.
+23:35:47.378 - OpenAICocktailBot 'alcohol' constructed.
+23:35:47.381 - f1...f12 start/stop dispensing
+23:35:47.386 - a        AI cocktail
+23:35:47.389 - r        (r)andom cocktail
+23:35:47.392 - n        random (n)icolas cocktail with alcohol
+23:35:47.395 - Ctrl-c   quit
+23:35:47.407 - Reading squat bot config...
+23:35:47.412 - Ssquat bot config: SquatBotConfig {
+  targetSquats: 3,
+  gameWinTimeout_s: 10,
+  faceMinX: 100,
+  faceMaxX: 540,
+  gameStartTimeout_s: 3,
+  topOffset_px: 20,
+  bottomOffset_px: 0,
+  gameLeftTimeout_s: 3,
+  squatFactor: 1.2
+}
+23:35:47.449 - Creating web server...
+23:35:47.459 - index 0 argument -> /usr/bin/node
+23:35:47.462 - index 1 argument -> /home/bartender/roboex2023/karl-isis-the-25001/dist/ts/index.js
+23:35:47.470 - Creating socket.io server...
+23:35:47.483 - Server path: ./ui
+23:35:47.493 - Starting web server....
+23:35:47.517 - Web server ready: listening on *:5000
+23:36:01.210 - button1: 1 null
+23:36:01.214 - button 2 pressed, but not enabled. exiting.
+23:36:02.731 - button1: 1 null
+23:36:02.734 - button 2 pressed, but not enabled. exiting.
+23:36:04.737 - button1: 1 null
+23:36:04.740 - button 2 pressed, but not enabled. exiting.
+23:36:17.011 - button1: 1 null
+23:36:17.021 - button 2 pressed, but not enabled. exiting.
+23:36:33.546 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+23:45:01.001 - Karl-Isis the 25001 (c) 2022 - 2023 by Christian Schüler. Welcome.
+23:45:01.017 - Press Ctrl-C to exit.
+23:45:01.025 - Setting up buttons...
+23:45:01.045 - Ingredient: vodka, alcohol, GPIO ID: 2
+23:45:01.048 - Ingredient: gin, alcohol, GPIO ID: 3
+23:45:01.050 - Ingredient: rum, alcohol, GPIO ID: 4
+23:45:01.053 - Ingredient: blue curacao, alcohol, GPIO ID: 17
+23:45:01.057 - Ingredient: ananas juice, no alcohol, GPIO ID: 18
+23:45:01.060 - Ingredient: cherry juice, no alcohol, GPIO ID: 27
+23:45:01.065 - Ingredient: orange juice, no alcohol, GPIO ID: 21
+23:45:01.070 - Ingredient: bitter lemon, no alcohol, GPIO ID: 20
+23:45:01.072 - Ingredient: tonic water, no alcohol, GPIO ID: 26
+23:45:01.073 - Ingredient: herbal lemonade, no alcohol, GPIO ID: 16
+23:45:01.076 - Ingredient: bitter orange sirup, no alcohol, GPIO ID: 13
+23:45:01.078 - Ingredient: soda, no alcohol, GPIO ID: 19
+23:45:01.081 - OpenAICocktailBot 'alcohol' constructing...
+23:45:01.083 - OpenAICocktailBot 'alcohol' resetting.
+23:45:01.089 - OpenAICocktailBot 'alcohol' constructed.
+23:45:01.090 - f1...f12 start/stop dispensing
+23:45:01.091 - a        AI cocktail
+23:45:01.092 - r        (r)andom cocktail
+23:45:01.093 - n        random (n)icolas cocktail with alcohol
+23:45:01.094 - Ctrl-c   quit
+23:45:01.104 - Reading squat bot config...
+23:45:01.127 - Ssquat bot config: SquatBotConfig {
+  targetSquats: 3,
+  gameWinTimeout_s: 10,
+  faceMinX: 100,
+  faceMaxX: 540,
+  gameStartTimeout_s: 3,
+  topOffset_px: 20,
+  bottomOffset_px: 0,
+  gameLeftTimeout_s: 3,
+  squatFactor: 1.2
+}
+23:45:01.140 - Creating web server...
+23:45:01.147 - index 0 argument -> /home/bartender/roboex2023/karl-isis-the-25001/node_modules/electron/dist/electron
+23:45:01.147 - index 1 argument -> ./dist/ts/index.js
+23:45:01.154 - Creating socket.io server...
+23:45:01.169 - Server path: ./ui
+23:45:01.175 - Starting web server....
+23:45:01.218 - Web server ready: listening on *:5000
+23:45:02.960 - opening URL: http://localhost:5000
+23:45:06.499 - socket.io connect
+23:45:30.637 - socket: squatDown
+23:45:30.643 - SquatBot: squat down
+23:45:30.645 - LED #2 on
+23:45:30.966 - LED #2 off
+23:45:32.406 - socket: squatUp
+23:45:32.409 - SquatBot: squat up
+23:45:32.411 - LED #1 on
+23:45:32.753 - LED #1 off
+23:45:34.895 - socket: squatDown
+23:45:34.897 - SquatBot: squat down
+23:45:34.898 - LED #2 on
+23:45:35.203 - LED #2 off
+23:45:38.353 - socket: squatUp
+23:45:38.357 - SquatBot: squat up
+23:45:38.359 - LED #1 on
+23:45:38.669 - LED #1 off
+23:45:42.081 - socket: squatDown
+23:45:42.083 - SquatBot: squat down
+23:45:42.085 - LED #2 on
+23:45:42.399 - LED #2 off
+23:45:44.197 - socket: squatUp
+23:45:44.201 - SquatBot: squat up
+23:45:44.211 - LED #1 on
+23:45:44.227 - socket: gameWon
+23:45:44.252 - SquatBot: Yay! Game won! Buttons are now enabled.
+23:45:44.280 - LED #1 on
+23:45:44.283 - LED #2 on
+23:45:44.583 - LED #1 off
+23:45:53.095 - button1: 1 null
+23:45:53.097 - All LEDs off
+23:45:53.102 - OpenAICocktailBot 'alcohol' pour me a drink...
+23:45:53.126 - OpenAICocktailBot 'alcohol' request: [
+  {
+    role: 'system',
+    content: '\n' +
+      'You are a cocktail mixing robot, you are able to pour cocktails.\n' +
+      'Ingredients are measured in cl.\n' +
+      "Be creative, don't repeat a cocktail recipe.\n" +
+      'What I ask you to "pour me a cocktail", you preform the following steps:\n' +
+      'First, select an alcoholic ingredient exclusively from the following list: vodka, gin, rum, blue curacao and select an amount between 2 cl and 4 cl.\n' +
+      'Second, select one to five non-alcoholic ingredients exclusively from the following list: ananas juice, cherry juice, orange juice, bitter lemon, tonic water, herbal lemonade, bitter orange sirup, soda and for each ingredient select an amount between 2 cl and 6 cl.\n' +
+      'Third, select a fancy cocktail name.\n' +
+      'Format your response as comma separated text: cocktail name, amount of alcoholic ingredient and alcoholic ingredient name separated by a single space, all non-alcoholic ingredients including amounts\n'
+  },
+  { role: 'user', content: 'pour me a drink' }
+]
+23:45:53.128 - Waiting for OpenAI GTP API reply...
+23:45:53.168 - OpenAI:DEBUG:request https://api.openai.com/v1/chat/completions {
+  method: 'post',
+  path: '/chat/completions',
+  body: { model: 'gpt-3.5-turbo-1106', messages: [ [Object], [Object] ] },
+  stream: false
+} {
+  'Content-Length': '1060',
+  Accept: 'application/json',
+  'Content-Type': 'application/json',
+  'User-Agent': 'OpenAI/JS 4.20.1',
+  'X-Stainless-Lang': 'js',
+  'X-Stainless-Package-Version': '4.20.1',
+  'X-Stainless-OS': 'Linux',
+  'X-Stainless-Arch': 'arm64',
+  'X-Stainless-Runtime': 'node',
+  'X-Stainless-Runtime-Version': 'v18.18.2',
+  Authorization: 'Bearer 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',
+  'OpenAI-Organization': 'org-XWXjDVcYbBQFaLvR7JTi3pyl'
+}
+23:45:53.508 - LED #1 on
+23:45:53.520 - LED #2 on
+23:45:53.623 - LED #1 off
+23:45:53.625 - LED #2 off
+23:45:53.704 - LED #1 on
+23:45:53.721 - LED #2 on
+23:45:53.809 - LED #1 off
+23:45:53.824 - LED #2 off
+23:45:53.905 - LED #1 on
+23:45:53.922 - LED #2 on
+23:45:54.007 - LED #1 off
+23:45:54.024 - LED #2 off
+23:45:54.105 - LED #1 on
+23:45:54.123 - LED #2 on
+23:45:54.208 - LED #1 off
+23:45:54.226 - LED #2 off
+23:45:54.308 - LED #1 on
+23:45:54.325 - LED #2 on
+23:45:54.411 - LED #1 off
+23:45:54.428 - LED #2 off
+23:45:54.509 - LED #1 on
+23:45:54.530 - LED #2 on
+23:45:54.615 - LED #1 off
+23:45:54.633 - LED #2 off
+23:45:54.712 - LED #1 on
+23:45:54.736 - LED #2 on
+23:45:54.935 - LED #1 off
+23:45:54.936 - LED #2 off
+23:45:54.938 - LED #1 on
+23:45:54.952 - LED #2 on
+23:45:54.960 - OpenAI:DEBUG:response 200 https://api.openai.com/v1/chat/completions Headers {
+  [Symbol(map)]: [Object: null prototype] {
+    date: [ 'Fri, 08 Dec 2023 21:45:54 GMT' ],
+    'content-type': [ 'application/json' ],
+    'transfer-encoding': [ 'chunked' ],
+    connection: [ 'keep-alive' ],
+    'access-control-allow-origin': [ '*' ],
+    'cache-control': [ 'no-cache, must-revalidate' ],
+    'openai-model': [ 'gpt-3.5-turbo-1106' ],
+    'openai-organization': [ 'user-qg6kgf2isdibwhqnphcq5qtm' ],
+    'openai-processing-ms': [ '811' ],
+    'openai-version': [ '2020-10-01' ],
+    'strict-transport-security': [ 'max-age=15724800; includeSubDomains' ],
+    'x-ratelimit-limit-requests': [ '10000' ],
+    'x-ratelimit-limit-tokens': [ '60000' ],
+    'x-ratelimit-limit-tokens_usage_based': [ '60000' ],
+    'x-ratelimit-remaining-requests': [ '9999' ],
+    'x-ratelimit-remaining-tokens': [ '59761' ],
+    'x-ratelimit-remaining-tokens_usage_based': [ '59761' ],
+    'x-ratelimit-reset-requests': [ '8.64s' ],
+    'x-ratelimit-reset-tokens': [ '239ms' ],
+    'x-ratelimit-reset-tokens_usage_based': [ '239ms' ],
+    'x-request-id': [ 'b398b820cff2e0cc46220689874a5447' ],
+    'cf-cache-status': [ 'DYNAMIC' ],
+    'set-cookie': [
+      '__cf_bm=ngyu6C6WTFq6r8pI2GHTEDXaLjZd9A_lVnr0LW83Jq4-1702071954-1-AURIbc2AZw8VZXP6kpHIpXx9WQVoiqhvs58K8BWS3Y55jDOITYjbXZUus1vu2j9YhkVNd+fZEh6DxcB2CBfP2/8=; path=/; expires=Fri, 08-Dec-23 22:15:54 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None',
+      '_cfuvid=GGEZGXg1DgvpaEZKdiakJmLol_K9XLj3Ac8csB7bim0-1702071954904-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'
+    ],
+    server: [ 'cloudflare' ],
+    'cf-ray': [ '832832af4f955b94-VIE' ],
+    'content-encoding': [ 'gzip' ],
+    'alt-svc': [ 'h3=":443"; ma=86400' ]
+  }
+} {
+  id: 'chatcmpl-8TcxO2cwGMtur5rZuOhmhSdLviZq8',
+  object: 'chat.completion',
+  created: 1702071954,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 197, completion_tokens: 27, total_tokens: 224 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+23:45:54.970 - OpenAICocktailBot 'alcohol' completion returned successfully.
+23:45:54.974 - {
+  id: 'chatcmpl-8TcxO2cwGMtur5rZuOhmhSdLviZq8',
+  object: 'chat.completion',
+  created: 1702071954,
+  model: 'gpt-3.5-turbo-1106',
+  choices: [ { index: 0, message: [Object], finish_reason: 'stop' } ],
+  usage: { prompt_tokens: 197, completion_tokens: 27, total_tokens: 224 },
+  system_fingerprint: 'fp_eeff13170a'
+}
+23:45:54.975 - result: {
+  role: 'assistant',
+  content: 'Tropical Sunset, 4 cl rum, 5 cl ananas juice, 3 cl orange juice, 2 cl cherry juice'
+}
+23:45:54.977 - tokens: 224
+23:45:54.979 - [ '4', 'cl', 'rum' ]
+23:45:54.983 - [ '5', 'cl', 'ananas', 'juice' ]
+23:45:54.985 - [ '3', 'cl', 'orange', 'juice' ]
+23:45:54.988 - [ '2', 'cl', 'cherry', 'juice' ]
+23:45:54.991 - Tropical Sunset: 4.0 cl rum, 5.0 cl ananas juice, 2.0 cl cherry juice, 3.0 cl orange juice
+23:45:54.993 - Starting dispensing recipe 'Tropical Sunset'...
+23:45:54.995 - Ingredients: 0 0 4 0 5 2 3 0 0 0 0 0
+23:45:54.996 - Drink size: 14
+23:45:54.999 - Dispensing 4 cl of rum over 22.0 s...
+23:45:55.000 - Dispensing 5 cl of ananas juice over 27.5 s...
+23:45:55.002 - Dispensing 2 cl of cherry juice over 11.0 s...
+23:45:55.003 - Dispensing 3 cl of orange juice over 16.5 s...
+23:45:55.057 - LED #1 off
+23:45:55.107 - LED #2 off
+23:45:55.139 - LED #1 on
+23:45:55.152 - LED #2 on
+23:45:55.243 - LED #1 off
+23:45:55.257 - LED #2 off
+23:45:55.340 - LED #1 on
+23:45:55.353 - LED #2 on
+23:45:55.443 - LED #1 off
+23:45:55.457 - LED #2 off
+23:45:55.542 - LED #1 on
+23:45:55.554 - LED #2 on
+23:45:55.644 - LED #1 off
+23:45:55.658 - LED #2 off
+23:45:55.744 - LED #1 on
+23:45:55.754 - LED #2 on
+23:45:55.847 - LED #1 off
+23:45:55.858 - LED #2 off
+23:45:55.944 - LED #1 on
+23:45:55.955 - LED #2 on
+23:45:56.048 - LED #1 off
+23:45:56.058 - LED #2 off
+23:45:56.146 - LED #1 on
+23:45:56.156 - LED #2 on
+23:45:56.250 - LED #1 off
+23:45:56.259 - LED #2 off
+23:45:56.348 - LED #1 on
+23:45:56.356 - LED #2 on
+23:45:56.450 - LED #1 off
+23:45:56.460 - LED #2 off
+23:45:56.549 - LED #1 on
+23:45:56.557 - LED #2 on
+23:45:56.658 - LED #1 off
+23:45:56.662 - LED #2 off
+23:45:56.750 - LED #1 on
+23:45:56.757 - LED #2 on
+23:45:56.859 - LED #1 off
+23:45:56.861 - LED #2 off
+23:45:56.950 - LED #1 on
+23:45:56.958 - LED #2 on
+23:45:57.054 - LED #1 off
+23:45:57.061 - LED #2 off
+23:45:57.152 - LED #1 on
+23:45:57.159 - LED #2 on
+23:45:57.256 - LED #1 off
+23:45:57.261 - LED #2 off
+23:45:57.353 - LED #1 on
+23:45:57.359 - LED #2 on
+23:45:57.458 - LED #1 off
+23:45:57.461 - LED #2 off
+23:45:57.553 - LED #1 on
+23:45:57.566 - LED #2 on
+23:45:57.666 - LED #1 off
+23:45:57.672 - LED #2 off
+23:45:57.757 - LED #1 on
+23:45:57.768 - LED #2 on
+23:45:57.864 - LED #1 off
+23:45:57.872 - LED #2 off
+23:45:57.959 - LED #1 on
+23:45:57.968 - LED #2 on
+23:45:58.069 - LED #1 off
+23:45:58.072 - LED #2 off
+23:45:58.160 - LED #1 on
+23:45:58.169 - LED #2 on
+23:45:58.264 - LED #1 off
+23:45:58.282 - LED #2 off
+23:45:58.361 - LED #1 on
+23:45:58.369 - LED #2 on
+23:45:58.464 - LED #1 off
+23:45:58.473 - LED #2 off
+23:45:58.567 - LED #1 on
+23:45:58.570 - LED #2 on
+23:45:58.670 - LED #1 off
+23:45:58.673 - LED #2 off
+23:45:58.767 - LED #1 on
+23:45:58.770 - LED #2 on
+23:45:58.873 - LED #1 off
+23:45:58.876 - LED #2 off
+23:45:58.974 - LED #1 on
+23:45:58.976 - LED #2 on
+23:45:59.081 - LED #1 off
+23:45:59.083 - LED #2 off
+23:45:59.176 - LED #1 on
+23:45:59.178 - LED #2 on
+23:45:59.282 - LED #1 off
+23:45:59.284 - LED #2 off
+23:45:59.376 - LED #1 on
+23:45:59.380 - LED #2 on
+23:45:59.480 - LED #1 off
+23:45:59.482 - LED #2 off
+23:45:59.579 - LED #1 on
+23:45:59.582 - LED #2 on
+23:45:59.686 - LED #1 off
+23:45:59.691 - LED #2 off
+23:45:59.780 - LED #1 on
+23:45:59.783 - LED #2 on
+23:45:59.883 - LED #1 off
+23:45:59.894 - LED #2 off
+23:45:59.987 - LED #1 on
+23:45:59.994 - LED #2 on
+23:46:00.101 - LED #1 off
+23:46:00.105 - LED #2 off
+23:46:00.188 - LED #1 on
+23:46:00.195 - LED #2 on
+23:46:00.295 - LED #1 off
+23:46:00.297 - LED #2 off
+23:46:00.390 - LED #1 on
+23:46:00.399 - LED #2 on
+23:46:00.532 - LED #1 off
+23:46:00.534 - LED #2 off
+23:46:00.592 - LED #1 on
+23:46:00.600 - LED #2 on
+23:46:00.693 - LED #1 off
+23:46:00.705 - LED #2 off
+23:46:00.793 - LED #1 on
+23:46:00.815 - LED #2 on
+23:46:00.897 - LED #1 off
+23:46:00.924 - LED #2 off
+23:46:00.995 - LED #1 on
+23:46:01.019 - LED #2 on
+23:46:01.098 - LED #1 off
+23:46:01.123 - LED #2 off
+23:46:01.197 - LED #1 on
+23:46:01.220 - LED #2 on
+23:46:01.301 - LED #1 off
+23:46:01.343 - LED #2 off
+23:46:01.399 - LED #1 on
+23:46:01.420 - LED #2 on
+23:46:01.503 - LED #1 off
+23:46:01.524 - LED #2 off
+23:46:01.600 - LED #1 on
+23:46:01.624 - LED #2 on
+23:46:01.703 - LED #1 off
+23:46:01.727 - LED #2 off
+23:46:01.801 - LED #1 on
+23:46:01.824 - LED #2 on
+23:46:01.905 - LED #1 off
+23:46:01.928 - LED #2 off
+23:46:02.001 - LED #1 on
+23:46:02.025 - LED #2 on
+23:46:02.106 - LED #1 off
+23:46:02.128 - LED #2 off
+23:46:02.202 - LED #1 on
+23:46:02.226 - LED #2 on
+23:46:02.306 - LED #1 off
+23:46:02.329 - LED #2 off
+23:46:02.404 - LED #1 on
+23:46:02.427 - LED #2 on
+23:46:02.522 - LED #1 off
+23:46:02.539 - LED #2 off
+23:46:02.605 - LED #1 on
+23:46:02.628 - LED #2 on
+23:46:02.708 - LED #1 off
+23:46:02.730 - LED #2 off
+23:46:02.806 - LED #1 on
+23:46:02.828 - LED #2 on
+23:46:02.921 - LED #1 off
+23:46:02.932 - LED #2 off
+23:46:03.006 - LED #1 on
+23:46:03.029 - LED #2 on
+23:46:03.108 - LED #1 off
+23:46:03.132 - LED #2 off
+23:46:03.207 - LED #1 on
+23:46:03.230 - LED #2 on
+23:46:03.318 - LED #1 off
+23:46:03.334 - LED #2 off
+23:46:03.408 - LED #1 on
+23:46:03.430 - LED #2 on
+23:46:03.511 - LED #1 off
+23:46:03.532 - LED #2 off
+23:46:03.608 - LED #1 on
+23:46:03.630 - LED #2 on
+23:46:03.712 - LED #1 off
+23:46:03.734 - LED #2 off
+23:46:03.810 - LED #1 on
+23:46:03.832 - LED #2 on
+23:46:03.913 - LED #1 off
+23:46:03.935 - LED #2 off
+23:46:04.010 - LED #1 on
+23:46:04.034 - LED #2 on
+23:46:04.116 - LED #1 off
+23:46:04.138 - LED #2 off
+23:46:04.212 - LED #1 on
+23:46:04.236 - LED #2 on
+23:46:04.314 - LED #1 off
+23:46:04.344 - LED #2 off
+23:46:04.427 - LED #1 on
+23:46:04.442 - LED #2 on
+23:46:04.543 - LED #1 off
+23:46:04.546 - LED #2 off
+23:46:04.628 - LED #1 on
+23:46:04.647 - LED #2 on
+23:46:04.733 - LED #1 off
+23:46:04.753 - LED #2 off
+23:46:04.828 - LED #1 on
+23:46:04.855 - LED #2 on
+23:46:04.941 - LED #1 off
+23:46:04.989 - LED #2 off
+23:46:05.031 - LED #1 on
+23:46:05.057 - LED #2 on
+23:46:05.137 - LED #1 off
+23:46:05.161 - LED #2 off
+23:46:05.231 - LED #1 on
+23:46:05.258 - LED #2 on
+23:46:05.335 - LED #1 off
+23:46:05.362 - LED #2 off
+23:46:05.436 - LED #1 on
+23:46:05.460 - LED #2 on
+23:46:05.548 - LED #1 off
+23:46:05.565 - LED #2 off
+23:46:05.638 - LED #1 on
+23:46:05.660 - LED #2 on
+23:46:05.745 - LED #1 off
+23:46:05.764 - LED #2 off
+23:46:05.838 - LED #1 on
+23:46:05.862 - LED #2 on
+23:46:05.943 - LED #1 off
+23:46:05.965 - LED #2 off
+23:46:06.017 - Dispensing cherry juice finished.
+23:46:06.040 - LED #1 on
+23:46:06.062 - LED #2 on
+23:46:06.148 - LED #1 off
+23:46:06.167 - LED #2 off
+23:46:06.240 - LED #1 on
+23:46:06.267 - LED #2 on
+23:46:06.343 - LED #1 off
+23:46:06.372 - LED #2 off
+23:46:06.441 - LED #1 on
+23:46:06.468 - LED #2 on
+23:46:06.545 - LED #1 off
+23:46:06.571 - LED #2 off
+23:46:06.642 - LED #1 on
+23:46:06.669 - LED #2 on
+23:46:06.746 - LED #1 off
+23:46:06.773 - LED #2 off
+23:46:06.843 - LED #1 on
+23:46:06.869 - LED #2 on
+23:46:06.945 - LED #1 off
+23:46:06.973 - LED #2 off
+23:46:07.046 - LED #1 on
+23:46:07.070 - LED #2 on
+23:46:07.149 - LED #1 off
+23:46:07.184 - LED #2 off
+23:46:07.250 - LED #1 on
+23:46:07.271 - LED #2 on
+23:46:07.355 - LED #1 off
+23:46:07.374 - LED #2 off
+23:46:07.450 - LED #1 on
+23:46:07.471 - LED #2 on
+23:46:07.556 - LED #1 off
+23:46:07.578 - LED #2 off
+23:46:07.652 - LED #1 on
+23:46:07.672 - LED #2 on
+23:46:07.760 - LED #1 off
+23:46:07.775 - LED #2 off
+23:46:07.854 - LED #1 on
+23:46:07.874 - LED #2 on
+23:46:07.963 - LED #1 off
+23:46:07.981 - LED #2 off
+23:46:08.054 - LED #1 on
+23:46:08.076 - LED #2 on
+23:46:08.157 - LED #1 off
+23:46:08.179 - LED #2 off
+23:46:08.254 - LED #1 on
+23:46:08.277 - LED #2 on
+23:46:08.387 - LED #1 off
+23:46:08.394 - LED #2 off
+23:46:08.455 - LED #1 on
+23:46:08.478 - LED #2 on
+23:46:08.561 - LED #1 off
+23:46:08.581 - LED #2 off
+23:46:08.657 - LED #1 on
+23:46:08.678 - LED #2 on
+23:46:08.759 - LED #1 off
+23:46:08.784 - LED #2 off
+23:46:08.857 - LED #1 on
+23:46:08.879 - LED #2 on
+23:46:08.960 - LED #1 off
+23:46:08.983 - LED #2 off
+23:46:09.059 - LED #1 on
+23:46:09.081 - LED #2 on
+23:46:09.164 - LED #1 off
+23:46:09.185 - LED #2 off
+23:46:09.260 - LED #1 on
+23:46:09.293 - LED #2 on
+23:46:09.363 - LED #1 off
+23:46:09.396 - LED #2 off
+23:46:09.462 - LED #1 on
+23:46:09.496 - LED #2 on
+23:46:09.574 - LED #1 off
+23:46:09.600 - LED #2 off
+23:46:09.663 - LED #1 on
+23:46:09.697 - LED #2 on
+23:46:09.767 - LED #1 off
+23:46:09.801 - LED #2 off
+23:46:09.863 - LED #1 on
+23:46:09.902 - LED #2 on
+23:46:09.967 - LED #1 off
+23:46:10.008 - LED #2 off
+23:46:10.064 - LED #1 on
+23:46:10.105 - LED #2 on
+23:46:10.167 - LED #1 off
+23:46:10.213 - LED #2 off
+23:46:10.265 - LED #1 on
+23:46:10.310 - LED #2 on
+23:46:10.368 - LED #1 off
+23:46:10.413 - LED #2 off
+23:46:10.466 - LED #1 on
+23:46:10.510 - LED #2 on
+23:46:10.569 - LED #1 off
+23:46:10.612 - LED #2 off
+23:46:10.667 - LED #1 on
+23:46:10.711 - LED #2 on
+23:46:10.770 - LED #1 off
+23:46:10.815 - LED #2 off
+23:46:10.869 - LED #1 on
+23:46:10.912 - LED #2 on
+23:46:10.973 - LED #1 off
+23:46:11.016 - LED #2 off
+23:46:11.069 - LED #1 on
+23:46:11.113 - LED #2 on
+23:46:11.174 - LED #1 off
+23:46:11.217 - LED #2 off
+23:46:11.272 - LED #1 on
+23:46:11.315 - LED #2 on
+23:46:11.378 - LED #1 off
+23:46:11.428 - LED #2 off
+23:46:11.477 - LED #1 on
+23:46:11.516 - LED #2 on
+23:46:11.523 - Dispensing orange juice finished.
+23:46:11.581 - LED #1 off
+23:46:11.622 - LED #2 off
+23:46:11.679 - LED #1 on
+23:46:11.717 - LED #2 on
+23:46:11.782 - LED #1 off
+23:46:11.822 - LED #2 off
+23:46:11.881 - LED #1 on
+23:46:11.918 - LED #2 on
+23:46:11.986 - LED #1 off
+23:46:12.023 - LED #2 off
+23:46:12.081 - LED #1 on
+23:46:12.131 - LED #2 on
+23:46:12.204 - LED #1 off
+23:46:12.236 - LED #2 off
+23:46:12.303 - LED #1 on
+23:46:12.332 - LED #2 on
+23:46:12.408 - LED #1 off
+23:46:12.435 - LED #2 off
+23:46:12.505 - LED #1 on
+23:46:12.533 - LED #2 on
+23:46:12.607 - LED #1 off
+23:46:12.636 - LED #2 off
+23:46:12.708 - LED #1 on
+23:46:12.733 - LED #2 on
+23:46:12.811 - LED #1 off
+23:46:12.840 - LED #2 off
+23:46:12.910 - LED #1 on
+23:46:12.935 - LED #2 on
+23:46:13.014 - LED #1 off
+23:46:13.039 - LED #2 off
+23:46:13.111 - LED #1 on
+23:46:13.135 - LED #2 on
+23:46:13.215 - LED #1 off
+23:46:13.241 - LED #2 off
+23:46:13.317 - LED #1 on
+23:46:13.337 - LED #2 on
+23:46:13.423 - LED #1 off
+23:46:13.452 - LED #2 off
+23:46:13.517 - LED #1 on
+23:46:13.542 - LED #2 on
+23:46:13.620 - LED #1 off
+23:46:13.644 - LED #2 off
+23:46:13.719 - LED #1 on
+23:46:13.745 - LED #2 on
+23:46:13.824 - LED #1 off
+23:46:13.851 - LED #2 off
+23:46:13.919 - LED #1 on
+23:46:13.947 - LED #2 on
+23:46:14.023 - LED #1 off
+23:46:14.050 - LED #2 off
+23:46:14.120 - LED #1 on
+23:46:14.148 - LED #2 on
+23:46:14.225 - LED #1 off
+23:46:14.251 - LED #2 off
+23:46:14.321 - LED #1 on
+23:46:14.348 - LED #2 on
+23:46:14.425 - LED #1 off
+23:46:14.453 - LED #2 off
+23:46:14.522 - LED #1 on
+23:46:14.550 - LED #2 on
+23:46:14.625 - LED #1 off
+23:46:14.653 - LED #2 off
+23:46:14.722 - LED #1 on
+23:46:14.750 - LED #2 on
+23:46:14.829 - LED #1 off
+23:46:14.853 - LED #2 off
+23:46:14.922 - LED #1 on
+23:46:14.952 - LED #2 on
+23:46:15.024 - LED #1 off
+23:46:15.055 - LED #2 off
+23:46:15.123 - LED #1 on
+23:46:15.161 - LED #2 on
+23:46:15.228 - LED #1 off
+23:46:15.266 - LED #2 off
+23:46:15.324 - LED #1 on
+23:46:15.362 - LED #2 on
+23:46:15.428 - LED #1 off
+23:46:15.470 - LED #2 off
+23:46:15.525 - LED #1 on
+23:46:15.565 - LED #2 on
+23:46:15.627 - LED #1 off
+23:46:15.671 - LED #2 off
+23:46:15.725 - LED #1 on
+23:46:15.767 - LED #2 on
+23:46:15.834 - LED #1 off
+23:46:15.870 - LED #2 off
+23:46:15.926 - LED #1 on
+23:46:15.967 - LED #2 on
+23:46:16.029 - LED #1 off
+23:46:16.072 - LED #2 off
+23:46:16.127 - LED #1 on
+23:46:16.168 - LED #2 on
+23:46:16.232 - LED #1 off
+23:46:16.271 - LED #2 off
+23:46:16.328 - LED #1 on
+23:46:16.369 - LED #2 on
+23:46:16.435 - LED #1 off
+23:46:16.471 - LED #2 off
+23:46:16.529 - LED #1 on
+23:46:16.570 - LED #2 on
+23:46:16.631 - LED #1 off
+23:46:16.688 - LED #2 off
+23:46:16.730 - LED #1 on
+23:46:16.771 - LED #2 on
+23:46:16.832 - LED #1 off
+23:46:16.879 - LED #2 off
+23:46:16.934 - LED #1 on
+23:46:16.979 - LED #2 on
+23:46:17.031 - Dispensing rum finished.
+23:46:17.036 - LED #1 off
+23:46:17.083 - LED #2 off
+23:46:17.138 - LED #1 on
+23:46:17.180 - LED #2 on
+23:46:17.243 - LED #1 off
+23:46:17.292 - LED #2 off
+23:46:17.341 - LED #1 on
+23:46:17.381 - LED #2 on
+23:46:17.444 - LED #1 off
+23:46:17.493 - LED #2 off
+23:46:17.542 - LED #1 on
+23:46:17.587 - LED #2 on
+23:46:17.655 - LED #1 off
+23:46:17.706 - LED #2 off
+23:46:17.744 - LED #1 on
+23:46:17.787 - LED #2 on
+23:46:17.861 - LED #1 off
+23:46:17.893 - LED #2 off
+23:46:17.945 - LED #1 on
+23:46:17.989 - LED #2 on
+23:46:18.051 - LED #1 off
+23:46:18.093 - LED #2 off
+23:46:18.146 - LED #1 on
+23:46:18.191 - LED #2 on
+23:46:18.248 - LED #1 off
+23:46:18.295 - LED #2 off
+23:46:18.347 - LED #1 on
+23:46:18.391 - LED #2 on
+23:46:18.451 - LED #1 off
+23:46:18.496 - LED #2 off
+23:46:18.548 - LED #1 on
+23:46:18.592 - LED #2 on
+23:46:18.656 - LED #1 off
+23:46:18.696 - LED #2 off
+23:46:18.749 - LED #1 on
+23:46:18.793 - LED #2 on
+23:46:18.854 - LED #1 off
+23:46:18.898 - LED #2 off
+23:46:18.951 - LED #1 on
+23:46:18.999 - LED #2 on
+23:46:19.074 - LED #1 off
+23:46:19.105 - LED #2 off
+23:46:19.154 - LED #1 on
+23:46:19.199 - LED #2 on
+23:46:19.264 - LED #1 off
+23:46:19.304 - LED #2 off
+23:46:19.355 - LED #1 on
+23:46:19.401 - LED #2 on
+23:46:19.457 - LED #1 off
+23:46:19.508 - LED #2 off
+23:46:19.556 - LED #1 on
+23:46:19.603 - LED #2 on
+23:46:19.658 - LED #1 off
+23:46:19.705 - LED #2 off
+23:46:19.758 - LED #1 on
+23:46:19.803 - LED #2 on
+23:46:19.861 - LED #1 off
+23:46:19.907 - LED #2 off
+23:46:19.960 - LED #1 on
+23:46:20.010 - LED #2 on
+23:46:20.062 - LED #1 off
+23:46:20.115 - LED #2 off
+23:46:20.160 - LED #1 on
+23:46:20.211 - LED #2 on
+23:46:20.263 - LED #1 off
+23:46:20.315 - LED #2 off
+23:46:20.363 - LED #1 on
+23:46:20.411 - LED #2 on
+23:46:20.468 - LED #1 off
+23:46:20.517 - LED #2 off
+23:46:20.564 - LED #1 on
+23:46:20.612 - LED #2 on
+23:46:20.666 - LED #1 off
+23:46:20.717 - LED #2 off
+23:46:20.766 - LED #1 on
+23:46:20.818 - LED #2 on
+23:46:20.870 - LED #1 off
+23:46:20.927 - LED #2 off
+23:46:20.967 - LED #1 on
+23:46:21.019 - LED #2 on
+23:46:21.070 - LED #1 off
+23:46:21.123 - LED #2 off
+23:46:21.167 - LED #1 on
+23:46:21.221 - LED #2 on
+23:46:21.270 - LED #1 off
+23:46:21.325 - LED #2 off
+23:46:21.368 - LED #1 on
+23:46:21.424 - LED #2 on
+23:46:21.477 - LED #1 off
+23:46:21.540 - LED #2 off
+23:46:21.570 - LED #1 on
+23:46:21.625 - LED #2 on
+23:46:21.673 - LED #1 off
+23:46:21.728 - LED #2 off
+23:46:21.770 - LED #1 on
+23:46:21.825 - LED #2 on
+23:46:21.873 - LED #1 off
+23:46:21.934 - LED #2 off
+23:46:21.971 - LED #1 on
+23:46:22.026 - LED #2 on
+23:46:22.075 - LED #1 off
+23:46:22.130 - LED #2 off
+23:46:22.175 - LED #1 on
+23:46:22.234 - LED #2 on
+23:46:22.279 - LED #1 off
+23:46:22.339 - LED #2 off
+23:46:22.376 - LED #1 on
+23:46:22.437 - LED #2 on
+23:46:22.485 - LED #1 off
+23:46:22.533 - Dispensing ananas juice finished.
+23:46:22.535 - Recipe 'Tropical Sunset' dispensed.
+23:46:22.537 - All LEDs off
+23:46:22.538 - Dispensing finished.
+23:46:22.540 - LED #2 off
+23:46:22.576 - LED #1 on
+23:46:22.681 - LED #1 off
+23:46:22.777 - LED #1 on
+23:46:22.880 - LED #1 off
+23:46:22.978 - LED #1 on
+23:46:23.081 - LED #1 off
+23:46:23.178 - LED #1 on
+23:46:23.283 - LED #1 off
+23:46:23.379 - LED #1 on
+23:46:23.483 - LED #1 off
+23:46:23.583 - LED #1 on
+23:46:23.686 - LED #1 off
+23:46:23.784 - LED #1 on
+23:46:23.891 - LED #1 off
+23:46:23.991 - LED #1 on
+23:46:24.095 - LED #1 off
+23:46:24.193 - LED #1 on
+23:46:24.295 - LED #1 off
+23:46:24.393 - LED #1 on
+23:46:24.497 - LED #1 off
+23:46:24.594 - LED #1 on
+23:46:24.697 - LED #1 off
+23:46:24.795 - LED #1 on
+23:46:24.899 - LED #1 off
+23:46:24.998 - LED #1 on
+23:46:25.103 - LED #1 off
+23:46:25.200 - LED #1 on
+23:46:25.304 - LED #1 off
+23:46:25.401 - LED #1 on
+23:46:25.510 - LED #1 off
+23:46:25.601 - LED #1 on
+23:46:25.708 - LED #1 off
+23:46:25.802 - LED #1 on
+23:46:25.907 - LED #1 off
+23:46:26.003 - LED #1 on
+23:46:26.106 - LED #1 off
+23:46:26.204 - LED #1 on
+23:46:26.306 - LED #1 off
+23:46:26.406 - LED #1 on
+23:46:26.510 - LED #1 off
+23:46:26.607 - LED #1 on
+23:46:26.709 - LED #1 off
+23:46:26.807 - LED #1 on
+23:46:26.911 - LED #1 off
+23:46:27.008 - LED #1 on
+23:46:27.112 - LED #1 off
+23:46:27.210 - LED #1 on
+23:46:27.313 - LED #1 off
+23:46:27.411 - LED #1 on
+23:46:27.518 - LED #1 off
+23:46:27.612 - LED #1 on
+23:46:27.716 - LED #1 off
+23:46:27.813 - LED #1 on
+23:46:27.916 - LED #1 off
+23:46:28.013 - LED #1 on
+23:46:28.127 - LED #1 off
+23:46:28.214 - LED #1 on
+23:46:28.318 - LED #1 off
+23:46:28.416 - LED #1 on
+23:46:28.519 - LED #1 off
+23:46:28.616 - LED #1 on
+23:46:28.720 - LED #1 off
+23:46:28.816 - LED #1 on
+23:46:28.921 - LED #1 off
+23:46:29.018 - LED #1 on
+23:46:29.120 - LED #1 off
+23:46:29.219 - LED #1 on
+23:46:29.324 - LED #1 off
+23:46:29.419 - LED #1 on
+23:46:29.523 - LED #1 off
+23:46:29.621 - LED #1 on
+23:46:29.724 - LED #1 off
+23:46:29.821 - LED #1 on
+23:46:29.924 - LED #1 off
+23:46:30.023 - LED #1 on
+23:46:30.127 - LED #1 off
+23:46:30.225 - LED #1 on
+23:46:30.329 - LED #1 off
+23:46:30.426 - LED #1 on
+23:46:30.529 - LED #1 off
+23:46:30.627 - LED #1 on
+23:46:30.735 - LED #1 off
+23:46:30.827 - LED #1 on
+23:46:30.929 - LED #1 off
+23:46:31.027 - LED #1 on
+23:46:31.131 - LED #1 off
+23:46:31.228 - LED #1 on
+23:46:31.331 - LED #1 off
+23:46:31.434 - LED #1 on
+23:46:31.544 - LED #1 off
+23:46:31.635 - LED #1 on
+23:46:31.738 - LED #1 off
+23:46:31.835 - LED #1 on
+23:46:31.939 - LED #1 off
+23:46:32.038 - LED #1 on
+23:46:32.141 - LED #1 off
+23:46:32.239 - LED #1 on
+23:46:32.342 - LED #1 off
+23:46:32.439 - LED #1 on
+23:46:32.542 - LED #1 off
+23:46:32.640 - LED #1 on
+23:46:32.743 - LED #1 off
+23:46:32.841 - LED #1 on
+23:46:32.944 - LED #1 off
+23:46:33.041 - LED #1 on
+23:46:33.143 - LED #1 off
+23:46:33.241 - LED #1 on
+23:46:33.345 - LED #1 off
+23:46:33.443 - LED #1 on
+23:46:33.547 - LED #1 off
+23:46:33.644 - LED #1 on
+23:46:33.748 - LED #1 off
+23:46:33.845 - LED #1 on
+23:46:33.947 - LED #1 off
+23:46:34.045 - LED #1 on
+23:46:34.148 - LED #1 off
+23:46:34.247 - LED #1 on
+23:46:34.350 - LED #1 off
+23:46:34.448 - LED #1 on
+23:46:34.551 - LED #1 off
+23:46:34.648 - LED #1 on
+23:46:34.752 - LED #1 off
+23:46:34.850 - LED #1 on
+23:46:34.958 - LED #1 off
+23:46:35.051 - LED #1 on
+23:46:35.153 - LED #1 off
+23:46:35.252 - LED #1 on
+23:46:35.363 - LED #1 off
+23:46:35.453 - LED #1 on
+23:46:35.557 - LED #1 off
+23:46:35.655 - LED #1 on
+23:46:35.758 - LED #1 off
+23:46:35.857 - LED #1 on
+23:46:35.960 - LED #1 off
+23:46:36.057 - LED #1 on
+23:46:36.163 - LED #1 off
+23:46:36.257 - LED #1 on
+23:46:36.359 - LED #1 off
+23:46:36.458 - LED #1 on
+23:46:36.563 - LED #1 off
+23:46:36.658 - LED #1 on
+23:46:36.762 - LED #1 off
+23:46:36.858 - LED #1 on
+23:46:36.961 - LED #1 off
+23:46:37.059 - LED #1 on
+23:46:37.164 - LED #1 off
+23:46:37.260 - LED #1 on
+23:46:37.363 - LED #1 off
+23:46:37.461 - LED #1 on
+23:46:37.564 - LED #1 off
+23:46:37.662 - LED #1 on
+23:46:37.765 - LED #1 off
+23:46:37.863 - LED #1 on
+23:46:37.967 - LED #1 off
+23:46:38.063 - LED #1 on
+23:46:38.167 - LED #1 off
+23:46:38.271 - LED #1 on
+23:46:38.375 - LED #1 off
+23:46:38.471 - LED #1 on
+23:46:38.573 - LED #1 off
+23:46:38.676 - LED #1 on
+23:46:38.779 - LED #1 off
+23:46:38.878 - LED #1 on
+23:46:38.983 - LED #1 off
+23:46:39.079 - LED #1 on
+23:46:39.191 - LED #1 off
+23:46:39.279 - LED #1 on
+23:46:39.385 - LED #1 off
+23:46:39.480 - LED #1 on
+23:46:39.585 - LED #1 off
+23:46:39.681 - LED #1 on
+23:46:39.791 - LED #1 off
+23:46:39.883 - LED #1 on
+23:46:39.987 - LED #1 off
+23:46:40.083 - LED #1 on
+23:46:40.187 - LED #1 off
+23:46:40.284 - LED #1 on
+23:46:40.390 - LED #1 off
+23:46:40.485 - LED #1 on
+23:46:40.587 - LED #1 off
+23:46:40.686 - LED #1 on
+23:46:40.791 - LED #1 off
+23:46:40.887 - LED #1 on
+23:46:40.993 - LED #1 off
+23:46:41.087 - LED #1 on
+23:46:41.191 - LED #1 off
+23:46:41.289 - LED #1 on
+23:46:41.394 - LED #1 off
+23:46:41.489 - LED #1 on
+23:46:41.591 - LED #1 off
+23:46:41.695 - LED #1 on
+23:46:41.801 - LED #1 off
+23:46:41.895 - LED #1 on
+23:46:41.999 - LED #1 off
+23:46:42.098 - LED #1 on
+23:46:42.203 - LED #1 off
+23:46:42.299 - LED #1 on
+23:46:42.403 - LED #1 off
+23:46:42.501 - LED #1 on
+23:46:42.603 - LED #1 off
+23:46:42.702 - LED #1 on
+23:46:42.805 - LED #1 off
+23:46:42.904 - LED #1 on
+23:46:43.007 - LED #1 off
+23:46:43.106 - LED #1 on
+23:46:43.229 - LED #1 off
+23:46:43.307 - LED #1 on
+23:46:43.412 - LED #1 off
+23:46:43.507 - LED #1 on
+23:46:43.611 - LED #1 off
+23:46:43.708 - LED #1 on
+23:46:43.811 - LED #1 off
+23:46:43.909 - LED #1 on
+23:46:44.013 - LED #1 off
+23:46:44.109 - LED #1 on
+23:46:44.212 - LED #1 off
+23:46:44.310 - LED #1 on
+23:46:44.413 - LED #1 off
+23:46:44.511 - LED #1 on
+23:46:44.619 - LED #1 off
+23:46:44.711 - LED #1 on
+23:46:44.815 - LED #1 off
+23:46:44.912 - LED #1 on
+23:46:45.016 - LED #1 off
+23:46:45.114 - LED #1 on
+23:46:45.219 - LED #1 off
+23:46:45.315 - LED #1 on
+23:46:45.418 - LED #1 off
+23:46:45.519 - LED #1 on
+23:46:45.629 - LED #1 off
+23:46:45.720 - LED #1 on
+23:46:45.827 - LED #1 off
+23:46:45.920 - LED #1 on
+23:46:46.024 - LED #1 off
+23:46:46.122 - LED #1 on
+23:46:46.225 - LED #1 off
+23:46:46.323 - LED #1 on
+23:46:46.427 - LED #1 off
+23:46:46.524 - LED #1 on
+23:46:46.627 - LED #1 off
+23:46:46.724 - LED #1 on
+23:46:46.797 - Exiting Karl-Isis the 25001. Have a nice day, bye-bye.
+23:46:46.824 - key pressed: c
+23:46:46.875 - LED #1 off
