@@ -40,7 +40,8 @@ rl.on('line', (line) => {
 
     buffer[0] = buffer[1];
     buffer[1] = buffer[2];
-    buffer[2] = line;
+    buffer[2] = buffer[3];
+	buffer[3] = line;
     //console.log(`Line from file: ${line}`);
 
     //const regex = /\d{2}-\d{2}-\d{2}\.\d{3}/g
@@ -55,10 +56,12 @@ rl.on('line', (line) => {
         let time = result[1];
         //let ingredients = result[2].split(" ");     // array of amounts
 
+		// search for recipe name for GPT recipe
         if (debug) console.log(buffer[0]);
         let result2 = buffer[0].match(regexLogLineRecipe);
 
         if (result2 == null) {
+			// random recipe
             result2 = {
                 groups: {
                     name: "random cocktail",
@@ -99,7 +102,7 @@ writeFile(outFile, dataCSV, 'utf8')
     console.log("output written to", outFile);
   })
   .catch((error) => {
-
+	  console.log("error writing file:", error);
   })
 
 /*
