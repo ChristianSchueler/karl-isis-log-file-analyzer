@@ -1,0 +1,110 @@
+time;name;vodka;gin;rum;blue curacao;ananas juice;cherry juice;orange juice;bitter lemon;tonic water;herbal lemonade;bitter orange sirup;soda;recipe
+21:32:55.697;AI-toast to the Future;0;0;3;0;3,5;0;0;0;0;0;0;0;3.0 cl rum, 3.5 cl ananas juice
+21:36:58.670;Soda System Crash;0;0;0;3;0,5;0;2,5;0;0;0;0;0;3.0 cl blue curacao, 0.50 cl ananas juice, 2.5 cl orange juice
+21:38:20.534;Code Red Bramble;0;4;0;0;5;0;0;0;0;1,5;0;0;4.0 cl gin, 5.0 cl ananas juice, 1.5 cl herbal lemonade
+21:39:19.780;Botanical Byte;2;0;0;0;0;4;0;0,5;0;0;0;3;2.0 cl vodka, 4.0 cl cherry juice, 0.50 cl bitter lemon, 3.0 cl soda
+21:40:48.206;Quantum Quencher;0;3;0;0;2;0;3;0;0;0;0;0;3.0 cl gin, 2.0 cl ananas juice, 3.0 cl orange juice
+21:42:02.904;Robot Raspberry Riot;4;0;0;0;0;0;6;0;0;0;0;0;4.0 cl vodka, 6.0 cl orange juice
+21:44:00.659;Cyborg Citrus Bliss;0;0;2;0;2;0;0;0;0;0;4;0;2.0 cl rum, 2.0 cl ananas juice, 4.0 cl bitter orange sirup
+21:45:02.879;Neural Network Nectar;0;2;0;0;0;0;4;2;0;0;0;0;2.0 cl gin, 4.0 cl orange juice, 2.0 cl bitter lemon
+21:46:40.364;Binary Breeze;0;0;4;0;0;0;0;0;5;0;0;0;4.0 cl rum, 5.0 cl tonic water
+21:48:32.271;Encoded Elixir;0;0;0;2;3;0;3;0;0;0;0;0;2.0 cl blue curacao, 3.0 cl ananas juice, 3.0 cl orange juice
+21:49:41.439;Byte-sized Bliss;3;0;0;0;0;5;0;0;0;0;0;0;3.0 cl vodka, 5.0 cl cherry juice
+21:50:55.666;Debugging Daiquiri;0;4;0;0;0,5;0;0;0;0;3;0;1,5;4.0 cl gin, 0.50 cl ananas juice, 3.0 cl herbal lemonade, 1.5 cl soda
+21:52:16.022;Scripted Sipper;0;0;3;0;4;0;0;0,5;0;0;0;0;3.0 cl rum, 4.0 cl ananas juice, 0.50 cl bitter lemon
+21:53:45.548;Electro Lemonade;2;0;0;0;0;0;5;0;0;2;0;0;2.0 cl vodka, 5.0 cl orange juice, 2.0 cl herbal lemonade
+21:54:44.139;Geektastic Gulp;0;2;0;0;1,5;0;0;0;0;0;6;0;2.0 cl gin, 1.5 cl ananas juice, 6.0 cl bitter orange sirup
+21:55:52.487;Algorithmic Amaretto;0;0;4;0;0;2;0;0;5;0;0;0;4.0 cl rum, 2.0 cl cherry juice, 5.0 cl tonic water
+21:56:52.722;Tech Tonic Surge;0;3;0;0;0;0;0;0;0;6;0;0;3.0 cl gin, 6.0 cl herbal lemonade
+21:57:56.605;Syntax Seltzer;0;0;0;4;0;6;0;0;0;0;0;0;4.0 cl blue curacao, 6.0 cl cherry juice
+21:59:22.718;Robot Raspberry Riddle;0;2;4;0;0;0;1,5;0;0;0;0;0;2.0 cl gin, 4.0 cl rum, 1.5 cl orange juice
+22:00:26.037;Coded Dream;0;0;0;3;0;0;0;0;4;0;3;0;3.0 cl blue curacao, 4.0 cl tonic water, 3.0 cl bitter orange sirup
+22:02:01.944;Pixelated Punch;4;0;0;0;0;4;0;0;0;0;0;0;4.0 cl vodka, 4.0 cl cherry juice
+22:03:36.029;Data-Driven Delight;0;0;3;0;2;0;0;0,5;0;0;0;0;3.0 cl rum, 2.0 cl ananas juice, 0.50 cl bitter lemon
+22:04:43.567;non-alcoholic cocktail;0;0;0;0;4;2;0;4;0;4;0,5;3;4.0 cl ananas juice, 2.0 cl cherry juice, 4.0 cl bitter lemon, 4.0 cl herbal lemonade, 0.50 cl bitter orange sirup, 3.0 cl soda
+22:05:42.747;Binary Bliss Brew;0;4;0;0;0;0;0;0;3;0;0;0;4.0 cl gin, 3.0 cl tonic water
+22:06:43.814;Robot Remix Refreshment;0;0;4;0;0;0;0;0;6;0;0;0;4.0 cl rum, 6.0 cl tonic water
+22:07:56.739;non-alcoholic cocktail;0;0;0;0;4;2;0;0;4;0;0,5;4;4.0 cl ananas juice, 2.0 cl cherry juice, 4.0 cl tonic water, 0.50 cl bitter orange sirup, 4.0 cl soda
+22:10:18.426;random cocktail;0;0;2;0;2;0;4;0;0;2;0;0;2.0 cl rum, 2.0 cl ananas juice, 4.0 cl orange juice, 2.0 cl herbal lemonade
+22:11:20.885;Nerdy Nectar;0;3;0;0;0;0;1;0;5;0;0;0;3.0 cl gin, 1.0 cl orange juice, 5.0 cl tonic water
+22:17:20.839;Electromagnetic Elixir;2;0;0;0;6;0;0;0;0;0;0;0;2.0 cl vodka, 6.0 cl ananas juice
+22:19:50.798;Semantic Sips;0;0;0;2;3;0;4;0;0;0;0;0;2.0 cl blue curacao, 3.0 cl ananas juice, 4.0 cl orange juice
+22:21:35.706;Debugging Delight;0;3;0;0;0;0;6;0;0;0;0;0;3.0 cl gin, 6.0 cl orange juice
+22:22:50.511;AI-pple Fizz;0;0;4;0;3;2;0;0;0;0;0;0;4.0 cl rum, 3.0 cl ananas juice, 2.0 cl cherry juice
+22:24:32.925;Techno Tonic;3;0;0;0;0;1;0;0;0;0;2;3;3.0 cl vodka, 1.0 cl cherry juice, 2.0 cl bitter orange sirup, 3.0 cl soda
+22:27:29.581;Giga-byte Grog;0;0;0;4;0;3;0;0;0;0;0;0;4.0 cl blue curacao, 3.0 cl cherry juice
+22:29:32.144;Bot Bot Breezer;0;2;0;0;0;0;0;5;0;0;0;0;2.0 cl gin, 5.0 cl bitter lemon
+22:30:30.239;Circuit Cooler;2;0;0;0;0;0;6;0;0;0;0;0;2.0 cl vodka, 6.0 cl orange juice
+22:33:16.280;Sonic Sipper;0;0;4;0;4;0;0;0;0;0;0;0;4.0 cl rum, 4.0 cl ananas juice
+22:34:09.892;Coded Cloudburst;0;4;0;0;2;0;0;0;0;0;0;0;4.0 cl gin, 2.0 cl ananas juice
+22:35:02.154;non-alcoholic cocktail;0;0;0;0;0;5;0;0;0;0;0;5;5.0 cl cherry juice, 5.0 cl soda
+22:36:06.358;Binary Bloom;0;0;0;2;6;0;0;0;0;0;0;0;2.0 cl blue curacao, 6.0 cl ananas juice
+22:38:25.314;Algorithmic Ambrosia;0;3;0;0;0;5;0;0;0;0;0;0;3.0 cl gin, 5.0 cl cherry juice
+22:39:37.340;Soft-ware Spritz;0;0;0;2;2;0;0;0;2;0;0;0;2.0 cl blue curacao, 2.0 cl ananas juice, 2.0 cl tonic water
+22:42:07.599;Compiling Cooler;2;0;0;0;0;0;0;6;0;0;0;0;2.0 cl vodka, 6.0 cl bitter lemon
+22:43:09.227;Nerdy Nightcap;2;0;0;0;0;5;0;0;0;0;0;0;2.0 cl vodka, 5.0 cl cherry juice
+22:45:09.946;CYPHER & Tonic;0;3;0;0;6;0;0;0;0;0;0;0;3.0 cl gin, 6.0 cl ananas juice
+22:46:18.369;Electrolyte Escape;0;0;0;4;0;0;6;0;0;0;0;0;4.0 cl blue curacao, 6.0 cl orange juice
+22:47:26.602;Intelligent Infusion;0;0;3;0;0;0;4;0;0;0;0;0;3.0 cl rum, 4.0 cl orange juice
+22:48:55.362;Pixelated Paradise;0;2;0;0;0;0;5;0;0;0;0;0;2.0 cl gin, 5.0 cl orange juice
+22:49:51.311;Java Juice;0;4;0;0;0;0;3;0;0;0;0;0;4.0 cl gin, 3.0 cl orange juice
+22:50:58.381;Digital Delight;0;0;0;3;0;0;6;0;0;0;0;0;3.0 cl blue curacao, 6.0 cl orange juice
+22:53:57.365;Network Nectar;0;0;4;0;0;0;0;0;3;0;0;0;4.0 cl rum, 3.0 cl tonic water
+22:54:51.451;Hardwired Highball;0;0;0;4;0;3;0;0;0;0;0;0;4.0 cl blue curacao, 3.0 cl cherry juice
+22:55:43.755;Scripted Spritzer;0;3;0;0;0;0;0;0;5;0;0;0;3.0 cl gin, 5.0 cl tonic water
+22:58:59.506;Configurable Cooler;0;0;0;2;2;0;6;0;0;0;0;0;2.0 cl blue curacao, 2.0 cl ananas juice, 6.0 cl orange juice
+23:02:38.027;Mixology Matrix;2;0;0;0;0;0;2;0;0;0;4;0;2.0 cl vodka, 2.0 cl orange juice, 4.0 cl bitter orange sirup
+23:04:41.686;Compile and Conquer;0;0;3;0;0;0;3;0;3;0;0;0;3.0 cl rum, 3.0 cl orange juice, 3.0 cl tonic water
+23:05:47.832;Debugging Dream;0;0;0;3;0;0;0;6;0;0;0;0;3.0 cl blue curacao, 6.0 cl bitter lemon
+23:06:52.204;Binary Brew;0;0;4;0;4;0;0;0;0;0;0;0;4.0 cl rum, 4.0 cl ananas juice
+23:08:43.905;Script Soother;0;0;0;4;0;2;0;0;0;0;0;0;4.0 cl blue curacao, 2.0 cl cherry juice
+23:11:46.867;Fetch-ing Fizz;0;0;2;2;0;0;0;0;4;0;0;0;2.0 cl rum, 2.0 cl blue curacao, 4.0 cl tonic water
+23:12:39.544;Algorithmic Aqua;3;0;0;0;0;0;0;0;0;6;0;0;3.0 cl vodka, 6.0 cl herbal lemonade
+23:13:48.922;Quantum Quench;0;0;0;0;0;2;0;0;6;0;0;0;2.0 cl cherry juice, 6.0 cl tonic water
+23:14:56.285;Parallel Partition;0;0;0;0;0;0;3;0;0;0;2;4;3.0 cl orange juice, 2.0 cl bitter orange sirup, 4.0 cl soda
+23:15:50.471;Encrypted Elixir;0;0;0;0;0;0;0;2;0;3;4;0;2.0 cl bitter lemon, 3.0 cl herbal lemonade, 4.0 cl bitter orange sirup
+23:16:46.316;Aperture Amaretto;0;0;0;0;3;0;0;0;0;2;0;4;3.0 cl ananas juice, 2.0 cl herbal lemonade, 4.0 cl soda
+23:17:51.893;random cocktail;0;4;0;0;2;0;0;0;4;2;0;0;---
+23:21:01.249;Logarithmic Libation;3;0;0;0;0;0;0;0;0;4;0;0;3.0 cl vodka, 4.0 cl herbal lemonade
+23:23:24.684;random cocktail;0;0;3;0;0;4;2;4;0;4;0,5;0;---
+23:24:26.040;random cocktail;2,7906976744186047;0;0;0;0;3,7209302325581395;3,7209302325581395;3,7209302325581395;1,8604651162790697;0;0,46511627906976744;3,7209302325581395;---
+23:25:23.716;random cocktail;0;0;0;4;2;4;4;2;0;2;0;2;---
+23:26:16.856;random cocktail;0;0;0;3,5555555555555554;3,5555555555555554;0;3,5555555555555554;1,7777777777777777;3,5555555555555554;1,7777777777777777;0,4444444444444444;1,7777777777777777;---
+23:27:12.238;random cocktail;0;2;0;0;4;4;2;0;0;0;0;0;---
+23:28:53.372;Robotic Rapture;0;3;0;0;0;0;0;0;4;0;0;0;3.0 cl gin, 4.0 cl tonic water
+23:33:18.006;non-alcoholic cocktail;0;0;0;0;4;0;2;4;2;0;0,5;3;4.0 cl ananas juice, 2.0 cl orange juice, 4.0 cl bitter lemon, 2.0 cl tonic water, 0.50 cl bitter orange sirup, 3.0 cl soda
+23:34:11.992;Code & Tonic;2;0;0;0;0;0;5;0;0;0;0;0;2.0 cl vodka, 5.0 cl orange juice
+23:35:08.738;non-alcoholic cocktail;0;0;0;0;0;0;0;2,3529411764705883;2,3529411764705883;0;0,5882352941176471;4,705882352941177;2.4 cl bitter lemon, 2.4 cl tonic water, 0.59 cl bitter orange sirup, 4.7 cl soda
+23:36:11.608;Neural Network Nectar;0;0;0;3;2;0;0;0;0;0;0;5;3.0 cl blue curacao, 2.0 cl ananas juice, 5.0 cl soda
+23:38:06.384;The Bittersweet Algorithm;0;2;0;0;3;0;0;0;0;0;6;0;2.0 cl gin, 3.0 cl ananas juice, 6.0 cl bitter orange sirup
+23:39:50.753;Molecular Mixology;4;0;0;0;0;3;0;0;0;0;0;4;4.0 cl vodka, 3.0 cl cherry juice, 4.0 cl soda
+23:42:21.118;AI-Generated Flavor;0;0;0;2;0,5;0;4;0;0;0;0;2;2.0 cl blue curacao, 0.50 cl ananas juice, 4.0 cl orange juice, 2.0 cl soda
+23:43:17.995;Cyborg Citrus Burst;3;0;0;0;4;0;0;0;0;0;0;0;3.0 cl vodka, 4.0 cl ananas juice
+23:44:21.839;Quantum Quencher;0;4;0;0;0;0;2;1;0;0;0;0;4.0 cl gin, 2.0 cl orange juice, 1.0 cl bitter lemon
+23:45:44.001;Digital Drizzle;0;0;4;0;0;0;0;0;3;0;0;0;4.0 cl rum, 3.0 cl tonic water
+23:46:55.417;Electro Refreshment;0;0;3;0;0;4;0;0;0;0;0;0;3.0 cl rum, 4.0 cl cherry juice
+23:47:49.881;Syntax Sipper;0;0;0;4;0;0;0;5,6;0;0;0;0;4.0 cl blue curacao, 5.6 cl bitter lemon
+23:48:49.370;Echoes of the Algorithm;0;0;0;0;0;2;3;0;4;0;0;0;2.0 cl cherry juice, 3.0 cl orange juice, 4.0 cl tonic water
+23:52:30.384;Bitwise Bliss;2;0;0;0;2;1;0;0;5;0;0;0;2.0 cl vodka, 2.0 cl ananas juice, 1.0 cl cherry juice, 5.0 cl tonic water
+23:53:31.415;non-alcoholic cocktail;0;0;0;0;0;0;2;2;2;0;0;4;2.0 cl orange juice, 2.0 cl bitter lemon, 2.0 cl tonic water, 4.0 cl soda
+23:55:40.511;Nerdy Nectar;0;2;0;0;0;0;0;0;0;0;6;0;2.0 cl gin, 6.0 cl bitter orange sirup
+23:58:02.716;Tech Tonic Twist;0;0;0;2;1,5;0;0;0;0;0;0;3;2.0 cl blue curacao, 1.5 cl ananas juice, 3.0 cl soda
+23:59:15.729;Byte-Sized Bliss;0;0;0;0;4;0;4;0;0;0;0;0;4.0 cl ananas juice, 4.0 cl orange juice
+24:01:01.056;Digital Dazzle;0;3;0;0;0;0;0;1;0;0;6;0;3.0 cl gin, 1.0 cl bitter lemon, 6.0 cl bitter orange sirup
+24:05:33.825;Artificial Flavor Fusion;0;0;0;0;3;0;0;4;0;0;0;0;3.0 cl ananas juice, 4.0 cl bitter lemon
+24:08:50.817;Simulated Sip;0;0;0;0;0;0;0;0;0;0;5;4;5.0 cl bitter orange sirup, 4.0 cl soda
+24:11:15.847;RumBot Refresh;0;0;3;0;0;2,5;0;0;0;2,5;0;2;3.0 cl rum, 2.5 cl cherry juice, 2.5 cl herbal lemonade, 2.0 cl soda
+24:12:58.963;Vodka Circuitry;3;0;0;0;0;0;0;4,5;0;0;0;2,5;3.0 cl vodka, 4.5 cl bitter lemon, 2.5 cl soda
+24:20:05.115;Gin Code Fusion;0;2;0;0;1,5;0;3;0;0;0;0;2;2.0 cl gin, 1.5 cl ananas juice, 3.0 cl orange juice, 2.0 cl soda
+24:22:14.135;Blue Screen Sipper;0;0;0;4;0;0;2;0;2;0;1,5;0,5;4.0 cl blue curacao, 2.0 cl orange juice, 2.0 cl tonic water, 1.5 cl bitter orange sirup, 0.50 cl soda
+24:31:17.670;Gin Binary Bliss;0;3;0;0;0;0;0;3;0;2,5;0;2;3.0 cl gin, 3.0 cl bitter lemon, 2.5 cl herbal lemonade, 2.0 cl soda
+24:32:07.699;Robot Curacao Coder;0;0;0;3;2;1,5;0;0,5;0;0;0;2;3.0 cl blue curacao, 2.0 cl ananas juice, 1.5 cl cherry juice, 0.50 cl bitter lemon, 2.0 cl soda
+24:36:51.619;Rum Algorithm Refresh;0;0;4;0;0;2;0;1;0,5;0;0,5;1;4.0 cl rum, 2.0 cl cherry juice, 1.0 cl bitter lemon, 0.50 cl tonic water, 0.50 cl bitter orange sirup, 1.0 cl soda
+24:37:42.661;Vodka Debug Delight;2;0;0;0;1,5;2;0;0;0;0;0;2,5;2.0 cl vodka, 1.5 cl ananas juice, 2.0 cl cherry juice, 2.5 cl soda
+24:38:26.529;Curacao Byte Bite;0;0;0;2;0;0;3;0;1,5;0;0;1,5;2.0 cl blue curacao, 3.0 cl orange juice, 1.5 cl tonic water, 1.5 cl soda
+24:40:38.335;Rum Data Shaker;0;0;3;0;2;0;2;0,5;0;0;0;0,5;3.0 cl rum, 2.0 cl ananas juice, 2.0 cl orange juice, 0.50 cl bitter lemon, 0.50 cl soda
+24:41:58.539;Curacao Rebooter;0;0;0;3;0;3;0;0;2;0,5;0;0;3.0 cl blue curacao, 3.0 cl cherry juice, 2.0 cl tonic water, 0.50 cl herbal lemonade
+24:42:57.833;Vodka Kernel Twist;2;0;0;0;0;1,5;0;0;0;0;2;2,5;2.0 cl vodka, 1.5 cl cherry juice, 2.0 cl bitter orange sirup, 2.5 cl soda
+24:44:42.271;Rum Matrix Mixer;0;0;4;0;1;0;0;3;0;0;0;1;4.0 cl rum, 1.0 cl ananas juice, 3.0 cl bitter lemon, 1.0 cl soda
+24:51:33.949;Blue Pixel Punch;0;0;0;4;0;0;3;0,5;0;0;2;0;4.0 cl blue curacao, 3.0 cl orange juice, 0.50 cl bitter lemon, 2.0 cl bitter orange sirup
+24:57:26.916;Gin Quantum Tonic;0;3;0;0;0;0;0;0;3;0;2;1;3.0 cl gin, 3.0 cl tonic water, 2.0 cl bitter orange sirup, 1.0 cl soda
